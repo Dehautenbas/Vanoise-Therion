@@ -10,6 +10,8 @@ source arcel1_tot.th
 ######################################################################################
 
 #select MP@Arcel1      #uncomment ONLY one
+
+
 select MC@Arcel1      #uncomment ONLY one
 
 
@@ -26,12 +28,12 @@ select MC@Arcel1      #uncomment ONLY one
 
 
 ######################## PDF ########################
-export map \
+#export map \
      -projection plan \
      -layout plan   \
      -output Exports/arcel1_plan.pdf \
 
-  export map \
+ export map \
      -projection extended \
      -layout coupe   \
      -output Exports/arcel1_coupe.pdf \
@@ -41,13 +43,13 @@ export map \
 ######################## STATIONS ########################
 # l'ordre des layouts est importants !
 
-export map \
+#export map \
      -projection plan \
      -layout plan \
      -layout centerline   \
      -output Exports/arcel1_plan-travail.pdf \
 
-export map \
+#export map \
      -projection extended \
      -layout coupe \
      -layout centerline   \
@@ -103,7 +105,7 @@ export map \
 
 
 ######################## MODELE 3D ########################
-    export model \
+  #  export model \
      -format loch \
      -o Exports/arcel1-3d.lox \
      #-wall-source maps
@@ -111,13 +113,13 @@ export map \
 
 
 ######################## KML #######################
-export map \
+#export map \
      -projection plan \
      -output Exports/arcel1.kml  ###-> Pour murs
 
-export model \
+#export model \
      -output Exports/arcel1-shots.kml  ###-> pour fil de fer sans station avec splays shots
-export model \
+#export model \
       -output Exports/arcel1-shots.shp
 
 ######################## LISTES ########################
@@ -142,7 +144,7 @@ export model \
      -layout xvi-export \
      -o Exports/arcel1coupetravailVueNord.xvi
      
- #export map \
+# export map \
      -format xvi \
      -projection [elevation 10] \
      -layout xvi-export \

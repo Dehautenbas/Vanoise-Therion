@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -6388.0 4.0 7112.0 2368.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {6965.049999999999 1 1.0} {209.3199999999997 0} amont_C.xvi 0 {}
 
 
@@ -732,6 +732,7 @@ line wall
   256.0 2156.0 96.0 2016.0 4.0 2064.0
   -88.0 2112.0 -60.0 2148.0 -176.0 2136.0
   -292.0 2124.0 -505.0 1956.0 -567.0 2104.0
+  smooth off
 endline
 
 line wall

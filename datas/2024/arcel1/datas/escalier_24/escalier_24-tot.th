@@ -14,9 +14,8 @@ survey escalier_24-tot -title "Escalier en colimaçon, réseau sup, Gouffre de l
     
     
     ## Coupe
-  # input Data/escalier_C.th2
-   #input Data/.th2
-   #input Data/.th2
+   input Data/escalier_C.th2
+
  
    # join  
    

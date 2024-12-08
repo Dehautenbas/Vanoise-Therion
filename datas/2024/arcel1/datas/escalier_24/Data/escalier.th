@@ -1,4 +1,4 @@
-encoding utf-8
+encoding  utf-8
 # 2024.10.21 created by TopoDroid v 6.2.85
 
 survey escalier -title "escalier"
@@ -220,7 +220,7 @@ survey escalier -title "escalier"
     
     235 236 3.21 99.8 13.2
 
-
+    extend right
     3 3a 11.56 50.0 -86.8
     # extend auto
     3a . 1.47 180.8 9.1
@@ -256,3 +256,4 @@ survey escalier -title "escalier"
   # endmap
 
 endsurvey
+

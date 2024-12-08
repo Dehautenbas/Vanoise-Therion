@@ -14,28 +14,23 @@ survey Arcel1 -title "Gouffre de l'Arcelin"
         equate 73@amont2024-1.Arcelin_24-tot 0@amont2024-2.Arcelin_24-tot
         equate 36@amont2024-3_TC-BU.Arcelin_24-tot 46@amont2024-2.Arcelin_24-tot
 
-  input datas/escalier_24/Data/escalier.th
+  input datas/escalier_24/escalier_24-tot.th
   input datas/pieuvre_PG-FM_24/Data/pieuvre_PG-FM.th
   input datas/pts_oublie_24/Data/pts_oublie.th
 
-        equate 3c@escalier 15@amont2024-1.Arcelin_24-tot       #### CELLE CI
-        equate 236@escalier 19@amont.Arcelin_22-23-tot 11@pts_oublie 0@pieuvre_PG-FM
+        equate 3c@escalier.escalier_24-tot 15@amont2024-1.Arcelin_24-tot       #### CELLE CI
+        equate 236@escalier.escalier_24-tot 19@amont.Arcelin_22-23-tot 11@pts_oublie 0@pieuvre_PG-FM
         equate 21.3@pieuvre_PG-FM 7@puits_remontant.Arcelin_22-23-tot
         
-  input datas/diaclase_MK-SP_24/Data/diaclase_MK-SP.th
-  
+  input datas/diaclase_MK-SP_24/Data/diaclase_MK-SP.th  
         equate 2@diaclase_MK-SP 73@amont2024-1.Arcelin_24-tot
         
-  input datas/pts-actif_24/Data/pts-actif-1.th
-  
-        equate 54@pts-actif-1 54@amont2024-1.Arcelin_24-tot
         
-  input datas/pts-actif_24/Data/pts-actif-2.th
-  
-        equate 16@pts-actif-2 64@pts-actif-1
+  input datas/pts-actif_24/pts_actif_24-tot.th
+        equate 54@pts-actif-1.pts_actif_24-tot 54@amont2024-1.Arcelin_24-tot
+        
         
   input datas/diaclase-boucle_24/Data/diaclase-boucle.th
-  
         equate 0@diaclase-boucle 30@amont2024-1.Arcelin_24-tot
 
         
@@ -51,9 +46,9 @@ survey Arcel1 -title "Gouffre de l'Arcelin"
 
 
       
-input datas/escalier_24/Data/escalier_P.th2
+#input datas/escalier_24/Data/escalier_P.th2
 
-      join escalier-SP1 SP_amont2024-1_1@Arcelin_24-tot
+      join escalier-SP1@escalier_24-tot SP_amont2024-1_1@Arcelin_24-tot
 
 input datas/pts_oublie_24/Data/pts_oublie_P.th2
      join pts_oublie_SP1 SP-amont-1@Arcelin_22-23-tot

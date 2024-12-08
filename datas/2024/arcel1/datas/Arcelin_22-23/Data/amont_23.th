@@ -1,3 +1,4 @@
+encoding  utf-8
 # 2023.10.08 created by TopoDroid v 6.2.13
 
 survey amont -title amont
@@ -317,6 +318,7 @@ survey amont -title amont
     30 . 3.49 8.0 -30.0
     30 . 2.86 339.8 -23.6
     
+    extend normal
     30 31 9.11 43.0 -21.2
     
     31 . 0.50 110.2 -87.7
@@ -397,6 +399,7 @@ survey amont -title amont
     38 . 1.54 100.0 -0.4
     38 . 1.58 102.7 77.4
     
+    extend right
     38 39 5.57 56.7 -63.7
     
     39 . 0.55 178.4 -5.8
@@ -413,3 +416,4 @@ survey amont -title amont
 
 
 endsurvey
+

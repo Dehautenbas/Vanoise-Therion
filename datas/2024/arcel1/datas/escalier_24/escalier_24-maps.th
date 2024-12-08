@@ -3,7 +3,7 @@ map MP-escalier_24 -title "Gouffre de l'Arcelin, Amont 2024"
 escalier-SP1
 endmap
 
-#map MC-escalier_24 -title "Gouffre de l'Arcelin 2024"
-#SC_escalier_24_1  
-#endmap
+map MC-escalier_24 -title "Gouffre de l'Arcelin 2024"
+SC_escalier_24_1  
+endmap
 

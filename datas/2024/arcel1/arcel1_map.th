@@ -2,10 +2,9 @@ encoding  utf-8
 
 ######################## définition des scraps à faire apparaitre sur le plan  ################################
 map MP-scrap -proj plan
-  escalier-SP1
+  escalier-SP1@escalier_24-tot
   break
   pts_oublie_SP1
-
 endmap
 
 map MP  -proj plan
@@ -14,6 +13,8 @@ map MP  -proj plan
   MP-Arcelin_22-23@Arcelin_22-23-tot
   break
   MP-Arcelin_24@Arcelin_24-tot
+  break
+  MP-pts_actif_24@pts_actif_24-tot
 
 endmap   
 
@@ -28,6 +29,9 @@ map MC -proj extended
   MC-Arcelin_22-23@Arcelin_22-23-tot
   break
   MC-Arcelin_24@Arcelin_24-tot
+  break
+  MC-escalier_24@escalier_24-tot
+  
 endmap
   
 
@@ -42,19 +46,17 @@ endmap
 
         map MC_pas-encore-dessine -proj extended
           #amont2024-1
-         # amont2024-2
+          #amont2024-2
           #amont2024-3_TC-BU
           diaclase-boucle
-          pts-actif-2
-          pts-actif-1
+        #  pts-actif-2
+        #  pts-actif-1
           diaclase_MK-SP
-          escalier
+       #   escalier
 
         endmap
 
 #map MC_juste-une-survey -proj extended
  #   amont
 #endmap
-
-
 

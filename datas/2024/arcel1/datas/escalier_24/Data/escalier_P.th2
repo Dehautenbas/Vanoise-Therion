@@ -15,8 +15,6 @@ line pit
   smooth off
 endline
 
-point 1978.6799999999998 242.112 station -name 00
-
 point 1968.51 275.592 station -name 0
 
 point 1973.75 280.552 station -name 1
@@ -323,6 +321,7 @@ line wall -reverse on
   1861.0 438.5 1928.0 404.5 1950.0 401.0
   altitude .
   1972.0 397.5 2047.5 359.5 2052.0 357.5
+  smooth off
 endline
 
 line wall -reverse on

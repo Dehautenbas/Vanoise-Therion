@@ -16,7 +16,7 @@ survey arcel1 -title Arcel1
     cs UTM32
     fix 0 325572 5027449 2603
     
-    extend right
+    extend left
     0 1 5.15 306.8 -67.6
     1 2 5.63 328.0 -75.4
     # extend auto
@@ -28,14 +28,14 @@ survey arcel1 -title Arcel1
     2 . 0.58 39.9 -0.7
     2 . 1.60 350.1 -0.6
     2 . 1.23 155.7 20.0
-    extend left
+    extend right
     2 3 2.74 147.6 20.4
     # extend auto
     3 . 0.40 270.8 -1.6
     3 . 1.74 203.5 85.8
     3 . 2.03 189.9 -15.1
     3 . 1.75 273.4 -84.0
-    extend left
+ 
     3 4 1.48 203.0 -18.1
     # extend auto
     4 . 0.91 75.3 -2.1
@@ -43,21 +43,21 @@ survey arcel1 -title Arcel1
     4 . 2.94 307.4 -83.0
     4 . 0.48 115.2 -2.0
     4 . 0.74 34.9 -5.2
-    extend left
+ 
     0 5 5.73 177.9 -73.7
-    extend right
+    extend left
     2 6 4.81 348.4 28.0
     # extend auto
     6 . 0.52 74.5 -4.9
     6 . 2.79 58.6 73.3
     6 . 1.32 123.4 -86.9
-    extend right
+ 
     6 7 2.74 348.7 -22.8
     # extend auto
     7 . 0.31 251.3 4.8
     7 . 2.58 52.0 84.8
     7 . 0.80 197.9 -71.6
-    extend right
+
     7 8 6.11 337.6 -33.4
     8 9 1.93 290.1 -6.8
     # extend auto
@@ -65,7 +65,7 @@ survey arcel1 -title Arcel1
     8 . 2.50 307.6 86.9
     8 . 1.41 225.2 -83.8
     9 . 26.50 266.5 -83.5
-    extend left
+    extend right
     9 10 7.12 193.8 -81.0
     # extend auto
     9 . 1.38 77.3 -3.5
@@ -79,7 +79,7 @@ survey arcel1 -title Arcel1
     10 . 10.83 30.7 76.7
     10 . 19.93 263.3 -84.4
     10 . 9.44 346.7 -8.9
-    extend right
+   
     10 11 5.85 309.5 -72.0
     # extend auto
     11 . 0.39 150.0 2.3
@@ -96,7 +96,7 @@ survey arcel1 -title Arcel1
     12 . 1.05 263.0 11.0
     12 . 5.77 352.1 -22.3
     12 . 27.05 90.0 83.1
-    extend left
+    extend right
     11 13 4.24 173.0 -68.3
     13 14 7.87 145.1 -72.3
     # extend auto
@@ -104,7 +104,7 @@ survey arcel1 -title Arcel1
     13 . 3.80 138.8 -9.2
     13 . 2.82 353.7 -1.7
     13 . 2.11 35.0 -0.8
-    extend right
+    extend left
     10 15 5.62 344.6 -22.4
     # extend auto
     15 . 2.31 35.4 83.5
@@ -113,7 +113,7 @@ survey arcel1 -title Arcel1
     15 . 3.77 348.8 -1.6
     extend vertical
     15 16 9.84 266.1 -73.4
-    extend right
+    extend left
     16 17 7.71 348.7 6.7
     # extend auto
     16 . 0.87 80.2 15.9
@@ -123,46 +123,46 @@ survey arcel1 -title Arcel1
     17 . 0.42 67.0 -9.9
     17 . 1.31 48.0 65.6
     17 . 1.39 244.2 -80.5
-    extend right
+
     17 18 5.81 340.8 -5.7
     # extend auto
     18 . 0.53 65.0 -10.1
     18 . 1.69 18.8 79.0
     18 . 0.99 325.2 -88.7
-    extend right
+  
     18 19 2.68 356.5 -9.2
     # extend auto
     19 . 3.21 335.3 -3.2
     19 . 0.47 269.4 -0.7
     19 . 1.69 345.5 81.6
     19 . 0.79 248.4 -83.6
-    extend right
+
     19 20 3.77 336.4 -2.9
     # extend auto
     20 . 0.61 75.7 2.9
     20 . 3.42 63.9 81.0
     20 . 0.58 177.8 -83.8
-    extend right
+
     20 21 3.01 3.7 3.9
     # extend auto
     21 . 0.94 235.9 -2.0
     21 . 1.20 263.1 82.2
     21 . 2.87 242.2 -85.8
     21 . 1.70 284.7 -15.3
-    extend right
+ 
     21 22 4.52 284.9 -15.4
     # extend auto
     22 . 0.45 12.3 -3.3
     22 . 1.61 303.6 83.6
     22 . 1.83 327.0 -78.4
-    extend right
+
     22 23 7.08 280.4 -11.6
     # extend auto
     23 . 3.57 305.3 4.6
     23 . 0.58 22.7 14.1
     23 . 0.90 340.0 86.5
     23 . 0.62 34.6 -65.6
-    extend right
+
     23 24 3.58 304.9 4.8
     # extend auto
     24 . 0.76 235.2 -7.7
@@ -172,7 +172,7 @@ survey arcel1 -title Arcel1
     24 . 0.46 185.1 -0.5
     24 . 0.64 323.8 -7.9
     24 . 17.56 303.8 -70.3
-    extend right
+  
     24 25 15.93 296.0 -68.2
     # extend auto
     25 . 3.06 197.4 22.0
@@ -193,7 +193,7 @@ survey arcel1 -title Arcel1
     25 . 2.13 310.2 11.4
     25 . 4.72 338.8 68.5
     25 . 3.95 344.9 38.1
-    extend left
+    extend right
     25 26 1.45 241.3 6.0
     # extend auto
     26 . 2.24 139.2 -6.7
@@ -215,7 +215,7 @@ survey arcel1 -title Arcel1
     27 . 0.90 44.3 10.1
     27 . 3.19 342.4 -12.8
     27 . 2.93 354.4 13.7
-    extend left
+ 
     27 28 2.07 151.6 -20.0
     # extend auto
     28 . 2.19 184.2 24.4

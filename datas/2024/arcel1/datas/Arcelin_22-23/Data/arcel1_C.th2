@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap arcel1_S1_C -projection extended -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
+scrap arcel1_S1_C -projection extended -flip horizontal -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
 
 line rock-border
   6183.5 1173.0

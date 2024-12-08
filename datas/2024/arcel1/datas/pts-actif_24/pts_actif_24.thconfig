@@ -1,16 +1,16 @@
 encoding  utf-8
 
-source escalier_24-tot.th
+source pts_actif_24-tot.th
 
 input ../../../../../config3.thcfg
 
 layout xviexport
-	scale 1 50
+	scale 1 200
 	grid-size 10 10 10 m
 	grid bottom
 endlayout
 
-#select MP-escalier_24@escalier_24-tot
+#select 
 
 
 layout my_layout
@@ -115,8 +115,9 @@ layout my_layout
  endlayout
 
   
-export map -proj extended -layout xviexport -o Exports/escalier_24_C.xvi 
-#export map -proj plan -layout xviexport -o Exports/escalier_24_P.xvi 
+export map -proj extended -layout xviexport -o Exports/pts_actif_24_C-2.xvi 
+export map -proj plan -layout xviexport -o Exports/pts_actif_24_P-2.xvi 
+
   
-#export map -projection plan -o Exports/escalier_24_P.pdf -layout my_layout
-#export map -projection extended -layout my_layout-coupe -o Exports/escalier_24_C.pdf
+#export map -projection plan -o Exports/pts_actif_24_P.pdf -layout my_layout
+#export map -projection extended -layout my_layout-coupe -o Exports/pts_actif_24_C.pdf

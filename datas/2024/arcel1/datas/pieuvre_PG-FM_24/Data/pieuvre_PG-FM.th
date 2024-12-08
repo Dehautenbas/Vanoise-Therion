@@ -188,14 +188,14 @@ survey pieuvre_PG-FM -title "pieuvre_PG-FM"
     22 . 1.65 342.9 -36.4
     22 . 2.36 0.8 -38.8
     22 . 3.15 13.3 -42.8
-    extend vertical
+    extend left
     22 23 2.28 97.5 41.8
     # extend auto
     23 . 0.86 172.0 82.3
     23 . 2.13 317.7 -73.6
     23 . 0.46 353.6 18.1
     23 . 0.22 177.0 3.9
-    extend vertical
+    extend left
     23 24 2.35 84.1 6.3
     # extend auto
     24 . 0.45 192.2 83.6

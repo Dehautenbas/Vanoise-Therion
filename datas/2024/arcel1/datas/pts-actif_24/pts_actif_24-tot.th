@@ -1,0 +1,25 @@
+encoding  utf-8
+survey pts_actif_24-tot -title "Gouffre de l'Arcelin, puits actif et suite"
+
+    input Data/pts-actif-1.th
+    input Data/pts-actif-2.th
+    
+    equate 16@pts-actif-2 64@pts-actif-1  
+
+   ## Plan
+  input Data/pts-actif-1_P.th2
+  input Data/pts-actif-2_P.th2
+    
+   join SP_pts_actif_1_1 SP_pts_actif_2_1
+    
+    ## Coupe
+ # input Data/pts-actif-1_C.th2
+ # input Data/pts-actif-2_C.th2
+
+   #join  
+   
+    ## Maps
+   input pts_actif_24-maps.th
+
+endsurvey
+
