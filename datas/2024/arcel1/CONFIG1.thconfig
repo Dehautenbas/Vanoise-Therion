@@ -130,3 +130,9 @@ export map \
 
 #export continuation-list \
      -o Exports/arcel1_continuations.html
+
+
+######################## YEAR per YEAR ########################
+export map -projection plan \
+     -layout yearperyear \
+     -output Exports/Année-par-année.pdf

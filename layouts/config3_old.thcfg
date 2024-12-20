@@ -58,10 +58,10 @@ encoding  utf-8
 
 # change les descriptions des symboles pour la légende
 
-
+text fr "title color-legend-topodate" "Date de topographie"
 
 text en "point anchor" "hanger/bolt/spit/belay, fixed, natural"
-text fr "point anchor" "broche, spit/pulse, AF"
+text fr "point anchor" "broche, spit/goujon, AF"
 
 text fr "point u:anchor_artificial" "ancrage artificiel"
 

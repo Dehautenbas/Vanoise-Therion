@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+
+
+
+        // Pour compiler un fichier avec un raccourci
+            // Shortcut defined in keybindingd.json
+            // See last message:  https://stackoverflow.com/questions/48945319/a-keybindings-json-per-workspace-in-visual-studio-code
+        "tasks": 
+        [
+            {
+                "label": "compile-th-tot",
+                "type": "shell",
+                
+                    "command": "therion ${workspaceFolder}/datas/2024/arcel1/CONFIG1.thconfig" // \u000Dexit\u000D run and close this new terminal  -> Only for keybindings.json
+                    
+                
+            }
+        ]
+
+}

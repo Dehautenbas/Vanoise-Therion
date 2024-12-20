@@ -2,7 +2,7 @@ therion 6.2.1+030d2c1+dev (2024-11-04)
   - using Proj 9.5.0, compiled against 9.5.0
 checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
 checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
-configuration file: /Users/martinkern/Documents/GitHub/Vanoise_therion/datas/2024/arcel1/CONFIG1.thconfig
+configuration file: /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/CONFIG1.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
@@ -62,10 +62,10 @@ S    42.90 SP_amont2024-3_2@amont24_tot.Arcel1 ()
 M    12.65 MP_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
 S    12.65 diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1 ()
 ########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise_therion/datas/2024/arcel1/Exports/arcel1_plan.pdf ...
+writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_plan.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  19 DEC 2024 21:25
+This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  20 DEC 2024 12:06
 **data.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
@@ -108,7 +108,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  19 DEC 2024 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  20 DEC 2024 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -125,7 +125,7 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  516 strings out of 494595
  6453 string characters out of 6146449
- 99980 words of memory out of 5000000
+ 99984 words of memory out of 5000000
  2174 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
@@ -134,7 +134,7 @@ Here is how much of TeX's memory you used:
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 447311 bytes).
+Output written on data.pdf (1 page, 447314 bytes).
 PDF statistics:
  514 PDF objects out of 1000 (max. 8388607)
  264 compressed objects within 3 object streams
@@ -186,9 +186,9 @@ S     0.00 diaclase-boucle_SC1@diaclase-boucle_tot.Arcel1 ()
 M     0.00 MC_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
 S     0.00 diaclase_MK-SP_SC1@diaclase_MK-SP_tot.Arcel1 ()
 ########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise_therion/datas/2024/arcel1/Exports/arcel1_coupe.pdf ...
+writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  19 DEC 2024 21:25
+This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  20 DEC 2024 12:06
 **data.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
@@ -226,7 +226,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  19 DEC 2024 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  20 DEC 2024 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -243,7 +243,7 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  567 strings out of 494595
  7265 string characters out of 6146449
- 87203 words of memory out of 5000000
+ 87207 words of memory out of 5000000
  2225 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
@@ -252,7 +252,7 @@ Here is how much of TeX's memory you used:
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 610532 bytes).
+Output written on data.pdf (1 page, 610528 bytes).
 PDF statistics:
  608 PDF objects out of 1000 (max. 8388607)
  307 compressed objects within 4 object streams
@@ -301,9 +301,9 @@ S    42.90 SP_amont2024-3_2@amont24_tot.Arcel1 ()
 M    12.65 MP_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
 S    12.65 diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1 ()
 ########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise_therion/datas/2024/arcel1/Exports/arcel1_plan-travail.pdf ...
+writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_plan-travail.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  19 DEC 2024 21:25
+This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  20 DEC 2024 12:06
 **data.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
@@ -346,7 +346,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  19 DEC 2024 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  20 DEC 2024 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -363,7 +363,7 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  520 strings out of 494595
  6488 string characters out of 6146449
- 139110 words of memory out of 5000000
+ 139114 words of memory out of 5000000
  2178 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
@@ -422,9 +422,9 @@ S     0.00 diaclase-boucle_SC1@diaclase-boucle_tot.Arcel1 ()
 M     0.00 MC_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
 S     0.00 diaclase_MK-SP_SC1@diaclase_MK-SP_tot.Arcel1 ()
 ########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise_therion/datas/2024/arcel1/Exports/arcel1_coupe-travail.pdf ...
+writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_coupe-travail.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  19 DEC 2024 21:25
+This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  20 DEC 2024 12:06
 **data.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
@@ -462,7 +462,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  19 DEC 2024 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  20 DEC 2024 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -479,7 +479,7 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  577 strings out of 494595
  7364 string characters out of 6146449
- 281378 words of memory out of 5000000
+ 281382 words of memory out of 5000000
  2235 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
@@ -488,7 +488,7 @@ Here is how much of TeX's memory you used:
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 1363425 bytes).
+Output written on data.pdf (1 page, 1363424 bytes).
 PDF statistics:
  630 PDF objects out of 1000 (max. 8388607)
  318 compressed objects within 4 object streams
@@ -537,9 +537,9 @@ S    42.90 SP_amont2024-3_2@amont24_tot.Arcel1 ()
 M    12.65 MP_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
 S    12.65 diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1 ()
 ########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise_therion/datas/2024/arcel1/Exports/arcel1_DEBUG_plan.pdf ...
+writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_DEBUG_plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  19 DEC 2024 21:25
+This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  20 DEC 2024 12:06
 **data.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
@@ -582,7 +582,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  19 DEC 2024 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  20 DEC 2024 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -599,7 +599,7 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  518 strings out of 494595
  6475 string characters out of 6146449
- 114206 words of memory out of 5000000
+ 114210 words of memory out of 5000000
  2176 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
@@ -608,7 +608,7 @@ Here is how much of TeX's memory you used:
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 525309 bytes).
+Output written on data.pdf (1 page, 525312 bytes).
 PDF statistics:
  518 PDF objects out of 1000 (max. 8388607)
  266 compressed objects within 3 object streams
@@ -658,9 +658,9 @@ S     0.00 diaclase-boucle_SC1@diaclase-boucle_tot.Arcel1 ()
 M     0.00 MC_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
 S     0.00 diaclase_MK-SP_SC1@diaclase_MK-SP_tot.Arcel1 ()
 ########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise_therion/datas/2024/arcel1/Exports/arcel1_DEBUG_coupe.pdf ...
+writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_DEBUG_coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  19 DEC 2024 21:25
+This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  20 DEC 2024 12:06
 **data.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
@@ -698,7 +698,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  19 DEC 2024 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  20 DEC 2024 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,7 +715,7 @@ Normal \count register pool exhausted, switching to extended pool.)
 Here is how much of TeX's memory you used:
  572 strings out of 494595
  7320 string characters out of 6146449
- 105186 words of memory out of 5000000
+ 105190 words of memory out of 5000000
  2230 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
@@ -724,7 +724,7 @@ Here is how much of TeX's memory you used:
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 688355 bytes).
+Output written on data.pdf (1 page, 688350 bytes).
 PDF statistics:
  620 PDF objects out of 1000 (max. 8388607)
  313 compressed objects within 4 object streams
@@ -734,7 +734,119 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-compilation time: 25 sec
+
+
+############### export maps & scraps selection #################
+M   -55.48 MP_pieuvre_PG-FM@pieuvre_PG-FM_tot.Arcel1 ()
+S   -55.48 pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1 ()
+M   -45.91 MP_2023@2023_tot.Arcel1 ()
+S    -6.57 arcel1_S1_P@2023_tot.Arcel1 ()
+S    -9.78 arcel1_S2_P@2023_tot.Arcel1 ()
+S   -27.06 arcel1_S3_P@2023_tot.Arcel1 ()
+S   -30.84 arcel1_S4_P@2023_tot.Arcel1 ()
+S   -51.59 arcel1_S5_P@2023_tot.Arcel1 ()
+S   -49.60 PR-amont23@2023_tot.Arcel1 ()
+S   -41.69 amont23_SP1@2023_tot.Arcel1 ()
+S   -57.47 SP1-puits_remontant@2023_tot.Arcel1 ()
+S   -63.42 SP2_Frequence51@2023_tot.Arcel1 ()
+S   -61.11 SP1_Frequence51@2023_tot.Arcel1 ()
+S   -53.59 SP-jonction-1@2023_tot.Arcel1 ()
+S   -67.89 SP-jonction-2@2023_tot.Arcel1 ()
+S   -76.21 SP-jonction-3@2023_tot.Arcel1 ()
+M   -44.12 MP_tube-de-prechauffage@tube-de-prechauffage_tot.Arcel1 ()
+S   -44.12 tube-de-prechauffage_SP1@tube-de-prechauffage_tot.Arcel1 ()
+M   -30.27 MP_diaclase-boucle@diaclase-boucle_tot.Arcel1 ()
+S   -30.27 diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1 ()
+M   -28.35 MP_pts_oublie@pts_oublie_tot.Arcel1 ()
+S   -28.35 pts_oublie_SP1@pts_oublie_tot.Arcel1 ()
+M   -19.33 MP_escalier@escalier_tot.Arcel1 ()
+S   -19.33 escalier_SP1@escalier_tot.Arcel1 ()
+M    -2.22 MP_amont24@amont24_tot.Arcel1 ()
+S   -37.78 SP_amont2024-1_1@amont24_tot.Arcel1 ()
+S   -18.85 SP_amont2024-1_2@amont24_tot.Arcel1 ()
+S   -21.58 SP_amont2024-1_3@amont24_tot.Arcel1 ()
+S    -5.22 SP_amont2024-1_4@amont24_tot.Arcel1 ()
+S    -0.57 SP_amont2024-2_1@amont24_tot.Arcel1 ()
+S    10.27 SP_amont2024-2_2@amont24_tot.Arcel1 ()
+S    13.06 SP_amont2024-3_1@amont24_tot.Arcel1 ()
+S    42.90 SP_amont2024-3_2@amont24_tot.Arcel1 ()
+M    12.65 MP_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
+S    12.65 diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1 ()
+########## end of export maps & scraps selection ###############
+writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/Année-par-année.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  20 DEC 2024 12:06
+**data.mp
+(/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+Warning: patterncolor not supported in Therion [15] [16] [1] [2] [3] [4] [5]
+[6] [7] [8]
+[Warning: scrap outline intersects itself in scrap SP1_Frequence51@2023_tot.Arc
+el1] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+[Warning: scrap outline intersects itself in scrap arcel1_S4_P@2023_tot.Arcel1]
+[21] [22]
+[Warning: scrap outline intersects itself in scrap arcel1_S3_P@2023_tot.Arcel1]
+[23] [24] [25] [26] [27] [28]
+[Warning: scrap outline intersects itself in scrap tube-de-prechauffage_SP1@tub
+e-de-prechauffage_tot.Arcel1] [29] [30] [31] [32] [33] [34] [35] [36] [37]
+[38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52]
+[Warning: scrap outline intersects itself in scrap diaclase_MK-SP_SP1@diaclase_
+MK-SP_tot.Arcel1] [53] [54] (./mptextmp.mp) [55] (./mptextmp.mp) (./mptextmp.mp
+) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [56] )
+ 
+Here is how much of MetaPost's memory you used:
+ 36778 strings using 760642 characters
+ 3894200 bytes of node memory
+ 1755 symbolic tokens
+ 9i,82n,12p,312b,4f stack positions out of 16i,98n,15p,312b,6f
+72 output files written: data-patt.1 .. data.56
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  20 DEC 2024 12:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 164 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 425 strings out of 494595
+ 5633 string characters out of 6146449
+ 28072 words of memory out of 5000000
+ 2083 multiletter control sequences out of 15000+600000
+ 21229 words of font info for 66 fonts, out of 8000000 for 9000
+ 1416 hyphenation exceptions out of 8191
+ 10i,5n,8p,1736b,77s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
+pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 180976 bytes).
+PDF statistics:
+ 340 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 947 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 27 sec
 
 
 ######################### loop errors ##########################

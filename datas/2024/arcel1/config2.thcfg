@@ -27,6 +27,7 @@ layout general
 endlayout
 
 
+
 layout comment
   code tex-map
       \legendwidth=20cm
@@ -96,3 +97,34 @@ layout centerline
     debug station-names
     symbol-show line survey
 endlayout
+
+
+layout yearperyear ##Pour l'export année par année ; A besoin du lookup ci-dessous (topo-date)
+    copy langue-fr          ### Change the language
+    copy drawingconfig      ### Set colors/size of symbols, define new symbols
+    copy legend
+    copy comment
+
+    doc-title "Gouffre de l'Arcel1 - Année par année"
+
+    code tex-map
+      \cavename={"Gouffre de l'Arcel1 - Année par année"}
+    endcode
+
+    color map-bg 96
+    map-header 5 -5 nw                   ### positionnement du cartouche 5 15
+    statistics topo off
+    statistics carto off
+    scale 1 400                      ### echelle
+    symbol-hide group all
+    symbol-show line wall
+    legend off
+    colour map-fg topo-date
+endlayout
+
+lookup topo-date -title "Par année d'exploration"   #Pour l'export année par année
+[2022.1.1 2022.12.31] [] "2022"
+[2023.1.1 2023.12.31] [] "2023"
+[2024.1.1 2024.12.31] [] "2024"
+
+endlookup

@@ -92,7 +92,7 @@ code tex-map
 
       
       %print northarrow
-      \ifnortharrow\vbox to 25pt{\line{\hfil\northarrow}\vss}
+      \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss} %vbox for vertical skip
       
 
       \fi
@@ -103,6 +103,7 @@ code tex-map
       \fi
       %print scalebar
       \ifscalebar\scalebar
+      \vskip9mm
       \fi
       %print cavelength and depth
       \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
@@ -165,7 +166,6 @@ code tex-map
       % \edef\tmp{\the\currentdate} \ifx\tmp\empty \else
         {\the\legendtextsize\si\the\datetitle \ss\the\currentdate\par}
       \fi
-
       # % end bruces addition
       %print copyrights
       \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
