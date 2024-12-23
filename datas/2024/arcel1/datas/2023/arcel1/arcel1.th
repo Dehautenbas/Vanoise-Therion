@@ -14,7 +14,7 @@ survey arcel1 -title Arcel1
     data normal from to length compass clino
 
     cs UTM32
-    fix 0 325572 5027449 0 #2603
+    fix 0 325572 5027449 2603
     
     extend left
     0 1 5.15 306.8 -67.6

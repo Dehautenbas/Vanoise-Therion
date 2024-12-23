@@ -19,8 +19,8 @@
 # **.db
 # **.sql
 # **.xvi
- **.log
- **.dat
+# **.log
+# **.dat
 # **.svg
 
 # Therion shp outputs

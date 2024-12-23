@@ -1,10 +1,11 @@
 survey tube-de-prechauffage_tot
 
     input tube-de-prechauffage_map.th
+
     input tube-de-prechauffage.th
 
-    input datas/2024/tube-de-prechauffage/tube-de-prechauffage_P.th2
-    input datas/2024/tube-de-prechauffage/tube-de-prechauffage_C.th2
+    input tube-de-prechauffage_P.th2
+    input tube-de-prechauffage_C.th2
 
 
 

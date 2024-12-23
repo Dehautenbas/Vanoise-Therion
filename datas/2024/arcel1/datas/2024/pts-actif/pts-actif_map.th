@@ -1,6 +1,7 @@
 map MP_pts-actif -proj plan
-    pts-actif-2
-    pts-actif-1
+    SP_pts_actif_1_1
+    break
+    SP_pts_actif_2_1
 endmap 
 
 map MC_pts-actif -proj extended 
