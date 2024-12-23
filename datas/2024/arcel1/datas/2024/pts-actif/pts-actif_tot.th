@@ -7,4 +7,9 @@ survey pts-actif_tot
 
     equate 16@pts-actif-2 64@pts-actif-1
 
+    input pts-actif-1_P.th2
+        join SP_pts_actif_1_1 SP_pts_actif_2_1
+    input pts-actif-2_P.th2
+
+
 endsurvey
