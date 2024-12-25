@@ -3,8 +3,8 @@ survey escalier_tot
     input escalier_map.th
     input escalier.th
 
-    input datas/2024/escalier/escalier_C.th2
-    input datas/2024/escalier/escalier_P.th2
+    input escalier_C.th2
+    input escalier_P.th2
 
 
    

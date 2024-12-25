@@ -880,7 +880,9 @@ line wall -close on
   5288.1 1185.3 5348.5 1193.9 5315.85 1161.87
 endline
 
-point 5541.0 1057.0 label -text "R2 <it>Canyon"
+
+point 5606.5 1048.5 label -text "R2 <it>Canyon"
+
 
 line pit
   5442.0 1075.5
@@ -895,6 +897,11 @@ line slope
   5149.91 1276.67
   5131.63 1280.1
   5116.19 1290.04
+endline
+
+line floor-meander
+  6434.0 1318.0
+  6434.0 1318.0 6879.96 851.92 6926.9822 803.9616
 endline
 
 line border -id SP-amont-1_water_2 -close on -visibility on
@@ -1558,5 +1565,4 @@ line wall -close off
 endline
 
 endscrap
-
 

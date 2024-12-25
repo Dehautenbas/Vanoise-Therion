@@ -1,6 +1,5 @@
 encoding  utf-8
 
-#input config2.thcfg
 input config3.thcfg
 
 source vanoise_tot.th

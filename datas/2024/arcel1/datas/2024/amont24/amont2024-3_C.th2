@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 202.0 183.5 3073.0 2706.895
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1133.0500000000002 1 1.0} {1107.831 0} amont2024-3_C.xvi 0 {}
 
 
@@ -72,6 +72,7 @@ line border
   917.5 421.5 921.0 407.5 912.0 407.5
   903.0 407.5 900.5 410.0 898.5 406.5
   896.5 403.0 897.0 394.5 897.0 391.5
+  smooth off
 endline
 
 line border
@@ -86,6 +87,7 @@ line border
   1656.0 614.5 1654.5 616.5 1675.5 618.0
   1696.5 619.5 1712.5 620.0 1718.5 623.5
   1724.5 627.0 1716.5 625.5 1726.0 630.0
+  smooth off
 endline
 
 line wall
@@ -225,9 +227,9 @@ point 2935.0 962.5 continuation -id aval_c
 
 point 2629.0 1241.0 continuation -id troisieme_c
 
-point 2273.5 951.0 label -text "R8"
+point 2273.5 951.0 label -text "R9"
 
-point 2384.5 1116.0 label -text "R4"
+point 2384.5 1116.0 label -text "R3"
 
 point 1965.5 671.5 label -text "R14"
 
@@ -278,9 +280,13 @@ line border
   smooth off
 endline
 
+point 2758.0 1034.0 label -text "P5
+
+point 2745.0 989.0 label -text "P5
+
 line water-flow
-  2898.0 925.0
-  2903.5 924.5 2948.5 899.5 2975.5 896.0
+  2891.0 909.0
+  2896.5 908.5 2948.5 899.5 2975.5 896.0
   smooth off
 endline
 
@@ -292,7 +298,7 @@ endline
 
 point 2804.0 859.0 label -text "Terminus 2024" -scale l
 
-point 2949.5 1072.5 label -text "P5 non descendu<br>rivière amont et aval à parcourir<br>env 10l/s"
+point 2949.5 1072.5 label -text "rivière amont et aval à parcourir<br>env 2l/s"
 
 line wall
   2926.5 972.5

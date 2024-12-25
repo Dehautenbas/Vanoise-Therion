@@ -3,8 +3,8 @@ survey pts_oublie_tot
     input pts_oublie_map.th
     input pts_oublie.th
 
-    input datas/2024/pts_oublie/pts_oublie_P.th2
-    input datas/2024/pts_oublie/pts_oublie_C.th2
+    input pts_oublie_P.th2
+    input pts_oublie_C.th2
 
 
 endsurvey

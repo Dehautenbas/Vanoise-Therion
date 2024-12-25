@@ -3,10 +3,10 @@ survey diaclase-boucle_tot
     input diaclase-boucle_map.th
     input diaclase-boucle.th
 
-    input datas/2024/diaclase-boucle/diaclase-boucle_P.th2
+    input diaclase-boucle_P.th2
         #join diaclase-boucle_SP1 SP_amont2024-1_2@amont24_tot
         
-    input datas/2024/diaclase-boucle/diaclase-boucle_C.th2
+    input diaclase-boucle_C.th2
 
 
 

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 2134.5 1899.6499999999999
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1771.65 1 1.0} {393.70000000000005 0} ../Exports/Arcelin_24_3_P.xvi 0 {}
 
 
@@ -94,12 +94,14 @@ line wall -reverse on
   447.75 1631.0 454.25 1626.75 462.5 1626.75
   470.75 1626.75 469.0 1626.75 480.0 1626.75
   491.0 1626.75 505.25 1628.75 512.75 1629.0
+  smooth off
 endline
 
 line wall -reverse on -subtype flowstone
   512.75 1629.0
   520.25 1629.25 521.75 1631.25 530.5 1631.25
   539.25 1631.25 542.25 1630.75 547.75 1630.75
+  smooth off
 endline
 
 line wall -reverse on
@@ -272,6 +274,7 @@ line water-flow
   1548.5 411.0
   1548.5 411.0 1577.0 411.5 1594.5 415.0
   1612.0 418.5 1623.5 419.5 1642.5 420.5
+  smooth off
 endline
 
 line water-flow
@@ -373,9 +376,9 @@ point 1412.75 772.25 label -text "R8"
 
 point 1556.0 691.0 label -text "R4"
 
-point 1830.25 366.75 label -text "Terminus 2024" -scale l
+point 1830.25 366.75 label -text "Termnus 2024" -scale l
 
-point 1832.75 318.25 label -text "P5 non descendu<br>Rivière amont et aval à parcourir<br>env 10l/s"
+point 1832.75 318.25 label -text "Rivière amont et aval à parcourir<br>env 2l/s"
 
 line wall -subtype presumed
 endline

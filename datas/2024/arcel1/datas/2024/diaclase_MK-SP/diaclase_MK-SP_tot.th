@@ -3,8 +3,8 @@ survey diaclase_MK-SP_tot
     input diaclase_MK-SP_map.th
     input diaclase_MK-SP.th
 
-    input datas/2024/diaclase_MK-SP/diaclase_MK-SP_C.th2
-    input datas/2024/diaclase_MK-SP/diaclase_MK-SP_P.th2
+    input diaclase_MK-SP_C.th2
+    input diaclase_MK-SP_P.th2
 
 
 
