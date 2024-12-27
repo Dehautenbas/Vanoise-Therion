@@ -11,5 +11,9 @@ survey pts-actif_tot
         join SP_pts_actif_1_1 SP_pts_actif_2_1
     input pts-actif-2_P.th2
 
+    input pts-actif-1_C.th2 
+    input pts-actif-2_C.th2
+        join SC1_pts-actif-1 SC1_pts-actif-2
+
 
 endsurvey

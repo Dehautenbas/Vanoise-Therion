@@ -15,11 +15,11 @@ map MP_arcelin_tot  -proj plan
   break
   MP_diaclase_MK-SP@diaclase_MK-SP_tot
   break
-  MP_diaclase-boucle@diaclase-boucle_tot
-  break
   MP_amont24@amont24_tot
   break
   MP_pts-actif@pts-actif_tot
+  break
+  MP_diaclase-boucle@diaclase-boucle_tot
   
 
 
@@ -60,6 +60,8 @@ map MC_arcelin_tot  -proj extended
   MC_diaclase-boucle@diaclase-boucle_tot
   break
   MC_diaclase_MK-SP@diaclase_MK-SP_tot
+  break
+  MC_pts-actif@pts-actif_tot
 
 endmap   
 

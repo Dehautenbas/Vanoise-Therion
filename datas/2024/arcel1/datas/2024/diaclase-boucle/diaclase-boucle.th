@@ -10,13 +10,14 @@ survey diaclase-boucle -title "diaclase-boucle"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
-    extend right
+
+    extend left
     0 1 1.68 323.1 -21.2
-    # extend auto
+   
     1 . 0.66 80.4 -29.1
     1 . 0.90 358.2 71.7
     1 . 1.87 251.1 22.1
-    extend right
+    
     1 2 6.63 352.2 -69.8
     # extend auto
     2 . 0.89 71.3 13.4
@@ -24,7 +25,7 @@ survey diaclase-boucle -title "diaclase-boucle"
     2 . 1.57 65.9 -82.1
     2 . 1.72 348.5 6.6
     2 . 2.74 160.8 34.2
-    extend right
+    
     2 3 2.36 334.7 -60.7
     # extend auto
     3 . 1.55 20.2 -7.9
@@ -32,41 +33,41 @@ survey diaclase-boucle -title "diaclase-boucle"
     3 . 1.07 55.7 66.6
     3 . 1.91 13.6 0.3
     3 . 2.39 157.2 42.3
-    extend right
+    
     3 4 1.57 19.3 -6.9
     4 5 2.06 321.7 -58.5
     # extend auto
     5 . 0.43 84.1 -5.8
     5 . 1.54 20.2 82.5
     5 . 1.63 320.0 -84.0
-    extend right
+    
     5 6 0.63 27.7 -29.0
     # extend auto
     6 . 3.42 311.9 -53.8
-    extend right
+    
     6 7 3.45 313.8 -52.5
     7 8 3.10 7.5 -28.6
     # extend auto
     8 . 0.31 267.2 24.5
     8 . 5.78 2.2 75.4
     8 . 2.18 270.0 -58.8
-    extend right
+    
     8 9 4.70 338.3 -12.1
     # extend auto
     9 . 1.59 25.7 -75.0
-    extend right
+    
     9 10 1.65 19.4 -75.4
     # extend auto
     10 . 0.34 268.4 17.7
     10 . 1.76 311.5 76.9
     10 . 2.44 267.6 -62.0
-    extend right
+    
     10 11 4.85 323.4 -42.4
     11 12 3.08 342.8 -10.6
     # extend auto
     12 . 7.68 325.2 -54.3
     12 . 8.27 324.7 -54.3
-    extend right
+    
     12 13 7.81 324.9 -54.4
   endcenterline
 

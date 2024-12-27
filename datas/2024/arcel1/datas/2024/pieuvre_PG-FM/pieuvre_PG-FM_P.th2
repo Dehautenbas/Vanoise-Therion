@@ -1,43 +1,11 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 1525.635 856.3449999999999
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1279.5230000000001 1 1.0} {137.798 0} pieuvre_PG-FM_P.xvi 0 {}
 
 
 
 scrap pieuvre_PG-FM_SP1 -projection plan -station-names "" "@pieuvre_PG-FM" -scale [0 0 78.7402 0 0 0 1 0 m]
-
-point 287.0930000000002 520.998 station -name 23
-
-point 251.95300000000015 524.428 station -name 22
-
-point 140.22300000000018 413.628 station -name 21.3
-
-point 159.17300000000012 361.558 station -name 21.2
-
-point 212.87300000000016 468.328 station -name 21.1
-
-point 260.7230000000002 496.748 station -name 21
-
-point 281.96300000000014 461.71799999999996 station -name 20
-
-point 333.7830000000002 481.928 station -name 19
-
-point 332.7330000000002 528.188 station -name 26
-
-point 332.9830000000002 551.638 station -name 25
-
-point 341.65300000000013 554.228 station -name 17
-
-point 349.5930000000002 580.8679999999999 station -name 16
-
-point 356.9130000000002 586.188 station -name 15
-
-point 399.3430000000002 603.078 station -name 14
-
-point 477.1630000000001 581.198 station -name 13
-
-point 509.0830000000002 519.358 station -name 12
 
 point 643.6030000000002 474.08799999999997 station -name 11
 
@@ -69,34 +37,77 @@ point 1186.353 193.118 station -name 1
 
 point 1279.5230000000001 137.798 station -name 0
 
-line wall -reverse on
-  347.0 525.5
-  349.0 500.0 350.11 478.21 342.5 475.0
-  320.0 465.5 295.0 455.0 290.0 454.0
-endline
-
-line wall -reverse on
-  254.0 533.5
-  265.0 539.0 273.5 531.0 293.5 534.0
-  302.16 535.3 329.5 547.0 327.0 552.0
-endline
-
 point 1064.0 212.5 label -text "R14"
 
 line pit
   1072.5 233.5
   1079.0 244.0 1100.5 241.0 1100.0 255.5
+  smooth off
 endline
 
 line wall -reverse on
   1082.0 263.0
   1092.5 252.5 1120.0 237.0 1140.5 228.5
+  smooth off
 endline
 
 line wall -reverse on
   1127.5 209.0
   1100.5 227.0 1037.5 258.0 1032.5 265.5
   1027.5 273.0 1024.5 288.0 1022.0 290.5
+  smooth off
+endline
+
+endscrap
+
+
+
+scrap pieuvre_PG-FM_SP2 -projection plan -station-names "" "@pieuvre_PG-FM" -scale [0 0 78.7402 0 0 0 1 0 m]
+
+point 140.22300000000018 413.628 station -name 21.3
+
+point 159.17300000000012 361.558 station -name 21.2
+
+point 212.87300000000016 468.328 station -name 21.1
+
+point 260.7230000000002 496.748 station -name 21
+
+point 281.96300000000014 461.71799999999996 station -name 20
+
+point 333.7830000000002 481.928 station -name 19
+
+point 332.7330000000002 528.188 station -name 26
+
+point 332.9830000000002 551.638 station -name 25
+
+point 341.65300000000013 554.228 station -name 17
+
+point 349.5930000000002 580.8679999999999 station -name 16
+
+point 356.9130000000002 586.188 station -name 15
+
+point 399.3430000000002 603.078 station -name 14
+
+point 477.1630000000001 581.198 station -name 13
+
+point 509.0830000000002 519.358 station -name 12
+
+point 251.95300000000015 524.428 station -name 22
+
+line wall -reverse on
+  254.0 533.5
+  265.0 539.0 273.5 531.0 293.5 534.0
+  302.16 535.3 329.5 547.0 327.0 552.0
+  smooth off
+endline
+
+point 287.0930000000002 520.998 station -name 23
+
+line wall -reverse on
+  347.0 525.5
+  349.0 500.0 350.11 478.21 342.5 475.0
+  320.0 465.5 295.0 455.0 290.0 454.0
+  smooth off
 endline
 
 endscrap

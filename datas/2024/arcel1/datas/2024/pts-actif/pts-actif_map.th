@@ -5,8 +5,8 @@ map MP_pts-actif -proj plan
 endmap 
 
 map MC_pts-actif -proj extended 
-    pts-actif-2
-    pts-actif-1
+    SC1_pts-actif-1
+    SC1_pts-actif-2
 endmap
 
 

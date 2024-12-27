@@ -35,12 +35,15 @@ input arcel1_map.th
       equate 21.3@pieuvre_PG-FM.pieuvre_PG-FM_tot 7@puits-remontant.2023_tot
       equate 0@pieuvre_PG-FM.pieuvre_PG-FM_tot 19@amont.2023_tot
         join pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot amont23_SP1@2023_tot
+        join pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot amont23_SP1@2023_tot
+
 
   input datas/2024/diaclase-boucle/diaclase-boucle_tot.th
       equate 0@diaclase-boucle.diaclase-boucle_tot 30@amont2024-1.amont24_tot
 
   input datas/2024/pts-actif/pts-actif_tot.th
       equate 54@pts-actif-1.pts-actif_tot 54@amont2024-1.amont24_tot
+        join SC1_pts-actif-1@pts-actif_tot SC_amont2024-1_3@amont24_tot
 
   input datas/2024/pts_oublie/pts_oublie_tot.th
       equate 11@pts_oublie.pts_oublie_tot 19@amont.2023_tot
