@@ -1,3 +1,4 @@
+encoding  utf-8
 
 
 
@@ -45,6 +46,9 @@ endmap
 ################################################################################################################
 ######################## définition des scraps à faire apparaitre sur la COUPE  ################################
 map MC_arcelin_tot  -proj extended 
+  
+  MC_amont24@amont24_tot
+  break
   MC_2023@2023_tot
   break
   MC_pieuvre_PG-FM@pieuvre_PG-FM_tot
@@ -55,13 +59,12 @@ map MC_arcelin_tot  -proj extended
   break
   MC_escalier@escalier_tot
   break
-  MC_amont24@amont24_tot
+  MC_pts-actif@pts-actif_tot
   break
   MC_diaclase-boucle@diaclase-boucle_tot
   break
   MC_diaclase_MK-SP@diaclase_MK-SP_tot
-  break
-  MC_pts-actif@pts-actif_tot
+
 
 endmap   
 
@@ -82,5 +85,4 @@ endmap
 # map MC_juste-une-survey -proj extended
 #     amont
 # endmap
-
 

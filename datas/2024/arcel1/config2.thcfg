@@ -8,7 +8,7 @@ layout general
     copy legend
     copy comment
 
-    doc-title "Gouffre de l'Arcel1"
+    doc-title "Gouffre de l'Arcelin"
     doc-author "Continent8"
 
     transparency on         ### vue en transparence des galeries qui se superposent...
