@@ -1,7 +1,7 @@
 encoding  utf-8
 input config2.thcfg
 input ../../../config3.thcfg
-source arcel1/arcel1_tot.th
+source lagon-bleu-2024_tot.th
 
 ###################################################################################################
 ################################## Selection de la map à exporter #################################
@@ -20,7 +20,7 @@ source arcel1/arcel1_tot.th
 #export map \
      -projection plan \
      -layout plan   \
-     -output Exports/CAVITEE_plan.pdf \
+     -output Exports/lagon_bleu_plan.pdf \
      #-layout hide_centreline   ###Si activé, cache le fil de fer
 
 #export map \
@@ -32,11 +32,11 @@ source arcel1/arcel1_tot.th
 
 
 ######################## STATIONS ########################
-#export map \
+export map \
      -projection plan \
      -layout plan   \
      -output Exports/CAVITEE_plan-travail.pdf \
-     # -layout hide_centreline                  ###Si activé, cache le fil de fer
+      -layout hide_centreline                  ###Si activé, cache le fil de fer
 
 #export map \
      -projection extended \
@@ -133,7 +133,7 @@ source arcel1/arcel1_tot.th
 export map \
      -proj plan \
      -layout xvi-export \
-     -o Exports/arcel124_P.xvi \
+     -o Exports/lagon_bleu_P.xvi \
 
 #export map \
      -proj extended \

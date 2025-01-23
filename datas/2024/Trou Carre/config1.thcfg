@@ -1,7 +1,7 @@
 encoding  utf-8
 input config2.thcfg
 input config3.thcfg
-source MASTER.th
+source trou-carre_tot.th
 
 ###################################################################################################
 ################################## Selection de la map à exporter #################################
@@ -17,11 +17,11 @@ source MASTER.th
 
 
 ######################## PDF ########################
-#export map \
+export map \
      -projection plan \
      -layout plan   \
      -output Exports/CAVITEE_plan.pdf \
-     #-layout hide_centreline   ###Si activé, cache le fil de fer
+     -layout hide_centreline   ###Si activé, cache le fil de fer
 
 #export map \
      -projection extended \

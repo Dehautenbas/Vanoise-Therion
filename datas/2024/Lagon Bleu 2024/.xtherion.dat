@@ -1,3 +1,12 @@
-set xth(th_exit_state) 0
-set xth(th_exit_number) 1730759983
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 90.16m (surface 0.00m, duplicated 0.00m)\nvertical range: 10.17m (from 0@lagon_bleu.lagon_bleu-tot at 2832.00m to 5@lagon_bleu.lagon_bleu-tot at 2821.83m)\nnorth-south range: 52.67m (from 6@lagon_bleu.lagon_bleu-tot at 5027117.40m to 11@lagon_bleu.lagon_bleu-tot at 5027064.73m)\neast-west range: 28.14m (from 0@lagon_bleu.lagon_bleu-tot at 326014.00m to 6@lagon_bleu.lagon_bleu-tot at 325985.86m)\nnumber of shots: 53\nnumber of stations: 54"
+xth_cp_data_tree_insert 32 1 1 lagon_bleu-tot lagon_bleu-tot "lagon\_bleu" "lagon\_bleu" "length: 90.16m (surface 0.00m, duplicated 0.00m)\nvertical range: 10.17m (from 0@lagon_bleu.lagon_bleu-tot at 2832.00m to 5@lagon_bleu.lagon_bleu-tot at 2821.83m)\nnorth-south range: 52.67m (from 6@lagon_bleu.lagon_bleu-tot at 5027117.40m to 11@lagon_bleu.lagon_bleu-tot at 5027064.73m)\neast-west range: 28.14m (from 0@lagon_bleu.lagon_bleu-tot at 326014.00m to 6@lagon_bleu.lagon_bleu-tot at 325985.86m)\nnumber of shots: 53\nnumber of stations: 54"
+xth_cp_data_tree_insert 34 32 2 lagon_bleu lagon_bleu.lagon_bleu-tot "lagon bleu" "lagon bleu" "length: 90.16m (surface 0.00m, duplicated 0.00m)\nvertical range: 10.17m (from 0@lagon_bleu.lagon_bleu-tot at 2832.00m to 5@lagon_bleu.lagon_bleu-tot at 2821.83m)\nnorth-south range: 52.67m (from 6@lagon_bleu.lagon_bleu-tot at 5027117.40m to 11@lagon_bleu.lagon_bleu-tot at 5027064.73m)\neast-west range: 28.14m (from 0@lagon_bleu.lagon_bleu-tot at 326014.00m to 6@lagon_bleu.lagon_bleu-tot at 325985.86m)\nnumber of shots: 53\nnumber of stations: 54"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 90 1
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1736866396
 

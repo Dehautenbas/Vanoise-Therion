@@ -64,11 +64,10 @@ layout plan
    endcode
    
   map-comment "<br>\
- Coordonnées : 46.79624450N 8.75652854E (WGS84)<br>\
-                     1182787N 2701008 E (CH1903+)<br>\
+ Coordonnées :  (WGS84)<br>\
                      Alt : 1895m<br>\
                     <br>\
- Topographie : AERE 2022<br>\ 
+ Topographie : Continent 8 2024<br>\ 
  "
 ### To scale NorthArrow, find in Master : "% scale your north arrow here"
 endlayout

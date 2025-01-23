@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 212.99m (surface 0.00m, duplicated 0.00m)\nvertical range: 23.94m (from 36@amont2024-2.Arcelin_24-tot at 20.34m to 9@amont2024-2.Arcelin_24-tot at -3.60m)\nnorth-south range: 24.70m (from 11@amont2024-2.Arcelin_24-tot at 20.94m to 3@amont2024-2.Arcelin_24-tot at -3.76m)\neast-west range: 116.72m (from 46@amont2024-2.Arcelin_24-tot at 116.72m to 0@amont2024-2.Arcelin_24-tot at 0.00m)\nnumber of shots: 195\nnumber of stations: 196"
+xth_cp_data_tree_insert 24 1 1 Arcelin_24-tot Arcelin_24-tot "Gouffre de l'Arcelin" "Gouffre de l'Arcelin" "length: 212.99m (surface 0.00m, duplicated 0.00m)\nvertical range: 23.94m (from 36@amont2024-2.Arcelin_24-tot at 20.34m to 9@amont2024-2.Arcelin_24-tot at -3.60m)\nnorth-south range: 24.70m (from 11@amont2024-2.Arcelin_24-tot at 20.94m to 3@amont2024-2.Arcelin_24-tot at -3.76m)\neast-west range: 116.72m (from 46@amont2024-2.Arcelin_24-tot at 116.72m to 0@amont2024-2.Arcelin_24-tot at 0.00m)\nnumber of shots: 195\nnumber of stations: 196"
+xth_cp_data_tree_insert 26 24 2 amont2024-2 amont2024-2.Arcelin_24-tot "amont2024-2" "amont2024-2" "length: 212.99m (surface 0.00m, duplicated 0.00m)\nvertical range: 23.94m (from 36@amont2024-2.Arcelin_24-tot at 20.34m to 9@amont2024-2.Arcelin_24-tot at -3.60m)\nnorth-south range: 24.70m (from 11@amont2024-2.Arcelin_24-tot at 20.94m to 3@amont2024-2.Arcelin_24-tot at -3.76m)\neast-west range: 116.72m (from 46@amont2024-2.Arcelin_24-tot at 116.72m to 0@amont2024-2.Arcelin_24-tot at 0.00m)\nnumber of shots: 195\nnumber of stations: 196"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 213 0
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1731364485
+

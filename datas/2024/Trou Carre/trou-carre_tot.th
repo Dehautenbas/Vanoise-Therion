@@ -1,5 +1,5 @@
 encoding  utf-8
-survey CAVE-tot -title "CAVE"
+survey trou-carre_tot -title "Trou Carré"
 
 
 ### Import maps
@@ -7,32 +7,16 @@ survey CAVE-tot -title "CAVE"
 
 
 ### Import .th
-        input
 
-
-### Equate .th
-    
-        equate 
-
-
+        input trou_carre.th
 
 
 #####   PLAN    #####
-    ### Input .th2
+    input trou-carre.th2
         
 
     ### Join .th2
-
- 
-
-##### COUPE EXTENTED #####   
-    ### Input .th2
-
-
-    ### Join .th2
-        
-
-
 
 
 endsurvey
+

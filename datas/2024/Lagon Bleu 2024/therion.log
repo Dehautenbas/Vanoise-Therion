@@ -6,6 +6,124 @@ checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
 checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... NOT INSTALLED
 configuration file: config1.thcfg
 reading ... done
-reading source files ... 
-therion: error -- can't open file for input -- arcel1/arcel1_tot.th
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.42
+ 2> Copyright © 1990-2018 Olly Betts
+ 3> 
+ 4> La topographie contient 54 stations, connectées par 53 visées.
+ 5> Il y a 0 bouclages.
+ 6> Longueur totale de la topographie =   90.16m (  90.16m ajusté)
+ 7> Longueur totale en projection horizontale =   86.92m
+ 8> Longueur totale verticale =   19.87m
+ 9> Intervalle vertical = 11.94m (de 5 à 2832.05m jusqu’à 26 à 2820.11m)
+10> Intervalle Nord-Sud = 55.68m (de 27 à 5027117.40m jusqu’à 53 à 5027061.73m)
+11> Intervalle Est-Ouest = 30.58m (de 3 à 326016.02m jusqu’à 23 à 325985.44m)
+12>   44 1-nœuds.
+13>    2 5-nœuds.
+14>    5 6-nœuds.
+15>    2 7-nœuds.
+16>    1 8-nœud.
+17> 
+######################### transcription ########################
+ 4> 54 : .@lagon_bleu.lagon_bleu-tot -- 53 : .@lagon_bleu.lagon_bleu-tot
+ 9> 5 : .@lagon_bleu.lagon_bleu-tot -- 26 : .@lagon_bleu.lagon_bleu-tot
+10> 27 : 6@lagon_bleu.lagon_bleu-tot -- 53 : .@lagon_bleu.lagon_bleu-tot
+11> 3 : .@lagon_bleu.lagon_bleu-tot -- 23 : .@lagon_bleu.lagon_bleu-tot
+12> 44 : .@lagon_bleu.lagon_bleu-tot
+13> 2 : 1@lagon_bleu.lagon_bleu-tot
+14> 5 : .@lagon_bleu.lagon_bleu-tot
+15> 2 : 1@lagon_bleu.lagon_bleu-tot
+16> 1 : 0@lagon_bleu.lagon_bleu-tot
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+therion: warning -- config2.thcfg [5] -- source layout not found -- header-modif1
+
+therion: warning -- config2.thcfg [31] -- source layout not found -- scalebar_horiz
+
+therion: warning -- config2.thcfg [31] -- source layout not found -- northarrowMG
+done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.00%
+
+
+############### export maps & scraps selection #################
+S  2827.34 SP_lagon_bleu@lagon_bleu-tot ()
+########## end of export maps & scraps selection ###############
+writing Exports/CAVITEE_plan-travail.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  14 JAN 2025 15:53
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15]
+Warning: patterncolor not supported in Therion [16] [1] [2] [3] [4] [5]
+(./mptextmp.mp) [6] [7] [8] [9] [10] [11] [12] [13] [14] )
+ 
+Here is how much of MetaPost's memory you used:
+ 2938 strings using 77934 characters
+ 3955456 bytes of node memory
+ 1751 symbolic tokens
+ 11i,82n,16p,315b,5f stack positions out of 16i,98n,17p,390b,6f
+30 output files written: data-patt.1 .. data-patt.16
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdftex 2024.4.16)  14 JAN 2025 15:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 63 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 304 strings out of 497099
+ 4167 string characters out of 6206938
+ 41916 words of memory out of 5000000
+ 1533 multiletter control sequences out of 15000+600000
+ 16065 words of font info for 54 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 12i,5n,7p,700b,74s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 43243 bytes).
+PDF statistics:
+ 62 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Exports/lagon_bleu_P.xvi ... done
 writing xtherion file ... done
+compilation time: 0 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.01%  SP_lagon_bleu@lagon_bleu-tot
+################### end of scrap distortions ###################

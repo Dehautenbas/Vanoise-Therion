@@ -1,38 +1,24 @@
 encoding  utf-8
-survey CAVE-tot -title "CAVE"
+survey lagon_bleu-tot -title "lagon_bleu"
 
 
 ### Import maps
-#input mdf-map.th
+#input lagon_bleu-map.th
 
 
 ### Import .th
-        input
-
-
-### Equate .th
-    
-        equate 
+     input lagon_bleu.th
 
 
 
 
 #####   PLAN    #####
-    ### Input .th2
-        
+     input lagon_bleu_p.th2
 
-    ### Join .th2
-
- 
-
-##### COUPE EXTENTED #####   
-    ### Input .th2
-
-
-    ### Join .th2
         
 
 
 
 
 endsurvey
+
