@@ -2,98 +2,129 @@ encoding  utf-8
 
 
 ################################# Layout général #############################
-layout layout_general
+layout general
     copy langue-fr          ### Change the language
     copy drawingconfig      ### Set colors/size of symbols, define new symbols
-    #copy headerl           ### Header plan Xavier
-    copy header-modif1      ### Header plan modif for A4
-    #copy separeted-header  ### Header separeted 
-    #copy header_coupe      ### Header for the extended view, with horizontal scale bar
+    copy legend
+    copy comment
+
+    doc-title "Gouffre de l'Arcelin"
+    doc-author "Continent8"
+
     transparency on         ### vue en transparence des galeries qui se superposent...
     opacity 80              ### ... avec une opacité de 80%
     rotate 0                ### rotation du nord géographique (en degré)
-
-
+    colour map-fg [96 96 86]   ###Couleur Galeries #Gris[80 80 80]#
+    color map-bg 96            ### couleur du fond (80% blanc / 20% gris => 80)
 
     #min-symbol-scale <scale>    ### define minimal <scale>, from which points and lines are displayed on the map. 
                                  ### Ex: for min-symbol-scale M, no points or lines scaled S and XS will be shown on the map. <scale> has the same format, as scale option for points and lines.
-
-
-
-endlayout
-
-
-##########!!!!!!!!!!
- text fr "line wall:sand" ""
-
-
-###################### plan #############################
-layout plan
-  copy layout_general
-  scale 1  300                    ### scale  (ordi: 1 100)
-  #base-scale 1 150                ### scale the map by a (scale/base-scale) factor
-  #grid bottom                    ### positionnement de la grille
-  #grid-size 20 20 20 m           ### dimensions de la grille
-  #grid-coords off                ### border = sur les bords. off = pas de coordonnées. all = partout (horrible en plan)
-  color map-bg 96                 ### couleur du FOND (80% blanc / 20% gris => 80)
-  colour map-fg [100 100 85]        ### couleur des GALERIES (jaune : [100 100 85])
-  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
-  debug station-names             ### Afficher noms stations topo
+        
+    
+  symbol-hide point station        
   symbol-hide line survey
 
-
-
-  
- 
-  map-header 130 33 nw              ### positionnement du cartouche 
-  scale-bar 25 m
-  copy scalebar_horiz
-  #copy scalebar_vert
-  copy northarrowMG
-  legend on      ###présence de la légende des symboles ? => on/off
-  legend-columns 3
-  colour-legend off
- 
-
-  code tex-map
-      \legendwidth=12cm
-      \legendtextsize={\size[8]}
-      \legendtextheadersize={\size[18]} %%% Taille du titre
-      \legendtextsectionsize={\size[12]} %%% Taille du titre
-      #\legendtextcolor={\color[0 0 110]}      %# RGB values 0--100
-   endcode
-   
-  map-comment "<br>\
- Coordonnées :  (WGS84)<br>\
-                     Alt : 1895m<br>\
-                    <br>\
- Topographie : Continent 8 2024<br>\ 
- "
-### To scale NorthArrow, find in Master : "% scale your north arrow here"
 endlayout
 
 
-######
-######
-# Lire https://therion.speleo.sk/wiki/tex to change some characteristics 
-######
-######
+
+layout comment
+  code tex-map
+      \legendwidth=20cm
+      \legendtextsize={\size[13]}
+      \legendtextheadersize={\size[32]} 
+      \legendtextsectionsize={\size[22]}  %Taille mot "Légende"
+      %\legendtextcolor={\color[0 0 110]}      %# RGB values 0--100
+   endcode
+
+    map-comment "<br>\
+Localisation : Dalles de l'Arcelin, Pralognan la Vanoise, Savoie (73) <br>\
+Coordonnées : (WGS84) 45.378813N  6.772146E  2603m <br>\
+<br>\
+Synthèse et dessin : Continent 8 - Martin Kern, Théophile Cailhol <br>\ 
+"
+
+endlayout
 
 
-################################# AUTRES #############################
-
-    layout xvi-export
-    #scale 1 65
-    scale 1 100
-    grid-size 10 10 10 m
-    endlayout
 
 
-    layout hide_centreline
-        symbol-hide group centerline
-    endlayout
+layout plan
+  copy general
 
-    layout centerline
-        symbol-hide group all
-        symbol-show group centerline
-    endlayout
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+
+  scale 1  200                    
+  #base-scale 1 300                
+
+  cs UTM32
+ 
+  map-header 1 4 sw              ### positionnement du cartouche 
+  scale-bar 25 m
+  #copy scalebar_horiz
+  #copy scalebar_vert
+  legend on     
+  legend-columns 3
+  #colour-legend off
+
+endlayout
+
+
+layout coupe
+  copy general
+
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+
+  scale 1  200                    
+  #base-scale 1 150                
+
+
+  cs UTM32
+ 
+  map-header 2 68 sw             ### positionnement du cartouche  Lower-left corner of the map is 0 0, upper-right corner is 100 100
+  scale-bar 25 m
+  #copy scalebar_horiz
+  #copy scalebar_vert
+  legend on     
+  legend-columns 3
+  #colour-legend off
+
+endlayout
+
+layout centerline
+    symbol-show point station        
+    #debug scrap-names
+    debug station-names
+    symbol-show line survey
+endlayout
+
+
+layout yearperyear ##Pour l'export année par année ; A besoin du lookup ci-dessous (topo-date)
+    copy langue-fr          ### Change the language
+    copy drawingconfig      ### Set colors/size of symbols, define new symbols
+    copy legend
+    copy comment
+
+    doc-title "Gouffre de l'Arcel1 - Année par année"
+
+    code tex-map
+      \cavename={"Gouffre de l'Arcel1 - Année par année"}
+    endcode
+
+    color map-bg 96
+    map-header 5 -5 nw                   ### positionnement du cartouche 5 15
+    statistics topo off
+    statistics carto off
+    scale 1 400                      ### echelle
+    symbol-hide group all
+    symbol-show line wall
+    legend off
+    colour map-fg topo-date
+endlayout
+
+lookup topo-date -title "Par année d'exploration"   #Pour l'export année par année
+[2022.1.1 2022.12.31] [] "2022"
+[2023.1.1 2023.12.31] [] "2023"
+[2024.1.1 2024.12.31] [] "2024"
+
+endlookup

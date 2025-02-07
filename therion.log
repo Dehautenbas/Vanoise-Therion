@@ -1,18 +1,21 @@
-therion 6.2.1+030d2c1+dev (2024-11-04)
-  - using Proj 9.5.0, compiled against 9.5.0
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
-configuration file: /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/CONFIG1.thconfig
+therion 6.2.1 (2024-03-20)
+  - using Proj 9.3.1, compiled against 9.3.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: vanoise_config1.thcfg
 reading ... done
 reading source files ... done
 preprocessing database ... done
+C:\Program Files\Therion\therion.exe: warning -- year 2023 magnetic declination used for undated surveys
+undated surveys:
+G4.G4_tot.vanoise
 output coordinate system: UTM32
-meridian convergence (deg): 1.5861
+meridian convergence (deg): 1.5824
 geomag declinations (deg):
-  2022.1.1  2.6233
-  2023.1.1  2.7838
-  2024.1.1  2.9440
-  2025.1.1  3.1041
+  2022.1.1  2.6245
+  2023.1.1  2.7850
+  2024.1.1  2.9452
+  2025.1.1  3.1052
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
@@ -21,969 +24,162 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
+writing Exports/vanoise-tot_3d.lox ...
 processing projection plan ... done
-average distortion: 0.70%
-
-
-############### export maps & scraps selection #################
-M  2576.63 MP_arcelin_tot@Arcel1 ()
-M  2583.67 MP_escalier@escalier_tot.Arcel1 ()
-S  2583.67 escalier_SP1@escalier_tot.Arcel1 ()
-M  2547.66 MP_pieuvre_PG-FM@pieuvre_PG-FM_tot.Arcel1 ()
-S  2552.12 pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1 ()
-S  2543.20 pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot.Arcel1 ()
-M  2557.09 MP_2023@2023_tot.Arcel1 ()
-S  2596.43 arcel1_S1_P@2023_tot.Arcel1 ()
-S  2593.22 arcel1_S2_P@2023_tot.Arcel1 ()
-S  2575.94 arcel1_S3_P@2023_tot.Arcel1 ()
-S  2572.16 arcel1_S4_P@2023_tot.Arcel1 ()
-S  2551.41 arcel1_S5_P@2023_tot.Arcel1 ()
-S  2553.40 PR-amont23@2023_tot.Arcel1 ()
-S  2561.31 amont23_SP1@2023_tot.Arcel1 ()
-S  2545.53 SP1-puits_remontant@2023_tot.Arcel1 ()
-S  2539.58 SP2_Frequence51@2023_tot.Arcel1 ()
-S  2541.89 SP1_Frequence51@2023_tot.Arcel1 ()
-S  2549.41 SP-jonction-1@2023_tot.Arcel1 ()
-S  2535.11 SP-jonction-2@2023_tot.Arcel1 ()
-S  2526.79 SP-jonction-3@2023_tot.Arcel1 ()
-M  2558.88 MP_tube-de-prechauffage@tube-de-prechauffage_tot.Arcel1 ()
-S  2558.88 tube-de-prechauffage_SP1@tube-de-prechauffage_tot.Arcel1 ()
-M  2574.65 MP_pts_oublie@pts_oublie_tot.Arcel1 ()
-S  2574.65 pts_oublie_SP1@pts_oublie_tot.Arcel1 ()
-M  2615.65 MP_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
-S  2615.65 diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1 ()
-M  2600.78 MP_amont24@amont24_tot.Arcel1 ()
-S  2565.22 SP_amont2024-1_1@amont24_tot.Arcel1 ()
-S  2584.15 SP_amont2024-1_2@amont24_tot.Arcel1 ()
-S  2581.42 SP_amont2024-1_3@amont24_tot.Arcel1 ()
-S  2597.78 SP_amont2024-1_4@amont24_tot.Arcel1 ()
-S  2602.43 SP_amont2024-2_1@amont24_tot.Arcel1 ()
-S  2613.27 SP_amont2024-2_2@amont24_tot.Arcel1 ()
-S  2616.06 SP_amont2024-3_1@amont24_tot.Arcel1 ()
-S  2645.90 SP_amont2024-3_2@amont24_tot.Arcel1 ()
-M  2578.56 MP_pts-actif@pts-actif_tot.Arcel1 ()
-S  2587.33 SP_pts_actif_1_1@pts-actif_tot.Arcel1 ()
-S  2569.80 SP_pts_actif_2_1@pts-actif_tot.Arcel1 ()
-M  2572.73 MP_diaclase-boucle@diaclase-boucle_tot.Arcel1 ()
-S  2572.73 diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1 ()
-########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_plan.pdf ...
-processing projection none ... done
+average distortion: 0.82%
+.........
+C:\Program Files\Therion\therion.exe: warning -- amont23_SP1@2023_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
+..
+C:\Program Files\Therion\therion.exe: warning -- SP1_Frequence51@2023_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
+.....
+C:\Program Files\Therion\therion.exe: warning -- SP_amont2024-1_2@amont24_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
+....
+C:\Program Files\Therion\therion.exe: warning -- SP_amont2024-2_1@amont24_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
+...
+C:\Program Files\Therion\therion.exe: warning -- SP_amont2024-3_2@amont24_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
+.
+C:\Program Files\Therion\therion.exe: warning -- diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
+.
+C:\Program Files\Therion\therion.exe: warning -- escalier_SP1@escalier_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
+.
+C:\Program Files\Therion\therion.exe: warning -- pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
+C:\Program Files\Therion\therion.exe: warning -- pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1.vanoise -- invalid scrap outline
+.
+C:\Program Files\Therion\therion.exe: warning -- pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot.Arcel1.vanoise -- invalid scrap outline
+.........
+C:\Program Files\Therion\therion.exe: warning -- SP-perte_des_copains-1@perte-des-copains.vanoise -- multiple scrap outer outlines not supported yet
+ done
+writing Exports/vanoise-tot.kml ... done
+writing Exports/vanoise-tot_shots.kml ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  27 DEC 2024 10:22
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  7 FEB 2025 10:15
 **data.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-Warning: patterncolor not supported in Therion [15] [16] [1] [2] [3] [4] [5]
-[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
-[22] [23] [24] [25]
-[Warning: scrap outline intersects itself in scrap SP1_Frequence51@2023_tot.Arc
-el1] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39]
-[40] [41] [42] [43] [44] [45] [46] [47] [48] [49]
-[Warning: scrap outline intersects itself in scrap arcel1_S4_P@2023_tot.Arcel1]
-[50] [51] [52] [53]
-[Warning: scrap outline intersects itself in scrap arcel1_S3_P@2023_tot.Arcel1]
-[54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64]
-[Warning: scrap outline intersects itself in scrap tube-de-prechauffage_SP1@tub
-e-de-prechauffage_tot.Arcel1] [65] [66]
-[Warning: text scaled down to fit the path in scrap tube-de-prechauffage_SP1@tu
-be-de-prechauffage_tot.Arcel1] [67]
-[Warning: scrap outline intersects itself in scrap tube-de-prechauffage_SP1@tub
-e-de-prechauffage_tot.Arcel1] [68] [69] [70] [71] [72] [73]
-[Warning: scrap outline intersects itself in scrap diaclase_MK-SP_SP1@diaclase_
-MK-SP_tot.Arcel1] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85]
-[86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]
-[101] [102] [103] [104] [105] [106] [107] [108]
-[Warning: scrap outline intersects itself in scrap SP_pts_actif_2_1@pts-actif_t
-ot.Arcel1] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118]
-(./mptextmp.mp) [119] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [120] [121]
-[122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134]
-[135] [136] [137] [138] [139] [140] [141] [142] [143] [144] [145] [146] [147]
-[148] [149] [150] [151] [152] [153] [154] )
- 
-Here is how much of MetaPost's memory you used:
- 64313 strings using 1537110 characters
- 4622392 bytes of node memory
- 1778 symbolic tokens
- 11i,82n,16p,984b,5f stack positions out of 16i,98n,20p,1187b,6f
-170 output files written: data-patt.1 .. data.154
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp [1] )
+1 output file written: data.1
 
 
 #################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  27 DEC 2024 10:22
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
-(./th_formdef.tex
-Normal \count register pool exhausted, switching to extended pool.)
-(./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 253 numeric registers used out of 32768
- [1] ) 
-Here is how much of TeX's memory you used:
- 619 strings out of 494595
- 7867 string characters out of 6146449
- 114986 words of memory out of 5000000
- 2277 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 10i,5n,9p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
-pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 867907 bytes).
-PDF statistics:
- 723 PDF objects out of 1000 (max. 8388607)
- 365 compressed objects within 4 object streams
- 0 named destinations out of 1000 (max. 500000)
- 2069 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
+writing Exports/Vanoise ... done
+writing Exports/vanoise-tot_stats.html ... done
+writing Exports/vanoise-tot_continuations.html ... 
 processing projection extended ... done
-average distortion: 0.53%
-
-
-############### export maps & scraps selection #################
-M     0.00 MC_2023@2023_tot.Arcel1 ()
-S     0.00 SC-amont-2@2023_tot.Arcel1 ()
-S     0.00 SC-amont-1@2023_tot.Arcel1 ()
-S     0.00 arcel1_S1_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S2_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S3_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S4_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S5_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S6_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S7_C@2023_tot.Arcel1 ()
-S     0.00 SC1_puits-remontant@2023_tot.Arcel1 ()
-S     0.00 SC2_puits-remontant@2023_tot.Arcel1 ()
-M     0.00 MC_tube-de-prechauffage@tube-de-prechauffage_tot.Arcel1 ()
-S     0.00 tube-de-prechauffage_SC1@tube-de-prechauffage_tot.Arcel1 ()
-M     0.00 MC_amont24@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-1_1@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-1_3@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-1_4@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-2_1@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-2_2@amont24_tot.Arcel1 ()
-S     0.00 SC1_amont2024-3@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-3_2@amont24_tot.Arcel1 ()
-M     0.00 MC_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
-S     0.00 diaclase_MK-SP_SC1@diaclase_MK-SP_tot.Arcel1 ()
-M     0.00 MC_escalier@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC0@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC1@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC2@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC3@escalier_tot.Arcel1 ()
-M     0.00 MC_pieuvre_PG-FM@pieuvre_PG-FM_tot.Arcel1 ()
-S     0.00 pieuvre_PG-FM_SC1@pieuvre_PG-FM_tot.Arcel1 ()
-M     0.00 MC_diaclase-boucle@diaclase-boucle_tot.Arcel1 ()
-S     0.00 diaclase-boucle_SC1@diaclase-boucle_tot.Arcel1 ()
-M     0.00 MC_pts-actif@pts-actif_tot.Arcel1 ()
-S     0.00 SC1_pts-actif-1@pts-actif_tot.Arcel1 ()
-S     0.00 SC1_pts-actif-2@pts-actif_tot.Arcel1 ()
-M     0.00 MC_pts_oublie@pts_oublie_tot.Arcel1 ()
-S     0.00 pts-oublie_SC1@pts_oublie_tot.Arcel1 ()
-########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_coupe.pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  27 DEC 2024 10:22
-**data.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-Warning: patterncolor not supported in Therion [15] [16] [1] [2] [3] [4] [5]
-[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
-[22] [23] [24] [25]
-[Warning: scrap outline intersects itself in scrap arcel1_S2_C@2023_tot.Arcel1]
-[26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40]
-[41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
-[Warning: scrap outline intersects itself in scrap SC_amont2024-2_2@amont24_tot
-.Arcel1] [54] [55] [56] [57]
-[Warning: scrap outline intersects itself in scrap SC_amont2024-2_1@amont24_tot
-.Arcel1] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71]
-[72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86]
-[87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101]
-[102] [103] (./mptextmp.mp) [104] (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-[105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115] [116] [117]
-[118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130]
-[131] [132] )
- 
-Here is how much of MetaPost's memory you used:
- 51237 strings using 1273539 characters
- 4284792 bytes of node memory
- 1776 symbolic tokens
- 10i,82n,16p,877b,5f stack positions out of 16i,98n,20p,950b,6f
-148 output files written: data-patt.1 .. data.132
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  27 DEC 2024 10:22
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 244 numeric registers used out of 32768
-
-[1] ) 
-Here is how much of TeX's memory you used:
- 506 strings out of 494595
- 6362 string characters out of 6146449
- 59259 words of memory out of 5000000
- 2164 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 10i,5n,8p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
-pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
-pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 358461 bytes).
-PDF statistics:
- 495 PDF objects out of 1000 (max. 8388607)
- 255 compressed objects within 3 object streams
- 0 named destinations out of 1000 (max. 500000)
- 1411 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
+average distortion: 0.42%
 done
-
-
-############### export maps & scraps selection #################
-M  2576.63 MP_arcelin_tot@Arcel1 ()
-M  2583.67 MP_escalier@escalier_tot.Arcel1 ()
-S  2583.67 escalier_SP1@escalier_tot.Arcel1 ()
-M  2547.66 MP_pieuvre_PG-FM@pieuvre_PG-FM_tot.Arcel1 ()
-S  2552.12 pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1 ()
-S  2543.20 pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot.Arcel1 ()
-M  2557.09 MP_2023@2023_tot.Arcel1 ()
-S  2596.43 arcel1_S1_P@2023_tot.Arcel1 ()
-S  2593.22 arcel1_S2_P@2023_tot.Arcel1 ()
-S  2575.94 arcel1_S3_P@2023_tot.Arcel1 ()
-S  2572.16 arcel1_S4_P@2023_tot.Arcel1 ()
-S  2551.41 arcel1_S5_P@2023_tot.Arcel1 ()
-S  2553.40 PR-amont23@2023_tot.Arcel1 ()
-S  2561.31 amont23_SP1@2023_tot.Arcel1 ()
-S  2545.53 SP1-puits_remontant@2023_tot.Arcel1 ()
-S  2539.58 SP2_Frequence51@2023_tot.Arcel1 ()
-S  2541.89 SP1_Frequence51@2023_tot.Arcel1 ()
-S  2549.41 SP-jonction-1@2023_tot.Arcel1 ()
-S  2535.11 SP-jonction-2@2023_tot.Arcel1 ()
-S  2526.79 SP-jonction-3@2023_tot.Arcel1 ()
-M  2558.88 MP_tube-de-prechauffage@tube-de-prechauffage_tot.Arcel1 ()
-S  2558.88 tube-de-prechauffage_SP1@tube-de-prechauffage_tot.Arcel1 ()
-M  2574.65 MP_pts_oublie@pts_oublie_tot.Arcel1 ()
-S  2574.65 pts_oublie_SP1@pts_oublie_tot.Arcel1 ()
-M  2615.65 MP_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
-S  2615.65 diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1 ()
-M  2600.78 MP_amont24@amont24_tot.Arcel1 ()
-S  2565.22 SP_amont2024-1_1@amont24_tot.Arcel1 ()
-S  2584.15 SP_amont2024-1_2@amont24_tot.Arcel1 ()
-S  2581.42 SP_amont2024-1_3@amont24_tot.Arcel1 ()
-S  2597.78 SP_amont2024-1_4@amont24_tot.Arcel1 ()
-S  2602.43 SP_amont2024-2_1@amont24_tot.Arcel1 ()
-S  2613.27 SP_amont2024-2_2@amont24_tot.Arcel1 ()
-S  2616.06 SP_amont2024-3_1@amont24_tot.Arcel1 ()
-S  2645.90 SP_amont2024-3_2@amont24_tot.Arcel1 ()
-M  2578.56 MP_pts-actif@pts-actif_tot.Arcel1 ()
-S  2587.33 SP_pts_actif_1_1@pts-actif_tot.Arcel1 ()
-S  2569.80 SP_pts_actif_2_1@pts-actif_tot.Arcel1 ()
-M  2572.73 MP_diaclase-boucle@diaclase-boucle_tot.Arcel1 ()
-S  2572.73 diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1 ()
-########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_plan-travail.pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  27 DEC 2024 10:22
-**data.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-Warning: patterncolor not supported in Therion [15] [16] [1] [2] [3] [4] [5]
-[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
-[22] [23] [24] [25] [26] [27]
-[Warning: scrap outline intersects itself in scrap SP1_Frequence51@2023_tot.Arc
-el1] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41]
-[42] [43] [44] [45] [46] [47] [48] [49] [50] [51]
-[Warning: scrap outline intersects itself in scrap arcel1_S4_P@2023_tot.Arcel1]
-[52] [53] [54] [55]
-[Warning: scrap outline intersects itself in scrap arcel1_S3_P@2023_tot.Arcel1]
-[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67]
-[Warning: scrap outline intersects itself in scrap tube-de-prechauffage_SP1@tub
-e-de-prechauffage_tot.Arcel1] [68] [69]
-[Warning: text scaled down to fit the path in scrap tube-de-prechauffage_SP1@tu
-be-de-prechauffage_tot.Arcel1] [70]
-[Warning: scrap outline intersects itself in scrap tube-de-prechauffage_SP1@tub
-e-de-prechauffage_tot.Arcel1] [71] [72] [73] [74] [75] [76]
-[Warning: scrap outline intersects itself in scrap diaclase_MK-SP_SP1@diaclase_
-MK-SP_tot.Arcel1] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88]
-[89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103]
-[104] [105] [106] [107] [108] [109] [110] [111] [112]
-[Warning: scrap outline intersects itself in scrap SP_pts_actif_2_1@pts-actif_t
-ot.Arcel1] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123]
-(./mptextmp.mp) [124] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [125] [126]
-[127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137] [138] [139]
-[140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151] [152]
-[153] [154] [155] [156] [157] [158] [159] [160] [161] )
- 
-Here is how much of MetaPost's memory you used:
- 114014 strings using 2956292 characters
- 5405432 bytes of node memory
- 1779 symbolic tokens
- 11i,82n,16p,984b,5f stack positions out of 16i,98n,20p,1187b,6f
-177 output files written: data-patt.1 .. data.161
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  27 DEC 2024 10:22
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
-(./th_formdef.tex
-Normal \count register pool exhausted, switching to extended pool.)
-(./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 253 numeric registers used out of 32768
- [1] ) 
-Here is how much of TeX's memory you used:
- 626 strings out of 494595
- 7934 string characters out of 6146449
- 309163 words of memory out of 5000000
- 2284 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 10i,5n,9p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
-pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 1668783 bytes).
-PDF statistics:
- 737 PDF objects out of 1000 (max. 8388607)
- 372 compressed objects within 4 object streams
- 0 named destinations out of 1000 (max. 500000)
- 2111 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-
-
-############### export maps & scraps selection #################
-M     0.00 MC_2023@2023_tot.Arcel1 ()
-S     0.00 SC-amont-2@2023_tot.Arcel1 ()
-S     0.00 SC-amont-1@2023_tot.Arcel1 ()
-S     0.00 arcel1_S1_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S2_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S3_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S4_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S5_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S6_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S7_C@2023_tot.Arcel1 ()
-S     0.00 SC1_puits-remontant@2023_tot.Arcel1 ()
-S     0.00 SC2_puits-remontant@2023_tot.Arcel1 ()
-M     0.00 MC_tube-de-prechauffage@tube-de-prechauffage_tot.Arcel1 ()
-S     0.00 tube-de-prechauffage_SC1@tube-de-prechauffage_tot.Arcel1 ()
-M     0.00 MC_amont24@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-1_1@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-1_3@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-1_4@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-2_1@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-2_2@amont24_tot.Arcel1 ()
-S     0.00 SC1_amont2024-3@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-3_2@amont24_tot.Arcel1 ()
-M     0.00 MC_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
-S     0.00 diaclase_MK-SP_SC1@diaclase_MK-SP_tot.Arcel1 ()
-M     0.00 MC_escalier@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC0@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC1@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC2@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC3@escalier_tot.Arcel1 ()
-M     0.00 MC_pieuvre_PG-FM@pieuvre_PG-FM_tot.Arcel1 ()
-S     0.00 pieuvre_PG-FM_SC1@pieuvre_PG-FM_tot.Arcel1 ()
-M     0.00 MC_diaclase-boucle@diaclase-boucle_tot.Arcel1 ()
-S     0.00 diaclase-boucle_SC1@diaclase-boucle_tot.Arcel1 ()
-M     0.00 MC_pts-actif@pts-actif_tot.Arcel1 ()
-S     0.00 SC1_pts-actif-1@pts-actif_tot.Arcel1 ()
-S     0.00 SC1_pts-actif-2@pts-actif_tot.Arcel1 ()
-M     0.00 MC_pts_oublie@pts_oublie_tot.Arcel1 ()
-S     0.00 pts-oublie_SC1@pts_oublie_tot.Arcel1 ()
-########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_coupe-travail.pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  27 DEC 2024 10:22
-**data.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-Warning: patterncolor not supported in Therion [15] [16] [1] [2] [3] [4] [5]
-[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
-[22] [23] [24] [25] [26] [27]
-[Warning: scrap outline intersects itself in scrap arcel1_S2_C@2023_tot.Arcel1]
-[28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42]
-[43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
-[Warning: scrap outline intersects itself in scrap SC_amont2024-2_2@amont24_tot
-.Arcel1] [56] [57] [58] [59]
-[Warning: scrap outline intersects itself in scrap SC_amont2024-2_1@amont24_tot
-.Arcel1] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73]
-[74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88]
-[89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103]
-[104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114]
-(./mptextmp.mp) [115] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [116] [117]
-[118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130]
-[131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143]
-[144] [145] )
- 
-Here is how much of MetaPost's memory you used:
- 103413 strings using 2780854 characters
- 5111704 bytes of node memory
- 1777 symbolic tokens
- 10i,82n,16p,877b,5f stack positions out of 16i,98n,20p,950b,6f
-161 output files written: data-patt.1 .. data.145
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  27 DEC 2024 10:22
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
-(./th_formdef.tex
-Normal \count register pool exhausted, switching to extended pool.)
-(./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 253 numeric registers used out of 32768
- [1] ) 
-Here is how much of TeX's memory you used:
- 519 strings out of 494595
- 6492 string characters out of 6146449
- 131157 words of memory out of 5000000
- 2177 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 10i,5n,9p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 655939 bytes).
-PDF statistics:
- 523 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
- 0 named destinations out of 1000 (max. 500000)
- 1495 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-
-
-############### export maps & scraps selection #################
-M  2576.63 MP_arcelin_tot@Arcel1 ()
-M  2583.67 MP_escalier@escalier_tot.Arcel1 ()
-S  2583.67 escalier_SP1@escalier_tot.Arcel1 ()
-M  2547.66 MP_pieuvre_PG-FM@pieuvre_PG-FM_tot.Arcel1 ()
-S  2552.12 pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1 ()
-S  2543.20 pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot.Arcel1 ()
-M  2557.09 MP_2023@2023_tot.Arcel1 ()
-S  2596.43 arcel1_S1_P@2023_tot.Arcel1 ()
-S  2593.22 arcel1_S2_P@2023_tot.Arcel1 ()
-S  2575.94 arcel1_S3_P@2023_tot.Arcel1 ()
-S  2572.16 arcel1_S4_P@2023_tot.Arcel1 ()
-S  2551.41 arcel1_S5_P@2023_tot.Arcel1 ()
-S  2553.40 PR-amont23@2023_tot.Arcel1 ()
-S  2561.31 amont23_SP1@2023_tot.Arcel1 ()
-S  2545.53 SP1-puits_remontant@2023_tot.Arcel1 ()
-S  2539.58 SP2_Frequence51@2023_tot.Arcel1 ()
-S  2541.89 SP1_Frequence51@2023_tot.Arcel1 ()
-S  2549.41 SP-jonction-1@2023_tot.Arcel1 ()
-S  2535.11 SP-jonction-2@2023_tot.Arcel1 ()
-S  2526.79 SP-jonction-3@2023_tot.Arcel1 ()
-M  2558.88 MP_tube-de-prechauffage@tube-de-prechauffage_tot.Arcel1 ()
-S  2558.88 tube-de-prechauffage_SP1@tube-de-prechauffage_tot.Arcel1 ()
-M  2574.65 MP_pts_oublie@pts_oublie_tot.Arcel1 ()
-S  2574.65 pts_oublie_SP1@pts_oublie_tot.Arcel1 ()
-M  2615.65 MP_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
-S  2615.65 diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1 ()
-M  2600.78 MP_amont24@amont24_tot.Arcel1 ()
-S  2565.22 SP_amont2024-1_1@amont24_tot.Arcel1 ()
-S  2584.15 SP_amont2024-1_2@amont24_tot.Arcel1 ()
-S  2581.42 SP_amont2024-1_3@amont24_tot.Arcel1 ()
-S  2597.78 SP_amont2024-1_4@amont24_tot.Arcel1 ()
-S  2602.43 SP_amont2024-2_1@amont24_tot.Arcel1 ()
-S  2613.27 SP_amont2024-2_2@amont24_tot.Arcel1 ()
-S  2616.06 SP_amont2024-3_1@amont24_tot.Arcel1 ()
-S  2645.90 SP_amont2024-3_2@amont24_tot.Arcel1 ()
-M  2578.56 MP_pts-actif@pts-actif_tot.Arcel1 ()
-S  2587.33 SP_pts_actif_1_1@pts-actif_tot.Arcel1 ()
-S  2569.80 SP_pts_actif_2_1@pts-actif_tot.Arcel1 ()
-M  2572.73 MP_diaclase-boucle@diaclase-boucle_tot.Arcel1 ()
-S  2572.73 diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1 ()
-########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_DEBUG_plan.pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  27 DEC 2024 10:22
-**data.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-Warning: patterncolor not supported in Therion [15] [16] [1] [2] [3] [4] [5]
-[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
-[22] [23] [24] [25] [26] [27]
-[Warning: scrap outline intersects itself in scrap SP1_Frequence51@2023_tot.Arc
-el1] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41]
-[42] [43] [44] [45] [46] [47] [48] [49] [50] [51]
-[Warning: scrap outline intersects itself in scrap arcel1_S4_P@2023_tot.Arcel1]
-[52] [53] [54] [55]
-[Warning: scrap outline intersects itself in scrap arcel1_S3_P@2023_tot.Arcel1]
-[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67]
-[Warning: scrap outline intersects itself in scrap tube-de-prechauffage_SP1@tub
-e-de-prechauffage_tot.Arcel1] [68] [69]
-[Warning: text scaled down to fit the path in scrap tube-de-prechauffage_SP1@tu
-be-de-prechauffage_tot.Arcel1] [70]
-[Warning: scrap outline intersects itself in scrap tube-de-prechauffage_SP1@tub
-e-de-prechauffage_tot.Arcel1] [71] [72] [73] [74] [75] [76] [77] [78]
-[Warning: scrap outline intersects itself in scrap diaclase_MK-SP_SP1@diaclase_
-MK-SP_tot.Arcel1] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90]
-[91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104]
-[105] [106] [107] [108] [109] [110] [111] [112] [113]
-[Warning: scrap outline intersects itself in scrap SP_pts_actif_2_1@pts-actif_t
-ot.Arcel1] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124]
-(./mptextmp.mp) [125] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [126] [127]
-[128] [129] [130] [131] [132] [133] [134] [135] [136] [137] [138] [139] [140]
-[141] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151] [152] [153]
-[154] [155] [156] [157] [158] [159] [160] )
- 
-Here is how much of MetaPost's memory you used:
- 64566 strings using 1540602 characters
- 4642360 bytes of node memory
- 1778 symbolic tokens
- 11i,82n,16p,984b,5f stack positions out of 16i,98n,20p,1187b,6f
-176 output files written: data-patt.1 .. data.160
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  27 DEC 2024 10:22
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
-(./th_formdef.tex
-Normal \count register pool exhausted, switching to extended pool.)
-(./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 253 numeric registers used out of 32768
- [1] ) 
-Here is how much of TeX's memory you used:
- 625 strings out of 494595
- 7933 string characters out of 6146449
- 121602 words of memory out of 5000000
- 2283 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 10i,5n,9p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
-pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 959504 bytes).
-PDF statistics:
- 735 PDF objects out of 1000 (max. 8388607)
- 371 compressed objects within 4 object streams
- 0 named destinations out of 1000 (max. 500000)
- 2105 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-
-
-############### export maps & scraps selection #################
-M     0.00 MC_2023@2023_tot.Arcel1 ()
-S     0.00 SC-amont-2@2023_tot.Arcel1 ()
-S     0.00 SC-amont-1@2023_tot.Arcel1 ()
-S     0.00 arcel1_S1_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S2_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S3_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S4_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S5_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S6_C@2023_tot.Arcel1 ()
-S     0.00 arcel1_S7_C@2023_tot.Arcel1 ()
-S     0.00 SC1_puits-remontant@2023_tot.Arcel1 ()
-S     0.00 SC2_puits-remontant@2023_tot.Arcel1 ()
-M     0.00 MC_tube-de-prechauffage@tube-de-prechauffage_tot.Arcel1 ()
-S     0.00 tube-de-prechauffage_SC1@tube-de-prechauffage_tot.Arcel1 ()
-M     0.00 MC_amont24@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-1_1@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-1_3@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-1_4@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-2_1@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-2_2@amont24_tot.Arcel1 ()
-S     0.00 SC1_amont2024-3@amont24_tot.Arcel1 ()
-S     0.00 SC_amont2024-3_2@amont24_tot.Arcel1 ()
-M     0.00 MC_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
-S     0.00 diaclase_MK-SP_SC1@diaclase_MK-SP_tot.Arcel1 ()
-M     0.00 MC_escalier@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC0@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC1@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC2@escalier_tot.Arcel1 ()
-S     0.00 escalier_SC3@escalier_tot.Arcel1 ()
-M     0.00 MC_pieuvre_PG-FM@pieuvre_PG-FM_tot.Arcel1 ()
-S     0.00 pieuvre_PG-FM_SC1@pieuvre_PG-FM_tot.Arcel1 ()
-M     0.00 MC_diaclase-boucle@diaclase-boucle_tot.Arcel1 ()
-S     0.00 diaclase-boucle_SC1@diaclase-boucle_tot.Arcel1 ()
-M     0.00 MC_pts-actif@pts-actif_tot.Arcel1 ()
-S     0.00 SC1_pts-actif-1@pts-actif_tot.Arcel1 ()
-S     0.00 SC1_pts-actif-2@pts-actif_tot.Arcel1 ()
-M     0.00 MC_pts_oublie@pts_oublie_tot.Arcel1 ()
-S     0.00 pts-oublie_SC1@pts_oublie_tot.Arcel1 ()
-########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/arcel1_DEBUG_coupe.pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  27 DEC 2024 10:22
-**data.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-Warning: patterncolor not supported in Therion [15] [16] [1] [2] [3] [4] [5]
-[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
-[22] [23] [24] [25] [26] [27]
-[Warning: scrap outline intersects itself in scrap arcel1_S2_C@2023_tot.Arcel1]
-[28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42]
-[43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
-[Warning: scrap outline intersects itself in scrap SC_amont2024-2_2@amont24_tot
-.Arcel1] [56] [57] [58] [59]
-[Warning: scrap outline intersects itself in scrap SC_amont2024-2_1@amont24_tot
-.Arcel1] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73]
-[74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88]
-[89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103]
-[104] [105] [106] [107] [108] [109] (./mptextmp.mp) [110] (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [111] [112] [113] [114] [115] [116] [117] [118] [119] [120]
-[121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133]
-[134] [135] [136] [137] [138] )
- 
-Here is how much of MetaPost's memory you used:
- 51451 strings using 1276491 characters
- 4314840 bytes of node memory
- 1776 symbolic tokens
- 10i,82n,16p,877b,5f stack positions out of 16i,98n,20p,950b,6f
-154 output files written: data-patt.1 .. data.138
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  27 DEC 2024 10:22
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 250 numeric registers used out of 32768
-
-[1] ) 
-Here is how much of TeX's memory you used:
- 512 strings out of 494595
- 6428 string characters out of 6146449
- 109086 words of memory out of 5000000
- 2170 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 10i,5n,8p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
-pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
-pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 431328 bytes).
-PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 0 named destinations out of 1000 (max. 500000)
- 1453 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-
-
-############### export maps & scraps selection #################
-M  2576.63 MP_arcelin_tot@Arcel1 ()
-M  2583.67 MP_escalier@escalier_tot.Arcel1 ()
-S  2583.67 escalier_SP1@escalier_tot.Arcel1 ()
-M  2547.66 MP_pieuvre_PG-FM@pieuvre_PG-FM_tot.Arcel1 ()
-S  2552.12 pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1 ()
-S  2543.20 pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot.Arcel1 ()
-M  2557.09 MP_2023@2023_tot.Arcel1 ()
-S  2596.43 arcel1_S1_P@2023_tot.Arcel1 ()
-S  2593.22 arcel1_S2_P@2023_tot.Arcel1 ()
-S  2575.94 arcel1_S3_P@2023_tot.Arcel1 ()
-S  2572.16 arcel1_S4_P@2023_tot.Arcel1 ()
-S  2551.41 arcel1_S5_P@2023_tot.Arcel1 ()
-S  2553.40 PR-amont23@2023_tot.Arcel1 ()
-S  2561.31 amont23_SP1@2023_tot.Arcel1 ()
-S  2545.53 SP1-puits_remontant@2023_tot.Arcel1 ()
-S  2539.58 SP2_Frequence51@2023_tot.Arcel1 ()
-S  2541.89 SP1_Frequence51@2023_tot.Arcel1 ()
-S  2549.41 SP-jonction-1@2023_tot.Arcel1 ()
-S  2535.11 SP-jonction-2@2023_tot.Arcel1 ()
-S  2526.79 SP-jonction-3@2023_tot.Arcel1 ()
-M  2558.88 MP_tube-de-prechauffage@tube-de-prechauffage_tot.Arcel1 ()
-S  2558.88 tube-de-prechauffage_SP1@tube-de-prechauffage_tot.Arcel1 ()
-M  2574.65 MP_pts_oublie@pts_oublie_tot.Arcel1 ()
-S  2574.65 pts_oublie_SP1@pts_oublie_tot.Arcel1 ()
-M  2615.65 MP_diaclase_MK-SP@diaclase_MK-SP_tot.Arcel1 ()
-S  2615.65 diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1 ()
-M  2600.78 MP_amont24@amont24_tot.Arcel1 ()
-S  2565.22 SP_amont2024-1_1@amont24_tot.Arcel1 ()
-S  2584.15 SP_amont2024-1_2@amont24_tot.Arcel1 ()
-S  2581.42 SP_amont2024-1_3@amont24_tot.Arcel1 ()
-S  2597.78 SP_amont2024-1_4@amont24_tot.Arcel1 ()
-S  2602.43 SP_amont2024-2_1@amont24_tot.Arcel1 ()
-S  2613.27 SP_amont2024-2_2@amont24_tot.Arcel1 ()
-S  2616.06 SP_amont2024-3_1@amont24_tot.Arcel1 ()
-S  2645.90 SP_amont2024-3_2@amont24_tot.Arcel1 ()
-M  2578.56 MP_pts-actif@pts-actif_tot.Arcel1 ()
-S  2587.33 SP_pts_actif_1_1@pts-actif_tot.Arcel1 ()
-S  2569.80 SP_pts_actif_2_1@pts-actif_tot.Arcel1 ()
-M  2572.73 MP_diaclase-boucle@diaclase-boucle_tot.Arcel1 ()
-S  2572.73 diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1 ()
-########## end of export maps & scraps selection ###############
-writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/2024/arcel1/Exports/Année-par-année.pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 2.10 (TeX Live 2024) (kpathsea version 6.4.0)  27 DEC 2024 10:22
-**data.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2024/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-Warning: patterncolor not supported in Therion [15] [16] [1] [2] [3] [4] [5]
-[6] [7] [8] [9] [10] [11] [12]
-[Warning: scrap outline intersects itself in scrap SP1_Frequence51@2023_tot.Arc
-el1] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
-[Warning: scrap outline intersects itself in scrap arcel1_S4_P@2023_tot.Arcel1]
-[25] [26]
-[Warning: scrap outline intersects itself in scrap arcel1_S3_P@2023_tot.Arcel1]
-[27] [28] [29] [30] [31] [32]
-[Warning: scrap outline intersects itself in scrap tube-de-prechauffage_SP1@tub
-e-de-prechauffage_tot.Arcel1] [33] [34]
-[Warning: scrap outline intersects itself in scrap tube-de-prechauffage_SP1@tub
-e-de-prechauffage_tot.Arcel1] [35] [36] [37]
-[Warning: scrap outline intersects itself in scrap diaclase_MK-SP_SP1@diaclase_
-MK-SP_tot.Arcel1] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]
-[50] [51] [52] [53] [54] [55]
-[Warning: scrap outline intersects itself in scrap SP_pts_actif_2_1@pts-actif_t
-ot.Arcel1] [56] [57] [58] [59] [60] [61] (./mptextmp.mp) [62] (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [63] )
- 
-Here is how much of MetaPost's memory you used:
- 39015 strings using 806219 characters
- 3933432 bytes of node memory
- 1756 symbolic tokens
- 9i,82n,12p,312b,4f stack positions out of 16i,98n,15p,312b,6f
-79 output files written: data-patt.1 .. data.63
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdftex 2024.10.30)  27 DEC 2024 10:22
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
-(./th_formdef.tex
-Normal \count register pool exhausted, switching to extended pool.)
-(./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
- 253 numeric registers used out of 32768
- [1] ) 
-Here is how much of TeX's memory you used:
- 523 strings out of 494595
- 7005 string characters out of 6146449
- 29022 words of memory out of 5000000
- 2181 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 10i,5n,9p,1736b,77s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 286060 bytes).
-PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 272 compressed objects within 3 object streams
- 0 named destinations out of 1000 (max. 500000)
- 1525 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-compilation time: 36 sec
+writing xtherion file ... done
+compilation time: 14 sec
 
 
 ######################### loop errors ##########################
 REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
-  7.66%    3.4m   45.0m  15    3.4m    0.1m    0.5m [27@frequence51.2023_tot.Arcel1 - 28 - PTR_2 - 2 - 4 - 5 - 6 - 16b - 17 - 18 - 19 - 20 - 21 - P - 26 - 27]
-  6.88%    2.9m   42.4m   7    2.6m    0.7m   -1.2m [16@escalier.escalier_tot.Arcel1 - 16a - 16b - 16c - 13 - 14 - 15 - 16]
-  5.74%    1.0m   17.7m   8    0.7m    0.7m   -0.3m [21@pieuvre_PG-FM.pieuvre_PG-FM_tot.Arcel1 - 22 - 23 - 24 - 25 - 26 = 18 - 19 - 20 - 21]
-  2.02%    4.9m  243.7m  58   -0.6m   -4.5m    1.9m [0@puits-remontant.2023_tot.Arcel1 - 1 - 2 - 3 - 4 - 5 - 6 - 7 = 21.3@pieuvre_PG-FM.pieuvre_PG-FM_tot.Arcel1 - 21.2 - 21.1 - 21 - 20 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 19@amont.2023_tot.Arcel1 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 53@frequence51.2023_tot.Arcel1 - 52 - 51 - 50 - 49 - 48 - 47 - 44 - 43 = 0@puits-remontant.2023_tot.Arcel1]
-  0.79%    2.5m  321.8m  64    1.9m   -0.2m    1.6m [236@escalier.escalier_tot.Arcel1 - 235 - 234 - 233 - 23 - 22 - 21 - 20 - 199 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 3a - 3b - 3c = 15@amont2024-1.amont24_tot.Arcel1 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 40@amont.2023_tot.Arcel1 - 39 - 38 - 37 - 36 - 35 - 34 - 33 - 32 - 31 - 30 - 29 - 28 - 27 - 26 - 25 - 24 - 23 - 22 - 21 - 20 - 19 = 236@escalier.escalier_tot.Arcel1]
-  0.62%    0.3m   47.6m  14    0.1m    0.1m    0.2m [39@amont2024-1.amont24_tot.Arcel1 - 38 - 37 - 36 - 35 - 34 - 33 - 32 - 31 - 30 - 29 - 28 - 27 - 26 - 25 = 39]
+  7.66%    3.4m   45.0m  15    3.4m    0.1m    0.5m [27@frequence51.2023_tot.Arcel1.vanoise - 28 - PTR_2 - 2 - 4 - 5 - 6 - 16b - 17 - 18 - 19 - 20 - 21 - P - 26 - 27]
+  6.88%    2.9m   42.4m   7    2.6m    0.7m   -1.2m [16@escalier.escalier_tot.Arcel1.vanoise - 16a - 16b - 16c - 13 - 14 - 15 - 16]
+  5.74%    1.0m   17.7m   8    0.7m    0.7m   -0.3m [21@pieuvre_PG-FM.pieuvre_PG-FM_tot.Arcel1.vanoise - 22 - 23 - 24 - 25 - 26 = 18 - 19 - 20 - 21]
+  2.29%    0.1m    3.4m   2   -0.0m    0.0m    0.1m [6@perte-lac-des-assiettes.vanoise - 7 - 6]
+  2.02%    4.9m  243.7m  58   -0.6m   -4.5m    1.9m [0@puits-remontant.2023_tot.Arcel1.vanoise - 1 - 2 - 3 - 4 - 5 - 6 - 7 = 21.3@pieuvre_PG-FM.pieuvre_PG-FM_tot.Arcel1.vanoise - 21.2 - 21.1 - 21 - 20 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 19@amont.2023_tot.Arcel1.vanoise - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 53@frequence51.2023_tot.Arcel1.vanoise - 52 - 51 - 50 - 49 - 48 - 47 - 44 - 43 = 0@puits-remontant.2023_tot.Arcel1.vanoise]
+  0.79%    2.5m  321.8m  64    1.9m   -0.2m    1.6m [236@escalier.escalier_tot.Arcel1.vanoise - 235 - 234 - 233 - 23 - 22 - 21 - 20 - 199 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 3a - 3b - 3c = 15@amont2024-1.amont24_tot.Arcel1.vanoise - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 40@amont.2023_tot.Arcel1.vanoise - 39 - 38 - 37 - 36 - 35 - 34 - 33 - 32 - 31 - 30 - 29 - 28 - 27 - 26 - 25 - 24 - 23 - 22 - 21 - 20 - 19 = 236@escalier.escalier_tot.Arcel1.vanoise]
+  0.62%    0.3m   47.6m  14    0.1m    0.1m    0.2m [39@amont2024-1.amont24_tot.Arcel1.vanoise - 38 - 37 - 36 - 35 - 34 - 33 - 32 - 31 - 30 - 29 - 28 - 27 - 26 - 25 = 39]
 ##################### end of loop errors #######################
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   2.68%   85.60%  SP1_Frequence51@2023_tot.Arcel1
-   4.26%   83.72%  pts_oublie_SP1@pts_oublie_tot.Arcel1
-   0.61%   77.13%  SP-jonction-2@2023_tot.Arcel1
-   0.08%   72.82%  SP_amont2024-3_1@amont24_tot.Arcel1
-   0.80%   64.77%  diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1
-   0.12%   64.46%  SP_amont2024-2_2@amont24_tot.Arcel1
-   0.86%   64.34%  SP_amont2024-1_1@amont24_tot.Arcel1
-   0.67%   63.41%  SP_amont2024-1_2@amont24_tot.Arcel1
-   8.53%   62.67%  SP1-puits_remontant@2023_tot.Arcel1
-   0.16%   60.64%  SP_amont2024-2_1@amont24_tot.Arcel1
-   3.02%   57.66%  pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot.Arcel1
-   4.05%   56.22%  SP-jonction-1@2023_tot.Arcel1
-   0.17%   55.51%  SP_pts_actif_1_1@pts-actif_tot.Arcel1
-   2.70%   52.69%  pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1
-   0.65%   50.57%  amont23_SP1@2023_tot.Arcel1
-   0.25%   50.26%  SP_amont2024-1_4@amont24_tot.Arcel1
-   0.40%   50.18%  diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1
-   1.60%   42.61%  arcel1_S5_P@2023_tot.Arcel1
-   1.55%   40.30%  SP2_Frequence51@2023_tot.Arcel1
-   0.13%   36.27%  SP_pts_actif_2_1@pts-actif_tot.Arcel1
-   0.35%   17.82%  escalier_SP1@escalier_tot.Arcel1
-   0.13%    2.29%  SP-jonction-3@2023_tot.Arcel1
-   0.17%    2.18%  arcel1_S1_P@2023_tot.Arcel1
-   0.10%    1.79%  arcel1_S3_P@2023_tot.Arcel1
-   0.07%    1.15%  SP_amont2024-1_3@amont24_tot.Arcel1
-   0.09%    0.99%  arcel1_S2_P@2023_tot.Arcel1
-   0.06%    0.44%  arcel1_S4_P@2023_tot.Arcel1
-   0.00%    0.08%  SP_amont2024-3_2@amont24_tot.Arcel1
-   0.01%    0.05%  tube-de-prechauffage_SP1@tube-de-prechauffage_tot.Arcel1
-   0.00%    0.03%  PR-amont23@2023_tot.Arcel1
-   0.00%    0.00%  scrap167@amont24_tot.Arcel1
+   2.68%   85.60%  SP1_Frequence51@2023_tot.Arcel1.vanoise
+   4.26%   83.72%  pts_oublie_SP1@pts_oublie_tot.Arcel1.vanoise
+   0.61%   77.13%  SP-jonction-2@2023_tot.Arcel1.vanoise
+   3.17%   76.75%  pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot.Arcel1.vanoise
+   0.07%   72.82%  SP_amont2024-3_1@amont24_tot.Arcel1.vanoise
+  42.09%   71.87%  pieuvre_PG-FM_SP3@pieuvre_PG-FM_tot.Arcel1.vanoise
+   0.80%   64.77%  diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1.vanoise
+   0.12%   64.46%  SP_amont2024-2_2@amont24_tot.Arcel1.vanoise
+   0.86%   64.34%  SP_amont2024-1_1@amont24_tot.Arcel1.vanoise
+   1.43%   63.68%  pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1.vanoise
+   0.67%   63.41%  SP_amont2024-1_2@amont24_tot.Arcel1.vanoise
+   0.16%   60.64%  SP_amont2024-2_1@amont24_tot.Arcel1.vanoise
+   4.66%   58.60%  SP1-puits_remontant@2023_tot.Arcel1.vanoise
+   4.05%   56.22%  SP-jonction-1@2023_tot.Arcel1.vanoise
+   0.18%   55.51%  SP_pts_actif_1_1@pts-actif_tot.Arcel1.vanoise
+   0.66%   50.57%  amont23_SP1@2023_tot.Arcel1.vanoise
+   0.25%   50.26%  SP_amont2024-1_4@amont24_tot.Arcel1.vanoise
+   0.40%   50.18%  diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1.vanoise
+   1.60%   42.61%  arcel1_S5_P@2023_tot.Arcel1.vanoise
+   1.55%   40.30%  SP2_Frequence51@2023_tot.Arcel1.vanoise
+   0.13%   36.27%  SP_pts_actif_2_1@pts-actif_tot.Arcel1.vanoise
+   0.35%   17.82%  escalier_SP1@escalier_tot.Arcel1.vanoise
+   0.54%   10.08%  SP-perte_des_copains-1@perte-des-copains.vanoise
+   0.25%    5.20%  AR3_sp1@AR3.vanoise
+   0.13%    2.29%  SP-jonction-3@2023_tot.Arcel1.vanoise
+   0.17%    2.18%  arcel1_S1_P@2023_tot.Arcel1.vanoise
+   0.10%    1.79%  arcel1_S3_P@2023_tot.Arcel1.vanoise
+   0.07%    1.15%  SP_amont2024-1_3@amont24_tot.Arcel1.vanoise
+   0.09%    0.99%  arcel1_S2_P@2023_tot.Arcel1.vanoise
+   0.13%    0.96%  SP-AR6-1@AR6.vanoise
+   0.06%    0.44%  arcel1_S4_P@2023_tot.Arcel1.vanoise
+   0.00%    0.08%  SP_amont2024-3_2@amont24_tot.Arcel1.vanoise
+   0.01%    0.05%  tube-de-prechauffage_SP1@tube-de-prechauffage_tot.Arcel1.vanoise
+   0.00%    0.03%  PR-amont23@2023_tot.Arcel1.vanoise
+   0.00%    0.03%  SP1@AR1.vanoise
+   0.00%    0.00%  scrap167@amont24_tot.Arcel1.vanoise
 ################### end of scrap distortions ###################
 
 
 ###################### scrap distortions #######################
  PROJECTION: extended
  AVERAGE  MAXIMAL  SCRAP
-   1.84%  100.00%  SC1_puits-remontant@2023_tot.Arcel1
-   0.52%  100.00%  pieuvre_PG-FM_SC1@pieuvre_PG-FM_tot.Arcel1
-   3.22%  100.00%  arcel1_S3_C@2023_tot.Arcel1
-   1.18%   82.75%  SC_amont2024-1_3@amont24_tot.Arcel1
-   0.80%   74.71%  SC-amont-1@2023_tot.Arcel1
-   0.36%   66.77%  arcel1_S1_C@2023_tot.Arcel1
-   0.57%   58.90%  arcel1_S2_C@2023_tot.Arcel1
-   0.56%   57.44%  SC1_pts-actif-2@pts-actif_tot.Arcel1
-   3.56%   54.55%  SC1_pts-actif-1@pts-actif_tot.Arcel1
-   0.07%   35.41%  SC1_amont2024-3@amont24_tot.Arcel1
-   1.91%   34.36%  SC2_puits-remontant@2023_tot.Arcel1
-   0.04%   32.77%  SC_amont2024-2_1@amont24_tot.Arcel1
-   0.24%   30.89%  SC_amont2024-1_1@amont24_tot.Arcel1
-   0.47%   30.44%  SC-amont-2@2023_tot.Arcel1
-   0.04%   28.07%  SC_amont2024-2_2@amont24_tot.Arcel1
-   0.52%   27.99%  escalier_SC1@escalier_tot.Arcel1
-   0.41%   21.44%  arcel1_S4_C@2023_tot.Arcel1
-   0.58%    8.17%  escalier_SC2@escalier_tot.Arcel1
-   0.12%    6.49%  diaclase-boucle_SC1@diaclase-boucle_tot.Arcel1
-   0.12%    1.55%  SC_amont2024-1_4@amont24_tot.Arcel1
-   0.05%    0.28%  escalier_SC0@escalier_tot.Arcel1
-   0.01%    0.16%  escalier_SC3@escalier_tot.Arcel1
-   0.00%    0.06%  pts-oublie_SC1@pts_oublie_tot.Arcel1
-   0.01%    0.04%  tube-de-prechauffage_SC1@tube-de-prechauffage_tot.Arcel1
-   0.00%    0.03%  SC_amont2024-3_2@amont24_tot.Arcel1
-   0.00%    0.02%  diaclase_MK-SP_SC1@diaclase_MK-SP_tot.Arcel1
-   0.00%    0.01%  arcel1_S6_C@2023_tot.Arcel1
-   0.00%    0.01%  arcel1_S5_C@2023_tot.Arcel1
-   0.00%    0.01%  arcel1_S7_C@2023_tot.Arcel1
+   3.22%  100.00%  arcel1_S3_C@2023_tot.Arcel1.vanoise
+   0.45%  100.00%  pieuvre_PG-FM_SC1@pieuvre_PG-FM_tot.Arcel1.vanoise
+   1.84%  100.00%  SC1_puits-remontant@2023_tot.Arcel1.vanoise
+   0.80%   74.71%  SC-amont-1@2023_tot.Arcel1.vanoise
+   0.36%   66.77%  arcel1_S1_C@2023_tot.Arcel1.vanoise
+   1.91%   65.86%  SC1_pts-actif-1@pts-actif_tot.Arcel1.vanoise
+   0.57%   58.90%  arcel1_S2_C@2023_tot.Arcel1.vanoise
+   0.38%   57.44%  SC1_pts-actif-2@pts-actif_tot.Arcel1.vanoise
+   0.07%   35.41%  SC1_amont2024-3@amont24_tot.Arcel1.vanoise
+   1.91%   34.36%  SC2_puits-remontant@2023_tot.Arcel1.vanoise
+   0.03%   32.77%  SC_amont2024-2_1@amont24_tot.Arcel1.vanoise
+   0.31%   31.30%  fond@marbrimba_tot.vanoise
+   0.27%   30.89%  SC_amont2024-1_1@amont24_tot.Arcel1.vanoise
+   0.47%   30.44%  SC-amont-2@2023_tot.Arcel1.vanoise
+   0.03%   28.07%  SC_amont2024-2_2@amont24_tot.Arcel1.vanoise
+   0.54%   27.98%  escalier_SC1@escalier_tot.Arcel1.vanoise
+   0.86%   27.86%  frac2@marbrimba_tot.vanoise
+   0.24%   27.33%  SC_amont2024-1_3@amont24_tot.Arcel1.vanoise
+   0.41%   21.44%  arcel1_S4_C@2023_tot.Arcel1.vanoise
+   0.15%   18.27%  s2_c@G4_tot.vanoise
+   0.08%   18.09%  s1_c@G4_tot.vanoise
+   2.31%   14.76%  frac3@marbrimba_tot.vanoise
+   0.58%    8.17%  escalier_SC2@escalier_tot.Arcel1.vanoise
+   0.10%    6.49%  diaclase-boucle_SC1@diaclase-boucle_tot.Arcel1.vanoise
+   0.19%    2.21%  SC-perte_des_copains-1@perte-des-copains.vanoise
+   0.14%    1.60%  SC_amont2024-1_4@amont24_tot.Arcel1.vanoise
+   0.04%    1.05%  AR3_sc1@AR3.vanoise
+   0.04%    0.59%  scrap1@arcel_tot.vanoise
+   0.05%    0.45%  scrap1@G2_tot.vanoise
+   0.05%    0.28%  escalier_SC0@escalier_tot.Arcel1.vanoise
+   0.04%    0.27%  scrap15@Master.vanoise
+   0.04%    0.25%  SC-AR6-1@AR6.vanoise
+   0.01%    0.16%  escalier_SC3@escalier_tot.Arcel1.vanoise
+   0.00%    0.06%  pts-oublie_SC1@pts_oublie_tot.Arcel1.vanoise
+   0.01%    0.04%  tube-de-prechauffage_SC1@tube-de-prechauffage_tot.Arcel1.vanoise
+   0.00%    0.03%  SC_amont2024-3_2@amont24_tot.Arcel1.vanoise
+   0.00%    0.02%  diaclase_MK-SP_SC1@diaclase_MK-SP_tot.Arcel1.vanoise
+   0.00%    0.01%  arcel1_S6_C@2023_tot.Arcel1.vanoise
+   0.00%    0.01%  sc1@AR1.vanoise
+   0.00%    0.01%  arcel1_S5_C@2023_tot.Arcel1.vanoise
+   0.00%    0.01%  arcel1_S7_C@2023_tot.Arcel1.vanoise
+   0.00%    0.01%  frac1@marbrimba_tot.vanoise
+   0.00%    0.00%  AR3_sc2@AR3.vanoise
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############
-  Area of Use (AoU): (6.772, 45.379) (6.772, 45.379)
+  Area of Use (AoU): (6.770, 45.365) (6.786, 45.391)
   [UTM32 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
   [UTM32 → LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
   [UTM32 → UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
   [UTM32 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:2154 → LAT-LONG] AoU: [no] transformation: [Inverse of Lambert-93 + RGF93 v1 to WGS 84 (1) + axis order change (2D)] definition: [proj=pipeline step inv proj=lcc lat_0=46.5 lon_0=3 lat_1=49 lat_2=44 x_0=700000 y_0=6600000 ellps=GRS80 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [1.000 m]
+  [EPSG:2154 → UTM32] AoU: [yes] transformation: [Inverse of Lambert-93 + RGF93 v1 to WGS 84 (1) + UTM zone 32N] definition: [proj=pipeline step inv proj=lcc lat_0=46.5 lon_0=3 lat_1=49 lat_2=44 x_0=700000 y_0=6600000 ellps=GRS80 step proj=utm zone=32 ellps=WGS84] accuracy: [1.000 m]
   [EPSG:4326 → UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
 ########## end of CRS transformations chosen by PROJ ###########

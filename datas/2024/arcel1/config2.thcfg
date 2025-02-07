@@ -39,7 +39,7 @@ layout comment
 
     map-comment "<br>\
 Localisation : Dalles de l'Arcelin, Pralognan la Vanoise, Savoie (73) <br>\
-Coordonnées : (WGS84) 45.378813N  6.772146E  2603m <br>\
+Coordonnées : UTM UPS 32T 0325573  5027449  2603m <br>\
 <br>\
 Synthèse et dessin : Continent 8 - Martin Kern, Théophile Cailhol <br>\ 
 "
@@ -66,6 +66,7 @@ layout plan
   legend on     
   legend-columns 3
   #colour-legend off
+  
 
 endlayout
 
@@ -105,10 +106,10 @@ layout yearperyear ##Pour l'export année par année ; A besoin du lookup ci-des
     copy legend
     copy comment
 
-    doc-title "Gouffre de l'Arcel1 - Année par année"
+    doc-title "Gouffre de l'Arcelin - Année par année"
 
     code tex-map
-      \cavename={"Gouffre de l'Arcel1 - Année par année"}
+      \cavename={"Gouffre de l'Arcelin - Année par année"}
     endcode
 
     color map-bg 96
@@ -128,3 +129,20 @@ lookup topo-date -title "Par année d'exploration"   #Pour l'export année par a
 [2024.1.1 2024.12.31] [] "2024"
 
 endlookup
+
+#layout text_scale
+
+# Définir un facteur de mise à l'échelle pour les textes du projet
+#scale-factor 1.5
+
+# Définir un style global de texte
+#text-style 
+   # size [3]  # Taille de texte par défaut
+    #style [regular]  # Style du texte, ici "normal", mais peut être modifié (italic, bold, etc.)
+
+# Application de la mise à l'échelle sur l'ensemble des textes
+#text 
+ #   size [scale-factor * 3]  # Multiplie la taille du texte par le facteur de mise à l'échelle
+  #  style [regular]
+
+#endlayout

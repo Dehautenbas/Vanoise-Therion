@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -864.0 -1822.0 3760.0 144.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 
 
 
@@ -614,7 +614,6 @@ point 2721.42 -918.09 station -name 44
 point 2623.56 -1322.43 station -name 47
 
 endscrap
-
 
 
 

@@ -12,11 +12,11 @@ map MP_arcelin_tot  -proj plan
   break
   MP_tube-de-prechauffage@tube-de-prechauffage_tot [0 -12 m] above
   break
-  MP_pts_oublie@pts_oublie_tot
+  MP_pts_oublie@pts_oublie_tot 
   break
   MP_diaclase_MK-SP@diaclase_MK-SP_tot
   break
-  MP_amont24@amont24_tot
+  MP_amont24@amont24_tot 
   break
   MP_pts-actif@pts-actif_tot
   break

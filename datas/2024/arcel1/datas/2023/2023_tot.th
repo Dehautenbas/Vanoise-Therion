@@ -1,3 +1,4 @@
+encoding  utf-8
 survey 2023_tot -title "Gouffre de l'Arcel1 - 2022-2023"
 
 input 2023_map.th
@@ -20,8 +21,7 @@ input jonction/jonction_P.th2
       join jonction_D:0 arcel1_D:end
       join jonction_G:end arcel1_G:0
 input amont23/amont_P.th2
-      join PR1G:0 amontG2:0
-      join PR2D:end amontG:0
+      
       join F51-2G:0 amontG:end
       join F51-2D:end fda:0
 input frequence51/frequence51_P.th2
@@ -50,3 +50,4 @@ input amont23/amont_C.th2
 
 
 endsurvey
+

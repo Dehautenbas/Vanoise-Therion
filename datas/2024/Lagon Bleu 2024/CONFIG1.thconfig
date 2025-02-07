@@ -1,0 +1,138 @@
+encoding  utf-8
+input config2.thcfg
+input ../../../config3.thcfg
+
+source arcel1_tot.th
+
+#source ../../mnt.th
+
+##########################Selection de la map à exporter #############################
+######################################################################################
+
+select MP_arcelin_tot@Arcel1      #uncomment ONLY one
+select MC_arcelin_tot@Arcel1     #uncomment ONLY one
+
+#select MP_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
+     #select MP_pas-encore-dessine@Arcel1  #Pour le filaire de la topo pas encore dessinée
+     #select MP_juste-une-survey@Arcel1  #Pour le filaire d'une seul séance
+
+#select MC_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
+     #select MC_pas-encore-dessine@Arcel1  #Pour le filaire de la topo pas encore dessinée
+     #select MC_juste-une-survey@Arcel1  #Pour le filaire d'une seul séance
+
+
+
+###################################################################################################
+################################## LES EXPORTS ####################################################
+###################################################################################################
+
+
+######################## PDF ########################
+export map \
+     -projection plan \
+     -layout plan \
+     -output Exports/arcel1_plan.pdf \
+
+ export map \
+     -projection extended \
+     -layout coupe \
+     -output Exports/arcel1_coupe.pdf \
+
+
+######################## STATIONS ########################
+# l'ordre des layouts est importants !
+
+export map \
+     -projection plan \
+     -layout plan \
+     -layout centerline \
+     -output Exports/arcel1_plan-travail.pdf \
+
+export map \
+     -projection extended \
+     -layout coupe \
+     -layout centerline \
+     -output Exports/arcel1_coupe-travail.pdf \
+
+
+######################### DEBUG ########################
+export map \
+     -projection plan \
+     -layout plan   \
+     -layout-debug all \
+     -output Exports/arcel1_DEBUG_plan.pdf
+
+export map \
+     -projection extended \
+     -layout coupe   \
+     -layout-debug all \
+     -output Exports/arcel1_DEBUG_coupe.pdf
+
+     
+######################### SVG ########################
+
+#export map \
+     -projection plan \
+     -fmt svg   \
+     -layout plan   \
+     -output Exports/arcel1_plan.svg \
+
+#export map \
+     -projection extended \
+     -layout plan   \
+     -output Exports/arcel1_coupe.svg \
+
+#export model \
+     -output Exports/arcel1_coupe.dxf \
+
+
+
+######################## WALLS ########################       
+## Exporte uniquement les murs
+#export map \
+     -projection plan \
+     -layout walls   \
+     -output Exports/arcel1_walls.pdf \
+     #-layout hide_point \
+     #-layout-debug station-names \
+     #-layout debug \
+     #-layout centreline \
+
+
+######################### ATLAS ########################
+#export atlas \
+     -projection plan \
+     -layout plan   \
+     -output Exports/arcel1_Atlas.pdf 
+
+
+
+######################## MODELE 3D ########################
+    #export model \
+     -format loch \
+     -o Exports/arcel1-3d.lox \
+     #-wall-source maps
+
+
+
+######################## KML #######################
+#export map \
+     -projection plan \
+     -output Exports/arcel1.kml  ###-> Pour murs
+
+#export model \
+     -output Exports/arcel1-shots.kml  ###-> pour fil de fer sans station avec splays shots
+
+
+######################## LISTES ########################
+#export survey-list \
+     -o Exports/arcel1_stats.html
+
+#export continuation-list \
+     -o Exports/arcel1_continuations.html
+
+
+######################## YEAR per YEAR ########################
+export map -projection plan \
+     -layout yearperyear \
+     -output Exports/Année-par-année.pdf

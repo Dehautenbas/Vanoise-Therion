@@ -1,10 +1,11 @@
+encoding  utf-8
 map MP_pieuvre_PG-FM -proj plan
     pieuvre_PG-FM_SP1
     pieuvre_PG-FM_SP2
+    pieuvre_PG-FM_SP3
 endmap 
 
 map MC_pieuvre_PG-FM -proj extended 
     pieuvre_PG-FM_SC1
 endmap
-
 

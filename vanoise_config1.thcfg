@@ -23,6 +23,10 @@ export map \
 export model \
      -output Exports/vanoise-tot_shots.kml  ###-> pour fil de fer sans station avec splays shots
 
+export map \
+-projection plan \
+-fmt esri \
+-o Exports/Vanoise
 
 ######################## LISTES ########################
 export survey-list \
