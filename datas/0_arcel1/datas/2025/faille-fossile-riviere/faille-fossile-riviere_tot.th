@@ -1,0 +1,22 @@
+encoding  utf-8
+
+survey faille-fossile-riviere_tot -title "faille-fossile-riviere"
+
+input faille-fossile-riviere_map.th
+
+
+    input datas/faille-fossile-riviere.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/faille-fossile-riviere_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/faille-fossile-riviere_C.th2
+
+
+
+endsurvey

@@ -7,11 +7,16 @@ source vanoise_tot.th
 source datas/mnt.th
 
 
+
 ######################## MODELE 3D ########################
 export model \
     -format loch \
     -o Exports/vanoise-tot_3d.lox \
     #-wall-source maps
+
+#export model \
+-fmt esri \
+-o Exports/arcelin.shp
 
 
 
@@ -20,13 +25,10 @@ export map \
      -projection plan \
      -output Exports/vanoise-tot.kml  ###-> Pour murs
 
-export model \
+#export model \
      -output Exports/vanoise-tot_shots.kml  ###-> pour fil de fer sans station avec splays shots
 
-export map \
--projection plan \
--fmt esri \
--o Exports/Vanoise
+
 
 ######################## LISTES ########################
 export survey-list \

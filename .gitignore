@@ -21,14 +21,16 @@
 # **.xvi
  **.log
  **.dat
+ .xtherion.dat
+ therion.log
 # **.svg
 
 # Therion shp outputs
-# **.dbf
-# **.prj
-# **.shp
-# **.shx
-# **.sbx
-# **.sbn
-# **.cpg
-therion.log
+**.dbf
+**.prj
+**.shp
+**.shx
+**.sbx
+**.sbn
+**.cpg
+

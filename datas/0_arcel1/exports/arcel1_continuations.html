@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>arcel1_continuations.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript">
+function xTree(node)
+{
+  var fsub = true;
+  var show = false;
+  var last = node.length;
+  var all = document.getElementsByTagName("tr");
+  for(i = 1; i < all.length; i++) {
+    if ((all[i].id.length > node.length) && (all[i].id.substr(0, node.length) == node)) {
+      if (fsub) {
+        fsub = false;
+        show = (all[i].style.display == "none");
+        last = all[i].id.lastIndexOf(".");
+      }
+      if (show) {
+        if (all[i].id.lastIndexOf(".") == last)
+        all[i].style.display = "";
+      } else {
+        all[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+<style type="text/css">
+body {font-family: Verdana, Helvetica, Arial, sans-serif; line-height: 1.5;}
+table {font-size:80%; border-spacing: 0px;}
+th {border-bottom:2px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:1px;}
+td {border-bottom:1px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:0px;}
+</style>
+</head>
+<body>
+<table>
+<tr><th align="left">Comment</th><th align="right">Explored</th><th align="left">Survey</th><th align="right">Station</th><th align="left">Code</th><th align="left">cavite</th><th align="left">Reseau</th><th align="left">CA</th></tr>
+<tr id=""><td align="left">Le premier pts n'a pas été descendu</td><td align="right">&nbsp;</td><td align="left">amont</td><td align="right">40</td><td align="left">A</td><td align="left">Arcel1</td><td align="left">Term 2023</td><td align="left">?</td></tr>
+<tr id=""><td align="left">Un tir à faire dans une diaclase. (Benoît)</td><td align="right">&nbsp;</td><td align="left">Frequence 51</td><td align="right">31</td><td align="left">D1</td><td align="left">Arcel1</td><td align="left">2023</td><td align="left">?</td></tr>
+<tr id=""><td align="left">Une 20aine de m non topo. Enlever le baudar (Martin)</td><td align="right">&nbsp;</td><td align="left">puits remontant</td><td align="right">5</td><td align="left">A</td><td align="left">Arcel1</td><td align="left">2023</td><td align="left">?</td></tr>
+<tr id=""><td align="left">Le premier pts n'a pas été descendu</td><td align="right">&nbsp;</td><td align="left">amont</td><td align="right">39</td><td align="left">A</td><td align="left">Arcel1</td><td align="left">Term 2023</td><td align="left">?</td></tr>
+<tr id=""><td align="left">E10 Manu</td><td align="right">&nbsp;</td><td align="left">amont2024-1</td><td align="right">22</td><td align="left">E</td><td align="left">Arcel1</td><td align="left">Amont 2024</td><td align="left">&nbsp;</td></tr>
+<tr id=""><td align="left">Diaclase remontante : jonction réseau sup?</td><td align="right">&nbsp;</td><td align="left">amont2024-1</td><td align="right">0</td><td align="left">E</td><td align="left">Arcel1</td><td align="left">Amont 24</td><td align="left">&nbsp;</td></tr>
+<tr id=""><td align="left">Escalade de 3/4M depart possible</td><td align="right">&nbsp;</td><td align="left">amont2024-1</td><td align="right">65</td><td align="left">E</td><td align="left">Arcel1</td><td align="left">Amont 2024</td><td align="left">&nbsp;</td></tr>
+<tr id=""><td align="left">Départ méandre remontant en aval de l'étroiture du coude, pénétrable mais étroit</td><td align="right">&nbsp;</td><td align="left">amont2024-2</td><td align="right">4</td><td align="left">&nbsp;</td><td align="left">Arcel1</td><td align="left">amont_2024_2</td><td align="left">?</td></tr>
+<tr id=""><td align="left">depart meandre étroit, vu par Fréderic sanca, rejoint surement le depart de meandre en RD dans la suite à l'amont</td><td align="right">&nbsp;</td><td align="left">amont2024-2</td><td align="right">23</td><td align="left">&nbsp;</td><td align="left">Arcel1</td><td align="left">Amont_2024_2</td><td align="left">&nbsp;</td></tr>
+<tr id=""><td align="left">Rétrécissement ponctuel dans la faille mais ça passe et ça continue plus large derrière.</td><td align="right">&nbsp;</td><td align="left">diaclase_MK-SP</td><td align="right">15</td><td align="left">A</td><td align="left">Arcel1</td><td align="left">Diaclase remontante</td><td align="left">Fort et descendant</td></tr>
+<tr id=""><td align="left">Rétrécissement ponctuel dans la faille mais ça passe et ça continue plus large derrière.</td><td align="right">&nbsp;</td><td align="left">diaclase_MK-SP</td><td align="right">15</td><td align="left">A</td><td align="left">Arcel1</td><td align="left">Diaclase remontante</td><td align="left">Fort et descendant</td></tr>
+<tr id=""><td align="left">Pts non descendu par manque de temps</td><td align="right">&nbsp;</td><td align="left">pts_oublie</td><td align="right">7</td><td align="left">P</td><td align="left">Arcel1</td><td align="left">amont23</td><td align="left">?</td></tr>
+<tr id=""><td align="left">Pts non descendu par manque de temps</td><td align="right">&nbsp;</td><td align="left">pts_oublie</td><td align="right">8</td><td align="left">P</td><td align="left">Arcel1</td><td align="left">amont23</td><td align="left">?</td></tr>
+</table>
+</body>
+</html>

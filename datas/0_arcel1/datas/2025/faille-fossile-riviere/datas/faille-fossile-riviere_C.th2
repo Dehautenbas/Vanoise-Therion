@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {0} {0} datas/faille-fossile-riviere_C.xvi 0 {}
+
+
+
+scrap SC1_faille-fossile-riviere -projection plan -station-names "" "@faille-fossile-riviere"
+
+endscrap
+
+scrap SC2_faille-fossile-riviere -projection plan -station-names "" "@faille-fossile-riviere"
+
+endscrap
+
+
+

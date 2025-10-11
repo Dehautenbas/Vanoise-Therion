@@ -1,0 +1,53 @@
+encoding  utf-8
+survey 2023_tot -title "Gouffre de l'Arcel1 - 2022-2023"
+
+input 2023_map.th
+
+input arcel1/arcel1.th
+input jonction/jonction.th
+    equate PTR_0@jonction PTR_0@frequence51
+    equate 26@arcel1 2@jonction
+input frequence51/frequence51.th
+input amont23/amont.th
+    equate 0@amont 53@frequence51
+    #???? equate PTR_2@frequence_51.Frequence51 PTR_2@Frequence_51.Frequence51
+input puits_remontant/puits_remontant.th
+    equate 43@frequence51 0@puits-remontant
+
+
+#PLAN
+input arcel1/arcel1_P.th2
+input jonction/jonction_P.th2
+      join jonction_D:0 arcel1_D:end
+      join jonction_G:end arcel1_G:0
+input amont23/amont_P.th2
+      
+      join F51-2G:0 amontG:end
+      join F51-2D:end fda:0
+input frequence51/frequence51_P.th2
+      join jonctionGG:0 F51-GG:end
+      join jonctionGD:end F51-GD:0
+      join jonctionDG:0 F51-GD:end
+      join jonctionDD:end F51-DD:0
+      join fda:0 F51-2D:end
+      join amontG:0 F51-2G:0
+input puits_remontant/puits_remontant_P.th2
+      join F51-3G:0 PR1G:end
+      join F51-3D:end PR1D:0
+            
+
+
+
+#COUPE
+input arcel1/arcel1_C.th2
+      join arcel1_up:end pr_l1_up:0
+      join arcel1_down:end pr_l1_down:end
+input puits_remontant/puits_remontant_C.th2
+      join SC-amont-2025-1 SC1_puits-remontant
+input amont23/amont_C.th2
+      join SC-amont-2025-1 SC-amont-2
+
+
+
+endsurvey
+

@@ -1,0 +1,22 @@
+encoding  utf-8
+
+survey R21_tot -title "R21"
+
+input R21_map.th
+
+
+    input datas/R21.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/R21_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/R21_C.th2
+
+
+
+endsurvey

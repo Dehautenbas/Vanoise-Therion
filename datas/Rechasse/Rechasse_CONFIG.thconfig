@@ -1,0 +1,117 @@
+encoding  utf-8
+input ../../config2.thcfg
+input ../../../layouts/config3.thcfg
+source Rechasse_tot.th
+
+###################################################################################################
+################################## Selection de la map à exporter #################################
+###################################################################################################
+select MP_Rechasset@Rechasse-tot       #uncomment ONLY one
+#select MC_Rechasse@Rechasse-tot      #uncomment ONLY one
+
+
+
+
+######################## PDF ########################
+export map \
+     -projection plan \
+     -layout plan \
+     -output exports/Rechasse_plan.pdf \
+
+#export map \
+     -projection extended \
+     -layout coupe \
+     -output exports/Rechasse_coupe.pdf \
+
+
+######################## STATIONS ########################
+# l'ordre des layouts est importants !
+
+export map \
+     -projection plan \
+     -layout plan \
+     -layout centerline \
+     -output exports/Rechasse_plan-travail.pdf \
+
+#export map \
+     -projection extended \
+     -layout coupe \
+     -layout centerline \
+     -output exports/Rechasse_coupe-travail.pdf \
+
+
+######################### DEBUG ########################
+#export map \
+     -projection plan \
+     -layout plan   \
+     -layout-debug all \
+     -output exports/Rechasse_DEBUG_plan.pdf
+
+#export map \
+     -projection extended \
+     -layout coupe   \
+     -layout-debug all \
+     -output exports/Rechasse_DEBUG_coupe.pdf
+
+     
+######################### SVG ########################
+
+#export map \
+     -projection plan \
+     -fmt svg   \
+     -layout plan   \
+     -output exports/Rechasse_plan.svg \
+
+#export map \
+     -projection extended \
+     -layout plan   \
+     -output exports/Rechasse_coupe.svg \
+
+#export model \
+     -output exports/Rechasse_coupe.dxf \
+
+
+
+######################## WALLS ########################       
+## Exporte uniquement les murs
+#export map \
+     -projection plan \
+     -layout walls   \
+     -output exports/Rechasse_walls.pdf \
+     #-layout hide_point \
+     #-layout-debug station-names \
+     #-layout debug \
+     #-layout centreline \
+
+
+######################### ATLAS ########################
+#export atlas \
+     -projection plan \
+     -layout plan   \
+     -output exports/Rechasse_Atlas.pdf 
+
+
+
+######################## MODELE 3D ########################
+    export model \
+     -format loch \
+     -o exports/Rechasse-3d.lox \
+     #-wall-source maps
+
+
+
+######################## KML #######################
+#export map \
+     -projection plan \
+     -output exports/Rechasse.kml  ###-> Pour murs
+
+#export model \
+     -output exports/Rechasse-shots.kml  ###-> pour fil de fer sans station avec splays shots
+
+
+######################## LISTES ########################
+#export survey-list \
+     -o exports/Rechasse_stats.html
+
+#export continuation-list \
+     -o exports/Rechasse_continuations.html

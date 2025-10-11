@@ -1,0 +1,22 @@
+encoding  utf-8
+
+survey R20_tot -title "R20"
+
+input R20_map.th
+
+
+    input datas/R20.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/R20_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/R20_C.th2
+
+
+
+endsurvey

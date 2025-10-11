@@ -1,0 +1,22 @@
+encoding  utf-8
+
+survey Rechasse_tot -title "Rechasse"
+
+input Rechasse_map.th
+
+
+    input datas/Rechasse.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/Rechasse_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/Rechasse_C.th2
+
+
+
+endsurvey

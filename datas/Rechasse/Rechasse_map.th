@@ -1,0 +1,13 @@
+encoding  utf-8
+map MP_Rechasse -title "Rechasse"
+  SP1_Rechasse
+  break
+  SP2_Rechasse
+endmap
+
+
+map MC_Rechasse -title "Rechasse"
+  SC1_Rechasse
+  break
+  SC2_Rechasse
+endmap

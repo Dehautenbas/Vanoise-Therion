@@ -1,0 +1,22 @@
+encoding  utf-8
+
+survey amont-2025-1_tot -title "amont-2025-1"
+
+input amont-2025-1_map.th
+
+
+    input datas/amont-2025-1.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/amont-2025-1_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/amont-2025-1_C.th2
+
+
+
+endsurvey

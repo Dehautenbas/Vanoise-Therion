@@ -1,0 +1,14 @@
+encoding  utf-8
+
+###Pour morphing du XVI
+#1) .TH
+###----EXEMPLE:----source data/w7.th
+source datas/pts-actif/pts-actif-2.th
+#2) .TH2   ##SEULEMNT SI MORPHING
+###----EXEMPLE:----source ressources/discret--term2017/XVI-discret--term2017.th2
+#source ressources/Aorte/XVI-P-aorte2018.th2
+
+#3) EXPORT   ## IL FAUT CREER LE DOSSIER AVANT DANS LE FINDER
+###----EXEMPLE:----export map -o XVI/discret--term2017_P.xvi -layout-sketches on
+export map -proj plan -o datas/pts-actif/pts-actif-2_P.xvi -layout-sketches on
+export map -proj extended -o datas/pts-actif/pts-actif-22_C.xvi -layout-sketches on

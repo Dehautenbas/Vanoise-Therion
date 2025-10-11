@@ -3,12 +3,12 @@ encoding  utf-8
 ###Pour morphing du XVI
 #1) .TH
 ###----EXEMPLE:----source data/w7.th
-source datas/2024/arcel1/datas/2024/amont24/amont2024-1.th
+source datas/arcel1/datas/amont24/amont2024-1.th
 #2) .TH2   ##SEULEMNT SI MORPHING
 ###----EXEMPLE:----source ressources/discret--term2017/XVI-discret--term2017.th2
 #source ressources/Aorte/XVI-P-aorte2018.th2
 
 #3) EXPORT   ## IL FAUT CREER LE DOSSIER AVANT DANS LE FINDER
 ###----EXEMPLE:----export map -o XVI/discret--term2017_P.xvi -layout-sketches on
-export map -proj plan -o datas/2024/arcel1/datas/2024/amont24/amont2024-1_P.xvi -layout-sketches on
-export map -proj extended -o datas/2024/arcel1/datas/2024/amont24/amont2024-1_C.xvi -layout-sketches on
+export map -proj plan -o datas/arcel1/datas/amont24/amont2024-1_P.xvi -layout-sketches on
+export map -proj extended -o datas/arcel1/datas/amont24/amont2024-1_C.xvi -layout-sketches on

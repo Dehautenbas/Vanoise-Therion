@@ -1,0 +1,13 @@
+encoding  utf-8
+map MP_faille-fossile-riviere -title "faille-fossile-riviere"
+  SP1_faille-fossile-riviere
+  break
+  SP2_faille-fossile-riviere
+endmap
+
+
+map MC_faille-fossile-riviere -title "faille-fossile-riviere"
+  SC1_faille-fossile-riviere
+  break
+  SC2_faille-fossile-riviere
+endmap

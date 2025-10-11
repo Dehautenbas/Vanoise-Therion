@@ -1,0 +1,14 @@
+encoding  utf-8
+
+###Pour morphing du XVI
+
+
+#1) .TH
+source datas/R36.th
+
+#2) .TH2   ##SEULEMNT SI MORPHING
+#source datas/XVI-P-aorte2018.th2
+
+#3) EXPORT
+export map -proj plan -o datas/R36_P.xvi -layout-sketches on
+export map -proj extended -o datas/R36_C.xvi -layout-sketches on

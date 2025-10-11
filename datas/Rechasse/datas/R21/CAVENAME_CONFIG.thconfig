@@ -1,0 +1,117 @@
+encoding  utf-8
+input ../../config2.thcfg
+input ../../../layouts/config3.thcfg
+source R21_tot.th
+
+###################################################################################################
+################################## Selection de la map à exporter #################################
+###################################################################################################
+select MP_R21t@R21-tot       #uncomment ONLY one
+#select MC_R21@R21-tot      #uncomment ONLY one
+
+
+
+
+######################## PDF ########################
+export map \
+     -projection plan \
+     -layout plan \
+     -output exports/R21_plan.pdf \
+
+#export map \
+     -projection extended \
+     -layout coupe \
+     -output exports/R21_coupe.pdf \
+
+
+######################## STATIONS ########################
+# l'ordre des layouts est importants !
+
+export map \
+     -projection plan \
+     -layout plan \
+     -layout centerline \
+     -output exports/R21_plan-travail.pdf \
+
+#export map \
+     -projection extended \
+     -layout coupe \
+     -layout centerline \
+     -output exports/R21_coupe-travail.pdf \
+
+
+######################### DEBUG ########################
+#export map \
+     -projection plan \
+     -layout plan   \
+     -layout-debug all \
+     -output exports/R21_DEBUG_plan.pdf
+
+#export map \
+     -projection extended \
+     -layout coupe   \
+     -layout-debug all \
+     -output exports/R21_DEBUG_coupe.pdf
+
+     
+######################### SVG ########################
+
+#export map \
+     -projection plan \
+     -fmt svg   \
+     -layout plan   \
+     -output exports/R21_plan.svg \
+
+#export map \
+     -projection extended \
+     -layout plan   \
+     -output exports/R21_coupe.svg \
+
+#export model \
+     -output exports/R21_coupe.dxf \
+
+
+
+######################## WALLS ########################       
+## Exporte uniquement les murs
+#export map \
+     -projection plan \
+     -layout walls   \
+     -output exports/R21_walls.pdf \
+     #-layout hide_point \
+     #-layout-debug station-names \
+     #-layout debug \
+     #-layout centreline \
+
+
+######################### ATLAS ########################
+#export atlas \
+     -projection plan \
+     -layout plan   \
+     -output exports/R21_Atlas.pdf 
+
+
+
+######################## MODELE 3D ########################
+    export model \
+     -format loch \
+     -o exports/R21-3d.lox \
+     #-wall-source maps
+
+
+
+######################## KML #######################
+#export map \
+     -projection plan \
+     -output exports/R21.kml  ###-> Pour murs
+
+#export model \
+     -output exports/R21-shots.kml  ###-> pour fil de fer sans station avec splays shots
+
+
+######################## LISTES ########################
+#export survey-list \
+     -o exports/R21_stats.html
+
+#export continuation-list \
+     -o exports/R21_continuations.html

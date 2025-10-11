@@ -5,4 +5,4 @@ checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
 configuration file: /Users/martinkern/Documents/GitHub/Vanoise-Therion/vanoise_config1.thcfg
 reading ... done
 reading source files ... 
-therion: error -- datas/2024/arcel1/datas/2024/tube-de-prechauffage/tube-de-prechauffage_tot.th [6] -- can't open file for input -- datas/2024/tube-de-prechauffage/tube-de-prechauffage_P.th2
+therion: error -- datas/arcel1/datas/tube-de-prechauffage/tube-de-prechauffage_tot.th [6] -- can't open file for input -- datas/tube-de-prechauffage/tube-de-prechauffage_P.th2

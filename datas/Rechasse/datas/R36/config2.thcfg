@@ -1,0 +1,148 @@
+encoding  utf-8
+
+
+################################# Layout général #############################
+layout general
+    copy langue-fr          ### Change the language
+    copy drawingconfig      ### Set colors/size of symbols, define new symbols
+    copy legend
+    copy comment
+
+    doc-title "Gouffre de l'Arcelin"
+    doc-author "Continent8"
+
+    transparency on         ### vue en transparence des galeries qui se superposent...
+    opacity 80              ### ... avec une opacité de 80%
+    rotate 0                ### rotation du nord géographique (en degré)
+    colour map-fg [96 96 86]   ###Couleur Galeries #Gris[80 80 80]#
+    color map-bg 96            ### couleur du fond (80% blanc / 20% gris => 80)
+
+    #min-symbol-scale <scale>    ### define minimal <scale>, from which points and lines are displayed on the map. 
+                                 ### Ex: for min-symbol-scale M, no points or lines scaled S and XS will be shown on the map. <scale> has the same format, as scale option for points and lines.
+        
+    
+  symbol-hide point station        
+  symbol-hide line survey
+
+endlayout
+
+
+
+layout comment
+  code tex-map
+      \legendwidth=20cm
+      \legendtextsize={\size[13]}
+      \legendtextheadersize={\size[32]} 
+      \legendtextsectionsize={\size[22]}  %Taille mot "Légende"
+      %\legendtextcolor={\color[0 0 110]}      %# RGB values 0--100
+   endcode
+
+    map-comment "<br>\
+Localisation : Plateau de la Réchasse, Pralognan la Vanoise, Savoie (73) <br>\
+Coordonnées : UTM UPS 32T blablam <br>\
+<br>\
+Synthèse et dessin : Continent 8 - Martin Kern, Charlotte Honiat <br>\ 
+"
+
+endlayout
+
+
+
+
+layout plan
+  copy general
+
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+
+  scale 1  200                    
+  #base-scale 1 300                
+
+  cs UTM32
+ 
+  map-header 40 -40 sw              ### positionnement du cartouche 
+  scale-bar 25 m
+  #copy scalebar_horiz
+  #copy scalebar_vert
+  legend on     
+  legend-columns 3
+  #colour-legend off
+  
+
+endlayout
+
+
+layout coupe
+  copy general
+
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+
+  scale 1  200                    
+  #base-scale 1 150                
+
+
+  cs UTM32
+ 
+  map-header 2 68 sw             ### positionnement du cartouche  Lower-left corner of the map is 0 0, upper-right corner is 100 100
+  scale-bar 25 m
+  #copy scalebar_horiz
+  #copy scalebar_vert
+  legend on     
+  legend-columns 3
+  #colour-legend off
+
+endlayout
+
+layout centerline
+    symbol-show point station        
+    #debug scrap-names
+    debug station-names
+    symbol-show line survey
+endlayout
+
+
+layout yearperyear ##Pour l'export année par année ; A besoin du lookup ci-dessous (topo-date)
+    copy langue-fr          ### Change the language
+    copy drawingconfig      ### Set colors/size of symbols, define new symbols
+    copy legend
+    copy comment
+
+    doc-title "Gouffre de l'Arcelin - Année par année"
+
+    code tex-map
+      \cavename={"Gouffre de l'Arcelin - Année par année"}
+    endcode
+
+    color map-bg 96
+    map-header 5 -5 nw                   ### positionnement du cartouche 5 15
+    statistics topo off
+    statistics carto off
+    scale 1 400                      ### echelle
+    symbol-hide group all
+    symbol-show line wall
+    legend off
+    colour map-fg topo-date
+endlayout
+
+lookup topo-date -title "Par année d'exploration"   #Pour l'export année par année
+[2022.1.1 2022.12.31] [] "2022"
+[2023.1.1 2023.12.31] [] "2023"
+[2024.1.1 2024.12.31] [] "2024"
+
+endlookup
+
+#layout text_scale
+
+# Définir un facteur de mise à l'échelle pour les textes du projet
+#scale-factor 1.5
+
+# Définir un style global de texte
+#text-style 
+   # size [3]  # Taille de texte par défaut
+    #style [regular]  # Style du texte, ici "normal", mais peut être modifié (italic, bold, etc.)
+
+# Application de la mise à l'échelle sur l'ensemble des textes
+#text 
+ #   size [scale-factor * 3]  # Multiplie la taille du texte par le facteur de mise à l'échelle
+  #  style [regular]
+
+#endlayout

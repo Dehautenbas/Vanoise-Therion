@@ -1,0 +1,95 @@
+encoding  utf-8
+
+
+
+######################## définition des scraps à faire apparaitre sur le plan  ################################
+map MP_arcelin_tot  -proj plan
+  
+  MP_escalier@escalier_tot
+  break
+  MP_pieuvre_PG-FM@pieuvre_PG-FM_tot
+  break
+  MP_2023@2023_tot
+  break
+  MP_tube-de-prechauffage@tube-de-prechauffage_tot [0 -12 m] above
+  break
+  MP_pts_oublie@pts_oublie_tot 
+  break
+  MP_diaclase_MK-SP@diaclase_MK-SP_tot
+  break
+  MP_amont24@amont24_tot 
+  break
+  MP_pts-actif@pts-actif_tot
+  break
+  MP_diaclase-boucle@diaclase-boucle_tot
+  break
+  MP_faille-fossile-riviere@faille-fossile-riviere_tot
+
+  MP_amont-2025-1@amont-2025-1_tot
+  MP_aval-2025-2@aval-2025-2_tot
+  MP_aval-2025-1@aval-2025-1_tot
+  
+
+endmap   
+
+
+
+
+### Map pour afficher le filaire de la topo pas encore dessinée + la topo déjà dessinée
+  ### Mettr ele nom des surveys dans MP_pas-encore-dessine
+
+  map MP_murs-et-centerline -proj plan 
+         MP_arcelin_tot
+         MP_pas-encore-dessine 
+  endmap
+
+          map MP_pas-encore-dessine -proj plan
+                amont-2025-2@amont-2025-2_tot
+
+          endmap
+
+
+
+################################################################################################################
+######################## définition des scraps à faire apparaitre sur la COUPE  ################################
+map MC_arcelin_tot  -proj extended 
+  
+  MC_amont24@amont24_tot
+  break
+  MC_2023@2023_tot
+  break
+  MC_pieuvre_PG-FM@pieuvre_PG-FM_tot
+  break
+  MC_tube-de-prechauffage@tube-de-prechauffage_tot
+  break
+  MC_pts_oublie@pts_oublie_tot
+  break
+  MC_escalier@escalier_tot
+  break
+  MC_pts-actif@pts-actif_tot
+  break
+  MC_diaclase-boucle@diaclase-boucle_tot
+  break
+  MC_diaclase_MK-SP@diaclase_MK-SP_tot
+
+
+endmap   
+
+
+
+# Map pour afficher le filaire de la topo pas encore dessinée + la topo déjà dessinée
+
+  # map MC_murs-et-centerline -proj extended 
+  #   MC_arcelin_tot
+  #   break
+  #   MC_pas-encore-dessine
+  # endmap
+  #         map MC_pas-encore-dessine -proj extended
+            
+
+  #         endmap
+
+# map MC_juste-une-survey -proj extended
+#     amont
+# endmap
+

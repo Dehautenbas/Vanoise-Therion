@@ -1,0 +1,13 @@
+encoding  utf-8
+map MP_R21 -title "R21"
+  SP1_R21
+  break
+  SP2_R21
+endmap
+
+
+map MC_R21 -title "R21"
+  SC1_R21
+  break
+  SC2_R21
+endmap

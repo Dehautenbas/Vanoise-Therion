@@ -1,0 +1,14 @@
+
+encoding  utf-8
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {0} {0} datas/R21_P.xvi 0 {}
+
+
+
+scrap SP1_R21 -projection plan -station-names "" "@R21"
+
+endscrap
+
+scrap SP2_R21 -projection plan -station-names "" "@R21"
+
+endscrap

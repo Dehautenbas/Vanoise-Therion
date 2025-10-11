@@ -1,0 +1,13 @@
+encoding  utf-8
+map MP_R20 -title "R20"
+  SP1_R20
+  break
+  SP2_R20
+endmap
+
+
+map MC_R20 -title "R20"
+  SC1_R20
+  break
+  SC2_R20
+endmap

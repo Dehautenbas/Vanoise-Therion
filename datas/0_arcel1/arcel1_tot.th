@@ -1,0 +1,79 @@
+encoding  utf-8
+
+survey Arcel1 -title "Gouffre de l'Arcelin"
+  
+input arcel1_map.th
+
+### 2023
+  input datas/2023/2023_tot.th
+
+
+### 2024
+  input datas/2024/tube-de-prechauffage/tube-de-prechauffage_tot.th
+      equate 10@tube-de-prechauffage.tube-de-prechauffage_tot 27@amont.2023_tot
+
+  input datas/2024/amont24/amont24_tot.th
+      equate 0@amont2024-1.amont24_tot 40@amont.2023_tot
+        join diaclase-boucle_SP1@diaclase-boucle_tot SP_amont2024-1_2@amont24_tot
+        join amont23_SP1@2023_tot SP_amont2024-1_1@amont24_tot
+        join SC-amont-2@2023_tot SC_amont2024-1_1@amont24_tot
+
+  input datas/2024/diaclase_MK-SP/diaclase_MK-SP_tot.th
+      equate 2@diaclase_MK-SP.diaclase_MK-SP_tot 73@amont2024-1.amont24_tot
+        join diaclase_MK-SP_SP1@diaclase_MK-SP_tot SP_amont2024-1_4@amont24_tot
+
+  input datas/2024/escalier/escalier_tot.th
+      equate 3c@escalier.escalier_tot 15@amont2024-1.amont24_tot
+      equate 236@escalier.escalier_tot 19@amont.2023_tot
+        join escalier_SC1@escalier_tot SC_amont2024-1_1@amont24_tot
+
+  input datas/2024/pieuvre_PG-FM/pieuvre_PG-FM_tot.th
+      equate 21.3@pieuvre_PG-FM.pieuvre_PG-FM_tot 7@puits-remontant.2023_tot
+      equate 0@pieuvre_PG-FM.pieuvre_PG-FM_tot 19@amont.2023_tot
+        join pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot amont23_SP1@2023_tot
+        join pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot amont23_SP1@2023_tot
+       
+  input datas/2024/diaclase-boucle/diaclase-boucle_tot.th
+      equate 0@diaclase-boucle.diaclase-boucle_tot 30@amont2024-1.amont24_tot
+
+  input datas/2024/pts-actif/pts-actif_tot.th
+      equate 54@pts-actif-1.pts-actif_tot 54@amont2024-1.amont24_tot
+        join SC1_pts-actif-1@pts-actif_tot SC_amont2024-1_3@amont24_tot
+
+  input datas/2024/pts_oublie/pts_oublie_tot.th
+      equate 11@pts_oublie.pts_oublie_tot 19@amont.2023_tot
+        join pts_oublie_SP1@pts_oublie_tot amont23_SP1@2023_tot
+
+
+#### 2025
+  input datas/2025/amont-2025-1/amont-2025-1_tot.th #Martin
+      equate 16@aval-2025-1.aval-2025-1_tot 0@amont-2025-1.amont-2025-1_tot
+        join SP1_amont-2025-1@amont-2025-1_tot SP1_aval-2025-1@aval-2025-1_tot
+
+  input datas/2025/faille-fossile-riviere/faille-fossile-riviere_tot.th #Martin
+    equate 6@faille-fossile-riviere.faille-fossile-riviere_tot 6@amont-2025-1.amont-2025-1_tot
+    equate 135@faille-fossile-riviere.faille-fossile-riviere_tot 7@amont2024-3_TC-BU.amont24_tot
+      join SP1_faille-fossile-riviere@faille-fossile-riviere_tot SP_amont2024-3_2@amont24_tot #Est
+      join SP2_faille-fossile-riviere@faille-fossile-riviere_tot SP_amont2024-3_2@amont24_tot #Ouest
+      join SP1_faille-fossile-riviere@faille-fossile-riviere_tot SP1_amont-2025-1@amont-2025-1_tot
+      
+
+
+  input datas/2025/aval-2025-1/aval-2025-1_tot.th #Charlotte
+     equate 0@aval-2025-1.aval-2025-1_tot 0@amont2024-3_TC-BU.amont24_tot
+
+  input datas/2025/aval-2025-2/aval-2025-2_tot.th #Théophile
+     equate 68@aval-2025-2.aval-2025-2_tot 3@aval-2025-1.aval-2025-1_tot
+      #input SP1_aval-2025-2@aval-2025-2_tot SP1_aval-2025-1@aval-2025-1_tot
+
+
+  input datas/2025/amont-2025-2/amont-2025-2_tot.th #Théophile
+      equate 78@amont-2025-2.amont-2025-2_tot 80@amont-2025-1.amont-2025-1_tot
+  
+
+
+
+
+
+endsurvey
+

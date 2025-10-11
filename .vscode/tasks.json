@@ -14,9 +14,8 @@
                 "label": "compile-th-tot",
                 "type": "shell",
                 
-                    "command": "therion ${workspaceFolder}/datas/2024/arcel1/CONFIG1.thconfig" // \u000Dexit\u000D run and close this new terminal  -> Only for keybindings.json
+                    "command": "therion ${workspaceFolder}/datas/0_arcel1/arcel1_CONFIG1.thcfg" // \u000Dexit\u000D run and close this new terminal  -> Only for keybindings.json
                     
-                
             }
         ]
 

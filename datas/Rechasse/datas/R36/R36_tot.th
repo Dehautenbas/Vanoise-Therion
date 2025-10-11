@@ -1,0 +1,22 @@
+encoding  utf-8
+
+survey R36_tot -title "R36"
+
+input R36_map.th
+
+
+    input datas/R36.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/R36_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/R36_C.th2
+
+
+
+endsurvey

@@ -1,0 +1,13 @@
+encoding  utf-8
+map MP_R36 -title "R36"
+  SP1_R36
+  break
+  #SP2_R36
+endmap
+
+
+map MC_R36 -title "R36"
+  SC1_R36
+  break
+  #SC2_R36
+endmap

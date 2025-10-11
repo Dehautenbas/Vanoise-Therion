@@ -1,0 +1,22 @@
+encoding  utf-8
+
+survey aval-2025-2_tot -title "aval-2025-2"
+
+input aval-2025-2_map.th
+
+
+    input datas/aval-2025-2.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/aval-2025-2_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/aval-2025-2_C.th2
+
+
+
+endsurvey

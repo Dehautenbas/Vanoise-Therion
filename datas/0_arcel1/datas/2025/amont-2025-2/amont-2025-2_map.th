@@ -1,0 +1,13 @@
+encoding  utf-8
+map MP_amont-2025-2 -title "amont-2025-2"
+  SP1_amont-2025-2
+  break
+  SP2_amont-2025-2
+endmap
+
+
+map MC_amont-2025-2 -title "amont-2025-2"
+  SC1_amont-2025-2
+  break
+  SC2_amont-2025-2
+endmap

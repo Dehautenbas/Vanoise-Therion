@@ -1,0 +1,14 @@
+
+input legend.thl
+
+input areas.thl
+input lines.thl
+input points.thl
+input config3_old.thcfg
+
+layout drawingconfig  
+  copy custom_areas
+  copy custom_lines
+  copy custom_points
+  copy drawingconfig_old
+endlayout
