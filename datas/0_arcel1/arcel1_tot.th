@@ -64,7 +64,7 @@ input arcel1_map.th
 
   input datas/2025/aval-2025-2/aval-2025-2_tot.th #Théophile
      equate 68@aval-2025-2.aval-2025-2_tot 3@aval-2025-1.aval-2025-1_tot
-      #input SP1_aval-2025-2@aval-2025-2_tot SP1_aval-2025-1@aval-2025-1_tot
+      #join SP1_aval-2025-2@aval-2025-2_tot SP1_aval-2025-1@aval-2025-1_tot   ## Pas besoin
 
 
   input datas/2025/amont-2025-2/amont-2025-2_tot.th #Théophile

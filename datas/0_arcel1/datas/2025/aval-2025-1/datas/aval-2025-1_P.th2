@@ -1,7 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 1210.675 620.125
 ##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {354.328 1 1.0} {314.961 0} aval-2025-1_P.xvi 0 {}
 
 
 
@@ -19,8 +18,13 @@ line wall -reverse on
   759.5 328.0 728.5 333.0 709.0 328.5
   689.5 324.0 693.5 329.5 669.5 329.5
   645.5 329.5 592.0 312.0 566.0 316.0
-  540.0 320.0 507.0 327.0 490.0 321.5
-  473.0 316.0 445.5 305.5 435.5 308.5
+  540.0 320.0 519.5 316.0 506.0 313.0
+  smooth off
+endline
+
+line wall -reverse on
+  506.0 313.0
+  494.5 310.0 445.5 305.5 435.5 308.5
   altitude .
   425.5 311.5 432.0 326.0 413.0 323.5
   394.0 321.0 363.0 307.5 348.5 312.5
@@ -35,9 +39,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 521.0 304.5 stalagmite
-
-point 605.5 298.0 stalagmite
+point 614.5 329.0 stalagmite
 
 line rock-border -close on
   275.0 385.0
@@ -71,11 +73,11 @@ line pit
   smooth off
 endline
 
-point 486.0 363.5 label -text R5
+point 473.0 329.5 label -text R5 -scale s
 
-point 686.5 370.5 label -text P5
+point 701.5 339.5 label -text P5
 
-point 816.5 400.0 label -text P7
+point 843.0 342.5 label -text P7
 
 line water-flow
   860.0 372.0
@@ -97,11 +99,11 @@ line pit
   smooth off
 endline
 
-point 909.0 290.0 stalactite
+point 888.5 316.0 stalactite
 
-point 871.0 301.5 flowstone
+point 851.0 297.5 flowstone
 
-point 1010.5 294.0 label -text "voûte mouillante étr." -scale s
+point 1022.5 320.0 label -text "voûte mouillante étr." -scale s
 
 area water
   l24-1036-372

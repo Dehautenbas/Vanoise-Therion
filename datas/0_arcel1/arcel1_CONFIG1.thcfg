@@ -117,7 +117,7 @@ export map \
 
 
 ######################## KML #######################
-#export map \
+export map \
      -projection plan \
      -output exports/arcel1.kml  ###-> Pour murs
 

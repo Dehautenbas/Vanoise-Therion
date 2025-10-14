@@ -1,0 +1,22 @@
+encoding  utf-8
+
+survey R6_tot -title "R6"
+
+input R6_map.th
+
+
+    input datas/R6.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/R6_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/R6_C.th2
+
+
+
+endsurvey

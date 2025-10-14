@@ -1,14 +1,179 @@
-
 encoding  utf-8
-##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {0} {0} datas/amont-2025-2_P.xvi 0 {}
+##XTHERION## xth_me_area_adjust -128.0 -128.0 2214.6099999999997 5265.785
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {708.6600000000001 1 1.0} {570.8600000000001 0} amont-2025-2_P.xvi 0 {}
 
 
 
-scrap SP1_amont-2025-2 -projection plan -station-names "" "@amont-2025-2"
+scrap SP1_amont-2025-2 -projection plan -station-names "" "@amont-2025-2" -scale [0 0 19.6850 0 0 0 1 0 m]
+
+point 1410.08 2169.5 station -name 41
+
+point 1413.55 2213.62 station -name 42
+
+point 1457.55 2243.52 station -name 43
+
+point 1485.1100000000001 2213.44 station -name 44
+
+point 1515.1 2286.2000000000003 station -name 45
+
+point 1582.6399999999999 2402.71 station -name 46
+
+point 1580.51 2451.61 station -name 47
+
+point 1627.96 2475.79 station -name 48
+
+point 1605.0 2544.82 station -name 49
+
+point 1567.04 2651.42 station -name 50
+
+point 1503.73 2738.56 station -name 51
+
+point 1491.9 2782.1 station -name 52
+
+point 1480.62 2848.12 station -name 53
+
+point 1448.68 2904.35 station -name 54
+
+point 1417.19 2945.98 station -name 55
+
+point 1440.8400000000001 3012.41 station -name 56
+
+point 1493.68 3013.33 station -name 58
+
+point 1427.72 3038.52 station -name 59
+
+point 1409.2 3092.9 station -name 60
+
+point 1308.67 3100.81 station -name 61
+
+point 1238.1100000000001 3207.81 station -name 62
+
+point 1154.0900000000001 3293.62 station -name 63
+
+point 1115.53 3361.48 station -name 64
+
+point 1026.4 3406.51 station -name 65
+
+point 911.27 3457.53 station -name 66
+
+point 895.02 3564.95 station -name 67
+
+point 855.71 3731.26 station -name 68
+
+point 852.32 3833.45 station -name 69
+
+point 889.6 3978.63 station -name 70
+
+point 856.58 4042.32 station -name 71
+
+point 875.4000000000001 4093.4700000000003 station -name 72
+
+point 846.79 4204.9 station -name 73
+
+point 852.79 4284.79 station -name 74
+
+point 850.01 4337.99 station -name 75
+
+point 813.44 4478.38 station -name 76
+
+point 772.7 4616.8 station -name 77
+
+point 727.62 4659.88 station -name 78
 
 endscrap
 
-scrap SP2_amont-2025-2 -projection plan -station-names "" "@amont-2025-2"
+
+
+scrap SP2_amont-2025-2 -projection plan -station-names "" "@amont-2025-2" -scale [0 0 19.6850 0 0 0 1 0 m]
+
+point 559.1700000000001 444.98 station -name 1
+
+point 708.6600000000001 570.8600000000001 station -name 0
+
+point 578.1 673.6100000000001 station -name 2
+
+point 616.28 737.6600000000001 station -name 3
+
+point 649.56 808.0700000000002 station -name 4
+
+point 694.97 830.1100000000001 station -name 5
+
+point 720.08 824.46 station -name 6
+
+point 787.37 843.75 station -name 7
+
+point 877.78 861.8200000000002 station -name 8
+
+point 926.11 826.19 station -name 9
+
+point 985.6 770.52 station -name 10
+
+point 1253.54 733.8200000000002 station -name 11
+
+point 1329.3200000000002 722.49 station -name 12
+
+point 1383.5700000000002 741.3900000000001 station -name 13
+
+point 1433.1100000000001 731.4000000000001 station -name 14
+
+point 1566.5 770.4000000000001 station -name 15
+
+point 1629.54 802.25 station -name 16
+
+point 1610.71 864.6000000000001 station -name 17
+
+point 1556.95 942.5400000000002 station -name 18
+
+point 1564.0 1043.3600000000001 station -name 19
+
+point 1602.3200000000002 1099.1200000000001 station -name 20
+
+point 1636.83 1124.01 station -name 21
+
+point 1572.23 1201.8300000000002 station -name 22
+
+point 1509.78 1292.02 station -name 23
+
+point 1573.92 1304.25 station -name 233
+
+point 1593.3200000000002 1310.5400000000002 station -name 24
+
+point 1610.74 1425.71 station -name 25
+
+point 1581.47 1538.89 station -name 26
+
+point 1501.68 1687.71 station -name 27
+
+point 1429.85 1688.96 station -name 28
+
+point 1330.5900000000001 1854.81 station -name 29
+
+point 1215.89 1952.43 station -name 30
+
+point 1210.67 2023.46 station -name 31
+
+point 1280.81 2037.98 station -name 32
+
+point 1285.66 2043.58 station -name 33
+
+point 1299.32 2066.1400000000003 station -name 34
+
+point 1345.16 2037.39 station -name 35
+
+point 1365.44 2068.1400000000003 station -name 36
+
+point 1469.0 2073.33 station -name 39
+
+point 1362.42 2100.1400000000003 station -name 37
+
+point 1387.3200000000002 2103.38 station -name 38
+
+point 1390.47 2147.42 station -name 40
+
+line wall
+endline
 
 endscrap
+
+
