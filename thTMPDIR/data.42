@@ -1,0 +1,89 @@
+%!PS
+%%BoundingBox: -57 -62 43 59 
+%%HiResBoundingBox: -56.12158 -61.85997 42.74 58.68001 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 1 setcmykcolor 0 0.6 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath -32.61008 -56.34004 moveto
+-32.61008 -54.73994 -30.20993 -54.73994 -30.20993 -56.34004 curveto
+-30.20993 -57.45703 -31.41 -58.22305 -31.41 -59.34004 curveto stroke
+ 0 1.44 dtransform truncate idtransform setlinewidth pop
+newpath -31.41 -61.13997 moveto 0 0 rlineto stroke
+ 0 1.99252 dtransform truncate idtransform setlinewidth pop
+newpath -31.41 -58.74 moveto 0 0 rlineto stroke
+ 0.6 0.4 0 0.1 setcmykcolor
+newpath -30.97 -59.57 moveto 0 0 rlineto stroke
+ 0 0.9 0.9 0.2 setcmykcolor
+newpath -31.69 -59.06 moveto 0 0 rlineto stroke
+ 0 0 0 1 setcmykcolor 0 1.2 dtransform truncate idtransform setlinewidth pop
+newpath 41.45 -40.58 moveto
+-4.22 -34.52 6.44 -37.77 -24.49 7.67 curveto
+-31.56 18.05 -24.33 28.13 -25.01 36.66 curveto
+-25.52 43.04 -32.46 52.45 -41.73 58.08 curveto stroke
+ 0.6 0.4 0 0.1 setcmykcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
+newpath 41.77 -40.99 moveto
+-4.06 -34.78 6.68 -38.43 -23.77 6.2 curveto
+-30.82 15.7 -22.95 26.31 -23.59 35.73 curveto
+-23.9 42.23 -27.1 48.28 -28.83 54.56 curveto stroke
+ 0 0.9 0.9 0.2 setcmykcolor
+newpath 42.32 -40.79 moveto
+-4.21 -34.31 6.68 -38.07 -24.31 5.96 curveto
+-30.94 15.38 -22.7 25.71 -23.04 35.16 curveto
+-23.28 41.76 -26.49 47.9 -28.21 54.28 curveto stroke
+ 0 0 0 1 setcmykcolor 0 1.2 dtransform truncate idtransform setlinewidth pop
+newpath -20.72 -56.75 moveto
+-17.86 -54.88 -13.94 -48.19 -10.79 -46.88 curveto
+7.97 -39.12 15.52 -45.56 38.92 -50.3 curveto stroke
+ 0.6 0.4 0 0.1 setcmykcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
+newpath -20.32 -57.45 moveto
+-17.48 -55.53 -13.68 -48.63 -10.52 -47.34 curveto
+8.35 -39.68 15.99 -46.25 39.15 -50.61 curveto stroke
+ 0 0.9 0.9 0.2 setcmykcolor
+newpath -20.87 -57.12 moveto
+-17.97 -55.23 -14.04 -48.3 -10.82 -47.01 curveto
+8.38 -39.33 16.11 -46.04 39.63 -50.56 curveto stroke
+ 0 0 0 1 setcmykcolor 0 1.2 dtransform truncate idtransform setlinewidth pop
+newpath -53.52 39.98 moveto
+-51.41 38.11 -41.73 37.08 -40.5 30.39 curveto
+-37.55 14.41 -45.05 22.15 -54.17 10.53 curveto
+-55.55 8.78 -55.7 5.7 -55.38 3.25 curveto
+-54.56 -3.04 -54.56 -9.82 -50.93 -14.85 curveto
+-45.54 -22.3 -35.67 -24.8 -30.27 -31.14 curveto
+-24.57 -37.86 -30.87 -42.53 -34.31 -46.69 curveto stroke
+ 0.6 0.4 0 0.1 setcmykcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
+newpath -53.65 27.45 moveto
+-50.73 28.69 -41.31 36.29 -39.78 26.83 curveto
+-36.95 12.39 -44.65 17.45 -53.83 7.79 curveto
+-55.28 6.25 -55.36 3.65 -55.08 1.54 curveto
+-54.28 -4.26 -54.23 -10.86 -50.71 -15.56 curveto
+-45.39 -22.59 -35.62 -24.98 -30.1 -31.5 curveto
+-24.41 -38.23 -30.6 -43.08 -33.97 -47.36 curveto stroke
+ 0 0.9 0.9 0.2 setcmykcolor
+newpath -53.6 26.55 moveto
+-50.63 27.75 -41.06 35.52 -39.56 26.65 curveto
+-37.12 12.25 -44.66 17.45 -53.97 7.87 curveto
+-55.42 6.38 -55.54 3.83 -55.29 1.77 curveto
+-54.6 -3.91 -54.64 -10.34 -51.2 -14.91 curveto
+-45.98 -21.83 -36.28 -24.27 -30.69 -30.89 curveto
+-24.92 -37.72 -31.25 -42.49 -34.68 -46.71 curveto stroke
+ 0 0 0 1 setcmykcolor 0 3.98505 dtransform truncate idtransform setlinewidth pop
+newpath -45.23 37.09 moveto 0 0 rlineto stroke
+newpath -49.07 37.7 moveto 0 0 rlineto stroke
+ 0 0.84 dtransform truncate idtransform setlinewidth pop
+newpath -45.23 37.09 moveto
+-49.07 37.7 lineto stroke
+ 1 0.85 0 setrgbcolor 0 3.98505 dtransform truncate idtransform setlinewidth pop
+newpath -45.11 36.29 moveto 0 0 rlineto stroke
+newpath -48.81 27.68 moveto 0 0 rlineto stroke
+ 0 0.84 dtransform truncate idtransform setlinewidth pop
+newpath -45.23 37.09 moveto
+-45.11 36.29 lineto
+-48.81 27.68 lineto
+-49.07 37.7 lineto stroke
+showpage
+%%EOF

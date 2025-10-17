@@ -1,0 +1,47 @@
+%!PS
+%%BoundingBox: -327 -26 172 111 
+%%HiResBoundingBox: -326.80106 -25.05927 171.39658 110.22215 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%*Font: cmss10 9.96265 9.96265 2d:df80000016000808f1
+%*Font: cmss10 6.97382 9.96265 30:e28
+%*Font: cmss10 7.97014 9.96265 2e:80000000000000112
+%*Font: cmss10 13.94763 9.96265 2d:d500000012000800e1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 1 setcmykcolor
+-326.80106 42.08444 moveto
+(imp) cmss10 9.96265 fshow
+21.37155 7.81075 moveto
+(R10) cmss10 9.96265 fshow
+-215.1278 -25.05927 moveto
+(R5) cmss10 9.96265 fshow
+ 0 0.89745 0.33333 0.22 setcmykcolor 0 0.42001
+ dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap
+ 1 setlinejoin 10 setmiterlimit
+newpath 153.66 -3.68 moveto
+156.44888 -2.57445 lineto stroke
+157.44888 -4.8603 moveto
+(2608) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+116.1062 104.80756 moveto
+(imp.) cmss10 7.97014 fshow
+ 0 0.89745 0.33333 0.22 setcmykcolor
+newpath -221.65 16.94 moveto
+-224.64972 16.90018 lineto stroke
+-239.59741 14.61432 moveto
+(2616) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+-53.36946 -4.84296 moveto
+(SP) cmss10 13.94763 fshow
+-37.87196 -4.84296 moveto
+(.amont2024-2.2) cmss10 13.94763 fshow
+newpath -54.36946 -5.84296 moveto
+54.36945 -5.84296 lineto
+54.36945 5.84294 lineto
+-54.36946 5.84294 lineto
+ closepath stroke
+showpage
+%%EOF

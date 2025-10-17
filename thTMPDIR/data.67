@@ -1,0 +1,24 @@
+%!PS
+%%BoundingBox: -34 -7 34 7 
+%%HiResBoundingBox: -33.79346 -6.05296 33.79346 6.05295 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%*Font: cmss10 13.94763 9.96265 2e:9c0000002400150208
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 1 setcmykcolor
+-32.58345 -4.84296 moveto
+(a) cmss10 13.94763 fshow
+-26.26825 -4.84296 moveto
+(rcel1.S2.P) cmss10 13.94763 fshow
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+ 1 setlinejoin 10 setmiterlimit
+newpath -33.58345 -5.84296 moveto
+33.58345 -5.84296 lineto
+33.58345 5.84294 lineto
+-33.58345 5.84294 lineto
+ closepath stroke
+showpage
+%%EOF

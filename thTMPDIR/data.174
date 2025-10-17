@@ -1,0 +1,82 @@
+%!PS
+%%BoundingBox: -215 -17 345 22 
+%%HiResBoundingBox: -214.12776 -16.5274 344.4222 21.85213 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 2d:dec82000120009a9f74
+%*Font: csss10 6.97382 9.96265 e9:8
+%*Font: cmss10 7.97014 9.96265 2e:8100000008009113cb8
+%*Font: csss10 7.97014 9.96265 e9:8
+%*Font: cmss10 9.96265 9.96265 35:a000001
+%*Font: cmss10 13.94763 9.96265 2d:dc80000012000801004
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0.89745 0.33333 0.22 setcmykcolor 0 0.42001
+ dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap
+ 1 setlinejoin 10 setmiterlimit
+newpath 293.17 13.81 moveto
+292.019 16.58043 lineto stroke
+277.3713 17.28043 moveto
+(2621) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+-214.12776 -3.82915 moveto
+(s) cmss10 6.97382 fshow
+-211.45447 -3.82915 moveto
+(\351) csss10 6.97382 fshow
+-208.35497 -3.82915 moveto
+(diments) cmss10 6.97382 fshow
+-183.32657 -3.82915 moveto
+(lamin) cmss10 6.97382 fshow
+-167.49976 -3.82915 moveto
+(\351) csss10 6.97382 fshow
+-164.40027 -3.82915 moveto
+(s) cmss10 6.97382 fshow
+-159.40236 -3.82915 moveto
+(o) cmss10 6.97382 fshow
+-156.10916 -3.82915 moveto
+(rang) cmss10 6.97382 fshow
+-143.28506 -3.82915 moveto
+(\351) csss10 6.97382 fshow
+-140.18556 -3.82915 moveto
+(s) cmss10 6.97382 fshow
+-214.12776 -12.19775 moveto
+(pal) cmss10 6.97382 fshow
+-205.50726 -12.19775 moveto
+(\351) csss10 6.97382 fshow
+-202.40776 -12.19775 moveto
+(o-sol?) cmss10 6.97382 fshow
+275.0378 -16.5274 moveto
+(vo) cmss10 7.97014 fshow
+282.76439 -16.5274 moveto
+(^) cmss10 7.97014 fshow
+282.698 -16.5274 moveto
+(ute) cmss10 7.97014 fshow
+295.89299 -16.5274 moveto
+(mouillante) cmss10 7.97014 fshow
+333.06479 -16.5274 moveto
+(\351) csss10 7.97014 fshow
+336.6071 -16.5274 moveto
+(tr.) cmss10 7.97014 fshow
+175.86679 5.85074 moveto
+(P7) cmss10 9.96265 fshow
+74.0168 9.11075 moveto
+(P5) cmss10 9.96265 fshow
+-89.54625 11.35258 moveto
+(R5) cmss10 7.97014 fshow
+ 0 0.89745 0.33333 0.22 setcmykcolor
+newpath -112.75 0.47 moveto
+-113.76317 -2.35371 lineto stroke
+-120.73701 -7.92542 moveto
+(2639) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+-47.4223 -4.84296 moveto
+(SP1.aval-2025-1) cmss10 13.94763 fshow
+newpath -48.4223 -5.84296 moveto
+48.4223 -5.84296 lineto
+48.4223 5.84294 lineto
+-48.4223 5.84294 lineto
+ closepath stroke
+showpage
+%%EOF

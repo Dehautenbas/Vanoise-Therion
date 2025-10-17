@@ -1,0 +1,28 @@
+%!PS
+%%BoundingBox: -69 -22 62 8 
+%%HiResBoundingBox: -68.00914 -21.87897 61.45645 7.40895 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 2e:9b8000802400050099
+%*Font: cmss10 13.94763 9.96265 2d:c800000012000888f78
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0.89745 0.33333 0.22 setcmykcolor 0 0.42001
+ dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap
+ 1 setlinejoin 10 setmiterlimit
+newpath -50.93 -14.85 moveto
+-53.36145 -16.60727 lineto stroke
+-68.00914 -21.87897 moveto
+(2546) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+-60.24646 -3.48695 moveto
+(SP1-puits.remontant) cmss10 13.94763 fshow
+newpath -61.24646 -7.19896 moveto
+61.24644 -7.19896 lineto
+61.24644 7.19894 lineto
+-61.24646 7.19894 lineto
+ closepath stroke
+showpage
+%%EOF

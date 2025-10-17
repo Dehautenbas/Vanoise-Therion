@@ -1,0 +1,47 @@
+%!PS
+%%BoundingBox: -73 -78 61 79 
+%%HiResBoundingBox: -72.04001 -77.99 60.41182 78.65688 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+-1 THsetalpha
+ 0 0 0.10417 0.04 setcmykcolor
+newpath 49.94 77.83 moveto
+48.28 76.83 39.6 70.07 38.28 69.18 curveto
+36.91 68.25 35.65 67.14 34.48 65.97 curveto
+30.28 61.81 20.62 48.24 22.19 42.26 curveto
+22.59 40.75 23.42 38.66 24.94 38.42 curveto
+26.96 38.12 28.71 39.94 30.41 41.05 curveto
+36.56 45.01 40.84 52.12 45.77 57.72 curveto
+49.7 62.19 53.83 66.39 57.49 71.01 curveto
+58.52 72.29 60.65 73.35 60.39 74.98 curveto
+59.53 80.44 52.47 78.35 49.94 77.83 curveto
+ closepath fill
+ 0 0.36539 0.88461 0.48 THsetpatterncolor
+ pattern_clay_MY THsetpattern
+newpath 49.94 77.83 moveto
+48.28 76.83 39.6 70.07 38.28 69.18 curveto
+36.91 68.25 35.65 67.14 34.48 65.97 curveto
+30.28 61.81 20.62 48.24 22.19 42.26 curveto
+22.59 40.75 23.42 38.66 24.94 38.42 curveto
+26.96 38.12 28.71 39.94 30.41 41.05 curveto
+36.56 45.01 40.84 52.12 45.77 57.72 curveto
+49.7 62.19 53.83 66.39 57.49 71.01 curveto
+58.52 72.29 60.65 73.35 60.39 74.98 curveto
+59.53 80.44 52.47 78.35 49.94 77.83 curveto
+ closepath fill
+ 0 0 0 1 setcmykcolor 0 0.42001 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 14.55 -77.78 moveto
+14.55 -77.78 4.62 -55.23 26.28 -31.8 curveto stroke
+newpath 13.85928 -53.20786 moveto
+11.54271 -52.58076 lineto stroke
+newpath -71.83 -30.31 moveto
+-71.83 -30.31 -55.35 -5.68 -26.53 -7.64 curveto stroke
+newpath -52.03386 -13.13422 moveto
+-53.16235 -11.01613 lineto stroke
+showpage
+%%EOF

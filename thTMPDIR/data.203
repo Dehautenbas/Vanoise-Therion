@@ -1,0 +1,263 @@
+%!PS
+%%BoundingBox: -1 -1 39 24 
+%%HiResBoundingBox: -0.42 -0.42 38.09999 23.70609 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+gsave newpath 0 0 moveto
+37.68 0 lineto
+37.68 23.28609 lineto
+0 23.28609 lineto
+ closepath clip
+ 0 0 0.10417 0.04 setcmykcolor
+newpath 0 0 moveto
+37.68 0 lineto
+37.68 23.28609 lineto
+0 23.28609 lineto
+ closepath fill
+gsave newpath 0.00002 0 moveto
+37.68 0 lineto
+37.68 23.28609 lineto
+0 23.28609 lineto
+0 -0.00002 lineto
+ closepath clip
+ 0 0.7 0.9 setrgbcolor 0.42001
+ 0 dtransform exch truncate exch idtransform pop setlinewidth [] 0 setdash
+ 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 4.5246 3.86769 moveto
+4.5246 5.06776 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 4.5246 3.86769 moveto
+3.4853 4.46773 lineto stroke
+newpath 4.5246 3.86769 moveto
+3.4853 3.26765 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 4.5246 3.86769 moveto
+4.5246 2.66762 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 4.5246 3.86769 moveto
+5.56389 3.26765 lineto stroke
+newpath 4.5246 3.86769 moveto
+5.56389 4.46773 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 3.63263 16.98425 moveto
+3.63263 18.18433 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 3.63263 16.98425 moveto
+2.59334 17.58429 lineto stroke
+newpath 3.63263 16.98425 moveto
+2.59334 16.38422 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 3.63263 16.98425 moveto
+3.63263 15.78418 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 3.63263 16.98425 moveto
+4.67192 16.38422 lineto stroke
+newpath 3.63263 16.98425 moveto
+4.67192 17.58429 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 10.76106 4.73236 moveto
+10.76106 5.93243 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 10.76106 4.73236 moveto
+9.72177 5.3324 lineto stroke
+newpath 10.76106 4.73236 moveto
+9.72177 4.13232 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 10.76106 4.73236 moveto
+10.76106 3.53229 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 10.76106 4.73236 moveto
+11.80035 4.13232 lineto stroke
+newpath 10.76106 4.73236 moveto
+11.80035 5.3324 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 9.66336 9.63599 moveto
+9.66336 10.83606 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 9.66336 9.63599 moveto
+8.62407 10.23602 lineto stroke
+newpath 9.66336 9.63599 moveto
+8.62407 9.03595 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 9.66336 9.63599 moveto
+9.66336 8.43591 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 9.66336 9.63599 moveto
+10.70265 9.03595 lineto stroke
+newpath 9.66336 9.63599 moveto
+10.70265 10.23602 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 9.56665 14.92007 moveto
+9.56665 16.12015 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 9.56665 14.92007 moveto
+8.52736 15.52011 lineto stroke
+newpath 9.56665 14.92007 moveto
+8.52736 14.32004 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 9.56665 14.92007 moveto
+9.56665 13.72 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 9.56665 14.92007 moveto
+10.60594 14.32004 lineto stroke
+newpath 9.56665 14.92007 moveto
+10.60594 15.52011 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 15.23323 5.4173 moveto
+15.23323 6.61737 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 15.23323 5.4173 moveto
+14.19394 6.01733 lineto stroke
+newpath 15.23323 5.4173 moveto
+14.19394 4.81726 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 15.23323 5.4173 moveto
+15.23323 4.21722 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 15.23323 5.4173 moveto
+16.27252 4.81726 lineto stroke
+newpath 15.23323 5.4173 moveto
+16.27252 6.01733 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 15.87115 10.81102 moveto
+15.87115 12.0111 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 15.87115 10.81102 moveto
+14.83186 11.41106 lineto stroke
+newpath 15.87115 10.81102 moveto
+14.83186 10.21098 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 15.87115 10.81102 moveto
+15.87115 9.61095 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 15.87115 10.81102 moveto
+16.91045 10.21098 lineto stroke
+newpath 15.87115 10.81102 moveto
+16.91045 11.41106 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 17.2016 16.78871 moveto
+17.2016 17.98878 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 17.2016 16.78871 moveto
+16.16231 17.38875 lineto stroke
+newpath 17.2016 16.78871 moveto
+16.16231 16.18867 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 17.2016 16.78871 moveto
+17.2016 15.58864 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 17.2016 16.78871 moveto
+18.24089 16.18867 lineto stroke
+newpath 17.2016 16.78871 moveto
+18.24089 17.38875 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 21.1712 9.17319 moveto
+21.1712 10.37326 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 21.1712 9.17319 moveto
+20.13191 9.77322 lineto stroke
+newpath 21.1712 9.17319 moveto
+20.13191 8.57315 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 21.1712 9.17319 moveto
+21.1712 7.97311 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 21.1712 9.17319 moveto
+22.2105 8.57315 lineto stroke
+newpath 21.1712 9.17319 moveto
+22.2105 9.77322 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 21.53865 16.6677 moveto
+21.53865 17.86777 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 21.53865 16.6677 moveto
+20.49936 17.26773 lineto stroke
+newpath 21.53865 16.6677 moveto
+20.49936 16.06766 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 21.53865 16.6677 moveto
+21.53865 15.46762 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 21.53865 16.6677 moveto
+22.57794 16.06766 lineto stroke
+newpath 21.53865 16.6677 moveto
+22.57794 17.26773 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 28.85454 4.7793 moveto
+28.85454 5.97937 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 28.85454 4.7793 moveto
+27.81525 5.37933 lineto stroke
+newpath 28.85454 4.7793 moveto
+27.81525 4.17926 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 28.85454 4.7793 moveto
+28.85454 3.57922 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 28.85454 4.7793 moveto
+29.89383 4.17926 lineto stroke
+newpath 28.85454 4.7793 moveto
+29.89383 5.37933 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 27.78448 11.42981 moveto
+27.78448 12.62988 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 27.78448 11.42981 moveto
+26.7452 12.02985 lineto stroke
+newpath 27.78448 11.42981 moveto
+26.7452 10.82977 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 27.78448 11.42981 moveto
+27.78448 10.22974 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 27.78448 11.42981 moveto
+28.82378 10.82977 lineto stroke
+newpath 27.78448 11.42981 moveto
+28.82378 12.02985 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 28.02823 15.5711 moveto
+28.02823 16.77118 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 28.02823 15.5711 moveto
+26.98894 16.17114 lineto stroke
+newpath 28.02823 15.5711 moveto
+26.98894 14.97107 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 28.02823 15.5711 moveto
+28.02823 14.37103 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 28.02823 15.5711 moveto
+29.06752 14.97107 lineto stroke
+newpath 28.02823 15.5711 moveto
+29.06752 16.17114 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 34.29707 16.4939 moveto
+34.29707 17.69397 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 34.29707 16.4939 moveto
+33.25778 17.09393 lineto stroke
+newpath 34.29707 16.4939 moveto
+33.25778 15.89386 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 34.29707 16.4939 moveto
+34.29707 15.29382 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 34.29707 16.4939 moveto
+35.33636 15.89386 lineto stroke
+newpath 34.29707 16.4939 moveto
+35.33636 17.09393 lineto stroke
+grestore
+grestore
+ 0 0 0 1 setcmykcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath 0 0 moveto
+37.68 0 lineto
+37.68 23.28609 lineto
+0 23.28609 lineto
+ closepath stroke
+showpage
+%%EOF

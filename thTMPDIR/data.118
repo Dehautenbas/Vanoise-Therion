@@ -1,0 +1,56 @@
+%!PS
+%%BoundingBox: 100 124 106 160 
+%%HiResBoundingBox: 100.5468 124.31 105.42099 159.30089 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 1 setcmykcolor 0 0.42001 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 102.82 124.61 moveto
+101.14392 126.32779 lineto stroke
+newpath 104.55106 127.09712 moveto
+102.37634 128.11227 lineto stroke
+newpath 105.08357 130.05345 moveto
+102.70134 129.76231 lineto stroke
+newpath 104.22821 132.96342 moveto
+102.00073 132.0701 lineto stroke
+newpath 103.46107 135.90048 moveto
+101.08554 135.55885 lineto stroke
+newpath 103.22237 138.93456 moveto
+100.82489 138.82506 lineto stroke
+newpath 103.17682 141.97797 moveto
+100.77719 142.01686 lineto stroke
+newpath 103.21167 145.02205 moveto
+100.8117 145.02275 lineto stroke
+newpath 103.17834 148.06639 moveto
+100.77878 148.02274 lineto stroke
+newpath 103.156 151.11044 moveto
+100.7568 151.17178 lineto stroke
+newpath 103.3623 154.14629 moveto
+100.98387 154.46704 lineto stroke
+newpath 104.3 156.99 moveto
+103.14038 159.09088 lineto stroke
+ 0 0.6 dtransform truncate idtransform setlinewidth pop
+newpath 102.82 124.61 moveto
+102.82 124.61 105.48 127.18 105.08 130.08 curveto
+104.69 132.98 103.6 132.86 103.3 137.56 curveto
+103 142.27 103.33 141.53 103.16 148.93 curveto
+103 156.33 104.3 156.99 104.3 156.99 curveto stroke
+ 0.6 0.4 0 0.1 setcmykcolor 0 0.42001
+ dtransform truncate idtransform setlinewidth pop
+newpath 102.82 124.61 moveto
+102.82 124.61 105.48 127.17 105.08 130.08 curveto
+104.69 132.98 103.6 132.86 103.3 137.56 curveto
+103 142.26 103.33 141.52 103.16 148.92 curveto
+103 156.32 104.3 156.98 104.3 156.98 curveto stroke
+ 0 0.9 0.9 0.2 setcmykcolor
+newpath 102.82 124.61 moveto
+102.82 124.61 105.48 127.17 105.08 130.08 curveto
+104.69 132.98 103.6 132.86 103.3 137.56 curveto
+103 142.26 103.33 141.52 103.16 148.92 curveto
+103 156.32 104.3 156.97 104.3 156.97 curveto stroke
+showpage
+%%EOF

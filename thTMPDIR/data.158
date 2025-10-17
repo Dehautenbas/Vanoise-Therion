@@ -1,0 +1,78 @@
+%!PS
+%%BoundingBox: -293 -302 254 321 
+%%HiResBoundingBox: -292.32565 -301.72926 253.91565 320.34924 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%*Font: cmss10 9.96265 9.96265 2d:df80208012000800e1
+%*Font: cmss10 6.97382 9.96265 0f:80000001f5c00000000027a7de
+%*Font: cmss10 13.94763 9.96265 2d:de80000012000800e1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 1 setcmykcolor
+62.6437 -301.72926 moveto
+(E10) cmss10 9.96265 fshow
+ 0 0.89745 0.33333 0.22 setcmykcolor 0 0.42001
+ dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap
+ 1 setlinejoin 10 setmiterlimit
+newpath 14.85 -275.48 moveto
+11.85133 -275.39041 lineto stroke
+-3.09636 -277.67627 moveto
+(2704) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+94.28769 -208.84926 moveto
+(?) cmss10 9.96265 fshow
+14.77435 -211.80927 moveto
+(E3) cmss10 9.96265 fshow
+44.89435 -167.25926 moveto
+(E4) cmss10 9.96265 fshow
+-76.27791 -210.33344 moveto
+(ma) cmss10 6.97382 fshow
+-67.58 -210.33344 moveto
+(rmite) cmss10 6.97382 fshow
+-50.04851 -210.33344 moveto
+(4m) cmss10 6.97382 fshow
+-38.69661 -210.33344 moveto
+(de) cmss10 6.97382 fshow
+-29.66931 -210.33344 moveto
+(p) cmss10 6.97382 fshow
+-26.2599 -210.33344 moveto
+(rof.) cmss10 6.97382 fshow
+-139.56335 -240.99089 moveto
+(imp.) cmss10 6.97382 fshow
+ 0 0.89745 0.33333 0.22 setcmykcolor
+newpath -182.06 88.73 moveto
+-181.50322 85.78209 lineto stroke
+-188.47707 80.21039 moveto
+(2684) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+-128.37231 -165.62926 moveto
+(?) cmss10 9.96265 fshow
+-156.44016 -147.30344 moveto
+(gour) cmss10 6.97382 fshow
+-141.15576 -147.30344 moveto
+(fossile) cmss10 6.97382 fshow
+-292.32565 46.23074 moveto
+(E3) cmss10 9.96265 fshow
+-64.3795 122.11655 moveto
+(a\017) cmss10 6.97382 fshow
+-53.0276 122.11655 moveto
+(1l/min) cmss10 6.97382 fshow
+-31.25371 122.11655 moveto
+(interstrate) cmss10 6.97382 fshow
+32.79434 154.10074 moveto
+(E2) cmss10 9.96265 fshow
+212.60435 149.03075 moveto
+(E5) cmss10 9.96265 fshow
+242.98434 313.43074 moveto
+(E5) cmss10 9.96265 fshow
+-54.33806 -4.84296 moveto
+(SP3.amont-2025-1) cmss10 13.94763 fshow
+newpath -55.33806 -5.84296 moveto
+55.33804 -5.84296 lineto
+55.33804 5.84294 lineto
+-55.33806 5.84294 lineto
+ closepath stroke
+showpage
+%%EOF

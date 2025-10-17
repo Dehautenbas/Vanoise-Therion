@@ -1,0 +1,34 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  14 OCT 2025 22:36
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex
+Normal \count register pool exhausted, switching to extended pool.)
+(./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 253 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 759 strings out of 494562
+ 9508 string characters out of 6145052
+ 260983 words of memory out of 5000000
+ 2428 multiletter control sequences out of 15000+600000
+ 21229 words of font info for 66 fonts, out of 8000000 for 9000
+ 1416 hyphenation exceptions out of 8191
+ 10i,5n,9p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 1604276 bytes).
+PDF statistics:
+ 1028 PDF objects out of 1200 (max. 8388607)
+ 516 compressed objects within 6 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 2979 words of extra memory for PDF output out of 10000 (max. 10000000)
+

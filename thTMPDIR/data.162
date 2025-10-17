@@ -1,0 +1,27 @@
+%!PS
+%%BoundingBox: -56 -7 56 24 
+%%HiResBoundingBox: -55.54807 -6.05296 55.54805 23.36925 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%*Font: cmss10 9.96265 9.96265 2d:de80200012000880e5
+%*Font: cmss10 13.94763 9.96265 2d:dd80000012000800e1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 1 setcmykcolor
+-49.85117 16.45074 moveto
+(etr.) cmss10 9.96265 fshow
+-32.33347 16.45074 moveto
+(?) cmss10 9.96265 fshow
+-54.33806 -4.84296 moveto
+(SP4.amont-2025-1) cmss10 13.94763 fshow
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+ 1 setlinejoin 10 setmiterlimit
+newpath -55.33806 -5.84296 moveto
+55.33804 -5.84296 lineto
+55.33804 5.84294 lineto
+-55.33806 5.84294 lineto
+ closepath stroke
+showpage
+%%EOF

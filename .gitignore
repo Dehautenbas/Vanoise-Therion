@@ -19,7 +19,7 @@
 # **.db
 # **.sql
 # **.xvi
- **.log
+#**.log
  **.dat
  .xtherion.dat
  therion.log

@@ -1,0 +1,36 @@
+%!PS
+%%BoundingBox: -64 -90 56 90 
+%%HiResBoundingBox: -63.96951 -89.84215 55.54805 89.9969 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 2d:dca00000120009a9f1
+%*Font: cmss10 7.97014 9.96265 2e:80000000000000112
+%*Font: cmss10 13.94763 9.96265 2d:dc80000012000800e1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 1 setcmykcolor
+-5.89336 85.25911 moveto
+(imp.) cmss10 6.97382 fshow
+-63.96951 -61.29344 moveto
+(p) cmss10 6.97382 fshow
+-60.1726 -61.29344 moveto
+(endage) cmss10 6.97382 fshow
+-37.6045 -61.29344 moveto
+(dolomie) cmss10 6.97382 fshow
+-12.73111 -61.29344 moveto
+(70deg.) cmss10 6.97382 fshow
+13.6662 -88.29245 moveto
+(imp.) cmss10 7.97014 fshow
+-54.33806 -4.84296 moveto
+(SP5.amont-2025-1) cmss10 13.94763 fshow
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+ 1 setlinejoin 10 setmiterlimit
+newpath -55.33806 -5.84296 moveto
+55.33804 -5.84296 lineto
+55.33804 5.84294 lineto
+-55.33806 5.84294 lineto
+ closepath stroke
+showpage
+%%EOF
