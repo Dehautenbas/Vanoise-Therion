@@ -29,7 +29,7 @@ endlayout
 
 layout comment
   code tex-map
-      \legendwidth=20cm
+      \legendwidth=30cm
       \legendtextsize={\size[13]}
       \legendtextheadersize={\size[32]} 
       \legendtextsectionsize={\size[22]}  %Taille mot "Légende"
@@ -65,8 +65,7 @@ layout plan
   legend on     
   legend-columns 3
   #colour-legend off
-  surface bottom
-  surface-opacity 70
+
 
   grid bottom                                ### positionnement de la grille
   grid-size 20 20 20 m                  ### dimension de la grille
@@ -74,12 +73,40 @@ layout plan
   #statistics topo-length on
 
     rotate 0                ### rotation du nord géographique (en degré)
+endlayout 
 
 
+layout plan-surface
+  copy general
 
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+
+  scale 1  200                    
+  #base-scale 1 300                
+
+  cs UTM32
+ 
+  map-header 1 4 sw              ### positionnement du cartouche 
+  scale-bar 25 m
+  #copy scalebar_horiz
+  #copy scalebar_vert
+  legend on     
+  legend-columns 3
+  #colour-legend off
+
+
+  #grid bottom                                ### positionnement de la grille
+  #grid-size 20 20 20 m                  ### dimension de la grille
+
+  #statistics topo-length on
+
+    rotate 0                ### rotation du nord géographique (en degré)
+
+
+  surface bottom
+  surface-opacity 100
   
-
-endlayout
+endlayout 
 
 
 layout coupe
@@ -101,8 +128,8 @@ layout coupe
   legend-columns 3
   #colour-legend off
 
-  grid bottom                                ### positionnement de la grille
-  grid-size 20 20 20 m                  ### dimension de la grille
+  #grid bottom                                ### positionnement de la grille
+  #grid-size 20 20 20 m                  ### dimension de la grille
 
 
 endlayout

@@ -1,10 +1,16 @@
 encoding  utf-8
-
+input config2.thcfg
 input config3.thcfg
 
 source vanoise_tot.th
 
 source datas/mnt.th
+
+
+export map \
+     -projection plan \
+     -layout plan \
+     -output Exports/vanoise_plan.pdf 
 
 
 

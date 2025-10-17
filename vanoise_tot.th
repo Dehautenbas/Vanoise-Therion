@@ -6,7 +6,7 @@ survey vanoise -title "Gouffres de la Vanoise"
   #input vanoise_map.th
 
 ### import.th 
-    input datas/0_arcel1/arcel1_tot.th 
+    input datas/0_arcel1/arcel1_tot.th
     input datas/AR6/AR6-tot.th #vraiment interressant sur le 3D? 
     input datas/AR1/AR1.th 
     input datas/AR3/ar3-tot.th 

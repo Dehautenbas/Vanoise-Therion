@@ -57,15 +57,12 @@ input arcel1_map.th
       join SP2_faille-fossile-riviere@faille-fossile-riviere_tot SP_amont2024-3_2@amont24_tot #Ouest
       join SP1_faille-fossile-riviere@faille-fossile-riviere_tot SP1_amont-2025-1@amont-2025-1_tot
       
-
-
   input datas/2025/aval-2025-1/aval-2025-1_tot.th #Charlotte
      equate 0@aval-2025-1.aval-2025-1_tot 0@amont2024-3_TC-BU.amont24_tot
 
   input datas/2025/aval-2025-2/aval-2025-2_tot.th #Théophile
      equate 68@aval-2025-2.aval-2025-2_tot 3@aval-2025-1.aval-2025-1_tot
       #join SP1_aval-2025-2@aval-2025-2_tot SP1_aval-2025-1@aval-2025-1_tot   ## Pas besoin
-
 
   input datas/2025/amont-2025-2/amont-2025-2_tot.th #Théophile
       equate 78@amont-2025-2.amont-2025-2_tot 74@amont-2025-1.amont-2025-1_tot
