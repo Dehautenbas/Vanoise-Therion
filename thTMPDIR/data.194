@@ -1,0 +1,60 @@
+%!PS
+%%BoundingBox: -1 -1 39 24 
+%%HiResBoundingBox: -0.42 -0.42 38.09999 23.70609 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+gsave newpath 0 0 moveto
+37.68 0 lineto
+37.68 23.28609 lineto
+0 23.28609 lineto
+ closepath clip
+ 0 0 0.10417 0.04 setcmykcolor
+newpath 0 0 moveto
+37.68 0 lineto
+37.68 23.28609 lineto
+0 23.28609 lineto
+ closepath fill
+ 0 0 0 1 setcmykcolor 0 0.42001 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 7.23056 7.1677 moveto
+10.0068 18.84213 lineto stroke
+newpath 10.23001 6.55017 moveto
+10.90724 10.48828 lineto stroke
+newpath 13.26242 6.12398 moveto
+14.58133 18.05128 lineto stroke
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 16.31544 5.8831 moveto
+16.52232 9.87364 lineto stroke
+newpath 19.3771 5.82431 moveto
+19.20389 17.82303 lineto stroke
+newpath 22.43718 5.94675 moveto
+22.14926 9.9323 lineto stroke
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 25.48425 6.25212 moveto
+23.91705 18.1494 lineto stroke
+newpath 28.50667 6.74463 moveto
+27.7439 10.66707 lineto stroke
+newpath 31.49113 7.43121 moveto
+28.4459 19.03827 lineto stroke
+newpath 33.91176 8.15027 moveto
+32.68066 11.9518 lineto stroke
+newpath 33.91176 8.15027 moveto
+30.21468 19.56653 lineto stroke
+ 0 0.6 dtransform truncate idtransform setlinewidth pop
+newpath 3.76823 8.15027 moveto
+8.40636 6.62134 13.58264 5.82152 18.84 5.82152 curveto
+24.09735 5.82152 29.27364 6.62134 33.91176 8.15027 curveto stroke
+grestore
+ 0 0 0 1 setcmykcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath 0 0 moveto
+37.68 0 lineto
+37.68 23.28609 lineto
+0 23.28609 lineto
+ closepath stroke
+showpage
+%%EOF

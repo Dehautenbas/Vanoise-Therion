@@ -24,10 +24,15 @@ map MP_arcelin_tot  -proj plan
   MP_diaclase-boucle@diaclase-boucle_tot
   break
   MP_faille-fossile-riviere@faille-fossile-riviere_tot
-
+  break
+  MP_amont-2025-2@amont-2025-2_tot
+  break
   MP_amont-2025-1@amont-2025-1_tot
+  break
   MP_aval-2025-2@aval-2025-2_tot
+  break
   MP_aval-2025-1@aval-2025-1_tot
+  break
   
 
 endmap   

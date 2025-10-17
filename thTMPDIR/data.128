@@ -1,0 +1,536 @@
+%!PS
+%%BoundingBox: -95 -196 94 210 
+%%HiResBoundingBox: -94.64 -195.21252 93.96 209.78 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 1 setcmykcolor 0 1.2 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 54.56 -105.26 moveto
+55.69 -110.38 61.16 -117.49 60.6 -121.79 curveto
+60.05 -126.08 53.63 -136.6 54.78 -143.49 curveto
+55.92 -150.4 66.61 -165.17 68.34 -175.61 curveto
+70.04 -185.86 66.64 -187.35 70.68 -190.57 curveto stroke
+ 0.6 0.4 0 0.1 setcmykcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
+newpath 54.51 -105.27 moveto
+55.69 -110.38 61.09 -117.5 60.51 -121.8 curveto
+59.93 -126.1 53.63 -136.59 54.71 -143.49 curveto
+55.81 -150.4 63.3 -165.92 64.59 -176.08 curveto
+65.87 -186.24 61.05 -188.88 54.33 -193.22 curveto stroke
+ 0 0.9 0.9 0.2 setcmykcolor
+newpath 54.51 -105.27 moveto
+55.69 -110.38 61.09 -117.5 60.51 -121.8 curveto
+59.93 -126.1 53.63 -136.59 54.72 -143.49 curveto
+55.8 -150.4 63.3 -165.92 64.58 -176.08 curveto
+65.87 -186.24 61.05 -188.88 54.34 -193.22 curveto stroke
+ 0 0 0 1 setcmykcolor 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath -45.88 159.04 moveto
+-43.70636 160.05742 lineto stroke
+newpath -44.46652 156.39255 moveto
+-42.41998 157.64618 lineto stroke
+newpath -42.86754 153.84998 moveto
+-40.86172 155.16772 lineto stroke
+newpath -41.20534 151.34969 moveto
+-39.22014 152.6983 lineto stroke
+newpath -39.50923 148.87 moveto
+-37.53609 150.23619 lineto stroke
+newpath -37.7949 146.40486 moveto
+-35.82912 147.78165 lineto stroke
+newpath -36.0686 143.947 moveto
+-34.10721 145.33005 lineto stroke
+newpath -34.33635 141.49452 moveto
+-32.37723 142.88075 lineto stroke
+newpath -32.6004 139.0429 moveto
+-30.64183 140.42993 lineto stroke
+newpath -30.86543 136.59254 moveto
+-28.90602 137.97838 lineto stroke
+newpath -29.13254 134.13956 moveto
+-27.17096 135.52235 lineto stroke
+newpath -27.40457 131.68289 moveto
+-25.43954 133.06078 lineto stroke
+newpath -25.6839 129.22047 moveto
+-23.71405 130.59143 lineto stroke
+newpath -23.97406 126.75148 moveto
+-21.99786 128.11328 lineto stroke
+newpath -22.2781 124.27333 moveto
+-20.2938 125.62323 lineto stroke
+newpath -20.60011 121.78326 moveto
+-18.6054 123.11775 lineto stroke
+newpath -18.9448 119.27655 moveto
+-16.9367 120.59087 lineto stroke
+newpath -17.32123 116.75027 moveto
+-15.2956 118.03741 lineto stroke
+newpath -15.74103 114.19664 moveto
+-13.69164 115.44554 lineto stroke
+newpath -14.22488 111.6044 moveto
+-12.14128 112.79538 lineto stroke
+newpath -12.8146 108.95314 moveto
+-10.67674 110.04367 lineto stroke
+newpath -11.62434 106.19852 moveto
+-9.3825 107.05522 lineto stroke
+newpath -11.13034 103.25221 moveto
+-8.73828 103.44711 lineto stroke
+newpath -10.8343 100.26361 moveto
+-8.45213 100.5553 lineto stroke
+newpath -10.44334 97.28592 moveto
+-8.06807 97.62917 lineto stroke
+newpath -9.99553 94.31674 moveto
+-7.62578 94.69638 lineto stroke
+newpath -9.5049 91.35321 moveto
+-7.14009 91.76251 lineto stroke
+newpath -8.97833 88.39705 moveto
+-6.61829 88.8329 lineto stroke
+newpath -8.41835 85.44641 moveto
+-6.06314 85.90768 lineto stroke
+newpath -7.82559 82.50253 moveto
+-5.47559 82.9896 lineto stroke
+newpath -7.19849 79.56483 moveto
+-4.85434 80.07939 lineto stroke
+newpath -6.53418 76.63661 moveto
+-4.19699 77.18196 lineto stroke
+newpath -5.82643 73.71799 moveto
+-3.49803 74.2997 lineto stroke
+newpath -5.06552 70.81274 moveto
+-2.74902 71.44017 lineto stroke
+newpath -4.23415 67.92688 moveto
+-1.93547 68.61678 lineto stroke
+newpath -3.2985 65.07301 moveto
+-1.03128 65.86014 lineto stroke
+newpath -2.17487 62.28952 moveto
+0.01505 63.27142 lineto stroke
+newpath -0.85693 59.59131 moveto
+1.34067 60.5559 lineto stroke
+newpath 0.30621 56.8229 moveto
+2.5379 57.70572 lineto stroke
+newpath 1.38846 54.02142 moveto
+3.63612 54.8627 lineto stroke
+newpath 2.42844 51.2037 moveto
+4.68437 52.02254 lineto stroke
+newpath 3.446 48.37831 moveto
+5.70593 49.18613 lineto stroke
+newpath 4.45406 45.54976 moveto
+6.71504 46.35457 lineto stroke
+newpath 5.46248 42.72086 moveto
+7.72218 43.52925 lineto stroke
+newpath 6.47952 39.8949 moveto
+8.73572 40.71307 lineto stroke
+newpath 7.51341 37.07518 moveto
+9.76367 37.90955 lineto stroke
+newpath 8.5735 34.26491 moveto
+10.81482 35.12303 lineto stroke
+newpath 9.67084 31.46988 moveto
+11.89902 32.36148 lineto stroke
+newpath 10.82184 28.69547 moveto
+13.03046 29.63449 lineto stroke
+newpath 12.0497 25.95544 moveto
+14.22748 26.96394 lineto stroke
+newpath 13.3967 23.27144 moveto
+15.52022 24.38972 lineto stroke
+newpath 14.87146 20.65562 moveto
+17.01874 21.72751 lineto stroke
+newpath 16.1592 17.94304 moveto
+18.36174 18.89624 lineto stroke
+newpath 17.32582 15.17598 moveto
+19.55469 16.0659 lineto stroke
+newpath 18.42259 12.37944 moveto
+20.66776 13.22739 lineto stroke
+newpath 19.47058 9.56526 moveto
+21.72728 10.382 lineto stroke
+newpath 20.48158 6.73792 moveto
+22.74715 7.52972 lineto stroke
+newpath 21.463 3.89885 moveto
+23.73581 4.66968 lineto stroke
+newpath 22.41846 1.05206 moveto
+24.69743 1.80447 lineto stroke
+newpath 23.3512 -1.80232 moveto
+25.63562 -1.06665 lineto stroke
+newpath 24.26314 -4.66362 moveto
+26.55255 -3.94359 lineto stroke
+newpath 25.15541 -7.53143 moveto
+27.44951 -6.82645 lineto stroke
+newpath 26.02838 -10.40485 moveto
+28.32698 -9.71469 lineto stroke
+newpath 26.88235 -13.28465 moveto
+29.18542 -12.60956 lineto stroke
+newpath 27.71637 -16.16957 moveto
+30.02397 -15.51015 lineto stroke
+newpath 28.52951 -19.06058 moveto
+30.84184 -18.41795 lineto stroke
+newpath 29.3197 -21.95766 moveto
+31.63712 -21.33365 lineto stroke
+newpath 30.08405 -24.86224 moveto
+32.40714 -24.25969 lineto stroke
+newpath 30.81752 -27.77493 moveto
+33.14717 -27.19835 lineto stroke
+newpath 31.51183 -30.69666 moveto
+33.84953 -30.15358 lineto stroke
+newpath 32.15256 -33.63084 moveto
+34.50085 -33.13544 lineto stroke
+newpath 32.70857 -36.5817 moveto
+35.07231 -36.16635 lineto stroke
+newpath 33.08492 -39.55988 moveto
+35.4752 -39.3447 lineto stroke
+newpath 33.12279 -42.56229 moveto
+35.52231 -42.51581 lineto stroke
+newpath 33.19942 -45.56464 moveto
+35.59792 -45.48074 lineto stroke
+newpath 33.31702 -48.56587 moveto
+35.71445 -48.45561 lineto stroke
+newpath 33.4659 -51.56516 moveto
+35.8622 -51.43245 lineto stroke
+newpath 33.64264 -54.56326 moveto
+36.03766 -54.40942 lineto stroke
+newpath 33.84644 -57.55945 moveto
+36.23999 -57.38437 lineto stroke
+newpath 34.07811 -60.55362 moveto
+36.46994 -60.35616 lineto stroke
+newpath 34.33984 -63.54532 moveto
+36.72952 -63.32326 lineto stroke
+newpath 34.63542 -66.5345 moveto
+37.02231 -66.28438 lineto stroke
+newpath 34.97041 -69.519 moveto
+37.35356 -69.2356 lineto stroke
+newpath 35.35352 -72.49706 moveto
+37.7314 -72.17238 lineto stroke
+newpath 35.79875 -75.46716 moveto
+38.16861 -75.08818 lineto stroke
+newpath 36.33003 -78.42288 moveto
+38.68616 -77.96626 lineto stroke
+newpath 36.99506 -81.35147 moveto
+39.32295 -80.7677 lineto stroke
+newpath 37.91785 -84.207 moveto
+40.15869 -83.3477 lineto stroke
+newpath 39.38184 -86.82327 moveto
+41.35327 -85.45457 lineto stroke
+newpath 41.19022 -89.21948 moveto
+43.03377 -87.68289 lineto stroke
+newpath 43.16632 -91.48024 moveto
+44.9322 -89.85498 lineto stroke
+newpath 45.2293 -93.66328 moveto
+46.9542 -91.9946 lineto stroke
+newpath 47.32689 -95.81244 moveto
+49.04248 -94.13419 lineto stroke
+newpath 49.41501 -97.97115 moveto
+51.15565 -96.31886 lineto stroke
+newpath 51.43558 -100.19212 moveto
+53.24954 -98.6207 lineto stroke
+newpath 53.2757 -102.56364 moveto
+55.25189 -101.20184 lineto stroke
+newpath 54.56 -105.26 moveto
+56.87338 -104.62119 lineto stroke
+ 0 1.2 dtransform truncate idtransform setlinewidth pop
+newpath -45.88 159.04 moveto
+-42.65 151.31 -11.51 112.22 -11.19 104.28 curveto
+-10.87 96.33 -5.79 69.03 -1.84 61.62 curveto
+2.13 54.21 8.57 31.18 14.19 21.88 curveto
+19.82 12.57 33.19 -32.06 33.11 -40.35 curveto
+33.04 -48.63 34.64 -77.97 38.27 -84.97 curveto
+41.92 -92.03 53.43 -100.15 54.56 -105.26 curveto stroke
+ 0.6 0.4 0 0.1 setcmykcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
+newpath -45.88 159.04 moveto
+-42.67 151.31 -11.5 112.22 -11.19 104.28 curveto
+-10.88 96.33 -5.79 69.03 -1.84 61.62 curveto
+2.11 54.21 8.5 31.17 14.15 21.87 curveto
+19.8 12.57 33.02 -32.08 32.96 -40.37 curveto
+32.89 -48.65 34.64 -77.94 38.24 -84.97 curveto
+41.85 -92.01 53.33 -100.17 54.51 -105.27 curveto stroke
+ 0 0.9 0.9 0.2 setcmykcolor
+newpath -45.88 159.04 moveto
+-42.67 151.31 -11.51 112.22 -11.19 104.28 curveto
+-10.88 96.33 -5.78 69.03 -1.84 61.62 curveto
+2.11 54.21 8.5 31.18 14.15 21.87 curveto
+19.8 12.57 33.02 -32.08 32.96 -40.37 curveto
+32.89 -48.65 34.64 -77.94 38.24 -84.98 curveto
+41.85 -92.01 53.33 -100.17 54.51 -105.27 curveto stroke
+ 0 0 0 1 setcmykcolor 0 1.2 dtransform truncate idtransform setlinewidth pop
+ [3.60022 3.60022 ] 0 setdash
+newpath -93.91 207.69 moveto
+-86.93 197.23 -49.08 166.78 -45.88 159.04 curveto stroke
+ 0.6 0.4 0 0.1 setcmykcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash
+newpath -94.22 207.65 moveto
+-87.18 197.2 -49.09 166.77 -45.88 159.04 curveto stroke
+ 0 0.9 0.9 0.2 setcmykcolor
+newpath -94.22 207.65 moveto
+-87.18 197.2 -49.09 166.77 -45.88 159.04 curveto stroke
+ 0 0 0 1 setcmykcolor 0 1.2 dtransform truncate idtransform setlinewidth pop
+ [3.60022 3.60022 ] 0 setdash
+newpath -40.11 165.96 moveto
+-44.5 171.59 -80.26 207.7 -80.9 209.18 curveto stroke
+ 0.6 0.4 0 0.1 setcmykcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash
+newpath -40.12 165.95 moveto
+-44.52 171.59 -80.52 207.67 -81.16 209.15 curveto stroke
+ 0 0.9 0.9 0.2 setcmykcolor
+newpath -40.12 165.95 moveto
+-44.52 171.59 -80.52 207.67 -81.16 209.15 curveto stroke
+ 0 0 0 1 setcmykcolor 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 63.46 -100.32 moveto
+61.7535 -102.00748 lineto stroke
+newpath 61.21399 -98.30539 moveto
+59.78978 -100.23709 lineto stroke
+newpath 58.70831 -96.62228 moveto
+57.48625 -98.68779 lineto stroke
+newpath 56.07079 -95.15082 moveto
+54.95448 -97.27536 lineto stroke
+newpath 53.38939 -93.76067 moveto
+52.2777 -95.88762 lineto stroke
+newpath 50.74136 -92.30821 moveto
+49.5167 -94.37222 lineto stroke
+newpath 48.24283 -90.61574 moveto
+46.75262 -92.49701 lineto stroke
+newpath 46.13522 -88.46475 moveto
+44.21843 -89.909 lineto stroke
+newpath 44.84201 -85.75522 moveto
+42.5393 -86.43156 lineto stroke
+newpath 44.59381 -82.75859 moveto
+42.19528 -82.67549 lineto stroke
+newpath 45.13182 -79.79109 moveto
+42.80305 -79.21095 lineto stroke
+newpath 45.85298 -76.85788 moveto
+43.51791 -76.30359 lineto stroke
+newpath 46.54175 -73.91751 moveto
+44.20155 -73.3853 lineto stroke
+newpath 47.20361 -70.97046 moveto
+44.85898 -70.45815 lineto stroke
+newpath 47.84052 -68.01752 moveto
+45.49179 -67.5243 lineto stroke
+newpath 48.45277 -65.05968 moveto
+46.10008 -64.58574 lineto stroke
+newpath 49.03992 -62.09691 moveto
+46.68327 -61.64293 lineto stroke
+newpath 49.60068 -59.12923 moveto
+47.24008 -58.69641 lineto stroke
+newpath 50.13309 -56.15654 moveto
+47.76839 -55.74669 lineto stroke
+newpath 50.63455 -53.17789 moveto
+48.26561 -52.79341 lineto stroke
+newpath 51.10117 -50.19398 moveto
+48.72775 -49.83807 lineto stroke
+newpath 51.52806 -47.20409 moveto
+49.14992 -46.88109 lineto stroke
+newpath 51.90854 -44.2072 moveto
+49.52545 -43.92299 lineto stroke
+newpath 52.23312 -41.20401 moveto
+49.84491 -40.96681 lineto stroke
+newpath 52.48822 -38.19522 moveto
+50.09488 -38.01706 lineto stroke
+newpath 52.65346 -35.17914 moveto
+50.25558 -35.07869 lineto stroke
+newpath 52.69498 -32.15918 moveto
+50.29501 -32.16808 lineto stroke
+newpath 52.55069 -29.14357 moveto
+50.15742 -29.3229 lineto stroke
+newpath 52.0832 -26.16226 moveto
+49.73517 -26.65872 lineto stroke
+newpath 51.01944 -23.34143 moveto
+48.84755 -24.36256 lineto stroke
+newpath 49.69772 -20.62532 moveto
+47.56073 -21.71764 lineto stroke
+newpath 48.3066 -17.94429 moveto
+46.18634 -19.06873 lineto stroke
+newpath 46.8835 -15.28087 moveto
+44.77133 -16.4204 lineto stroke
+newpath 45.44562 -12.62416 moveto
+43.33627 -13.76892 lineto stroke
+newpath 44.00488 -9.96953 moveto
+41.89467 -11.11267 lineto stroke
+newpath 42.56932 -7.31186 moveto
+40.45514 -8.44768 lineto stroke
+newpath 41.14655 -4.64787 moveto
+39.02563 -5.77106 lineto stroke
+newpath 39.7435 -1.9733 moveto
+37.61302 -3.07822 lineto stroke
+newpath 38.36815 0.71613 moveto
+36.22493 -0.36389 lineto stroke
+newpath 37.03078 3.42448 moveto
+34.87105 2.37787 lineto stroke
+newpath 35.74512 6.15674 moveto
+33.56407 5.15527 lineto stroke
+newpath 34.53012 8.92203 moveto
+32.32127 7.98352 lineto stroke
+newpath 33.41797 11.73004 moveto
+31.17195 10.88432 lineto stroke
+newpath 32.46715 14.59615 moveto
+30.17001 13.90112 lineto stroke
+newpath 31.80867 17.54129 moveto
+29.4428 17.13824 lineto stroke
+newpath 31.66826 20.5555 moveto
+29.27196 20.42319 lineto stroke
+newpath 31.3932 23.56221 moveto
+29.01822 23.21677 lineto stroke
+newpath 30.86623 26.53566 moveto
+28.52284 26.0176 lineto stroke
+newpath 30.12633 29.4636 moveto
+27.82315 28.7889 lineto stroke
+newpath 29.18204 32.33171 moveto
+26.93298 31.4941 lineto stroke
+newpath 28.00423 35.11165 moveto
+25.84372 34.06665 lineto stroke
+newpath 26.46497 37.70476 moveto
+24.54378 36.26637 lineto stroke
+newpath 24.03401 38.63666 moveto
+25.36201 36.63762 lineto stroke
+newpath 21.44934 39.82498 moveto
+19.81866 38.06409 lineto stroke
+newpath 19.3447 41.9886 moveto
+17.5389 40.4078 lineto stroke
+newpath 17.41037 44.3079 moveto
+15.52687 42.82053 lineto stroke
+newpath 15.57791 46.70871 moveto
+13.64424 45.28722 lineto stroke
+newpath 13.8223 49.16718 moveto
+11.8497 47.8002 lineto stroke
+newpath 12.13464 51.67151 moveto
+10.1281 50.35486 lineto stroke
+newpath 10.51181 54.21877 moveto
+8.47289 52.95284 lineto stroke
+newpath 8.95738 56.80856 moveto
+6.88513 55.59796 lineto stroke
+newpath 7.48152 59.44379 moveto
+5.37233 58.2987 lineto stroke
+newpath 6.10435 62.13171 moveto
+3.95099 61.07207 lineto stroke
+newpath 4.86699 64.88628 moveto
+2.65562 63.9537 lineto stroke
+newpath 3.8679 67.73509 moveto
+1.5711 67.03897 lineto stroke
+newpath 3.25067 70.69011 moveto
+0.89659 70.223 lineto stroke
+newpath 2.65173 73.65048 moveto
+0.30223 73.1609 lineto stroke
+newpath 2.0278 76.60562 moveto
+-0.3183 76.09996 lineto stroke
+newpath 1.38458 79.5569 moveto
+-0.95851 79.03758 lineto stroke
+newpath 0.72429 82.50467 moveto
+-1.61595 81.97258 lineto stroke
+newpath 0.04762 85.44832 moveto
+-2.28964 84.90341 lineto stroke
+newpath -0.64586 88.38745 moveto
+-2.97993 87.82895 lineto stroke
+newpath -1.35799 91.323 moveto
+-3.6884 90.74945 lineto stroke
+newpath -2.09114 94.25323 moveto
+-4.41716 93.66211 lineto stroke
+newpath -2.8495 97.17651 moveto
+-5.16992 96.56381 lineto stroke
+newpath -3.64041 100.09186 moveto
+-5.95319 99.45088 lineto stroke
+newpath -4.47621 102.99442 moveto
+-6.77733 102.31276 lineto stroke
+newpath -5.38303 105.87517 moveto
+-7.66269 105.12492 lineto stroke
+newpath -6.43742 108.70462 moveto
+-8.6552 107.78735 lineto stroke
+newpath -7.791 111.4043 moveto
+-9.90565 110.2694 lineto stroke
+newpath -9.23132 114.0587 moveto
+-11.3322 112.89845 lineto stroke
+newpath -10.6973 116.69983 moveto
+-12.79097 115.52661 lineto stroke
+newpath -12.17728 119.33235 moveto
+-14.26611 118.15057 lineto stroke
+newpath -13.66731 121.95944 moveto
+-15.75249 120.77121 lineto stroke
+newpath -15.16534 124.58267 moveto
+-17.24751 123.38918 lineto stroke
+newpath -16.66966 127.20204 moveto
+-18.74924 126.004 lineto stroke
+newpath -18.17938 129.81783 moveto
+-20.25658 128.61568 lineto stroke
+newpath -19.69447 132.431 moveto
+-21.76942 131.22505 lineto stroke
+newpath -21.21442 135.04132 moveto
+-23.28722 133.83163 lineto stroke
+newpath -22.73875 137.64821 moveto
+-24.80939 136.43486 lineto stroke
+newpath -24.26807 140.25255 moveto
+-26.3365 139.03543 lineto stroke
+newpath -25.80243 142.85405 moveto
+-27.86853 141.63298 lineto stroke
+newpath -27.3427 145.45338 moveto
+-29.40627 144.22806 lineto stroke
+newpath -28.88818 148.04816 moveto
+-30.94893 146.81807 lineto stroke
+newpath -30.4401 150.63863 moveto
+-32.49762 149.40312 lineto stroke
+newpath -32.00003 153.22472 moveto
+-34.05363 151.9827 lineto stroke
+newpath -33.57004 155.80557 moveto
+-35.61867 154.55539 lineto stroke
+newpath -35.1525 158.37802 moveto
+-37.1943 157.11673 lineto stroke
+newpath -36.75375 160.93929 moveto
+-38.78513 159.66127 lineto stroke
+newpath -38.38692 163.47984 moveto
+-40.39815 162.17036 lineto stroke
+newpath -40.10982 165.95973 moveto
+-42.03755 164.53018 lineto stroke
+ 0 1.2 dtransform truncate idtransform setlinewidth pop
+newpath 63.46 -100.32 moveto
+56.39 -92.73 41.85 -92.68 45.01 -80.27 curveto
+48.21 -67.76 55.42 -33.92 51.62 -24.71 curveto
+47.81 -15.49 31.58 9.81 31.69 19.18 curveto
+31.8 28.54 26.38 41.09 24.08 38.68 curveto
+21.79 36.27 5.27 59.81 3.59 68.92 curveto
+1.9 78.01 -3.69 102.81 -6.61 109.09 curveto
+-9.53 115.36 -35.71 160.32 -40.11 165.96 curveto stroke
+ 0.6 0.4 0 0.1 setcmykcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
+newpath 63.41 -100.32 moveto
+56.23 -92.74 41.81 -92.73 44.97 -80.27 curveto
+48.13 -67.82 55.27 -33.94 51.42 -24.73 curveto
+47.57 -15.52 31.56 9.81 31.68 19.17 curveto
+31.8 28.54 26.31 41.08 24.02 38.67 curveto
+21.74 36.27 5.28 59.82 3.58 68.92 curveto
+1.88 78.01 -3.7 102.81 -6.62 109.09 curveto
+-9.54 115.37 -35.72 160.32 -40.12 165.95 curveto stroke
+ 0 0.9 0.9 0.2 setcmykcolor
+newpath 63.41 -100.32 moveto
+56.23 -92.74 41.81 -92.73 44.97 -80.27 curveto
+48.13 -67.82 55.27 -33.94 51.42 -24.73 curveto
+47.56 -15.52 31.56 9.81 31.68 19.18 curveto
+31.8 28.54 26.31 41.08 24.02 38.67 curveto
+21.74 36.27 5.28 59.82 3.58 68.92 curveto
+1.88 78.01 -3.7 102.81 -6.62 109.09 curveto
+-9.54 115.37 -35.72 160.32 -40.12 165.95 curveto stroke
+ 0 0 0 1 setcmykcolor 0 1.2 dtransform truncate idtransform setlinewidth pop
+newpath 93.36 -187.78 moveto
+86.37 -181.76 74.83 -186.42 75.15 -176.43 curveto
+75.46 -166.81 80.09 -159.75 76.99 -153.82 curveto
+73.96 -148.02 69.94 -148.85 70.23 -139.87 curveto
+70.51 -130.92 71.35 -123.78 68.04 -117.48 curveto
+64.74 -111.19 70.76 -107.88 63.46 -100.32 curveto stroke
+ 0.6 0.4 0 0.1 setcmykcolor 0 0.84 dtransform truncate idtransform setlinewidth pop
+newpath 85.25 -187.95 moveto
+78.53 -185.45 70.9 -186.5 71.4 -176.79 curveto
+71.9 -167.08 78.39 -159.84 75.81 -153.94 curveto
+73.23 -148.04 69.22 -148.92 69.68 -139.93 curveto
+70.14 -130.95 71.22 -123.79 67.94 -117.5 curveto
+64.66 -111.2 70.59 -107.9 63.41 -100.32 curveto stroke
+ 0 0.9 0.9 0.2 setcmykcolor
+newpath 85.24 -187.95 moveto
+78.52 -185.44 70.9 -186.5 71.4 -176.79 curveto
+71.89 -167.08 78.39 -159.84 75.81 -153.94 curveto
+73.23 -148.04 69.22 -148.92 69.68 -139.93 curveto
+70.14 -130.94 71.22 -123.79 67.94 -117.49 curveto
+64.66 -111.2 70.6 -107.9 63.41 -100.32 curveto stroke
+ 0 0 0 1 setcmykcolor 0 3.98505 dtransform truncate idtransform setlinewidth pop
+newpath 70.68 -190.57 moveto 0 0 rlineto stroke
+newpath 70.04 -185.86 moveto 0 0 rlineto stroke
+ 0.84 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 70.68 -190.57 moveto
+70.04 -185.86 lineto stroke
+ 1 0.85 0 setrgbcolor 0 3.98505 dtransform truncate idtransform setlinewidth pop
+newpath 54.34 -193.22 moveto 0 0 rlineto stroke
+newpath 65.87 -186.24 moveto 0 0 rlineto stroke
+ 0 0.84 dtransform truncate idtransform setlinewidth pop
+newpath 70.68 -190.57 moveto
+54.34 -193.22 lineto
+65.87 -186.24 lineto
+70.04 -185.86 lineto stroke
+showpage
+%%EOF

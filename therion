@@ -1,8 +1,0 @@
-therion 6.2.1+030d2c1+dev (2024-11-04)
-  - using Proj 9.5.0, compiled against 9.5.0
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
-configuration file: /Users/martinkern/Documents/GitHub/Vanoise-Therion/vanoise_config1.thcfg
-reading ... done
-reading source files ... 
-therion: error -- datas/arcel1/datas/tube-de-prechauffage/tube-de-prechauffage_tot.th [6] -- can't open file for input -- datas/tube-de-prechauffage/tube-de-prechauffage_P.th2

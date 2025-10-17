@@ -1,0 +1,3158 @@
+% Written by metapost version 2.11
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2593",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2575",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("imp.",_n1,0.80000,0.0000,0.0000,);
+_s("Donne",_n1,0.80000,0.0000,-9.5641,);
+_s("sur",_n1,0.80000,24.1761,-9.5641,);
+_s("l'",_n1,0.80000,36.7290,-9.5641,);
+_n2="csss10";
+_s(char233,_n2,0.80000,40.8469,-9.5641,);
+_s("tage",_n1,0.80000,44.3892,-9.5641,);
+_s("inf.",_n1,0.80000,61.2815,-9.5641,);
+setbounds _p to (0,-11.1139)--(71.9526,-11.1139)--
+ (71.9526,5.4146)--(0,5.4146)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("imp.",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,-1.5497)--(14.5676,-1.5497)--
+ (14.5676,5.4146)--(0,5.4146)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("l'escalier",_n3,1.00000,0.0000,0.0000,);
+_s("R6",_n3,1.00000,0.0000,-11.9551,);
+setbounds _p to (0,-11.9551)--(35.2014,-11.9551)--
+ (35.2014,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("en",_n3,1.00000,0.0000,0.0000,);
+_s("biais...",_n3,1.00000,12.8961,0.0000,);
+setbounds _p to (0,0.0000)--(39.7122,0.0000)--
+ (39.7122,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("ma",_n1,0.80000,0.0000,0.0000,);
+_s("rmites",_n1,0.80000,9.9405,0.0000,);
+setbounds _p to (0,0.0000)--(30.3750,0.0000)--
+ (30.3750,5.4146)--(0,5.4146)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2585",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2592",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("P7",_n0,0.70000,0.0000,0.0000,);
+_s("imp.",_n0,0.70000,10.2671,0.0000,);
+setbounds _p to (0,-1.3560)--(23.0137,-1.3560)--
+ (23.0137,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("P20",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(16.3277,0.0000)--
+ (16.3277,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("imp.",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,-1.9372)--(18.2095,-1.9372)--
+ (18.2095,6.7683)--(0,6.7683)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("escalier.SP1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(69.5837,0.0000)--
+ (69.5837,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("section1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(47.2673,0.0000)--
+ (47.2673,9.4756)--(0,9.4756)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("pieuvre.PG-FM.SP3",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,-2.7120)--(115.7275,-2.7120)--
+ (115.7275,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("pieuvre.PG-FM.SP2",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,-2.7120)--(115.7275,-2.7120)--
+ (115.7275,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("pieuvre.PG-FM.SP1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,-2.7120)--(115.7275,-2.7120)--
+ (115.7275,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2524",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("imp.",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,-1.5497)--(14.5676,-1.5497)--
+ (14.5676,5.4146)--(0,5.4146)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("R20",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.1175,0.0000)--
+ (13.1175,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP-jonction-3",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,-2.7120)--(79.5795,-2.7120)--
+ (79.5795,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2538",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("P5",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(9.0771,0.0000)--
+ (9.0771,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2533",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("glace",_n1,0.80000,0.0000,0.0000,);
+_s("fossile",_n1,0.80000,19.4604,0.0000,);
+_s("2023-2024",_n1,0.80000,2.4021,-9.5641,);
+setbounds _p to (0,-9.5641)--(39.3414,-9.5641)--
+ (39.3414,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP-jonction-2",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,-2.7120)--(79.5795,-2.7120)--
+ (79.5795,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("Jonction",_n3,1.00000,0.0000,0.0000,);
+_s("2023",_n3,1.00000,38.6883,0.0000,);
+setbounds _p to (0,0.0000)--(58.6136,0.0000)--
+ (58.6136,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("P5",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(9.0771,0.0000)--
+ (9.0771,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP-jonction-1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,-2.7120)--(79.5795,-2.7120)--
+ (79.5795,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Un",_n1,0.80000,0.0000,0.0000,);
+_s("tir",_n1,0.80000,12.2541,0.0000,);
+_n2="csss10";
+_s(char184,_n2,0.80000,22.4160,0.0000,);
+_s("faire",_n1,0.80000,28.9028,0.0000,);
+_s("dans",_n1,0.80000,45.9943,0.0000,);
+_s("une",_n1,0.80000,63.7721,0.0000,);
+_s("diaclase.",_n1,0.80000,78.2069,0.0000,);
+_s("(Beno",_n1,0.80000,108.8034,0.0000,);
+_s("^",_n1,0.80000,127.8210,0.0000,);
+_s(char16&"t)",_n1,0.80000,128.8615,0.0000,);
+setbounds _p to (0,-1.9925)--(136.7431,-1.9925)--
+ (136.7431,5.9776)--(0,5.9776)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2544",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2540",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2538",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n5="cmss10";
+_s("Entr",_n5,2.00000,24.9620,0.0000,);
+_n6="csss10";
+_s(char233,_n6,2.00000,61.1597,0.0000,);
+_s("e",_n5,2.00000,70.0154,0.0000,);
+_s("F",_n5,2.00000,0.0000,-23.9103,);
+_s("r",_n5,2.00000,10.7929,-23.9103,);
+_s(char233,_n6,2.00000,17.6007,-23.9103,);
+_s("quence",_n5,2.00000,26.4564,-23.9103,);
+_s("51",_n5,2.00000,90.5495,-23.9103,);
+setbounds _p to (0,-27.7846)--(110.4749,-27.7846)--
+ (110.4749,13.8370)--(0,13.8370)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("R5",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(9.1325,0.0000)--
+ (9.1325,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2538",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Ressauts",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(28.6814,0.0000)--
+ (28.6814,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2540",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2537",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n5="cmss10";
+_s("Entr",_n5,2.00000,0.0000,0.0000,);
+_n6="csss10";
+_s(char233,_n6,2.00000,36.1977,0.0000,);
+_s("e",_n5,2.00000,45.0534,0.0000,);
+_s("sup",_n5,2.00000,60.5508,0.0000,);
+setbounds _p to (0,-3.8744)--(88.7784,-3.8744)--
+ (88.7784,13.8370)--(0,13.8370)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2548",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2545",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("imp.",_n0,0.70000,19.4687,0.0000,);
+_s("T",_n0,0.70000,15.8655,-8.3686,);
+_s("r",_n0,0.70000,20.0304,-8.3686,);
+_n7="csss10";
+_s(char233,_n7,0.70000,22.4132,-8.3686,);
+_s("mie",_n0,0.70000,25.5127,-8.3686,);
+_s("Jonction",_n0,0.70000,0.0000,-16.7372,);
+_s("p",_n0,0.70000,27.0818,-16.7372,);
+_s("robable",_n0,0.70000,30.4912,-16.7372,);
+setbounds _p to (0,-18.0932)--(51.6840,-18.0932)--
+ (51.6840,4.7378)--(0,4.7378)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("?",_n3,1.00000,0.0000,0.0000,);
+_s("R15",_n3,1.00000,8.0255,0.0000,);
+setbounds _p to (0,0.0000)--(24.4224,0.0000)--
+ (24.4224,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP1.F",_n4,1.40000,0.0000,0.0000,);
+_s("requence51",_n4,1.40000,35.0631,0.0000,);
+setbounds _p to (0,-2.7120)--(100.1912,-2.7120)--
+ (100.1912,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2535",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2539",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP2.F",_n4,1.40000,0.0000,0.0000,);
+_s("requence51",_n4,1.40000,35.0631,0.0000,);
+setbounds _p to (0,-2.7120)--(100.1912,-2.7120)--
+ (100.1912,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Une",_n1,0.80000,0.0000,0.0000,);
+_s("20aine",_n1,0.80000,15.7964,0.0000,);
+_s("de",_n1,0.80000,39.8175,0.0000,);
+_s("m",_n1,0.80000,50.1344,0.0000,);
+_s("non",_n1,0.80000,59.1229,0.0000,);
+_s("top",_n1,0.80000,74.0005,0.0000,);
+_s("o.",_n1,0.80000,85.2029,0.0000,);
+_s("Enlever",_n1,0.80000,94.0587,0.0000,);
+_s("le",_n1,0.80000,120.9800,0.0000,);
+_s("bauda",_n1,0.80000,129.0830,0.0000,);
+_s("r",_n1,0.80000,148.8754,0.0000,);
+_s("(Ma",_n1,0.80000,154.2553,0.0000,);
+_s("rtin)",_n1,0.80000,167.9374,0.0000,);
+setbounds _p to (0,-1.9925)--(182.6600,-1.9925)--
+ (182.6600,5.9776)--(0,5.9776)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2546",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP1-puits.remontant",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,-2.7120)--(120.4929,-2.7120)--
+ (120.4929,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Le",_n1,0.80000,0.0000,0.0000,);
+_s("p",_n1,0.80000,10.5161,0.0000,);
+_s("remier",_n1,0.80000,14.4126,0.0000,);
+_s("pts",_n1,0.80000,37.8360,0.0000,);
+_s("n'a",_n1,0.80000,50.5439,0.0000,);
+_s("pas",_n1,0.80000,63.3625,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,77.0224,0.0000,);
+_s("t",_n1,0.80000,80.5647,0.0000,);
+_s(char233,_n2,0.80000,83.4428,0.0000,);
+_s("descendu",_n1,0.80000,89.6418,0.0000,);
+setbounds _p to (0,-1.5497)--(119.7954,-1.5497)--
+ (119.7954,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2566",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2567",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2562",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+_n8="cmti10";
+_s("Canyon",_n8,1.00000,14.7364,0.0000,);
+setbounds _p to (0,-1.9372)--(48.0889,-1.9372)--
+ (48.0889,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2566",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2544",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2567",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("Faille",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(22.0285,0.0000)--
+ (22.0285,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2566",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2561",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2548",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("Carrefour",_n3,1.00000,0.0000,0.0000,);
+_s("de",_n3,1.00000,42.2860,0.0000,);
+_s("la",_n3,1.00000,55.1821,0.0000,);
+_s("Pieuvre",_n3,1.00000,65.6705,0.0000,);
+setbounds _p to (0,0.0000)--(96.4164,0.0000)--
+ (96.4164,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("Non",_n3,1.00000,0.0000,0.0000,);
+_s("topo",_n3,1.00000,20.5065,0.0000,);
+setbounds _p to (0,-1.9372)--(39.2142,-1.9372)--
+ (39.2142,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("amont23.SP1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(78.4560,0.0000)--
+ (78.4560,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2559",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2561",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2561",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("imp.",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,-1.3560)--(12.7467,-1.3560)--
+ (12.7467,4.7378)--(0,4.7378)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("imp.",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,-1.3560)--(12.7467,-1.3560)--
+ (12.7467,4.7378)--(0,4.7378)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Chemin",_n1,0.80000,0.0000,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,25.1059,0.0000,);
+_s("es",_n1,0.80000,28.6482,0.0000,);
+_s("sup.",_n1,0.80000,37.9024,0.0000,);
+_s("E15",_n1,0.80000,0.0000,-9.5641,);
+setbounds _p to (0,-9.5641)--(51.4073,-9.5641)--
+ (51.4073,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("PR-amont23",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(73.5162,0.0000)--
+ (73.5162,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2555",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2549",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("P17",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(16.3277,0.0000)--
+ (16.3277,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("P5",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(9.0771,0.0000)--
+ (9.0771,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Tr",_n1,0.80000,0.0000,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,8.1473,0.0000,);
+_s("mie",_n1,0.80000,11.6895,0.0000,);
+setbounds _p to (0,0.0000)--(23.4676,0.0000)--
+ (23.4676,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("a",_n4,1.40000,0.0000,0.0000,);
+_s("rcel1.S5.P",_n4,1.40000,6.3152,0.0000,);
+setbounds _p to (0,0.0000)--(65.1669,0.0000)--
+ (65.1669,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2572",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2569",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("a",_n4,1.40000,0.0000,0.0000,);
+_s("rcel1.S4.P",_n4,1.40000,6.3152,0.0000,);
+setbounds _p to (0,0.0000)--(65.1669,0.0000)--
+ (65.1669,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2564",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("P26",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(16.3277,0.0000)--
+ (16.3277,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("P8",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.3464,0.0000)--
+ (11.3464,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("Puits",_n3,1.00000,0.0000,0.0000,);
+_s("b",_n3,1.00000,24.6299,0.0000,);
+_s("o",_n3,1.00000,30.0540,0.0000,);
+_s("rgnes",_n3,1.00000,34.7586,0.0000,);
+setbounds _p to (0,-1.9372)--(56.5380,-1.9372)--
+ (56.5380,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("a",_n4,1.40000,0.0000,0.0000,);
+_s("rcel1.S3.P",_n4,1.40000,6.3152,0.0000,);
+setbounds _p to (0,0.0000)--(65.1669,0.0000)--
+ (65.1669,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("a",_n4,1.40000,0.0000,0.0000,);
+_s("rcel1.S2.P",_n4,1.40000,6.3152,0.0000,);
+setbounds _p to (0,0.0000)--(65.1669,0.0000)--
+ (65.1669,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2603",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("P12",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(16.3277,0.0000)--
+ (16.3277,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n5="cmss10";
+_s("Arcel1",_n5,2.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(52.5254,0.0000)--
+ (52.5254,13.8370)--(0,13.8370)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("a",_n4,1.40000,0.0000,0.0000,);
+_s("rcel1.S1.P",_n4,1.40000,6.3152,0.0000,);
+setbounds _p to (0,0.0000)--(65.1669,0.0000)--
+ (65.1669,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("Tube",_n3,1.00000,0.0000,0.0000,);
+_s("de",_n3,1.00000,24.8236,0.0000,);
+_s("pr",_n3,1.00000,37.7197,0.0000,);
+_n9="csss10";
+_s(char233,_n9,1.00000,46.2710,0.0000,);
+_s("chauffage",_n3,1.00000,50.6988,0.0000,);
+setbounds _p to (0,-1.9372)--(90.4941,-1.9372)--
+ (90.4941,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2564",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2554",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("siphon",_n3,1.00000,0.0000,0.0000,);
+_s("imp.",_n3,1.00000,29.9433,0.0000,);
+setbounds _p to (0,-1.9372)--(48.1528,-1.9372)--
+ (48.1528,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("tub",_n4,1.40000,0.0000,0.0000,);
+_s("e-de-p",_n4,1.40000,19.8368,0.0000,);
+_s("rechau"&char11&"age.SP1",_n4,1.40000,55.5584,0.0000,);
+setbounds _p to (0,-2.7120)--(149.3569,-2.7120)--
+ (149.3569,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("tub",_n4,1.40000,0.0000,0.0000,);
+_s("e-de-p",_n4,1.40000,19.8368,0.0000,);
+_s("rechau"&char11&"age.SP1",_n4,1.40000,55.5584,0.0000,);
+setbounds _p to (0,-2.7120)--(149.3569,-2.7120)--
+ (149.3569,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Pts",_n1,0.80000,0.0000,0.0000,);
+_s("non",_n1,0.80000,13.6820,0.0000,);
+_s("descendu",_n1,0.80000,28.5596,0.0000,);
+_s("pa",_n1,0.80000,61.3700,0.0000,);
+_s("r",_n1,0.80000,69.0966,0.0000,);
+_s("manque",_n1,0.80000,74.4764,0.0000,);
+_s("de",_n1,0.80000,103.1911,0.0000,);
+_s("temps",_n1,0.80000,113.5079,0.0000,);
+setbounds _p to (0,-1.5497)--(133.4332,-1.5497)--
+ (133.4332,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("R11",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.1175,0.0000)--
+ (13.1175,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Puits",_n1,0.80000,0.0000,0.0000,);
+_s("oubli",_n1,0.80000,19.7039,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,35.7328,0.0000,);
+_s("P7",_n1,0.80000,0.0000,-9.5641,);
+setbounds _p to (0,-9.5641)--(39.2750,-9.5641)--
+ (39.2750,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("imp.",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,-1.3560)--(12.7467,-1.3560)--
+ (12.7467,4.7378)--(0,4.7378)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2584",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("pts.oublie.SP1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,-2.7120)--(83.2214,-2.7120)--
+ (83.2214,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("R",_n1,0.80000,0.0000,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,5.1474,0.0000,);
+_s("tr",_n1,0.80000,8.6897,0.0000,);
+_s(char233,_n2,0.80000,14.2909,0.0000,);
+_s("cissement",_n1,0.80000,17.8332,0.0000,);
+_s("p",_n1,0.80000,52.4589,0.0000,);
+_s("onctuel",_n1,0.80000,56.7982,0.0000,);
+_s("dans",_n1,0.80000,83.5424,0.0000,);
+_s("la",_n1,0.80000,101.3202,0.0000,);
+_s("faille",_n1,0.80000,109.7110,0.0000,);
+_s("mais",_n1,0.80000,127.8874,0.0000,);
+_s(char24,_n1,0.80000,145.6652,0.0000,);
+_s("ca",_n1,0.80000,145.6652,0.0000,);
+_s("passe",_n1,0.80000,155.6942,0.0000,);
+_s("et",_n1,0.80000,175.9516,0.0000,);
+_s(char24,_n1,0.80000,185.0287,0.0000,);
+_s("ca",_n1,0.80000,185.0287,0.0000,);
+_s("continue",_n1,0.80000,195.0578,0.0000,);
+_s("plus",_n1,0.80000,225.9199,0.0000,);
+_s("la",_n1,0.80000,241.7716,0.0000,);
+_s("rge",_n1,0.80000,247.2843,0.0000,);
+_s("derri",_n1,0.80000,260.1915,0.0000,);
+_s(char18,_n1,0.80000,274.9805,0.0000,);
+_s("ere.",_n1,0.80000,275.2019,0.0000,);
+setbounds _p to (0,-1.5497)--(287.2235,-1.5497)--
+ (287.2235,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2604",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("imp.",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,-1.3560)--(12.7467,-1.3560)--
+ (12.7467,4.7378)--(0,4.7378)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("Faille",_n3,1.00000,0.0000,0.0000,);
+_s("-",_n3,1.00000,31.9912,0.0000,);
+_s("+30m",_n3,1.00000,45.2747,0.0000,);
+setbounds _p to (0,-0.8302)--(70.9009,-0.8302)--
+ (70.9009,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("blo",_n0,0.70000,0.0000,0.0000,);
+_s("cs",_n0,0.70000,8.9498,0.0000,);
+_s("de",_n0,0.70000,17.0472,0.0000,);
+_s("calcite",_n0,0.70000,26.0744,0.0000,);
+setbounds _p to (0,0.0000)--(44.5745,0.0000)--
+ (44.5745,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("R5",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(9.1325,0.0000)--
+ (9.1325,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2635",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("diaclase.MK-SP",_n4,1.40000,0.0000,0.0000,);
+_s(".SP1",_n4,1.40000,90.9315,0.0000,);
+setbounds _p to (0,0.0000)--(118.4395,0.0000)--
+ (118.4395,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("R10",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.1175,0.0000)--
+ (13.1175,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2653",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("T",_n3,1.00000,0.0000,0.0000,);
+_s("erminus",_n3,1.00000,5.9499,0.0000,);
+_s("2024",_n3,1.00000,41.5110,0.0000,);
+setbounds _p to (0,0.0000)--(61.4364,0.0000)--
+ (61.4364,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E14",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(15.9126,0.0000)--
+ (15.9126,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E9",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(10.9313,0.0000)--
+ (10.9313,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E3",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(10.9313,0.0000)--
+ (10.9313,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP",_n4,1.40000,0.0000,0.0000,);
+_s(".amont2024-3.2",_n4,1.40000,15.4975,0.0000,);
+setbounds _p to (0,0.0000)--(106.7389,0.0000)--
+ (106.7389,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n9="csss10";
+_s(char233,_n9,1.00000,0.0000,0.0000,);
+_n3="cmss10";
+_s("troiture",_n3,1.00000,4.4278,0.0000,);
+setbounds _p to (0,0.0000)--(35.3674,0.0000)--
+ (35.3674,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R4",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP",_n4,1.40000,0.0000,0.0000,);
+_s(".amont2024-3.1",_n4,1.40000,15.4975,0.0000,);
+setbounds _p to (0,0.0000)--(106.7389,0.0000)--
+ (106.7389,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("imp",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,-1.9372)--(15.4421,-1.9372)--
+ (15.4421,6.7683)--(0,6.7683)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R10",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(16.3969,0.0000)--
+ (16.3969,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R5",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2608",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("imp.",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,-1.5497)--(14.5676,-1.5497)--
+ (14.5676,5.4146)--(0,5.4146)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2616",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP",_n4,1.40000,0.0000,0.0000,);
+_s(".amont2024-2.2",_n4,1.40000,15.4975,0.0000,);
+setbounds _p to (0,0.0000)--(106.7389,0.0000)--
+ (106.7389,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("depa",_n1,0.80000,0.0000,0.0000,);
+_s("rt",_n1,0.80000,15.3868,0.0000,);
+_s("meandre",_n1,0.80000,23.6447,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,54.5068,0.0000,);
+_s("troit,",_n1,0.80000,58.0491,0.0000,);
+_s("vu",_n1,0.80000,77.2881,0.0000,);
+_s("pa",_n1,0.80000,87.7379,0.0000,);
+_s("r",_n1,0.80000,95.4645,0.0000,);
+_s("F",_n1,0.80000,100.8443,0.0000,);
+_s("r",_n1,0.80000,105.1615,0.0000,);
+_s(char233,_n2,0.80000,107.8846,0.0000,);
+_s("deric",_n1,0.80000,111.4269,0.0000,);
+_s("sanca,",_n1,0.80000,129.9132,0.0000,);
+_s("rejoint",_n1,0.80000,153.1594,0.0000,);
+_s("surement",_n1,0.80000,177.0919,0.0000,);
+_s("le",_n1,0.80000,210.0572,0.0000,);
+_s("depa",_n1,0.80000,218.1602,0.0000,);
+_s("rt",_n1,0.80000,233.5470,0.0000,);
+_s("de",_n1,0.80000,241.8049,0.0000,);
+_s("meandre",_n1,0.80000,252.1218,0.0000,);
+_s("en",_n1,0.80000,282.9839,0.0000,);
+_s("RD",_n1,0.80000,293.3008,0.0000,);
+_s("dans",_n1,0.80000,306.8611,0.0000,);
+_s("la",_n1,0.80000,324.6389,0.0000,);
+_s("suite",_n1,0.80000,333.0297,0.0000,);
+_s(char184,_n2,0.80000,351.1839,0.0000,);
+_s("l'amont",_n1,0.80000,357.6707,0.0000,);
+setbounds _p to (0,-1.5497)--(382.9316,-1.5497)--
+ (382.9316,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("D",_n1,0.80000,0.0000,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,5.7562,0.0000,);
+_s("pa",_n1,0.80000,9.2985,0.0000,);
+_s("rt",_n1,0.80000,17.0251,0.0000,);
+_s("m",_n1,0.80000,25.2830,0.0000,);
+_s(char233,_n2,0.80000,31.6149,0.0000,);
+_s("andre",_n1,0.80000,35.1571,0.0000,);
+_s("remontant",_n1,0.80000,56.1452,0.0000,);
+_s("en",_n1,0.80000,93.2063,0.0000,);
+_s("aval",_n1,0.80000,103.5231,0.0000,);
+_s("de",_n1,0.80000,119.4191,0.0000,);
+_s("l'",_n1,0.80000,129.7360,0.0000,);
+_s(char233,_n2,0.80000,133.8539,0.0000,);
+_s("troiture",_n1,0.80000,137.3962,0.0000,);
+_s("du",_n1,0.80000,164.8046,0.0000,);
+_s("coude,",_n1,0.80000,175.6971,0.0000,);
+_s("p",_n1,0.80000,199.8732,0.0000,);
+_s(char233,_n2,0.80000,203.9911,0.0000,);
+_s("n",_n1,0.80000,207.5334,0.0000,);
+_s(char233,_n2,0.80000,211.6513,0.0000,);
+_s("trable",_n1,0.80000,215.1935,0.0000,);
+_s("mais",_n1,0.80000,236.8457,0.0000,);
+_s(char233,_n2,0.80000,254.6235,0.0000,);
+_s("troit",_n1,0.80000,258.1658,0.0000,);
+setbounds _p to (0,-1.5497)--(272.5342,-1.5497)--
+ (272.5342,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2605",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2603",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n2="csss10";
+_s(char233,_n2,0.80000,0.0000,0.0000,);
+_n1="cmss10";
+_s("troiture",_n1,0.80000,3.5423,0.0000,);
+_s("p",_n1,0.80000,30.9507,0.0000,);
+_s("our",_n1,0.80000,35.2900,0.0000,);
+_s("p",_n1,0.80000,48.7728,0.0000,);
+_s("etits",_n1,0.80000,53.1121,0.0000,);
+_s("f",_n1,0.80000,70.0265,0.0000,);
+_s(char233,_n2,0.80000,72.4618,0.0000,);
+_s("murs",_n1,0.80000,76.0041,0.0000,);
+setbounds _p to (0,-1.5497)--(92.2321,-1.5497)--
+ (92.2321,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP",_n4,1.40000,0.0000,0.0000,);
+_s(".amont2024-2.1",_n4,1.40000,15.4975,0.0000,);
+setbounds _p to (0,0.0000)--(106.7389,0.0000)--
+ (106.7389,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Escalade",_n1,0.80000,0.0000,0.0000,);
+_s("de",_n1,0.80000,31.2385,0.0000,);
+_s("3/4M",_n1,0.80000,41.5553,0.0000,);
+_s("depa",_n1,0.80000,63.1412,0.0000,);
+_s("rt",_n1,0.80000,78.5279,0.0000,);
+_s("p",_n1,0.80000,86.7859,0.0000,);
+_s("ossible",_n1,0.80000,91.1252,0.0000,);
+setbounds _p to (0,-1.9925)--(112.6888,-1.9925)--
+ (112.6888,5.9776)--(0,5.9776)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2596",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2599",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R4",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP",_n4,1.40000,0.0000,0.0000,);
+_s(".amont2024-1.4",_n4,1.40000,15.4975,0.0000,);
+setbounds _p to (0,0.0000)--(106.7389,0.0000)--
+ (106.7389,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("R5",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(9.1325,0.0000)--
+ (9.1325,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("imp",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,-1.5497)--(12.3537,-1.5497)--
+ (12.3537,5.4146)--(0,5.4146)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP",_n4,1.40000,0.0000,0.0000,);
+_s(".amont2024-1.3",_n4,1.40000,15.4975,0.0000,);
+setbounds _p to (0,0.0000)--(106.7389,0.0000)--
+ (106.7389,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R4",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2583",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("T",_n4,1.40000,0.0000,0.0000,);
+_s("erminus",_n4,1.40000,8.3299,0.0000,);
+_s("2023",_n4,1.40000,58.1155,0.0000,);
+setbounds _p to (0,0.0000)--(86.0110,0.0000)--
+ (86.0110,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP",_n4,1.40000,0.0000,0.0000,);
+_s(".amont2024-1.2",_n4,1.40000,15.4975,0.0000,);
+setbounds _p to (0,0.0000)--(106.7389,0.0000)--
+ (106.7389,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Diaclase",_n1,0.80000,0.0000,0.0000,);
+_s("remontante",_n1,0.80000,30.0208,0.0000,);
+_s(":",_n1,0.80000,70.6242,0.0000,);
+_s("jonction",_n1,0.80000,75.4948,0.0000,);
+_s("r",_n1,0.80000,104.8072,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,107.5304,0.0000,);
+_s("seau",_n1,0.80000,111.0726,0.0000,);
+_s("sup?",_n1,0.80000,128.2748,0.0000,);
+setbounds _p to (0,-1.5497)--(143.3295,-1.5497)--
+ (143.3295,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("E10",_n1,0.80000,0.0000,0.0000,);
+_s("Manu",_n1,0.80000,15.3868,0.0000,);
+setbounds _p to (0,0.0000)--(34.4266,0.0000)--
+ (34.4266,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2557",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2569",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2559",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R4",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("P11",_n3,1.00000,0.0000,0.0000,);
+_s("b",_n3,1.00000,19.6486,0.0000,);
+_s("o",_n3,1.00000,25.0727,0.0000,);
+_s("rgne",_n3,1.00000,29.7773,0.0000,);
+setbounds _p to (0,-1.9372)--(47.7377,-1.9372)--
+ (47.7377,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP",_n4,1.40000,0.0000,0.0000,);
+_s(".amont2024-1.1",_n4,1.40000,15.4975,0.0000,);
+setbounds _p to (0,0.0000)--(106.7389,0.0000)--
+ (106.7389,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("2548",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(15.9403,0.0000)--
+ (15.9403,5.2249)--(0,5.2249)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R30",_n3,1.00000,0.0000,0.0000,);
+_s(":",_n3,1.00000,19.7178,0.0000,);
+_s("diaclase",_n3,1.00000,25.8061,0.0000,);
+_s("inclin",_n3,1.00000,61.2841,0.0000,);
+_n9="csss10";
+_s(char233,_n9,1.00000,83.1466,0.0000,);
+_s("e",_n3,1.00000,87.5744,0.0000,);
+setbounds _p to (0,0.0000)--(95.3232,0.0000)--
+ (95.3232,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP",_n4,1.40000,0.0000,0.0000,);
+_s(".pts.actif.2.1",_n4,1.40000,15.4975,0.0000,);
+setbounds _p to (0,-2.7120)--(88.0644,-2.7120)--
+ (88.0644,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP",_n4,1.40000,0.0000,0.0000,);
+_s(".pts.actif.1.1",_n4,1.40000,15.4975,0.0000,);
+setbounds _p to (0,-2.7120)--(88.0644,-2.7120)--
+ (88.0644,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2585",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("T",_n0,0.70000,0.0000,0.0000,);
+_s("r",_n0,0.70000,4.1649,0.0000,);
+_s(char18,_n0,0.70000,6.3540,0.0000,);
+_s("es",_n0,0.70000,6.5477,0.0000,);
+_n7="csss10";
+_s(char233,_n7,0.70000,14.6451,0.0000,);
+_s("troit,",_n0,0.70000,17.7446,0.0000,);
+_s("pas",_n0,0.70000,34.5787,0.0000,);
+_s("de",_n0,0.70000,46.5311,0.0000,);
+_s("CA",_n0,0.70000,55.5583,0.0000,);
+setbounds _p to (0,-1.3560)--(64.6631,-1.3560)--
+ (64.6631,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("Faille",_n3,1.00000,0.0000,0.0000,);
+_s("-",_n3,1.00000,31.9912,0.0000,);
+_s("-30m",_n3,1.00000,45.2747,0.0000,);
+setbounds _p to (0,0.0000)--(66.4730,0.0000)--
+ (66.4730,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2558",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R9",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("diaclase-b",_n4,1.40000,0.0000,0.0000,);
+_s("oucle.SP1",_n4,1.40000,57.2632,0.0000,);
+setbounds _p to (0,0.0000)--(114.6813,0.0000)--
+ (114.6813,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2653",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP2.faille-fossile-riviere",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(133.7820,0.0000)--
+ (133.7820,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2654",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2654",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2658",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2655",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("faille",_n3,1.00000,0.0000,0.0000,);
+_s("e"&char11&"ondr",_n3,1.00000,22.7204,0.0000,);
+_n9="csss10";
+_s(char233,_n9,1.00000,51.6398,0.0000,);
+_s("e",_n3,1.00000,56.0676,0.0000,);
+setbounds _p to (0,0.0000)--(60.4954,0.0000)--
+ (60.4954,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("blo",_n0,0.70000,0.0000,0.0000,);
+_s("cs",_n0,0.70000,8.9498,0.0000,);
+_n7="csss10";
+_s(char184,_n7,0.70000,17.0472,0.0000,);
+_s("d",_n0,0.70000,22.7231,0.0000,);
+_s(char233,_n7,0.70000,26.3263,0.0000,);
+_s("gager",_n0,0.70000,29.4258,0.0000,);
+_s("b",_n0,0.70000,0.0000,-8.3686,);
+_s("ruit",_n0,0.70000,3.4094,-8.3686,);
+_s("de",_n0,0.70000,15.9042,-8.3686,);
+_s("rivi",_n0,0.70000,24.9315,-8.3686,);
+_s(char18,_n0,0.70000,33.6682,-8.3686,);
+_s("ere",_n0,0.70000,33.8619,-8.3686,);
+_s("suite",_n0,0.70000,0.0000,-16.7372,);
+_s("visible",_n0,0.70000,15.8849,-16.7372,);
+setbounds _p to (0,-16.7372)--(45.2332,-16.7372)--
+ (45.2332,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP1.faille-fossile-riviere",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(133.7820,0.0000)--
+ (133.7820,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2782",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2799",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2814",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2796",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2792",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2784",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2779",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP2.amont-2025-2",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(108.6761,0.0000)--
+ (108.6761,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2737",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2765",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2756",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2719",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP1.amont-2025-2",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(108.6761,0.0000)--
+ (108.6761,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("imp.",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,-1.3560)--(12.7467,-1.3560)--
+ (12.7467,4.7378)--(0,4.7378)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("p",_n0,0.70000,0.0000,0.0000,);
+_s("endage",_n0,0.70000,3.7969,0.0000,);
+_s("dolomie",_n0,0.70000,26.3650,0.0000,);
+_s("70deg.",_n0,0.70000,51.2384,0.0000,);
+setbounds _p to (0,-1.3560)--(70.3390,-1.3560)--
+ (70.3390,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("imp.",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,-1.5497)--(14.5676,-1.5497)--
+ (14.5676,5.4146)--(0,5.4146)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP5.amont-2025-1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(108.6761,0.0000)--
+ (108.6761,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2663",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2655",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E5",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(10.9313,0.0000)--
+ (10.9313,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Lames",_n1,0.80000,0.0000,0.0000,);
+_s("de",_n1,0.80000,23.7333,0.0000,);
+_s("dolomie",_n1,0.80000,34.0502,0.0000,);
+_s("p",_n1,0.80000,0.0000,-9.5641,);
+_s("endage",_n1,0.80000,4.3393,-9.5641,);
+_s("80deg",_n1,0.80000,30.1315,-9.5641,);
+setbounds _p to (0,-11.1139)--(59.8203,-11.1139)--
+ (59.8203,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n9="csss10";
+_s(char233,_n9,1.00000,0.0000,0.0000,);
+_n3="cmss10";
+_s("tr.",_n3,1.00000,4.4278,0.0000,);
+setbounds _p to (0,0.0000)--(14.1968,0.0000)--
+ (14.1968,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("vo",_n1,0.80000,0.0000,0.0000,);
+_s("^",_n1,0.80000,7.7266,0.0000,);
+_s("ute",_n1,0.80000,7.6602,0.0000,);
+_s("mouillante",_n1,0.80000,20.8552,0.0000,);
+setbounds _p to (0,0.0000)--(55.3703,0.0000)--
+ (55.3703,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP1.amont-2025-1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(108.6761,0.0000)--
+ (108.6761,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("E4",_n1,0.80000,0.0000,0.0000,);
+_n2="csss10";
+_s(char184,_n2,0.80000,11.4017,0.0000,);
+_s("r",_n1,0.80000,17.8885,0.0000,);
+_s(char233,_n2,0.80000,20.6117,0.0000,);
+_s("aliser",_n1,0.80000,24.1539,0.0000,);
+setbounds _p to (0,0.0000)--(41.1126,0.0000)--
+ (41.1126,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Ch",_n1,0.80000,0.0000,0.0000,);
+_n2="csss10";
+_s(char184,_n2,0.80000,11.8666,0.0000,);
+_s("la",_n1,0.80000,18.3534,0.0000,);
+_s("so",_n1,0.80000,26.7442,0.0000,);
+_s("rtie",_n1,0.80000,33.5631,0.0000,);
+_s("du",_n1,0.80000,47.2673,0.0000,);
+_s("shiunt.",_n1,0.80000,58.1598,0.0000,);
+_s("Escalade",_n1,0.80000,83.2214,0.0000,);
+_s("d'une",_n1,0.80000,114.4599,0.0000,);
+_s("dizaine",_n1,0.80000,135.2265,0.0000,);
+_s("de",_n1,0.80000,160.7642,0.0000,);
+_s("m",_n1,0.80000,171.0810,0.0000,);
+_s(char18,_n1,0.80000,177.1915,0.0000,);
+_s("etres",_n1,0.80000,177.4129,0.0000,);
+setbounds _p to (0,0.0000)--(193.1539,0.0000)--
+ (193.1539,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n8="cmti10";
+_s("le",_n8,1.00000,0.0000,0.0000,);
+_s("Shiunt",_n8,1.00000,10.6931,0.0000,);
+setbounds _p to (0,0.0000)--(38.6991,0.0000)--
+ (38.6991,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("fossile",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(24.8513,0.0000)--
+ (24.8513,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("b",_n0,0.70000,0.0000,0.0000,);
+_s("ruit",_n0,0.70000,3.4094,0.0000,);
+_s("d'eau",_n0,0.70000,15.9042,0.0000,);
+setbounds _p to (0,0.0000)--(31.4985,0.0000)--
+ (31.4985,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("faille",_n3,1.00000,0.0000,0.0000,);
+_s("glissante",_n3,1.00000,22.7204,0.0000,);
+setbounds _p to (0,-1.9372)--(58.0601,-1.9372)--
+ (58.0601,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2658",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("vo",_n3,1.00000,0.0000,0.0000,);
+_s("^",_n3,1.00000,9.6583,0.0000,);
+_s("ute",_n3,1.00000,9.5752,0.0000,);
+_s("mouillante",_n3,1.00000,26.0689,0.0000,);
+setbounds _p to (0,0.0000)--(69.2128,0.0000)--
+ (69.2128,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E4",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(10.9313,0.0000)--
+ (10.9313,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2660",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP2.amont-2025-1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(108.6761,0.0000)--
+ (108.6761,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Remonter",_n1,0.80000,0.0000,0.0000,);
+_s("l'a"&char15&"uent",_n1,0.80000,34.9247,0.0000,);
+_s("RD,",_n1,0.80000,66.6724,0.0000,);
+_s("4m",_n1,0.80000,82.4466,0.0000,);
+_n2="csss10";
+_s(char184,_n2,0.80000,95.4202,0.0000,);
+_s("grimp",_n1,0.80000,101.9070,0.0000,);
+_s("er",_n1,0.80000,121.1903,0.0000,);
+setbounds _p to (0,-1.5497)--(127.4557,-1.5497)--
+ (127.4557,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E10",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(15.9126,0.0000)--
+ (15.9126,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2704",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("?",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(4.7046,0.0000)--
+ (4.7046,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E3",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(10.9313,0.0000)--
+ (10.9313,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E4",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(10.9313,0.0000)--
+ (10.9313,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("ma",_n0,0.70000,0.0000,0.0000,);
+_s("rmite",_n0,0.70000,8.6979,0.0000,);
+_s("4m",_n0,0.70000,26.2294,0.0000,);
+_s("de",_n0,0.70000,37.5813,0.0000,);
+_s("p",_n0,0.70000,46.6086,0.0000,);
+_s("rof.",_n0,0.70000,50.0180,0.0000,);
+setbounds _p to (0,-1.3560)--(59.9558,-1.3560)--
+ (59.9558,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("imp.",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,-1.3560)--(12.7467,-1.3560)--
+ (12.7467,4.7378)--(0,4.7378)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2684",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("?",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(4.7046,0.0000)--
+ (4.7046,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("gour",_n0,0.70000,0.0000,0.0000,);
+_s("fossile",_n0,0.70000,15.2844,0.0000,);
+setbounds _p to (0,-1.3560)--(32.6803,-1.3560)--
+ (32.6803,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E3",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(10.9313,0.0000)--
+ (10.9313,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("a"&char15,_n0,0.70000,0.0000,0.0000,);
+_s("1l/min",_n0,0.70000,11.3519,0.0000,);
+_s("interstrate",_n0,0.70000,33.1258,0.0000,);
+setbounds _p to (0,-1.7435)--(62.9390,-1.7435)--
+ (62.9390,5.2304)--(0,5.2304)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(10.9313,0.0000)--
+ (10.9313,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E5",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(10.9313,0.0000)--
+ (10.9313,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("E5",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(10.9313,0.0000)--
+ (10.9313,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP3.amont-2025-1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(108.6761,0.0000)--
+ (108.6761,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("etr.",_n3,1.00000,0.0000,0.0000,);
+_s("?",_n3,1.00000,17.5177,0.0000,);
+setbounds _p to (0,0.0000)--(22.2223,0.0000)--
+ (22.2223,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP4.amont-2025-1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(108.6761,0.0000)--
+ (108.6761,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("p",_n1,0.80000,0.0000,0.0000,);
+_s("erte",_n1,0.80000,4.3393,0.0000,);
+_s("de",_n1,0.80000,19.6818,0.0000,);
+_s("l'actif,",_n1,0.80000,29.9987,0.0000,);
+_s("m",_n1,0.80000,53.5770,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,59.9088,0.0000,);
+_s("andre",_n1,0.80000,63.4511,0.0000,);
+_s(char233,_n2,0.80000,84.4391,0.0000,);
+_s("tr.",_n1,0.80000,87.9814,0.0000,);
+setbounds _p to (0,-1.5497)--(95.7965,-1.5497)--
+ (95.7965,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("M",_n1,0.80000,0.0000,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,6.9739,0.0000,);
+_s("andre",_n1,0.80000,10.5162,0.0000,);
+_s(char233,_n2,0.80000,31.5042,0.0000,);
+_s("troit",_n1,0.80000,35.0464,0.0000,);
+setbounds _p to (0,0.0000)--(49.4148,0.0000)--
+ (49.4148,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Conduite",_n1,0.80000,0.0000,0.0000,);
+_s("fo",_n1,0.80000,32.4119,0.0000,);
+_s("rc",_n1,0.80000,38.6109,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,44.8763,0.0000,);
+_s("e",_n1,0.80000,48.4186,0.0000,);
+_s("remontante",_n1,0.80000,54.6175,0.0000,);
+setbounds _p to (0,0.0000)--(92.5642,0.0000)--
+ (92.5642,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Galerie",_n1,0.80000,0.0000,0.0000,);
+_s("circulaire",_n1,0.80000,25.4159,0.0000,);
+_s("1,5m",_n1,0.80000,57.8056,0.0000,);
+_s("dim.",_n1,0.80000,76.9782,0.0000,);
+_s("L",_n1,0.80000,94.2026,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,98.5197,0.0000,);
+_s("ger",_n1,0.80000,102.0620,0.0000,);
+_s("CA?",_n1,0.80000,114.9692,0.0000,);
+setbounds _p to (0,-1.5497)--(129.1383,-1.5497)--
+ (129.1383,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2587",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2585",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2589",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("p",_n0,0.70000,0.0000,0.0000,);
+_s("erte",_n0,0.70000,3.7969,0.0000,);
+_s("de",_n0,0.70000,17.2215,0.0000,);
+_s("l'actif",_n0,0.70000,26.2488,0.0000,);
+_s("m",_n0,0.70000,2.8380,-8.3686,);
+_n7="csss10";
+_s(char233,_n7,0.70000,8.3783,-8.3686,);
+_s("andre",_n0,0.70000,11.4778,-8.3686,);
+_s(char233,_n7,0.70000,29.8423,-8.3686,);
+_s("tr.",_n0,0.70000,32.9418,-8.3686,);
+setbounds _p to (0,-8.3686)--(42.6180,-8.3686)--
+ (42.6180,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R3",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2593",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2589",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("m",_n0,0.70000,0.0000,0.0000,);
+_n7="csss10";
+_s(char233,_n7,0.70000,5.5404,0.0000,);
+_s("andre",_n0,0.70000,8.6398,0.0000,);
+_s(char233,_n7,0.70000,27.0043,0.0000,);
+_s("troit",_n0,0.70000,30.1038,0.0000,);
+setbounds _p to (0,0.0000)--(42.6761,0.0000)--
+ (42.6761,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("galerie",_n0,0.70000,0.0000,0.0000,);
+_s("D=1,5m",_n0,0.70000,21.0765,0.0000,);
+setbounds _p to (0,-1.3560)--(45.9887,-1.3560)--
+ (45.9887,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("CF",_n0,0.70000,0.0000,0.0000,);
+_s("remontante",_n0,0.70000,10.7514,0.0000,);
+setbounds _p to (0,0.0000)--(43.9547,0.0000)--
+ (43.9547,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R4",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R2",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.4156,0.0000)--
+ (11.4156,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP2.aval-2025-2",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(94.8446,0.0000)--
+ (94.8446,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("Conduite",_n1,0.80000,0.0000,0.0000,);
+_s("fo",_n1,0.80000,32.4119,0.0000,);
+_s("rc",_n1,0.80000,38.6109,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,44.8763,0.0000,);
+_s("e",_n1,0.80000,48.4186,0.0000,);
+_s("diam",_n1,0.80000,54.6175,0.0000,);
+_s("50cm",_n1,0.80000,73.4581,0.0000,);
+setbounds _p to (0,0.0000)--(91.3023,0.0000)--
+ (91.3023,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("Conduite",_n0,0.70000,0.0000,0.0000,);
+_s("fo",_n0,0.70000,28.3603,0.0000,);
+_s("rc",_n0,0.70000,33.7844,0.0000,);
+_n7="csss10";
+_s(char233,_n7,0.70000,39.2667,0.0000,);
+_s("e",_n0,0.70000,42.3662,0.0000,);
+_s("diam",_n0,0.70000,47.7903,0.0000,);
+_s("50cm",_n0,0.70000,64.2757,0.0000,);
+setbounds _p to (0,0.0000)--(79.8894,0.0000)--
+ (79.8894,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2637",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2619",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("R13",_n3,1.00000,7.7141,0.0000,);
+_s("cascade",_n3,1.00000,0.0000,-11.9551,);
+setbounds _p to (0,-11.9551)--(31.8251,-11.9551)--
+ (31.8251,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n9="csss10";
+_s(char233,_n9,1.00000,0.0000,0.0000,);
+_n3="cmss10";
+_s("troiture",_n3,1.00000,4.4278,0.0000,);
+setbounds _p to (0,0.0000)--(35.3674,0.0000)--
+ (35.3674,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("P15",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(16.3277,0.0000)--
+ (16.3277,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("?",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(4.7046,0.0000)--
+ (4.7046,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("?",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(4.7046,0.0000)--
+ (4.7046,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP1.aval-2025-2",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(94.8446,0.0000)--
+ (94.8446,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2621",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("s",_n0,0.70000,0.0000,0.0000,);
+_n7="csss10";
+_s(char233,_n7,0.70000,2.6733,0.0000,);
+_s("diments",_n0,0.70000,5.7728,0.0000,);
+_s("lamin",_n0,0.70000,30.8012,0.0000,);
+_s(char233,_n7,0.70000,46.6280,0.0000,);
+_s("s",_n0,0.70000,49.7275,0.0000,);
+_s("o",_n0,0.70000,54.7254,0.0000,);
+_s("rang",_n0,0.70000,58.0186,0.0000,);
+_s(char233,_n7,0.70000,70.8427,0.0000,);
+_s("s",_n0,0.70000,73.9422,0.0000,);
+_s("pal",_n0,0.70000,0.0000,-8.3686,);
+_s(char233,_n7,0.70000,8.6205,-8.3686,);
+_s("o-sol?",_n0,0.70000,11.7200,-8.3686,);
+setbounds _p to (0,-9.7246)--(76.6155,-9.7246)--
+ (76.6155,4.8429)--(0,4.8429)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("vo",_n1,0.80000,0.0000,0.0000,);
+_s("^",_n1,0.80000,7.7266,0.0000,);
+_s("ute",_n1,0.80000,7.6602,0.0000,);
+_s("mouillante",_n1,0.80000,20.8552,0.0000,);
+_n2="csss10";
+_s(char233,_n2,0.80000,58.0270,0.0000,);
+_s("tr.",_n1,0.80000,61.5693,0.0000,);
+setbounds _p to (0,0.0000)--(69.3844,0.0000)--
+ (69.3844,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("P7",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.3464,0.0000)--
+ (11.3464,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n3="cmss10";
+_s("P5",_n3,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(11.3464,0.0000)--
+ (11.3464,6.9185)--(0,6.9185)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("R5",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(9.1325,0.0000)--
+ (9.1325,5.5348)--(0,5.5348)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("2639",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="cmss10";
+_s("SP1.aval-2025-1",_n4,1.40000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(94.8446,0.0000)--
+ (94.8446,9.6859)--(0,9.6859)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n0="cmss10";
+_s("1510",_n0,0.70000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(13.9477,0.0000)--
+ (13.9477,4.5717)--(0,4.5717)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="cmss10";
+_s("1510",_n1,0.80000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(15.9403,0.0000)--
+ (15.9403,5.2249)--(0,5.2249)--cycle;
+_p endgroup
+mpxbreak

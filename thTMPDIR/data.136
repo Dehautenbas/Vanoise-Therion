@@ -1,0 +1,81 @@
+%!PS
+%%BoundingBox: -666 -180 683 57 
+%%HiResBoundingBox: -665.4515 -179.45004 682.7266 56.27 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 12:80000018ba0000024001fd24f8
+%*Font: csss10 9.96265 9.96265 e9:8
+%*Font: cmss10 9.96265 9.96265 0b:80000000000000000000027259
+%*Font: csss10 6.97382 9.96265 b8:8000000000004
+%*Font: cmss10 13.94763 9.96265 2d:c8000000120008c9264
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0.89745 0.33333 0.22 setcmykcolor 0 0.42001
+ dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap
+ 1 setlinejoin 10 setmiterlimit
+newpath -58.5 5.49 moveto
+-59.67307 2.72887 lineto stroke
+-74.32076 -2.54283 moveto
+(2654) cmss10 6.97382 fshow
+ 0.42001 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 662.25 -101.37 moveto
+662.14513 -98.37183 lineto stroke
+655.17128 -97.37183 moveto
+(2654) cmss10 6.97382 fshow
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath -351.37 56.06 moveto
+-349.5079 53.70787 lineto stroke
+-348.8079 48.43617 moveto
+(2658) cmss10 6.97382 fshow
+newpath -648.25 -88.34 moveto
+-650.80382 -86.7658 lineto stroke
+-665.4515 -86.0658 moveto
+(2655) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+233.28229 -43.57925 moveto
+(faille) cmss10 9.96265 fshow
+256.00269 -43.57925 moveto
+(e\013ondr) cmss10 9.96265 fshow
+284.92209 -43.57925 moveto
+(\351) csss10 9.96265 fshow
+289.34988 -43.57925 moveto
+(e) cmss10 9.96265 fshow
+637.4934 -162.71284 moveto
+(blo) cmss10 6.97382 fshow
+646.44319 -162.71284 moveto
+(cs) cmss10 6.97382 fshow
+654.54059 -162.71284 moveto
+(\270) csss10 6.97382 fshow
+660.21649 -162.71284 moveto
+(d) cmss10 6.97382 fshow
+663.81969 -162.71284 moveto
+(\351) csss10 6.97382 fshow
+666.91919 -162.71284 moveto
+(gager) cmss10 6.97382 fshow
+637.4934 -171.08145 moveto
+(b) cmss10 6.97382 fshow
+640.90279 -171.08145 moveto
+(ruit) cmss10 6.97382 fshow
+653.3976 -171.08145 moveto
+(de) cmss10 6.97382 fshow
+662.4249 -171.08145 moveto
+(rivi) cmss10 6.97382 fshow
+671.16159 -171.08145 moveto
+(\022) cmss10 6.97382 fshow
+671.35529 -171.08145 moveto
+(ere) cmss10 6.97382 fshow
+637.4934 -179.45004 moveto
+(suite) cmss10 6.97382 fshow
+653.3783 -179.45004 moveto
+(visible) cmss10 6.97382 fshow
+-66.891 -4.84296 moveto
+(SP1.faille-fossile-riviere) cmss10 13.94763 fshow
+newpath -67.891 -5.84296 moveto
+67.89099 -5.84296 lineto
+67.89099 5.84294 lineto
+-67.891 5.84294 lineto
+ closepath stroke
+showpage
+%%EOF

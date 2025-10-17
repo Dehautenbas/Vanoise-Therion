@@ -1,0 +1,140 @@
+%!PS
+%%BoundingBox: -718 -223 778 230 
+%%HiResBoundingBox: -717.80019 -222.57927 777.28737 229.50287 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 2d:cdf0000012000888f78
+%*Font: cmti10 9.96265 9.96265 43:80000002001802
+%*Font: cmss10 9.96265 9.96265 32:800008088001112e2
+%*Font: cmss10 6.69928 9.96265 43:8004000272493
+%*Font: cmss10 13.94763 9.96265 2e:9c00000024001001c2
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0.89745 0.33333 0.22 setcmykcolor 0.42001
+ 0 dtransform exch truncate exch idtransform pop setlinewidth [] 0 setdash
+ 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 580.19 173.42 moveto
+579.91301 176.40718 lineto stroke
+572.93916 177.40718 moveto
+(2566) cmss10 6.97382 fshow
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath 353.9 23.46 moveto
+355.77815 25.79932 lineto stroke
+356.47815 26.49931 moveto
+(2567) cmss10 6.97382 fshow
+newpath 760.08 -122.62 moveto
+762.63968 -121.05536 lineto stroke
+763.33968 -120.35536 moveto
+(2562) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+192.83556 -75.95067 moveto
+(R2) cmss10 9.96265 fshow
+207.57196 -75.95067 moveto
+(Canyon) cmti10 9.96265 fshow
+ 0 0.89745 0.33333 0.22 setcmykcolor
+newpath 470.65 -177.37 moveto
+468.3002 -179.23506 lineto stroke
+453.65251 -184.50676 moveto
+(2566) cmss10 6.97382 fshow
+newpath -691.06 117.18 moveto
+-688.13283 116.52283 lineto stroke
+-687.13283 114.23697 moveto
+(2544) cmss10 6.97382 fshow
+newpath 66.92 -219.51 moveto
+64.0241 -220.29341 lineto stroke
+49.0764 -222.57927 moveto
+(2567) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+gsave [0.71216 0.70201 -0.70201 0.71216 -712.94331 69.6804 ] concat 0 0 moveto
+(F) cmss10 9.96265 fshow grestore
+gsave [0.71216 0.70201 -0.70201 0.71216 -704.46284 78.04001 ] concat 0 0 moveto
+(a) cmss10 9.96265 fshow grestore
+gsave [0.71216 0.70201 -0.70201 0.71216 -698.01065 84.40025 ] concat 0 0 moveto
+(i) cmss10 9.96265 fshow grestore
+gsave [0.71216 0.70201 -0.70201 0.71216 -694.29494 88.06308 ] concat 0 0 moveto
+(l) cmss10 9.96265 fshow grestore
+gsave [0.71216 0.70201 -0.70201 0.71216 -690.57968 91.72537 ] concat 0 0 moveto
+(l) cmss10 9.96265 fshow grestore
+gsave [0.71216 0.70201 -0.70201 0.71216 -685.99475 96.24498 ] concat 0 0 moveto
+(e) cmss10 9.96265 fshow grestore
+ 0 0.89745 0.33333 0.22 setcmykcolor 0.42001
+ 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath -96.88 -143.91 moveto
+-96.97485 -140.91151 lineto stroke
+-103.9487 -139.91151 moveto
+(2566) cmss10 6.97382 fshow
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop
+newpath -353.34 -0.61 moveto
+-356.04323 -1.91106 lineto stroke
+-370.69092 -7.18275 moveto
+(2561) cmss10 6.97382 fshow
+newpath -539.91 186.61 moveto
+-537.18256 187.85942 lineto stroke
+-536.48256 188.55942 moveto
+(2548) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+gsave [0.96 -0.27994 0.27994 0.96 -659.23512 223.46263 ] concat 0 0 moveto
+(C) cmss10 6.69928 fshow grestore
+gsave [0.96684 -0.2553 0.2553 0.96684 -655.06741 222.25443 ] concat 0 0 moveto
+(a) cmss10 6.69928 fshow grestore
+gsave [0.9718 -0.23576 0.23576 0.9718 -651.90767 221.42511 ] concat 0 0 moveto
+(r) cmss10 6.69928 fshow grestore
+gsave [0.97583 -0.21849 0.21849 0.97583 -649.64348 220.87607 ] concat 0 0 moveto
+(r) cmss10 6.69928 fshow grestore
+gsave [0.98032 -0.19739 0.19739 0.98032 -647.36124 220.36151 ] concat 0 0 moveto
+(e) cmss10 6.69928 fshow grestore
+gsave [0.98438 -0.17596 0.17596 0.98438 -644.39081 219.76883 ] concat 0 0 moveto
+(f) cmss10 6.69928 fshow grestore
+gsave [0.98846 -0.15137 0.15137 0.98846 -642.3206 219.39087 ] concat 0 0 moveto
+(o) cmss10 6.69928 fshow grestore
+gsave [0.99303 -0.11786 0.11786 0.99303 -638.93082 218.87138 ] concat 0 0 moveto
+(u) cmss10 6.69928 fshow grestore
+gsave [0.99619 -0.08722 0.08722 0.99619 -635.42151 218.46457 ] concat 0 0 moveto
+(r) cmss10 6.69928 fshow grestore
+gsave [0.99963 -0.027 0.027 0.99963 -630.77246 218.10843 ] concat 0 0 moveto
+(d) cmss10 6.69928 fshow grestore
+gsave [0.99988 0.01501 -0.01501 0.99988 -627.21442 218.01855 ] concat 0 0 moveto
+(e) cmss10 6.69928 fshow grestore
+gsave [0.99681 0.07967 -0.07967 0.99681 -621.85696 218.19595 ] concat 0 0 moveto
+(l) cmss10 6.69928 fshow grestore
+gsave [0.99313 0.11684 -0.11684 0.99313 -620.17308 218.31665 ] concat 0 0 moveto
+(a) cmss10 6.69928 fshow grestore
+gsave [0.97623 0.21669 -0.21669 0.97623 -614.53415 219.07292 ] concat 0 0 moveto
+(P) cmss10 6.69928 fshow grestore
+gsave [0.96307 0.26918 -0.26918 0.96307 -610.24223 220.06558 ] concat 0 0 moveto
+(i) cmss10 6.69928 fshow grestore
+gsave [0.95035 0.31119 -0.31119 0.95035 -608.59813 220.51149 ] concat 0 0 moveto
+(e) cmss10 6.69928 fshow grestore
+gsave [0.92851 0.37125 -0.37125 0.92851 -605.62494 221.48132 ] concat 0 0 moveto
+(u) cmss10 6.69928 fshow grestore
+gsave [0.90158 0.43256 -0.43256 0.90158 -602.26971 222.83478 ] concat 0 0 moveto
+(v) cmss10 6.69928 fshow grestore
+gsave [0.87607 0.48215 -0.48215 0.87607 -599.3733 224.24078 ] concat 0 0 moveto
+(r) cmss10 6.69928 fshow grestore
+gsave [0.84843 0.52925 -0.52925 0.84843 -597.25342 225.40082 ] concat 0 0 moveto
+(e) cmss10 6.69928 fshow grestore
+gsave [0.78825 -0.61536 0.61536 0.78825 -258.48535 7.6828 ] concat 0 0 moveto
+(N) cmss10 9.96265 fshow grestore
+gsave [0.78166 -0.6237 0.6237 0.78166 -240.66896 -6.33875 ] concat 0 0 moveto
+(o) cmss10 9.96265 fshow grestore
+gsave [0.77559 -0.63124 0.63124 0.77559 -226.54344 -17.68771 ] concat 0 0 moveto
+(n) cmss10 9.96265 fshow grestore
+gsave [0.76335 -0.64598 0.64598 0.76335 -204.64163 -35.7877 ] concat 0 0 moveto
+(t) cmss10 9.96265 fshow grestore
+gsave [0.75339 -0.65758 0.65758 0.75339 -193.46332 -45.3435 ] concat 0 0 moveto
+(o) cmss10 9.96265 fshow grestore
+gsave [0.73518 -0.67787 0.67787 0.73518 -179.9513 -57.34436 ] concat 0 0 moveto
+(p) cmss10 9.96265 fshow grestore
+gsave [0.69832 -0.71579 0.71579 0.69832 -166.78127 -69.87018 ] concat 0 0 moveto
+(o) cmss10 9.96265 fshow grestore
+-39.228 -4.84296 moveto
+(amont23.SP1) cmss10 13.94763 fshow
+newpath -40.228 -5.84296 moveto
+40.228 -5.84296 lineto
+40.228 5.84294 lineto
+-40.228 5.84294 lineto
+ closepath stroke
+showpage
+%%EOF

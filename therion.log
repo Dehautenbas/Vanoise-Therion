@@ -23,11 +23,11 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 processing projection plan ... done
-average distortion: 0.92%
+average distortion: 0.93%
 
 
 ############### export maps & scraps selection #################
-M    4e+03 MP_murs-et-centerline@Arcel1 ()
+M  4.1e+03 MP_murs-et-centerline@Arcel1 ()
 M  2.6e+03 MP_escalier@escalier_tot.Arcel1 ()
 S  2.6e+03 escalier_SP1@escalier_tot.Arcel1 ()
 M  2.5e+03 MP_pieuvre_PG-FM@pieuvre_PG-FM_tot.Arcel1 ()
@@ -71,6 +71,9 @@ S  2.6e+03 diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1 ()
 M  2.7e+03 MP_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1 (faille-fossile-riviere)
 S  2.7e+03 SP1_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1 ()
 S  2.7e+03 SP2_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1 ()
+M  2.8e+03 MP_amont-2025-2@amont-2025-2_tot.Arcel1 (amont-2025-2)
+S  2.7e+03 SP1_amont-2025-2@amont-2025-2_tot.Arcel1 ()
+S  2.8e+03 SP2_amont-2025-2@amont-2025-2_tot.Arcel1 ()
 M  2.7e+03 MP_amont-2025-1@amont-2025-1_tot.Arcel1 (amont-2025-1)
 S  2.7e+03 SP4_amont-2025-1@amont-2025-1_tot.Arcel1 ()
 S  2.7e+03 SP3_amont-2025-1@amont-2025-1_tot.Arcel1 ()
@@ -83,12 +86,12 @@ S  2.6e+03 SP2_aval-2025-2@aval-2025-2_tot.Arcel1 ()
 M  2.6e+03 MP_aval-2025-1@aval-2025-1_tot.Arcel1 (aval-2025-1)
 S  2.6e+03 SP1_aval-2025-1@aval-2025-1_tot.Arcel1 ()
 S     -.-- SP2_aval-2025-1@aval-2025-1_tot.Arcel1 ()
-S  5.5e+03 @ ()
+S  5.6e+03 @ ()
 ########## end of export maps & scraps selection ###############
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/exports/arcel1_plan.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  14 OCT 2025 17:12
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  14 OCT 2025 22:36
 **data.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
@@ -123,33 +126,37 @@ MK-SP_tot.Arcel1] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88]
 ot.Arcel1] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
 [123] [124] [125]
 [Warning: scrap outline intersects itself in scrap SP1_faille-fossile-riviere@f
-aille-fossile-riviere_tot.Arcel1] [126] [127] [128] [129] [130] [131] [132]
-[133] [134] [135] [136] [137] [138] [139]
+aille-fossile-riviere_tot.Arcel1] [126] [127] [128]
+[Warning: scrap outline intersects itself in scrap SP2_amont-2025-2@amont-2025-
+2_tot.Arcel1] [129] [130] [131]
+[Warning: scrap outline intersects itself in scrap SP1_amont-2025-2@amont-2025-
+2_tot.Arcel1] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142]
+[143] [144] [145]
 [Warning: text scaled down to fit the path in scrap SP2_amont-2025-1@amont-2025
 -1_tot.Arcel1]
 [Warning: text scaled down to fit the path in scrap SP2_amont-2025-1@amont-2025
--1_tot.Arcel1] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
-[150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160]
-(./mptextmp.mp) [161] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [162] [163]
-[164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176]
-[177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187] [188] [189]
-[190] [191] [192] [193] [194] [195] [196] [197] [198] [199] [200] [201] [202]
-[203] [204] [205] [206] [207] [208] [209] [210] [211] [212] [213] [214] )
+-1_tot.Arcel1] [146] [147] [148] [149] [150] [151] [152] [153] [154] [155]
+[156] [157] [158] [159] [160] [161] [162] [163] [164] [165] [166]
+(./mptextmp.mp) [167] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [168] [169]
+[170] [171] [172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182]
+[183] [184] [185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195]
+[196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208]
+[209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] )
  
 Here is how much of MetaPost's memory you used:
- 92018 strings using 2250446 characters
- 4910360 bytes of node memory
+ 98060 strings using 2396547 characters
+ 4928552 bytes of node memory
  1783 symbolic tokens
  11i,82n,16p,1029b,5f stack positions out of 16i,98n,20p,1187b,6f
-230 output files written: data-patt.1 .. data.214
+236 output files written: data-patt.1 .. data.220
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  14 OCT 2025 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  14 OCT 2025 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -164,10 +171,10 @@ Normal \count register pool exhausted, switching to extended pool.)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 735 strings out of 494562
- 9216 string characters out of 6145052
- 215521 words of memory out of 5000000
- 2404 multiletter control sequences out of 15000+600000
+ 751 strings out of 494562
+ 9420 string characters out of 6145052
+ 257119 words of memory out of 5000000
+ 2420 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
  10i,5n,9p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -176,12 +183,12 @@ Here is how much of TeX's memory you used:
 .pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
 local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 1368390 bytes).
+Output written on data.pdf (1 page, 1471218 bytes).
 PDF statistics:
- 975 PDF objects out of 1000 (max. 8388607)
- 490 compressed objects within 5 object streams
+ 1012 PDF objects out of 1200 (max. 8388607)
+ 508 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 2823 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2931 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -232,7 +239,7 @@ S        0 pts-oublie_SC1@pts_oublie_tot.Arcel1 ()
 ########## end of export maps & scraps selection ###############
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/exports/arcel1_coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  14 OCT 2025 17:12
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  14 OCT 2025 22:36
 **data.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
@@ -256,21 +263,21 @@ Warning: patterncolor not supported in Therion [15] [16] [1] [2] [3] [4] [5]
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [110] [111]
 [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124]
 [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
-[138] )
+[138] [139] [140] [141] [142] [143] [144] [145] [146] [147] )
  
 Here is how much of MetaPost's memory you used:
- 52998 strings using 1317795 characters
- 4347384 bytes of node memory
+ 53007 strings using 1317831 characters
+ 4350424 bytes of node memory
  1780 symbolic tokens
  10i,82n,16p,877b,5f stack positions out of 16i,98n,20p,950b,6f
-154 output files written: data-patt.1 .. data.138
+163 output files written: data-patt.1 .. data.147
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  14 OCT 2025 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  14 OCT 2025 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -279,28 +286,29 @@ entering extended mode
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdf
 tex.map})
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 250 numeric registers used out of 32768
-
-[1] ) 
+(./th_formdef.tex
+Normal \count register pool exhausted, switching to extended pool.)
+(./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 253 numeric registers used out of 32768
+ [1] ) 
 Here is how much of TeX's memory you used:
- 512 strings out of 494562
- 6421 string characters out of 6145052
- 58289 words of memory out of 5000000
- 2181 multiletter control sequences out of 15000+600000
+ 521 strings out of 494562
+ 6493 string characters out of 6145052
+ 70225 words of memory out of 5000000
+ 2190 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
- 10i,5n,8p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
-pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
-pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
-local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 372067 bytes).
+ 10i,5n,9p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
+/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 377783 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
+ 525 PDF objects out of 1000 (max. 8388607)
+ 270 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 1447 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1501 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -308,7 +316,7 @@ done
 
 
 ############### export maps & scraps selection #################
-M    4e+03 MP_murs-et-centerline@Arcel1 ()
+M  4.1e+03 MP_murs-et-centerline@Arcel1 ()
 M  2.6e+03 MP_escalier@escalier_tot.Arcel1 ()
 S  2.6e+03 escalier_SP1@escalier_tot.Arcel1 ()
 M  2.5e+03 MP_pieuvre_PG-FM@pieuvre_PG-FM_tot.Arcel1 ()
@@ -352,6 +360,9 @@ S  2.6e+03 diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1 ()
 M  2.7e+03 MP_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1 (faille-fossile-riviere)
 S  2.7e+03 SP1_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1 ()
 S  2.7e+03 SP2_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1 ()
+M  2.8e+03 MP_amont-2025-2@amont-2025-2_tot.Arcel1 (amont-2025-2)
+S  2.7e+03 SP1_amont-2025-2@amont-2025-2_tot.Arcel1 ()
+S  2.8e+03 SP2_amont-2025-2@amont-2025-2_tot.Arcel1 ()
 M  2.7e+03 MP_amont-2025-1@amont-2025-1_tot.Arcel1 (amont-2025-1)
 S  2.7e+03 SP4_amont-2025-1@amont-2025-1_tot.Arcel1 ()
 S  2.7e+03 SP3_amont-2025-1@amont-2025-1_tot.Arcel1 ()
@@ -364,11 +375,11 @@ S  2.6e+03 SP2_aval-2025-2@aval-2025-2_tot.Arcel1 ()
 M  2.6e+03 MP_aval-2025-1@aval-2025-1_tot.Arcel1 (aval-2025-1)
 S  2.6e+03 SP1_aval-2025-1@aval-2025-1_tot.Arcel1 ()
 S     -.-- SP2_aval-2025-1@aval-2025-1_tot.Arcel1 ()
-S  5.5e+03 @ ()
+S  5.6e+03 @ ()
 ########## end of export maps & scraps selection ###############
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/exports/arcel1_plan-travail.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  14 OCT 2025 17:12
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  14 OCT 2025 22:36
 **data.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
@@ -403,34 +414,38 @@ MK-SP_tot.Arcel1] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92]
 ot.Arcel1] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [127]
 [128] [129] [130] [131] [132]
 [Warning: scrap outline intersects itself in scrap SP1_faille-fossile-riviere@f
-aille-fossile-riviere_tot.Arcel1] [133] [134] [135] [136] [137] [138] [139]
-[140] [141] [142] [143] [144] [145] [146]
+aille-fossile-riviere_tot.Arcel1] [133] [134] [135] [136]
+[Warning: scrap outline intersects itself in scrap SP2_amont-2025-2@amont-2025-
+2_tot.Arcel1] [137] [138] [139] [140]
+[Warning: scrap outline intersects itself in scrap SP1_amont-2025-2@amont-2025-
+2_tot.Arcel1] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151]
+[152] [153] [154]
 [Warning: text scaled down to fit the path in scrap SP2_amont-2025-1@amont-2025
 -1_tot.Arcel1]
 [Warning: text scaled down to fit the path in scrap SP2_amont-2025-1@amont-2025
--1_tot.Arcel1] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156]
-[157] [158] [159] [160] [161] [162] [163] [164] [165] [166] [167] [168] [169]
-(./mptextmp.mp) [170] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [171] [172]
-[173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185]
-[186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198]
-[199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211]
-[212] [213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224]
-[225] )
+-1_tot.Arcel1] [155] [156] [157] [158] [159] [160] [161] [162] [163] [164]
+[165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177]
+(./mptextmp.mp) [178] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [179] [180]
+[181] [182] [183] [184] [185] [186] [187] [188] [189] [190] [191] [192] [193]
+[194] [195] [196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206]
+[207] [208] [209] [210] [211] [212] [213] [214] [215] [216] [217] [218] [219]
+[220] [221] [222] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232]
+[233] )
  
 Here is how much of MetaPost's memory you used:
- 172230 strings using 4570684 characters
- 6177656 bytes of node memory
+ 186490 strings using 4964505 characters
+ 6325800 bytes of node memory
  1784 symbolic tokens
  11i,82n,16p,1029b,5f stack positions out of 16i,98n,20p,1187b,6f
-241 output files written: data-patt.1 .. data.225
+249 output files written: data-patt.1 .. data.233
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  14 OCT 2025 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  14 OCT 2025 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -445,10 +460,10 @@ Normal \count register pool exhausted, switching to extended pool.)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 746 strings out of 494562
- 9327 string characters out of 6145052
- 579332 words of memory out of 5000000
- 2415 multiletter control sequences out of 15000+600000
+ 764 strings out of 494562
+ 9551 string characters out of 6145052
+ 617562 words of memory out of 5000000
+ 2433 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
  10i,5n,9p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -457,12 +472,12 @@ Here is how much of TeX's memory you used:
 .pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
 local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 2942110 bytes).
+Output written on data.pdf (1 page, 3247912 bytes).
 PDF statistics:
- 1000 PDF objects out of 1000 (max. 8388607)
- 502 compressed objects within 6 object streams
+ 1040 PDF objects out of 1200 (max. 8388607)
+ 522 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 2895 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3015 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -511,7 +526,7 @@ S        0 pts-oublie_SC1@pts_oublie_tot.Arcel1 ()
 ########## end of export maps & scraps selection ###############
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/exports/arcel1_coupe-travail.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  14 OCT 2025 17:12
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  14 OCT 2025 22:36
 **data.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
@@ -535,21 +550,22 @@ Warning: patterncolor not supported in Therion [15] [16] [1] [2] [3] [4] [5]
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
 (./mptextmp.mp) [116] [117] [118] [119] [120] [121] [122] [123] [124] [125]
 [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137] [138]
-[139] [140] [141] [142] [143] [144] [145] [146] )
+[139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151]
+[152] [153] [154] [155] )
  
 Here is how much of MetaPost's memory you used:
- 105086 strings using 2823685 characters
- 5170104 bytes of node memory
+ 105095 strings using 2823721 characters
+ 5173144 bytes of node memory
  1781 symbolic tokens
  10i,82n,16p,877b,5f stack positions out of 16i,98n,20p,950b,6f
-162 output files written: data-patt.1 .. data.146
+171 output files written: data-patt.1 .. data.155
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  14 OCT 2025 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  14 OCT 2025 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,10 +580,10 @@ Normal \count register pool exhausted, switching to extended pool.)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 520 strings out of 494562
- 6499 string characters out of 6145052
- 131114 words of memory out of 5000000
- 2189 multiletter control sequences out of 15000+600000
+ 529 strings out of 494562
+ 6571 string characters out of 6145052
+ 144596 words of memory out of 5000000
+ 2198 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
  10i,5n,9p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -575,12 +591,12 @@ Here is how much of TeX's memory you used:
 .pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
 .pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
 /local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 666371 bytes).
+Output written on data.pdf (1 page, 671549 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
+ 543 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 1501 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1555 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -588,7 +604,7 @@ done
 
 
 ############### export maps & scraps selection #################
-M    4e+03 MP_murs-et-centerline@Arcel1 ()
+M  4.1e+03 MP_murs-et-centerline@Arcel1 ()
 M  2.6e+03 MP_escalier@escalier_tot.Arcel1 ()
 S  2.6e+03 escalier_SP1@escalier_tot.Arcel1 ()
 M  2.5e+03 MP_pieuvre_PG-FM@pieuvre_PG-FM_tot.Arcel1 ()
@@ -632,6 +648,9 @@ S  2.6e+03 diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1 ()
 M  2.7e+03 MP_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1 (faille-fossile-riviere)
 S  2.7e+03 SP1_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1 ()
 S  2.7e+03 SP2_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1 ()
+M  2.8e+03 MP_amont-2025-2@amont-2025-2_tot.Arcel1 (amont-2025-2)
+S  2.7e+03 SP1_amont-2025-2@amont-2025-2_tot.Arcel1 ()
+S  2.8e+03 SP2_amont-2025-2@amont-2025-2_tot.Arcel1 ()
 M  2.7e+03 MP_amont-2025-1@amont-2025-1_tot.Arcel1 (amont-2025-1)
 S  2.7e+03 SP4_amont-2025-1@amont-2025-1_tot.Arcel1 ()
 S  2.7e+03 SP3_amont-2025-1@amont-2025-1_tot.Arcel1 ()
@@ -644,11 +663,11 @@ S  2.6e+03 SP2_aval-2025-2@aval-2025-2_tot.Arcel1 ()
 M  2.6e+03 MP_aval-2025-1@aval-2025-1_tot.Arcel1 (aval-2025-1)
 S  2.6e+03 SP1_aval-2025-1@aval-2025-1_tot.Arcel1 ()
 S     -.-- SP2_aval-2025-1@aval-2025-1_tot.Arcel1 ()
-S  5.5e+03 @ ()
+S  5.6e+03 @ ()
 ########## end of export maps & scraps selection ###############
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/exports/arcel1_DEBUG_plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  14 OCT 2025 17:12
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  14 OCT 2025 22:36
 **data.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
@@ -683,33 +702,37 @@ MK-SP_tot.Arcel1] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
 ot.Arcel1] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129]
 [130] [131] [132] [133]
 [Warning: scrap outline intersects itself in scrap SP1_faille-fossile-riviere@f
-aille-fossile-riviere_tot.Arcel1] [134] [135] [136] [137] [138] [139] [140]
-[141] [142] [143] [144] [145] [146] [147]
+aille-fossile-riviere_tot.Arcel1] [134] [135] [136]
+[Warning: scrap outline intersects itself in scrap SP2_amont-2025-2@amont-2025-
+2_tot.Arcel1] [137] [138] [139]
+[Warning: scrap outline intersects itself in scrap SP1_amont-2025-2@amont-2025-
+2_tot.Arcel1] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150]
+[151] [152] [153]
 [Warning: text scaled down to fit the path in scrap SP2_amont-2025-1@amont-2025
 -1_tot.Arcel1]
 [Warning: text scaled down to fit the path in scrap SP2_amont-2025-1@amont-2025
--1_tot.Arcel1] [148] [149] [150] [151] [152] [153] [154] [155] [156] [157]
-[158] [159] [160] [161] [162] [163] [164] [165] [166] [167] [168]
-(./mptextmp.mp) [169] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [170] [171]
-[172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184]
-[185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197]
-[198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210]
-[211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221] [222] )
+-1_tot.Arcel1] [154] [155] [156] [157] [158] [159] [160] [161] [162] [163]
+[164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174]
+(./mptextmp.mp) [175] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [176] [177]
+[178] [179] [180] [181] [182] [183] [184] [185] [186] [187] [188] [189] [190]
+[191] [192] [193] [194] [195] [196] [197] [198] [199] [200] [201] [202] [203]
+[204] [205] [206] [207] [208] [209] [210] [211] [212] [213] [214] [215] [216]
+[217] [218] [219] [220] [221] [222] [223] [224] [225] [226] [227] [228] )
  
 Here is how much of MetaPost's memory you used:
- 92330 strings using 2254760 characters
- 4946664 bytes of node memory
+ 98377 strings using 2400900 characters
+ 4965048 bytes of node memory
  1783 symbolic tokens
  11i,82n,16p,1029b,5f stack positions out of 16i,98n,20p,1187b,6f
-238 output files written: data-patt.1 .. data.222
+244 output files written: data-patt.1 .. data.228
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  14 OCT 2025 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  14 OCT 2025 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -724,10 +747,10 @@ Normal \count register pool exhausted, switching to extended pool.)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 743 strings out of 494562
- 9304 string characters out of 6145052
- 220189 words of memory out of 5000000
- 2412 multiletter control sequences out of 15000+600000
+ 759 strings out of 494562
+ 9508 string characters out of 6145052
+ 260983 words of memory out of 5000000
+ 2428 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
  10i,5n,9p,1736b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -736,12 +759,12 @@ Here is how much of TeX's memory you used:
 .pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
 local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 1496043 bytes).
+Output written on data.pdf (1 page, 1604276 bytes).
 PDF statistics:
- 991 PDF objects out of 1000 (max. 8388607)
- 498 compressed objects within 5 object streams
+ 1028 PDF objects out of 1200 (max. 8388607)
+ 516 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 2871 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2979 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -767,11 +790,13 @@ therion: warning -- pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1 -- invalid scrap 
 therion: warning -- pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot.Arcel1 -- invalid scrap outline
 ........
 therion: warning -- SP3_amont-2025-1@amont-2025-1_tot.Arcel1 -- multiple scrap outer outlines not supported yet
-..................... done
+...................
+therion: warning -- SP2_amont-2025-2@amont-2025-2_tot.Arcel1 -- multiple scrap outer outlines not supported yet
+.. done
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/exports/arcel1.kml ... done
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/exports/arcel1-shots.kml ... done
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/exports/arcelin-shp ... done
-compilation time: 23 sec
+compilation time: 25 sec
 
 
 ######################### loop errors ##########################
@@ -799,12 +824,14 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.38%      73%  SP1_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1
    0.07%      73%  SP_amont2024-3_1@amont24_tot.Arcel1
      42%      72%  pieuvre_PG-FM_SP3@pieuvre_PG-FM_tot.Arcel1
+     11%      70%  SP5_amont-2025-1@amont-2025-1_tot.Arcel1
     0.8%      65%  diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1
    0.12%      64%  SP_amont2024-2_2@amont24_tot.Arcel1
    0.86%      64%  SP_amont2024-1_1@amont24_tot.Arcel1
     1.4%      64%  pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1
    0.67%      63%  SP_amont2024-1_2@amont24_tot.Arcel1
     5.2%      63%  SP1_amont-2025-1@amont-2025-1_tot.Arcel1
+   0.37%      63%  SP1_amont-2025-2@amont-2025-2_tot.Arcel1
     2.1%      62%  SP_amont2024-3_2@amont24_tot.Arcel1
    0.16%      61%  SP_amont2024-2_1@amont24_tot.Arcel1
     4.7%      59%  SP1-puits_remontant@2023_tot.Arcel1
@@ -830,22 +857,20 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
   0.016%    0.44%  SP3_amont-2025-1@amont-2025-1_tot.Arcel1
  0.0015%    0.11%  SP2_aval-2025-2@aval-2025-2_tot.Arcel1
  0.0079%   0.046%  tube-de-prechauffage_SP1@tube-de-prechauffage_tot.Arcel1
+ 0.00082%   0.045%  SP2_amont-2025-2@amont-2025-2_tot.Arcel1
  0.0016%   0.044%  SP2_amont-2025-1@amont-2025-1_tot.Arcel1
  0.0013%   0.033%  PR-amont23@2023_tot.Arcel1
- 0.0046%   0.029%  SP5_amont-2025-1@amont-2025-1_tot.Arcel1
-      0%       0%  SC2_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1
-      0%       0%  SC1_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1
-      0%       0%  SC2_amont-2025-1@amont-2025-1_tot.Arcel1
+      0%       0%  SP6_amont-2025-1@amont-2025-1_tot.Arcel1
       0%       0%  SC1_amont-2025-1@amont-2025-1_tot.Arcel1
+      0%       0%  SC2_amont-2025-1@amont-2025-1_tot.Arcel1
+      0%       0%  SC1_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1
+      0%       0%  SC2_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1
+      0%       0%  scrap167@amont24_tot.Arcel1
       0%       0%  SP2_aval-2025-1@aval-2025-1_tot.Arcel1
       0%       0%  SC1_aval-2025-1@aval-2025-1_tot.Arcel1
       0%       0%  SC2_aval-2025-1@aval-2025-1_tot.Arcel1
-      0%       0%  SP6_amont-2025-1@amont-2025-1_tot.Arcel1
-      0%       0%  scrap167@amont24_tot.Arcel1
       0%       0%  SC1_aval-2025-2@aval-2025-2_tot.Arcel1
       0%       0%  SC2_aval-2025-2@aval-2025-2_tot.Arcel1
-      0%       0%  SP1_amont-2025-2@amont-2025-2_tot.Arcel1
-      0%       0%  SP2_amont-2025-2@amont-2025-2_tot.Arcel1
       0%       0%  SC1_amont-2025-2@amont-2025-2_tot.Arcel1
       0%       0%  SC2_amont-2025-2@amont-2025-2_tot.Arcel1
 ################### end of scrap distortions ###################

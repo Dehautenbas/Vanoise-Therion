@@ -1,0 +1,28 @@
+%!PS
+%%BoundingBox: -110 -7 69 48 
+%%HiResBoundingBox: -109.90001 -6.05296 68.101 47.18623 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%*Font: cmss10 6.97382 9.96265 2d:cec0000012000f89228
+%*Font: cmss10 13.94763 9.96265 2d:c4000000120008c9264
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0.89745 0.33333 0.22 setcmykcolor 0 0.42001
+ dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap
+ 1 setlinejoin 10 setmiterlimit
+newpath -109.69 39.24 moveto
+-108.33104 41.91454 lineto stroke
+-107.63104 42.61453 moveto
+(2653) cmss10 6.97382 fshow
+ 0 0 0 1 setcmykcolor
+-66.891 -4.84296 moveto
+(SP2.faille-fossile-riviere) cmss10 13.94763 fshow
+newpath -67.891 -5.84296 moveto
+67.89099 -5.84296 lineto
+67.89099 5.84294 lineto
+-67.891 5.84294 lineto
+ closepath stroke
+showpage
+%%EOF

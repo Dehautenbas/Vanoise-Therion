@@ -1,0 +1,26 @@
+%!PS
+%%BoundingBox: -76 -8 76 8 
+%%HiResBoundingBox: -75.88846 -7.40897 75.88846 7.40895 
+%%Creator: MetaPost 2.11
+%%CreationDate: 2025.10.14:2236
+%%Pages: 1
+%*Font: cmss10 13.94763 9.96265 0b:8000000032000000048003ec056
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 1 setcmykcolor
+-74.67845 -3.48695 moveto
+(tub) cmss10 13.94763 fshow
+-54.84164 -3.48695 moveto
+(e-de-p) cmss10 13.94763 fshow
+-19.12006 -3.48695 moveto
+(rechau\013age.SP1) cmss10 13.94763 fshow
+ 0 0.42001 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+ 1 setlinejoin 10 setmiterlimit
+newpath -75.67845 -7.19896 moveto
+75.67845 -7.19896 lineto
+75.67845 7.19894 lineto
+-75.67845 7.19894 lineto
+ closepath stroke
+showpage
+%%EOF
