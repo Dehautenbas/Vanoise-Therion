@@ -65,6 +65,8 @@ layout plan
   legend on     
   legend-columns 3
   #colour-legend off
+  surface bottom
+  surface-opacity 70
 
   grid bottom                                ### positionnement de la grille
   grid-size 20 20 20 m                  ### dimension de la grille

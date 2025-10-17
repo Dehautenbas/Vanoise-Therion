@@ -1,19 +1,22 @@
-therion 6.3.4 (2025-04-08)
-  - using Proj 9.6.2, compiled against 9.6.2
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
-configuration file: /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/arcel1_CONFIG1.thcfg
+therion 6.3.3 (2025-01-06)
+  - using Proj 9.4.1, compiled against 9.4.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: .\vanoise_config1.thcfg
 reading ... done
 reading source files ... done
 preprocessing database ... done
+C:\Program Files\Therion\therion.exe: warning -- year 2023 magnetic declination used for undated surveys
+undated surveys:
+G4.G4_tot.vanoise
 output coordinate system: UTM32
-meridian convergence (deg): 1.586
+meridian convergence (deg): 1.5802
 geomag declinations (deg):
-  2022.1.1  2.56
-  2023.1.1  2.691
-  2024.1.1  2.822
-  2025.1.1  2.953
-  2026.1.1  3.075
+  2022.1.1  2.5624
+  2023.1.1  2.6933
+  2024.1.1  2.8240
+  2025.1.1  2.9547
+  2026.1.1  3.0771
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
@@ -22,7 +25,13 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
+writing Exports/vanoise-tot_3d.lox ...
 processing projection plan ... done
+<<<<<<< HEAD
+average distortion: 0.87%
+.........
+C:\Program Files\Therion\therion.exe: warning -- amont23_SP1@2023_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
+=======
 average distortion: 0.93%
 
 
@@ -771,24 +780,38 @@ PDF statistics:
 done
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/exports/arcel1-3d.lox ............
 therion: warning -- amont23_SP1@2023_tot.Arcel1 -- multiple scrap outer outlines not supported yet
+>>>>>>> origin/main
 ..
-therion: warning -- SP1_Frequence51@2023_tot.Arcel1 -- multiple scrap outer outlines not supported yet
+C:\Program Files\Therion\therion.exe: warning -- SP1_Frequence51@2023_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
 .....
-therion: warning -- SP_amont2024-1_2@amont24_tot.Arcel1 -- multiple scrap outer outlines not supported yet
+C:\Program Files\Therion\therion.exe: warning -- SP_amont2024-1_2@amont24_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
 ....
-therion: warning -- SP_amont2024-2_1@amont24_tot.Arcel1 -- multiple scrap outer outlines not supported yet
+C:\Program Files\Therion\therion.exe: warning -- SP_amont2024-2_1@amont24_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
 ...
-therion: warning -- SP_amont2024-3_2@amont24_tot.Arcel1 -- multiple scrap outer outlines not supported yet
+C:\Program Files\Therion\therion.exe: warning -- SP_amont2024-3_2@amont24_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
 .
-therion: warning -- diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1 -- multiple scrap outer outlines not supported yet
+C:\Program Files\Therion\therion.exe: warning -- diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
 .
-therion: warning -- escalier_SP1@escalier_tot.Arcel1 -- multiple scrap outer outlines not supported yet
+C:\Program Files\Therion\therion.exe: warning -- escalier_SP1@escalier_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
 .
-therion: warning -- pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1 -- multiple scrap outer outlines not supported yet
-therion: warning -- pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1 -- invalid scrap outline
+C:\Program Files\Therion\therion.exe: warning -- pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
+C:\Program Files\Therion\therion.exe: warning -- pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1.vanoise -- invalid scrap outline
 .
-therion: warning -- pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot.Arcel1 -- invalid scrap outline
+C:\Program Files\Therion\therion.exe: warning -- pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot.Arcel1.vanoise -- invalid scrap outline
 ........
+<<<<<<< HEAD
+C:\Program Files\Therion\therion.exe: warning -- SP3_amont-2025-1@amont-2025-1_tot.Arcel1.vanoise -- multiple scrap outer outlines not supported yet
+.........................
+C:\Program Files\Therion\therion.exe: warning -- SP-perte_des_copains-1@perte-des-copains.vanoise -- multiple scrap outer outlines not supported yet
+ done
+writing Exports/vanoise-tot.kml ... done
+writing Exports/vanoise-tot_stats.html ... done
+writing Exports/vanoise-tot_continuations.html ... 
+processing projection extended ... done
+average distortion: 1.52%
+done
+compilation time: 23 sec
+=======
 therion: warning -- SP3_amont-2025-1@amont-2025-1_tot.Arcel1 -- multiple scrap outer outlines not supported yet
 ...................
 therion: warning -- SP2_amont-2025-2@amont-2025-2_tot.Arcel1 -- multiple scrap outer outlines not supported yet
@@ -797,26 +820,90 @@ writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/export
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/exports/arcel1-shots.kml ... done
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/0_arcel1/exports/arcelin-shp ... done
 compilation time: 25 sec
+>>>>>>> origin/main
 
 
 ######################### loop errors ##########################
 REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
-   7.8%    8.6m  110.6m  29    0.5m   -4.2m    7.5m [107@faille-fossile-riviere.faille-fossile-riviere_tot.Arcel1 - 106 - 105 - 6 = 6@amont-2025-1.amont-2025-1_tot.Arcel1 - 5 - 4 - 3 - 2 - 1 - 0 = 16@aval-2025-1.aval-2025-1_tot.Arcel1 - 15 - 14 - 13 - 12 - 11 - 10 - 0 = 0@amont2024-3_TC-BU.amont24_tot.Arcel1 - 1 - 2 - 3 - 4 - 5 - 6 - 7 = 135@faille-fossile-riviere.faille-fossile-riviere_tot.Arcel1 - 136 - 137 - 138 - 139 - 140 - 107]
-   7.7%    3.4m   45.0m  15    3.4m    0.1m    0.5m [27@frequence51.2023_tot.Arcel1 - 28 - PTR_2 - 2 - 4 - 5 - 6 - 16b - 17 - 18 - 19 - 20 - 21 - P - 26 - 27]
-   6.9%    2.9m   42.4m   7    2.6m    0.7m   -1.2m [16@escalier.escalier_tot.Arcel1 - 16a - 16b - 16c - 13 - 14 - 15 - 16]
-   5.7%    1.0m   17.7m   8    0.7m    0.7m   -0.3m [21@pieuvre_PG-FM.pieuvre_PG-FM_tot.Arcel1 - 22 - 23 - 24 - 25 - 26 = 18 - 19 - 20 - 21]
-   4.3%    0.9m   20.5m   7    0.4m   -0.7m   -0.4m [51-ptr-29@amont-2025-1.amont-2025-1_tot.Arcel1 - 54 - 55 - 56 - 57 - 53 - 52 - 51-ptr-29]
-     2%    5.0m  243.7m  58   -0.6m   -4.5m    1.9m [0@puits-remontant.2023_tot.Arcel1 - 1 - 2 - 3 - 4 - 5 - 6 - 7 = 21.3@pieuvre_PG-FM.pieuvre_PG-FM_tot.Arcel1 - 21.2 - 21.1 - 21 - 20 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 19@amont.2023_tot.Arcel1 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 53@frequence51.2023_tot.Arcel1 - 52 - 51 - 50 - 49 - 48 - 47 - 44 - 43 = 0@puits-remontant.2023_tot.Arcel1]
-   1.4%    0.6m   41.1m  14    0.2m    0.3m    0.4m [47-ptr13@amont-2025-1.amont-2025-1_tot.Arcel1 - 97 - 96 - 95 - 94 - 93 - 92 - 91 - 90 - 89 - 88 - 87 - 49 - 48 - 47-ptr13]
-   1.2%    1.2m  101.0m  24    0.2m   -0.6m   -1.0m [135@faille-fossile-riviere.faille-fossile-riviere_tot.Arcel1 - 136 - 137 - 138 - 139 - 140 - 107 - 108 - 109 - 110 - 111 - 112 - 113 - 114 - 115 - 116 - 117 - 118 - 119 - 130 - 131 - 132 - 133 - 134 - 135]
-  0.79%    2.5m  321.8m  64    1.9m   -0.3m    1.6m [236@escalier.escalier_tot.Arcel1 - 235 - 234 - 233 - 23 - 22 - 21 - 20 - 199 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 3a - 3b - 3c = 15@amont2024-1.amont24_tot.Arcel1 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 40@amont.2023_tot.Arcel1 - 39 - 38 - 37 - 36 - 35 - 34 - 33 - 32 - 31 - 30 - 29 - 28 - 27 - 26 - 25 - 24 - 23 - 22 - 21 - 20 - 19 = 236@escalier.escalier_tot.Arcel1]
-  0.62%    0.3m   47.6m  14    0.1m    0.1m    0.2m [39@amont2024-1.amont24_tot.Arcel1 - 38 - 37 - 36 - 35 - 34 - 33 - 32 - 31 - 30 - 29 - 28 - 27 - 26 - 25 = 39]
+  7.80%    8.6m  110.6m  29    0.5m   -4.2m    7.5m [107@faille-fossile-riviere.faille-fossile-riviere_tot.Arcel1.vanoise - 106 - 105 - 6 = 6@amont-2025-1.amont-2025-1_tot.Arcel1.vanoise - 5 - 4 - 3 - 2 - 1 - 0 = 16@aval-2025-1.aval-2025-1_tot.Arcel1.vanoise - 15 - 14 - 13 - 12 - 11 - 10 - 0 = 0@amont2024-3_TC-BU.amont24_tot.Arcel1.vanoise - 1 - 2 - 3 - 4 - 5 - 6 - 7 = 135@faille-fossile-riviere.faille-fossile-riviere_tot.Arcel1.vanoise - 136 - 137 - 138 - 139 - 140 - 107]
+  7.66%    3.4m   45.0m  15    3.4m    0.1m    0.5m [27@frequence51.2023_tot.Arcel1.vanoise - 28 - PTR_2 - 2 - 4 - 5 - 6 - 16b - 17 - 18 - 19 - 20 - 21 - P - 26 - 27]
+  6.88%    2.9m   42.4m   7    2.6m    0.7m   -1.2m [16@escalier.escalier_tot.Arcel1.vanoise - 16a - 16b - 16c - 13 - 14 - 15 - 16]
+  5.74%    1.0m   17.7m   8    0.7m    0.7m   -0.3m [21@pieuvre_PG-FM.pieuvre_PG-FM_tot.Arcel1.vanoise - 22 - 23 - 24 - 25 - 26 = 18 - 19 - 20 - 21]
+  4.34%    0.9m   20.5m   7    0.4m   -0.7m   -0.4m [51-ptr-29@amont-2025-1.amont-2025-1_tot.Arcel1.vanoise - 54 - 55 - 56 - 57 - 53 - 52 - 51-ptr-29]
+  2.29%    0.1m    3.4m   2   -0.0m    0.0m    0.1m [6@perte-lac-des-assiettes.vanoise - 7 - 6]
+  2.03%    5.0m  243.7m  58   -0.6m   -4.5m    1.9m [0@puits-remontant.2023_tot.Arcel1.vanoise - 1 - 2 - 3 - 4 - 5 - 6 - 7 = 21.3@pieuvre_PG-FM.pieuvre_PG-FM_tot.Arcel1.vanoise - 21.2 - 21.1 - 21 - 20 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 19@amont.2023_tot.Arcel1.vanoise - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 53@frequence51.2023_tot.Arcel1.vanoise - 52 - 51 - 50 - 49 - 48 - 47 - 44 - 43 = 0@puits-remontant.2023_tot.Arcel1.vanoise]
+  1.44%    0.6m   41.1m  14    0.2m    0.3m    0.4m [47-ptr13@amont-2025-1.amont-2025-1_tot.Arcel1.vanoise - 97 - 96 - 95 - 94 - 93 - 92 - 91 - 90 - 89 - 88 - 87 - 49 - 48 - 47-ptr13]
+  1.19%    1.2m  101.0m  24    0.2m   -0.6m   -1.0m [135@faille-fossile-riviere.faille-fossile-riviere_tot.Arcel1.vanoise - 136 - 137 - 138 - 139 - 140 - 107 - 108 - 109 - 110 - 111 - 112 - 113 - 114 - 115 - 116 - 117 - 118 - 119 - 130 - 131 - 132 - 133 - 134 - 135]
+  0.79%    2.5m  321.8m  64    1.9m   -0.3m    1.6m [236@escalier.escalier_tot.Arcel1.vanoise - 235 - 234 - 233 - 23 - 22 - 21 - 20 - 199 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 3a - 3b - 3c = 15@amont2024-1.amont24_tot.Arcel1.vanoise - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 40@amont.2023_tot.Arcel1.vanoise - 39 - 38 - 37 - 36 - 35 - 34 - 33 - 32 - 31 - 30 - 29 - 28 - 27 - 26 - 25 - 24 - 23 - 22 - 21 - 20 - 19 = 236@escalier.escalier_tot.Arcel1.vanoise]
+  0.62%    0.3m   47.6m  14    0.1m    0.1m    0.2m [39@amont2024-1.amont24_tot.Arcel1.vanoise - 38 - 37 - 36 - 35 - 34 - 33 - 32 - 31 - 30 - 29 - 28 - 27 - 26 - 25 = 39]
 ##################### end of loop errors #######################
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
+<<<<<<< HEAD
+   2.68%   85.63%  SP1_Frequence51@2023_tot.Arcel1.vanoise
+   4.26%   83.95%  pts_oublie_SP1@pts_oublie_tot.Arcel1.vanoise
+   0.61%   77.13%  SP-jonction-2@2023_tot.Arcel1.vanoise
+   3.18%   76.74%  pieuvre_PG-FM_SP2@pieuvre_PG-FM_tot.Arcel1.vanoise
+   0.38%   72.98%  SP1_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1.vanoise
+   0.07%   72.82%  SP_amont2024-3_1@amont24_tot.Arcel1.vanoise
+  42.08%   71.86%  pieuvre_PG-FM_SP3@pieuvre_PG-FM_tot.Arcel1.vanoise
+   0.80%   64.78%  diaclase-boucle_SP1@diaclase-boucle_tot.Arcel1.vanoise
+   0.12%   64.46%  SP_amont2024-2_2@amont24_tot.Arcel1.vanoise
+   0.86%   64.34%  SP_amont2024-1_1@amont24_tot.Arcel1.vanoise
+   1.43%   63.67%  pieuvre_PG-FM_SP1@pieuvre_PG-FM_tot.Arcel1.vanoise
+   0.67%   63.41%  SP_amont2024-1_2@amont24_tot.Arcel1.vanoise
+   5.24%   63.25%  SP1_amont-2025-1@amont-2025-1_tot.Arcel1.vanoise
+   2.06%   62.25%  SP_amont2024-3_2@amont24_tot.Arcel1.vanoise
+   0.16%   60.64%  SP_amont2024-2_1@amont24_tot.Arcel1.vanoise
+   4.67%   58.60%  SP1-puits_remontant@2023_tot.Arcel1.vanoise
+   4.05%   56.01%  SP-jonction-1@2023_tot.Arcel1.vanoise
+   0.18%   55.51%  SP_pts_actif_1_1@pts-actif_tot.Arcel1.vanoise
+   0.66%   50.57%  amont23_SP1@2023_tot.Arcel1.vanoise
+   0.25%   50.26%  SP_amont2024-1_4@amont24_tot.Arcel1.vanoise
+   0.40%   50.18%  diaclase_MK-SP_SP1@diaclase_MK-SP_tot.Arcel1.vanoise
+   1.60%   42.58%  arcel1_S5_P@2023_tot.Arcel1.vanoise
+   1.55%   40.31%  SP2_Frequence51@2023_tot.Arcel1.vanoise
+   0.81%   39.61%  SP2_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1.vanoise
+   0.13%   36.27%  SP_pts_actif_2_1@pts-actif_tot.Arcel1.vanoise
+   0.94%   33.77%  SP1_aval-2025-1@aval-2025-1_tot.Arcel1.vanoise
+   0.35%   17.96%  escalier_SP1@escalier_tot.Arcel1.vanoise
+   0.54%   10.08%  SP-perte_des_copains-1@perte-des-copains.vanoise
+   0.25%    5.20%  AR3_sp1@AR3.vanoise
+   0.12%    4.90%  SP1_aval-2025-2@aval-2025-2_tot.Arcel1.vanoise
+   0.13%    2.29%  SP-jonction-3@2023_tot.Arcel1.vanoise
+   0.17%    2.18%  arcel1_S1_P@2023_tot.Arcel1.vanoise
+   0.10%    1.79%  arcel1_S3_P@2023_tot.Arcel1.vanoise
+   0.07%    1.15%  SP_amont2024-1_3@amont24_tot.Arcel1.vanoise
+   0.09%    0.99%  arcel1_S2_P@2023_tot.Arcel1.vanoise
+   0.13%    0.96%  SP-AR6-1@AR6.vanoise
+   0.28%    0.86%  SP4_amont-2025-1@amont-2025-1_tot.Arcel1.vanoise
+   0.06%    0.44%  arcel1_S4_P@2023_tot.Arcel1.vanoise
+   0.02%    0.44%  SP3_amont-2025-1@amont-2025-1_tot.Arcel1.vanoise
+   0.00%    0.11%  SP2_aval-2025-2@aval-2025-2_tot.Arcel1.vanoise
+   0.01%    0.05%  tube-de-prechauffage_SP1@tube-de-prechauffage_tot.Arcel1.vanoise
+   0.00%    0.04%  SP2_amont-2025-2@amont-2025-2_tot.Arcel1.vanoise
+   0.00%    0.04%  SP2_amont-2025-1@amont-2025-1_tot.Arcel1.vanoise
+   0.00%    0.03%  PR-amont23@2023_tot.Arcel1.vanoise
+   0.00%    0.03%  SP1@AR1.vanoise
+   0.00%    0.03%  SP5_amont-2025-1@amont-2025-1_tot.Arcel1.vanoise
+   0.00%    0.01%  SP1_amont-2025-2@amont-2025-2_tot.Arcel1.vanoise
+   0.00%    0.00%  scrap167@amont24_tot.Arcel1.vanoise
+   0.00%    0.00%  SC2_amont-2025-2@amont-2025-2_tot.Arcel1.vanoise
+   0.00%    0.00%  SC1_amont-2025-2@amont-2025-2_tot.Arcel1.vanoise
+   0.00%    0.00%  SC2_aval-2025-2@aval-2025-2_tot.Arcel1.vanoise
+   0.00%    0.00%  SC1_aval-2025-2@aval-2025-2_tot.Arcel1.vanoise
+   0.00%    0.00%  SC2_aval-2025-1@aval-2025-1_tot.Arcel1.vanoise
+   0.00%    0.00%  SC1_aval-2025-1@aval-2025-1_tot.Arcel1.vanoise
+   0.00%    0.00%  SP2_aval-2025-1@aval-2025-1_tot.Arcel1.vanoise
+   0.00%    0.00%  SC2_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1.vanoise
+   0.00%    0.00%  SC1_faille-fossile-riviere@faille-fossile-riviere_tot.Arcel1.vanoise
+   0.00%    0.00%  SC2_amont-2025-1@amont-2025-1_tot.Arcel1.vanoise
+   0.00%    0.00%  SC1_amont-2025-1@amont-2025-1_tot.Arcel1.vanoise
+   0.00%    0.00%  SP6_amont-2025-1@amont-2025-1_tot.Arcel1.vanoise
+=======
     2.7%      86%  SP1_Frequence51@2023_tot.Arcel1
     4.3%      84%  pts_oublie_SP1@pts_oublie_tot.Arcel1
    0.61%      77%  SP-jonction-2@2023_tot.Arcel1
@@ -873,48 +960,65 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
       0%       0%  SC2_aval-2025-2@aval-2025-2_tot.Arcel1
       0%       0%  SC1_amont-2025-2@amont-2025-2_tot.Arcel1
       0%       0%  SC2_amont-2025-2@amont-2025-2_tot.Arcel1
+>>>>>>> origin/main
 ################### end of scrap distortions ###################
 
 
 ###################### scrap distortions #######################
  PROJECTION: extended
  AVERAGE  MAXIMAL  SCRAP
-    3.2%   1e+02%  arcel1_S3_C@2023_tot.Arcel1
-   0.45%   1e+02%  pieuvre_PG-FM_SC1@pieuvre_PG-FM_tot.Arcel1
-    1.8%   1e+02%  SC1_puits-remontant@2023_tot.Arcel1
-     31%      95%  SC_amont2024-3_2@amont24_tot.Arcel1
-    0.8%      75%  SC-amont-2025-1@2023_tot.Arcel1
-   0.36%      67%  arcel1_S1_C@2023_tot.Arcel1
-    1.9%      66%  SC1_pts-actif-1@pts-actif_tot.Arcel1
-   0.57%      59%  arcel1_S2_C@2023_tot.Arcel1
-   0.38%      57%  SC1_pts-actif-2@pts-actif_tot.Arcel1
-  0.066%      35%  SC1_amont2024-3@amont24_tot.Arcel1
-    1.9%      34%  SC2_puits-remontant@2023_tot.Arcel1
-  0.032%      33%  SC_amont2024-2_1@amont24_tot.Arcel1
-   0.27%      31%  SC_amont2024-1_1@amont24_tot.Arcel1
-   0.47%      30%  SC-amont-2@2023_tot.Arcel1
-  0.033%      28%  SC_amont2024-2_2@amont24_tot.Arcel1
-   0.54%      28%  escalier_SC1@escalier_tot.Arcel1
-   0.24%      27%  SC_amont2024-1_3@amont24_tot.Arcel1
-   0.41%      21%  arcel1_S4_C@2023_tot.Arcel1
-   0.58%     8.2%  escalier_SC2@escalier_tot.Arcel1
-  0.096%     6.5%  diaclase-boucle_SC1@diaclase-boucle_tot.Arcel1
-   0.14%     1.6%  SC_amont2024-1_4@amont24_tot.Arcel1
-  0.053%    0.28%  escalier_SC0@escalier_tot.Arcel1
-  0.011%    0.16%  escalier_SC3@escalier_tot.Arcel1
- 0.0024%   0.056%  pts-oublie_SC1@pts_oublie_tot.Arcel1
- 0.0055%   0.037%  tube-de-prechauffage_SC1@tube-de-prechauffage_tot.Arcel1
- 0.0013%   0.016%  diaclase_MK-SP_SC1@diaclase_MK-SP_tot.Arcel1
- 0.00093%    0.01%  arcel1_S6_C@2023_tot.Arcel1
- 0.00057%  0.0079%  arcel1_S5_C@2023_tot.Arcel1
- 0.00064%  0.0071%  arcel1_S7_C@2023_tot.Arcel1
+   3.22%  100.00%  arcel1_S3_C@2023_tot.Arcel1.vanoise
+   0.45%  100.00%  pieuvre_PG-FM_SC1@pieuvre_PG-FM_tot.Arcel1.vanoise
+   1.84%  100.00%  SC1_puits-remontant@2023_tot.Arcel1.vanoise
+  30.65%   95.31%  SC_amont2024-3_2@amont24_tot.Arcel1.vanoise
+   0.80%   74.71%  SC-amont-2025-1@2023_tot.Arcel1.vanoise
+   0.36%   66.77%  arcel1_S1_C@2023_tot.Arcel1.vanoise
+   1.91%   65.86%  SC1_pts-actif-1@pts-actif_tot.Arcel1.vanoise
+   0.57%   58.90%  arcel1_S2_C@2023_tot.Arcel1.vanoise
+   0.38%   57.44%  SC1_pts-actif-2@pts-actif_tot.Arcel1.vanoise
+   0.07%   35.41%  SC1_amont2024-3@amont24_tot.Arcel1.vanoise
+   1.91%   34.36%  SC2_puits-remontant@2023_tot.Arcel1.vanoise
+   0.03%   32.77%  SC_amont2024-2_1@amont24_tot.Arcel1.vanoise
+   0.31%   31.30%  fond@marbrimba_tot.vanoise
+   0.27%   30.89%  SC_amont2024-1_1@amont24_tot.Arcel1.vanoise
+   0.47%   30.44%  SC-amont-2@2023_tot.Arcel1.vanoise
+   0.03%   28.07%  SC_amont2024-2_2@amont24_tot.Arcel1.vanoise
+   0.54%   27.98%  escalier_SC1@escalier_tot.Arcel1.vanoise
+   0.86%   27.86%  frac2@marbrimba_tot.vanoise
+   0.24%   27.33%  SC_amont2024-1_3@amont24_tot.Arcel1.vanoise
+   0.41%   21.44%  arcel1_S4_C@2023_tot.Arcel1.vanoise
+   0.15%   18.27%  s2_c@G4_tot.vanoise
+   0.08%   18.09%  s1_c@G4_tot.vanoise
+   2.31%   14.76%  frac3@marbrimba_tot.vanoise
+   0.58%    8.17%  escalier_SC2@escalier_tot.Arcel1.vanoise
+   0.10%    6.49%  diaclase-boucle_SC1@diaclase-boucle_tot.Arcel1.vanoise
+   0.19%    2.21%  SC-perte_des_copains-1@perte-des-copains.vanoise
+   0.14%    1.60%  SC_amont2024-1_4@amont24_tot.Arcel1.vanoise
+   0.04%    1.05%  AR3_sc1@AR3.vanoise
+   0.04%    0.59%  scrap1@arcel_tot.vanoise
+   0.05%    0.45%  scrap1@G2_tot.vanoise
+   0.05%    0.28%  escalier_SC0@escalier_tot.Arcel1.vanoise
+   0.04%    0.27%  scrap15@Master.vanoise
+   0.04%    0.25%  SC-AR6-1@AR6.vanoise
+   0.01%    0.16%  escalier_SC3@escalier_tot.Arcel1.vanoise
+   0.00%    0.06%  pts-oublie_SC1@pts_oublie_tot.Arcel1.vanoise
+   0.01%    0.04%  tube-de-prechauffage_SC1@tube-de-prechauffage_tot.Arcel1.vanoise
+   0.00%    0.02%  diaclase_MK-SP_SC1@diaclase_MK-SP_tot.Arcel1.vanoise
+   0.00%    0.01%  arcel1_S6_C@2023_tot.Arcel1.vanoise
+   0.00%    0.01%  sc1@AR1.vanoise
+   0.00%    0.01%  arcel1_S5_C@2023_tot.Arcel1.vanoise
+   0.00%    0.01%  arcel1_S7_C@2023_tot.Arcel1.vanoise
+   0.00%    0.01%  frac1@marbrimba_tot.vanoise
+   0.00%    0.00%  AR3_sc2@AR3.vanoise
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############
-  Area of Use (AoU): (6.772, 45.379) (6.772, 45.379)
+  Area of Use (AoU): (6.770, 45.365) (6.809, 45.391)
   [UTM32 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
   [UTM32 → LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
   [UTM32 → UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
   [UTM32 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:2154 → LAT-LONG] AoU: [no] transformation: [Inverse of Lambert-93 + RGF93 v1 to WGS 84 (1) + axis order change (2D)] definition: [proj=pipeline step inv proj=lcc lat_0=46.5 lon_0=3 lat_1=49 lat_2=44 x_0=700000 y_0=6600000 ellps=GRS80 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [1.000 m]
+  [EPSG:2154 → UTM32] AoU: [yes] transformation: [Inverse of Lambert-93 + RGF93 v1 to WGS 84 (1) + UTM zone 32N] definition: [proj=pipeline step inv proj=lcc lat_0=46.5 lon_0=3 lat_1=49 lat_2=44 x_0=700000 y_0=6600000 ellps=GRS80 step proj=utm zone=32 ellps=WGS84] accuracy: [1.000 m]
   [EPSG:4326 → UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
 ########## end of CRS transformations chosen by PROJ ###########
