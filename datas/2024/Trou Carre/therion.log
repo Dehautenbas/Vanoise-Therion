@@ -1,0 +1,91 @@
+therion 6.2.1 (2024-03-20)
+  - using Proj 9.3.1, compiled against 9.3.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: C:\Users\Utilisateur\Documents\GitHub\th-vanoise\datas\2024\Trou Carre\config1.thcfg
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+C:\Program Files\Therion\therion.exe: warning -- config2.thcfg [5] -- source layout not found -- legend
+
+C:\Program Files\Therion\therion.exe: warning -- config2.thcfg [102] -- source layout not found -- legend
+done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.03%
+C:\Program Files\Therion\therion.exe: warning --  [0] -- source layout not found -- hide_centreline
+
+
+############### export maps & scraps selection #################
+S  2875.57 scrap1@trou-carre_tot ()
+########## end of export maps & scraps selection ###############
+writing Exports/CAVITEE_plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  5 FEB 2025 15:02
+**data.mp
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) [6] [7] [8] [9] [10]
+[11] [12] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3399 strings using 87435 characters
+ 4233472 bytes of node memory
+ 1752 symbolic tokens
+ 8i,82n,18p,312b,5f stack positions out of 16i,98n,22p,312b,6f
+27 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  5 FEB 2025 15:02
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 61 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 306 strings out of 95671
+ 4119 string characters out of 1192323
+ 62708 words of memory out of 1543751
+ 1699 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 844 hyphenation exceptions out of 5000
+ 12i,5n,7p,1564b,78s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/T
+herion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files/Therion/texmf/fonts/type
+1/csss10.pfb><c:/Program Files/Therion/texmf/fonts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 58039 bytes).
+PDF statistics:
+ 68 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 2 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.03%    0.73%  scrap1@trou-carre_tot
+################### end of scrap distortions ###################
