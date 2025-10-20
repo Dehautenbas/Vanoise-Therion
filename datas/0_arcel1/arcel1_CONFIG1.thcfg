@@ -4,7 +4,10 @@ input ../../config3.thcfg
 
 source arcel1_tot.th
 
-#source ../mnt.th
+### Commenter ou décommenter la ligne "bitmap" dans le fichier mnt.th pour drapper l'image sat sur le mnt
+### Si problème d'ouverture du 3d avec Loch, commenter la ligne bitmap
+source datas/mnt.th
+source ../mnt.th
 
 ##########################Selection de la map à exporter #############################
 ######################################################################################
@@ -38,7 +41,7 @@ export map \
      -layout plan-surface \
      -output exports/arcel1_plan-surface.pdf 
 
-export map \
+#export map \
      -projection extended \
      -layout coupe \
      -output exports/arcel1_coupe.pdf 
@@ -47,12 +50,13 @@ export map \
 ######################## STATIONS ########################
 # l'ordre des layouts est importants !
 
-export map \
+#export map \
      -projection plan \
      -layout plan \
      -layout centerline \
      -output exports/arcel1_plan-travail.pdf 
 
+#export map \
 #export map \
      -projection extended \
      -layout coupe \
@@ -61,7 +65,7 @@ export map \
 
 
 ######################### DEBUG ########################
-export map \
+#export map \
      -projection plan \
      -layout plan   \
      -layout-debug all \
@@ -107,41 +111,41 @@ export map \
 #export atlas \
      -projection plan \
      -layout plan   \
-     -output exports/arcel1_Atlas.pdf 
+     -output exports/arcelin_atlas.pdf 
 
 
 
 ######################## MODELE 3D ########################
-    export model \
+#export model \
      -format loch \
-     -o exports/arcel1-3d.lox \
+     -o exports/arcelin.lox \
      #-wall-source maps
      
- #   export model \
+#export model \
     -o exports/arcelin-model.shp
 
 
 ######################## KML #######################
 #export map \
      -projection plan \
-     -output exports/arcel1.kml  ###-> Pour murs
+     -output exports/arcelin.kml  ###-> Pour murs
 
 #export model \
-     -output exports/arcel1-shots.kml  ###-> pour fil de fer sans station avec splays shots
+     -output exports/arcelin-shots.kml  ###-> pour fil de fer sans station avec splays shots
 
-export model \
--fmt esri \
--o exports/arcelin-shp
+#export model \
+     -fmt esri \
+     -o exports/arcelin-shp
 
 ######################## LISTES ########################
 #export survey-list \
-     -o exports/arcel1_stats.html
+     -o exports/arcelin_stats.html
 
 #export continuation-list \
-     -o exports/arcel1_continuations.html
+     -o exports/arcelin_continuations.html
 
 
 ######################## YEAR per YEAR ########################
 #export map -projection plan \
      -layout yearperyear \
-     -output exports/Année-par-année.pdf
+     -output exports/arcelin_annee-par-annee.pdf

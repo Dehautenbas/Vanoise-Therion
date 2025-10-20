@@ -3,27 +3,27 @@
 .DS_Store
 
 # Therion outputs (avec un/ ou non ?).
-#**.pdf
-# **.kml
-# **.kmz
-# **.lox
-# **.log
-# **.xml
-# **.html
-# **.xhtml
-# **.sql
-# **.3d
-# **.3dmf
-# **.vrml
-# **.vtk
-# **.db
-# **.sql
-# **.xvi
-#**.log
- **.dat
- .xtherion.dat
- therion.log
-# **.svg
+**.pdf
+**.kml
+**.kmz
+**.lox
+**.log
+**.xml
+**.html
+**.xhtml
+**.sql
+**.3d
+**.3dmf
+**.vrml
+**.vtk
+**.db
+**.sql
+**.xvi
+**.log
+**.dat
+.xtherion.dat
+therion.log
+**.svg
 
 # Therion shp outputs
 **.dbf

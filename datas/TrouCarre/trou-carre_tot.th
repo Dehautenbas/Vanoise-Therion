@@ -1,0 +1,22 @@
+encoding  utf-8
+survey trou-carre_tot -title "Trou Carré"
+
+
+### Import maps
+#input mdf-map.th
+
+
+### Import .th
+
+        input trou_carre.th
+
+
+#####   PLAN    #####
+    input trou-carre.th2
+        
+
+    ### Join .th2
+
+
+endsurvey
+

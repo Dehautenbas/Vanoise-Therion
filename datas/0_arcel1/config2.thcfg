@@ -30,9 +30,9 @@ endlayout
 layout comment
   code tex-map
       \legendwidth=30cm
-      \legendtextsize={\size[13]}
-      \legendtextheadersize={\size[32]} 
-      \legendtextsectionsize={\size[22]}  %Taille mot "Légende"
+      \legendtextsize={\size[22]}
+      \legendtextheadersize={\size[40]} 
+      \legendtextsectionsize={\size[28]}  %Taille mot "Légende"
       %\legendtextcolor={\color[0 0 110]}      %# RGB values 0--100
    endcode
 
@@ -58,7 +58,7 @@ layout plan
 
   cs UTM32
  
-  map-header 1 4 sw              ### positionnement du cartouche 
+  map-header 20 40 nw              ### positionnement du cartouche 
   scale-bar 25 m
   #copy scalebar_horiz
   #copy scalebar_vert
@@ -72,7 +72,7 @@ layout plan
 
   #statistics topo-length on
 
-    rotate 0                ### rotation du nord géographique (en degré)
+    #rotate 0                ### rotation du nord géographique (en degré)
 endlayout 
 
 
@@ -86,13 +86,14 @@ layout plan-surface
 
   cs UTM32
  
-  map-header 1 4 sw              ### positionnement du cartouche 
+  map-header 20 40 nw              ### positionnement du cartouche 
   scale-bar 25 m
+  map-header-bg on
   #copy scalebar_horiz
   #copy scalebar_vert
   legend on     
   legend-columns 3
-  #colour-legend off
+  colour-legend off
 
 
   #grid bottom                                ### positionnement de la grille
@@ -155,10 +156,10 @@ layout yearperyear ##Pour l'export année par année ; A besoin du lookup ci-des
     endcode
 
     color map-bg 96
-    map-header 5 -5 nw                   ### positionnement du cartouche 5 15
+    map-header 20 40 nw                   ### positionnement du cartouche 
     statistics topo off
     statistics carto off
-    scale 1 400                      ### echelle
+    scale 1 500                      ### echelle
     symbol-hide group all
     symbol-show line wall
     legend off
@@ -169,6 +170,8 @@ lookup topo-date -title "Par année d'exploration"   #Pour l'export année par a
 [2022.1.1 2022.12.31] [] "2022"
 [2023.1.1 2023.12.31] [] "2023"
 [2024.1.1 2024.12.31] [] "2024"
+[2025.1.1 2025.12.31] [] "2025"
+
 
 endlookup
 

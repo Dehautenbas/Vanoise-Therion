@@ -1,0 +1,161 @@
+encoding  utf-8
+input config2.thcfg
+input config3.thcfg
+source trou-carre_tot.th
+
+###################################################################################################
+################################## Selection de la map à exporter #################################
+###################################################################################################
+#select plan@MASTER                #uncomment ONLY one
+#select coupe_extended@MASTER      #uncomment ONLY one
+#select planWORK@MASTER            #uncomment ONLY one
+
+
+###################################################################################################
+################################## LES EXPORTS ####################################################
+###################################################################################################
+
+
+######################## PDF ########################
+export map \
+     -projection plan \
+     -layout plan   \
+     -output Exports/CAVITEE_plan.pdf \
+     -layout hide_centreline   ###Si activé, cache le fil de fer
+
+#export map \
+     -projection extended \
+     -layout plan   \
+     -output Exports/CAVITEE_coupe.pdf \
+     #-layout hide_centreline  ###Si activé, cache le fil de fer
+
+
+
+######################## STATIONS ########################
+#export map \
+     -projection plan \
+     -layout plan   \
+     -output Exports/CAVITEE_plan-travail.pdf \
+     # -layout hide_centreline                  ###Si activé, cache le fil de fer
+
+#export map \
+     -projection extended \
+     -layout plan   \
+     -output Exports/CAVTEE_coupe-extended-travail.pdf \
+     # -layout hide_centreline                  ###Si activé, cache le fil de fer
+
+
+
+######################### SVG ########################
+
+##### Try dxf for illustrator
+
+#export map \
+     -projection plan \
+     -fmt svg   \
+     -layout plan   \
+     -output Exports/CAVITEE_plan.svg \
+     -layout hide_centreline   ###Si activé, cache le fil de fer
+
+#export map \
+     -projection extended \
+     -layout plan   \
+     -output Exports/CAVITEE_coupe.svg \
+     -layout hide_centreline  ###Si activé, cache le fil de fer
+
+#export model \
+     -output Exports/CAVITEE_coupe.dxf \
+     
+######################### DEBUG ########################
+#export map \
+     -projection plan \
+     -layout plan   \
+     -layout-debug all \
+     -output Exports/CAVITEE_DEBUG_plan.pdf
+
+
+
+######################## WALLS ########################       
+## Exporte uniquement les murs
+#export map \
+     -projection plan \
+     -layout walls   \
+     -output Exports/CAVITEE_walls.pdf \
+     -layout hide_centreline \  ###Si activé, cache le fil de fer
+     #-layout hide_point \
+     #-layout-debug station-names \
+     #-layout debug \
+     #-layout centreline \
+
+
+######################### ATLAS ########################
+#export atlas \
+     -projection plan \
+     -layout plan   \
+     -output Exports/CAVITEE_Atlas.pdf 
+
+
+
+######################## MODELE 3D ########################
+#export model \
+     -format loch \
+     -o Exports/CAVITEE-3d.lox \
+     #-wall-source maps
+
+
+
+######################## KML #######################
+#export map \
+     -projection plan \
+     -output Exports/CAVITEE.kml  ###-> Pour murs
+
+#export model \
+     -output Exports/CAVITEE-shots.kml  ###-> pour fil de fer sans station avec splays shots
+
+
+######################## LISTES ########################
+#export survey-list \
+     -o Exports/CAVITEE_stats.html
+
+#export continuation-list \
+     -o Exports/CAVITEE_continuations.html
+
+
+
+######################## XVI ######################## 
+          layout xvi-export
+               scale 1 60
+               #scale 1 100
+               grid-size 10 10 10 m
+               sketches on
+          endlayout
+
+#export map \
+     -proj plan \
+     -layout xvi-export \
+     -o Exports/CAVITEE_P.xvi \
+
+#export map \
+     -proj extended \
+     -layout xvi-export \
+     -o Exports/CAVITEE_C.xvi
+
+#export map \
+     -proj [elevation 0] \
+     -layout xvi-export \
+     -o Exports/CAVITEE_proj.xvi
+      
+
+
+######################## Pour morphing ########################
+#export map \
+     -format xvi \
+     -layout xvi-export \
+     -layout-sketches on \
+     -o Exports/cavitee_coupetravail-morphing.xvi
+      
+#export map \
+     -format xvi \
+     -projection [elevation 0] \
+     -layout xvi-export \
+     -o Exports/caviteecoupetravailVueNord.xvi

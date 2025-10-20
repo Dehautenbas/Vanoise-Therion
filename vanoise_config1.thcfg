@@ -4,15 +4,20 @@ input config3.thcfg
 
 source vanoise_tot.th
 
+### Commenter ou décommenter la ligne "bitmap" dans le fichier mnt.th pour drapper l'image sat sur le mnt
+### Si problème d'ouverture du 3d avec Loch, commenter la ligne bitmap
 source datas/mnt.th
 
 
-export map \
+#export map \
      -projection plan \
      -layout plan \
      -output Exports/vanoise_plan.pdf 
 
-
+export map \
+     -projection plan \
+     -layout plan1000 \
+     -output Exports/vanoise_plan1000.pdf 
 
 ######################## MODELE 3D ########################
 export model \
@@ -27,7 +32,7 @@ export model \
 
 
 ######################## KML #######################
-export map \
+#export map \
      -projection plan \
      -output Exports/vanoise-tot.kml  ###-> Pour murs
 
@@ -37,8 +42,8 @@ export map \
 
 
 ######################## LISTES ########################
-export survey-list \
+#export survey-list \
      -o Exports/vanoise-tot_stats.html
 
-export continuation-list \
+#export continuation-list \
      -o Exports/vanoise-tot_continuations.html

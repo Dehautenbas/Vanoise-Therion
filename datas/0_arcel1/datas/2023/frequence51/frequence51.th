@@ -13,9 +13,8 @@ survey frequence51 -title "Frequence 51"
     cs UTM32
     fix 0 325515.037 5027518.664 2534
 
-   #cs long-lat
-   #fix 0 6.77138833	45.37944 2534
-
+    #fix 0 325515.037 5027518.664 ## alt = 2534m
+    #station F51 "Gouffre de l'Arcelin, entrée basse" entrance
     units length meters
     units compass clino degrees
     data normal from to length compass clino

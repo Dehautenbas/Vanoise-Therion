@@ -44,7 +44,35 @@ Synthèse et dessin : Continent 8 - Martin Kern, Théophile Cailhol <br>\
 endlayout
 
 
+layout plan1000
+  copy general
 
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+
+  scale 1  1000                    
+  #base-scale 1 300                
+
+  cs UTM32
+ 
+  map-header 1 4 sw              ### positionnement du cartouche 
+  scale-bar 50 m
+  #copy scalebar_horiz
+  #copy scalebar_vert
+  legend on     
+  legend-columns 3
+  symbol-hide group all
+  symbol-show line wall
+  symbol-show point entrance
+  symbol-show point label
+
+
+  grid bottom                                ### positionnement de la grille
+  grid-size 50 50 50 m                  ### dimension de la grille
+
+  #statistics topo-length on
+
+    rotate 0                ### rotation du nord géographique (en degré)
+endlayout 
 
 layout plan
   copy general

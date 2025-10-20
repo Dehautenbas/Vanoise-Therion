@@ -1,0 +1,12 @@
+encoding  utf-8
+survey AR1_tot -title "AR1"
+
+    input AR1.th
+    input AR1_P.th2
+
+    map plan  -proj plan 
+        SP1
+    endmap
+
+endsurvey 
+

@@ -8,16 +8,16 @@ survey vanoise -title "Gouffres de la Vanoise"
 ### import.th 
     input datas/0_arcel1/arcel1_tot.th
     input datas/AR6/AR6-tot.th #vraiment interressant sur le 3D? 
-    input datas/AR1/AR1.th 
+    input datas/AR1/AR1.th
     input datas/AR3/ar3-tot.th 
     input datas/PerteDesCopains/perte-des-copains-tot.th 
     input datas/CV3_Perte-lac-des-assiettes/perte-lac-des-assiettes.th  
-
-     input datas/arcel3/arcel3_tot.th 
-     input datas/G1_Marbrimba/marbrimba_tot.th 
-     input datas/G2/G2_tot.th 
-     input datas/G3/G3_tot.th 
-     input datas/G4/G4_tot.th  # C'est lui qui beug
+    input datas/TrouCarre/trou-carre_tot.th
+    input datas/arcel3/arcel3_tot.th 
+    input datas/G1_Marbrimba/marbrimba_tot.th 
+    input datas/G2/G2_tot.th 
+    input datas/G3/G3_tot.th 
+    input datas/G4/G4_tot.th  # C'est lui qui beug
 
 
     endsurvey
