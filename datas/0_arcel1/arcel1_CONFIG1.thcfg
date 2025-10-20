@@ -129,7 +129,7 @@ export map \
 #export model \
      -output exports/arcel1-shots.kml  ###-> pour fil de fer sans station avec splays shots
 
-#export model \
+export model \
 -fmt esri \
 -o exports/arcelin-shp
 
