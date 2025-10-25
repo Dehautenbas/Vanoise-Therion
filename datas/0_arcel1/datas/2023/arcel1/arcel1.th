@@ -15,6 +15,10 @@ survey arcel1 -title Arcel1
 
     cs UTM32
     fix 0 325572 5027449 2603
+
+    #cs long-lat
+    #fix 0 6.7721529	45.3788271 2603
+
     
     extend left
     0 1 5.15 306.8 -67.6

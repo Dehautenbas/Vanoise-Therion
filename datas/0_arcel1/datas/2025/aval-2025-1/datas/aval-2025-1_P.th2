@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 1210.675 620.125
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 400
 
 
 
@@ -35,17 +35,32 @@ line wall -reverse on
   197.5 308.5 208.0 279.0 210.5 263.0
   213.0 247.0 211.5 220.5 223.0 210.5
   234.5 200.5 242.0 193.0 249.0 185.5
-  256.0 178.0 253.0 167.5 253.0 163.5
-  smooth off
 endline
 
-point 614.5 329.0 stalagmite
+point 616.5 328.5 stalagmite
+
+line rock-edge
+  287.0 379.0
+  291.5 375.5
+endline
+
+line rock-edge
+  283.25 379.0
+  283.25 368.0
+endline
+
+line rock-edge
+  275.0 385.0
+  283.25 379.0
+  287.0 379.0
+  288.5 381.5
+endline
 
 line rock-border -close on
   275.0 385.0
   288.5 381.5
   291.5 375.5
-  285.0 375.5
+  283.25 368.0
   275.0 385.0
 endline
 
@@ -62,8 +77,8 @@ line water-flow
 endline
 
 line pit
-  686.5 360.5
-  686.5 360.5 675.0 332.0 684.5 322.5
+  675.0 352.5
+  675.0 352.5 672.0 338.0 681.5 328.5
   smooth off
 endline
 
@@ -77,7 +92,7 @@ point 473.0 329.5 label -text R5 -scale s
 
 point 701.5 339.5 label -text P5
 
-point 843.0 342.5 label -text P7
+point 828.0 391.5 label -text P7
 
 line water-flow
   860.0 372.0
@@ -92,14 +107,22 @@ line water-flow
 endline
 
 line pit
-  812.5 378.0
-  812.5 378.0 821.0 361.0 826.0 352.0
-  831.0 343.0 825.0 333.5 820.5 327.5
-  816.0 321.5 807.5 323.0 801.5 315.0
+  836.5 366.5
+  836.5 366.5 814.29 364.73 804.0 365.5
+  784.0 367.0 773.0 337.0 790.5 334.5
+  797.92 333.44 817.5 319.5 813.5 312.5
   smooth off
 endline
 
-point 888.5 316.0 stalactite
+point 894.0 317.0 stalactite
+
+point 855.5 335.5 blocks -orientation 60.0
+
+point 837.0 324.0 blocks
+
+point 876.0 325.5 stalactite
+
+point 872.0 307.0 stalagmite
 
 point 851.0 297.5 flowstone
 
@@ -120,11 +143,11 @@ endline
 
 point 896.0 374.0 air-draught -orientation 98.1
 
-point 349.0 295.0 label -scale xs -text "sédiments laminés orangés<br>paléo-sol?
+point 571.5 297.5 label -scale xs -text "sédiments laminés orangés<br>paléo-sol?
 
 line wall -reverse on
-  200.0 173.0
-  201.0 191.0 207.5 199.5 203.0 209.5
+  202.5 182.0
+  203.5 200.0 207.5 199.5 203.0 209.5
   198.5 219.5 182.0 269.5 176.0 283.5
   170.0 297.5 162.0 300.5 159.5 313.0
   157.0 325.5 137.5 347.0 155.5 362.0

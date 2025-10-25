@@ -47,7 +47,7 @@ input arcel1_map.th
 
 #### 2025
   input datas/2025/amont-2025-1/amont-2025-1_tot.th #Martin
-      equate 16@aval-2025-1.aval-2025-1_tot 0@amont-2025-1.amont-2025-1_tot
+      equate 15@aval-2025-1.aval-2025-1_tot 0@amont-2025-1.amont-2025-1_tot
         join SP1_amont-2025-1@amont-2025-1_tot SP1_aval-2025-1@aval-2025-1_tot
 
   input datas/2025/faille-fossile-riviere/faille-fossile-riviere_tot.th #Martin
@@ -62,11 +62,11 @@ input arcel1_map.th
 
   input datas/2025/aval-2025-2/aval-2025-2_tot.th #Théophile
      equate 68@aval-2025-2.aval-2025-2_tot 3@aval-2025-1.aval-2025-1_tot
-      #join SP1_aval-2025-2@aval-2025-2_tot SP1_aval-2025-1@aval-2025-1_tot   ## Pas besoin
+     # join SP1_aval-2025-2@aval-2025-2_tot SP1_aval-2025-1@aval-2025-1_tot   ## Pas besoin
 
   input datas/2025/amont-2025-2/amont-2025-2_tot.th #Théophile
       equate 78@amont-2025-2.amont-2025-2_tot 74@amont-2025-1.amont-2025-1_tot
-        join SP1_amont-2025-2@amont-2025-2_tot SP5_amont-2025-1@amont-2025-1_tot
+        join SP1_amont-2025-2@amont-2025-2_tot SP3_amont-2025-1@amont-2025-1_tot
   
 
 

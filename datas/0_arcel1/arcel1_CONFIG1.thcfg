@@ -4,7 +4,7 @@ input ../../config3.thcfg
 
 source arcel1_tot.th
 
-source ../mnt.th
+#source ../mnt.th
 
 ##########################Selection de la map à exporter #############################
 ######################################################################################
@@ -67,7 +67,7 @@ export map \
      -layout-debug all \
      -output exports/arcel1_DEBUG_plan.pdf
 
-#export map \
+export map \
      -projection extended \
      -layout coupe   \
      -layout-debug all \
@@ -129,9 +129,9 @@ export map \
 #export model \
      -output exports/arcel1-shots.kml  ###-> pour fil de fer sans station avec splays shots
 
-export model \
+#export model \
 -fmt esri \
--o exports/arcelin-shp
+-o exports/arcelin-shp-UTM32
 
 ######################## LISTES ########################
 #export survey-list \
