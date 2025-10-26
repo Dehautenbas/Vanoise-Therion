@@ -53,7 +53,7 @@ export map \
      -layout centerline \
      -output exports/arcel1_plan-travail.pdf 
 
-export map \
+#export map \
      -projection extended \
      -layout coupe \
      -layout centerline \
@@ -67,7 +67,7 @@ export map \
      -layout-debug all \
      -output exports/arcel1_DEBUG_plan.pdf
 
-export map \
+#export map \
      -projection extended \
      -layout coupe   \
      -layout-debug all \
@@ -112,7 +112,7 @@ export map \
 
 
 ######################## MODELE 3D ########################
-    #export model \
+    export model \
      -format loch \
      -o exports/arcel1-3d.lox \
      #-wall-source maps
@@ -129,9 +129,9 @@ export map \
 #export model \
      -output exports/arcel1-shots.kml  ###-> pour fil de fer sans station avec splays shots
 
-#export model \
+export model \
 -fmt esri \
--o exports/arcelin-shp-UTM32
+-o exports/arcelin-shp
 
 ######################## LISTES ########################
 #export survey-list \

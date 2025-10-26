@@ -1,0 +1,28 @@
+therion 6.2.1 (2024-03-20)
+  - using Proj 9.3.1, compiled against 9.3.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: C:\Users\Utilisateur\Documents\GitHub\th-vanoise\datas\0_arcel1\datas\2025\amont-2025-1\config-xvi.thcfg
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 2.40%
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+writing datas/amont-2025-1_P.xvi ... done
+processing projection extended ... done
+writing datas/amont-2025-1_C.xvi ... done
+compilation time: 0 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  4.34%    0.9m   20.5m   7    0.4m   -0.7m   -0.4m [51-ptr-29@amont-2025-1 - 54 - 55 - 56 - 57 - 53 - 52 - 51-ptr-29]
+  1.44%    0.6m   41.1m  14    0.2m    0.3m    0.4m [47-ptr13@amont-2025-1 - 97 - 96 - 95 - 94 - 93 - 92 - 91 - 90 - 89 - 88 - 87 - 49 - 48 - 47-ptr13]
+##################### end of loop errors #######################

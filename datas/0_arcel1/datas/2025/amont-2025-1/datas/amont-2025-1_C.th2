@@ -1,16 +1,18 @@
 encoding  utf-8
-##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {0} {0} datas/amont-2025-1_C.xvi 0 {}
+##XTHERION## xth_me_area_adjust -128.0 -128.0 3002.0099999999998 2037.445
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {1001.5 1 1.0} {314.962 0} amont-2025-1_C.xvi 0 {}
 
 
 
-scrap SC1_amont-2025-1 -projection plan -station-names "" "@amont-2025-1"
-
-endscrap
-
-scrap SC2_amont-2025-1 -projection plan -station-names "" "@amont-2025-1"
+scrap SC1_amont-2025-1 -projection plan -station-names "" "@amont-2025-1" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 endscrap
 
+
+
+scrap SC2_amont-2025-1 -projection plan -station-names "" "@amont-2025-1" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+endscrap
 
 

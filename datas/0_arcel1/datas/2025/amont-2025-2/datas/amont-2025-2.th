@@ -1,4 +1,4 @@
-encoding utf-8
+encoding  utf-8
 # 2025.10.11 created by TopoDroid v 6.3.17
 
 survey amont-2025-2 -title "amont-2025-2"
@@ -385,7 +385,7 @@ survey amont-2025-2 -title "amont-2025-2"
     233 . 1.37 340.1 12.6
     233 . 4.49 158.1 81.3
     extend right
-    23 24 4.39 77.5 -8.0
+    233 24 4.39 77.5 -8.0
     # extend auto
     24 . 0.94 86.9 -12.5
     24 . 0.74 147.3 -1.9
@@ -1108,3 +1108,4 @@ survey amont-2025-2 -title "amont-2025-2"
   # endmap
 
 endsurvey
+
