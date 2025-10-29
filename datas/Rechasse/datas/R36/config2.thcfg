@@ -82,10 +82,8 @@ layout coupe
 
   cs UTM32
  
-  map-header 2 68 sw             ### positionnement du cartouche  Lower-left corner of the map is 0 0, upper-right corner is 100 100
+  map-header -10 -10 sw             ### positionnement du cartouche  Lower-left corner of the map is 0 0, upper-right corner is 100 100
   scale-bar 25 m
-  #copy scalebar_horiz
-  #copy scalebar_vert
   legend on     
   legend-columns 3
   #colour-legend off

@@ -93,7 +93,7 @@ export map \
 
 
 ######################## MODELE 3D ########################
-    export model \
+    #export model \
      -format loch \
      -o exports/R36-3d.lox \
      #-wall-source maps

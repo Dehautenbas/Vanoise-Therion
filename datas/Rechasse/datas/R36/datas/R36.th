@@ -1,15 +1,20 @@
 encoding utf-8
-# 2022.04.04 created by TopoDroid v 6.2.85
 
 survey R36 -title "R36"
 
   centerline
-    date 2025.10.06 
-    # team CHAHFM 
+    date 2025.10.06
+    team "Charlotte Honiat"
+    team "Alexandre Honiat"
+    team "Florent Maurin"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
+    
     extend left
+
+    entrance 0 "R36"
+
     0 1 4.42 229.9 -39.1
     # extend auto
     1 . 0.67 321.5 6.9
@@ -319,32 +324,19 @@ survey R36 -title "R36"
     40_PTR4 . 3.45 217.6 -15.5
     extend right
     40_PTR4 41 9.21 3.7 -61.7
+
+
    flags surface
     Jonction_martin 42 1.31 35.1 -9.8
-   flags not surface
-   flags surface
     42 43 1.71 346.2 17.8
-   flags not surface
-   flags surface
     43 44 4.59 25.9 2.5
-   flags not surface
-   flags surface
     44 45 3.81 29.1 8.5
-   flags not surface
-   flags surface
     45 46 4.28 45.9 -0.7
-   flags not surface
-   flags surface
     46 47 2.65 34.8 2.7
-   flags not surface
-   flags surface
     47 48 4.03 57.1 -14.6
-   flags not surface
-   flags surface
     48 49 1.66 67.7 -4.7
-   flags not surface
-   flags surface
     49 0 8.01 86.1 -19.3
+   flags not surface
   endcenterline
 
 
