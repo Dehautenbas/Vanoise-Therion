@@ -34,6 +34,7 @@ survey amont-2025-2 -title "amont-2025-2"
     0 . 1.17 321.1 -84.3
     extend right
     0 1 15.35 229.9 49.7
+    extend left
     0 2 8.56 308.2 -9.6
     # extend auto
     2 . 7.93 246.6 37.7
@@ -53,7 +54,7 @@ survey amont-2025-2 -title "amont-2025-2"
     2 . 10.09 145.7 26.5
     2 . 0.61 358.6 84.4
     2 . 0.70 36.0 -89.5
-    extend right
+    extend left
     2 3 4.08 30.8 -21.8
     # extend auto
     3 . 2.44 99.6 -5.4
@@ -74,7 +75,7 @@ survey amont-2025-2 -title "amont-2025-2"
     3 . 5.45 14.3 10.6
     3 . 8.65 52.1 17.3
     3 . 5.98 41.4 16.9
-    extend right
+    extend left
     3 4 3.97 25.3 -4.8
     # extend auto
     4 . 3.90 294.0 9.6
@@ -88,7 +89,7 @@ survey amont-2025-2 -title "amont-2025-2"
     4 . 1.01 130.0 4.6
     4 . 1.47 245.1 85.9
     4 . 0.43 52.4 -85.6
-    extend right
+    extend left
     4 5 2.57 64.1 3.9
     # extend auto
     5 . 4.43 127.2 -9.1
@@ -97,7 +98,7 @@ survey amont-2025-2 -title "amont-2025-2"
     5 . 0.43 317.3 -11.2
     5 . 0.79 227.8 -50.7
     5 . 0.76 52.4 78.9
-    extend right
+    extend left
     5 6 1.32 102.7 -7.8
     # extend auto
     6 . 2.66 21.1 -27.7
@@ -107,7 +108,7 @@ survey amont-2025-2 -title "amont-2025-2"
     6 . 3.17 353.9 52.5
     6 . 0.91 111.9 25.6
     6 . 1.15 194.1 -12.1
-    extend right
+    extend left
     6 7 4.02 74.0 -27.8
     # extend auto
     7 . 5.67 120.8 8.1
@@ -119,7 +120,7 @@ survey amont-2025-2 -title "amont-2025-2"
     7 . 3.11 309.1 1.2
     7 . 0.92 210.2 63.9
     7 . 0.79 263.4 -82.3
-    extend right
+    extend left
     7 8 4.88 78.7 -16.3
     # extend auto
     8 . 1.60 3.6 -18.4
@@ -131,7 +132,7 @@ survey amont-2025-2 -title "amont-2025-2"
     8 . 1.93 237.5 18.3
     8 . 0.40 67.6 83.2
     8 . 0.33 0.1 -81.8
-    extend right
+    extend left
     8 9 3.05 126.4 -0.1
     # extend auto
     9 . 1.13 206.7 5.4
@@ -144,7 +145,7 @@ survey amont-2025-2 -title "amont-2025-2"
     9 . 4.22 132.2 10.9
     9 . 0.54 201.0 78.5
     9 . 0.81 94.2 -80.6
-    extend right
+    extend left
     9 10 4.20 133.1 9.8
     # extend auto
     10 . 2.62 26.0 -23.5
@@ -167,7 +168,7 @@ survey amont-2025-2 -title "amont-2025-2"
     10 . 2.27 324.5 -11.9
     10 . 1.23 170.9 77.5
     10 . 1.39 60.3 -81.1
-    extend right
+    extend left
     10 11 13.91 97.8 -9.0
     # extend auto
     11 . 5.38 304.7 -0.6
@@ -186,7 +187,7 @@ survey amont-2025-2 -title "amont-2025-2"
     11 . 0.91 307.9 71.1
     11 . 0.90 200.5 -77.0
     11 . 4.06 95.5 -19.7
-    extend right
+    extend left
     11 12 4.07 98.5 -17.0
     # extend auto
     12 . 4.25 93.8 -5.8
@@ -204,7 +205,7 @@ survey amont-2025-2 -title "amont-2025-2"
     12 . 1.96 356.0 -9.9
     12 . 2.66 41.6 -20.2
     12 . 4.77 58.6 -20.1
-    extend right
+    extend left
     12 13 3.06 70.8 -17.5
     # extend auto
     13 . 1.50 11.2 -19.0
@@ -213,7 +214,7 @@ survey amont-2025-2 -title "amont-2025-2"
     13 . 1.82 168.0 26.6
     13 . 0.34 76.8 76.2
     13 . 1.64 259.8 -87.3
-    extend right
+    extend left
     13 14 2.61 101.4 -10.4
     # extend auto
     14 . 3.11 121.6 2.0
@@ -227,7 +228,7 @@ survey amont-2025-2 -title "amont-2025-2"
     14 . 1.47 234.3 23.3
     14 . 0.56 277.2 82.0
     14 . 1.43 4.4 -82.3
-    extend right
+    extend left
     14 15 7.27 73.7 -13.8
     # extend auto
     15 . 2.12 344.0 -24.9
@@ -245,7 +246,7 @@ survey amont-2025-2 -title "amont-2025-2"
     15 . 3.60 243.6 31.5
     15 . 1.33 61.3 78.2
     15 . 0.74 94.3 -80.0
-    extend right
+    extend left
     15 16 3.66 63.2 -11.4
     # extend auto
     16 . 1.60 269.5 -4.3
@@ -263,7 +264,7 @@ survey amont-2025-2 -title "amont-2025-2"
     16 . 2.50 213.0 27.4
     16 . 2.79 225.2 61.4
     16 . 2.72 225.6 12.9
-    extend right
+    extend left
     16 17 3.35 343.2 -9.0
     # extend auto
     17 . 3.64 329.9 -3.4
@@ -279,7 +280,7 @@ survey amont-2025-2 -title "amont-2025-2"
     17 . 4.82 342.4 74.4
     17 . 2.64 238.8 54.2
     17 . 3.58 137.9 61.9
-    extend right
+    extend left
     17 18 4.81 325.4 0.1
     # extend auto
     18 . 0.80 248.0 28.7
@@ -298,7 +299,7 @@ survey amont-2025-2 -title "amont-2025-2"
     18 . 1.74 107.9 -81.4
     18 . 5.15 3.5 4.4
     18 . 2.60 3.9 4.1
-    extend right
+    extend left
     18 19 5.15 4.0 4.5
     # extend auto
     19 . 1.16 284.9 4.3
@@ -313,7 +314,7 @@ survey amont-2025-2 -title "amont-2025-2"
     19 . 2.25 210.6 -2.5
     19 . 2.33 147.8 3.1
     19 . 3.62 32.7 -18.3
-    extend right
+    extend left
     19 20 3.61 34.5 -17.8
     # extend auto
     20 . 1.05 148.3 4.9
@@ -326,7 +327,7 @@ survey amont-2025-2 -title "amont-2025-2"
     20 . 2.00 220.4 -80.1
     20 . 3.36 68.1 -73.2
     20 . 3.01 56.0 -45.1
-    extend right
+    extend left
     20 21 3.01 54.2 -44.1
     # extend auto
     21 . 1.07 288.1 0.3
@@ -341,7 +342,7 @@ survey amont-2025-2 -title "amont-2025-2"
     21 . 1.89 209.7 17.7
     21 . 1.38 200.7 -71.3
     21 . 3.34 248.6 82.8
-    extend right
+    extend left
     21 22 5.18 320.3 -7.3
     # extend auto
     22 . 2.56 157.8 21.5
@@ -356,7 +357,7 @@ survey amont-2025-2 -title "amont-2025-2"
     22 . 0.45 309.7 -87.1
     22 . 1.27 296.5 7.1
     22 . 1.44 254.2 31.8
-    extend right
+    extend left
     22 23 5.58 325.3 -2.9
     # extend auto
     23 . 0.89 246.9 4.5
@@ -370,7 +371,7 @@ survey amont-2025-2 -title "amont-2025-2"
     23 . 1.88 80.6 -13.3
     23 . 1.39 112.1 -21.1
     23 . 1.88 138.0 -11.3
-    extend right
+    extend left
     23 233 3.62 79.2 -23.6
     # extend auto
     23 . 3.61 78.9 -22.7
@@ -384,7 +385,7 @@ survey amont-2025-2 -title "amont-2025-2"
     233 . 1.82 292.1 13.9
     233 . 1.37 340.1 12.6
     233 . 4.49 158.1 81.3
-    extend right
+    extend left
     233 24 4.39 77.5 -8.0
     # extend auto
     24 . 0.94 86.9 -12.5
@@ -402,7 +403,7 @@ survey amont-2025-2 -title "amont-2025-2"
     24 . 5.13 270.7 73.9
     24 . 5.66 40.5 84.6
     24 . 4.79 1.2 57.9
-    extend right
+    extend left
     24 25 5.98 8.6 -8.3
     # extend auto
     25 . 1.36 173.1 12.1
@@ -414,7 +415,7 @@ survey amont-2025-2 -title "amont-2025-2"
     25 . 5.44 353.7 -3.7
     25 . 2.17 10.9 68.2
     25 . 0.88 206.8 -69.8
-    extend right
+    extend left
     25 26 5.94 345.5 -1.2
     # extend auto
     26 . 2.95 223.7 23.8
@@ -435,7 +436,7 @@ survey amont-2025-2 -title "amont-2025-2"
     26 . 2.65 321.2 -21.1
     26 . 3.92 326.1 -12.9
     26 . 5.64 328.6 -10.1
-    extend right
+    extend left
     26 27 8.66 331.8 -7.9
     # extend auto
     27 . 2.60 100.5 -16.4
@@ -457,7 +458,7 @@ survey amont-2025-2 -title "amont-2025-2"
     27 . 11.58 297.8 -5.1
     27 . 12.33 304.5 -9.9
     27 . 3.61 270.1 -2.9
-    extend right
+    extend left
     27 28 3.65 271.0 -0.8
     # extend auto
     28 . 5.67 155.9 30.3
@@ -474,7 +475,7 @@ survey amont-2025-2 -title "amont-2025-2"
     28 . 3.42 66.6 10.0
     28 . 1.40 344.0 82.6
     28 . 1.12 9.2 -80.0
-    extend right
+    extend left
     28 29 10.41 329.1 -19.4
     # extend auto
     29 . 2.29 221.0 12.4
@@ -488,7 +489,7 @@ survey amont-2025-2 -title "amont-2025-2"
     29 . 2.67 108.8 19.9
     29 . 1.19 319.4 60.3
     29 . 1.17 158.5 -62.1
-    extend right
+    extend left
     29 30 7.76 310.4 -9.6
     # extend auto
     30 . 2.55 6.8 -20.3
@@ -502,7 +503,7 @@ survey amont-2025-2 -title "amont-2025-2"
     30 . 3.34 299.6 11.8
     30 . 3.86 328.2 -18.9
     30 . 3.62 351.2 2.8
-    extend right
+    extend left
     30 31 3.86 355.8 -20.4
     # extend auto
     31 . 0.84 125.2 3.7
@@ -515,7 +516,7 @@ survey amont-2025-2 -title "amont-2025-2"
     31 . 0.61 166.1 -85.4
     31 . 1.80 250.0 3.6
     31 . 2.78 222.6 16.3
-    extend right
+    extend left
     31 32 3.72 78.3 -12.0
     # extend auto
     32 . 2.89 194.5 9.3
@@ -527,7 +528,7 @@ survey amont-2025-2 -title "amont-2025-2"
     32 . 2.95 252.0 76.7
     32 . 1.27 85.8 -87.0
     32 . 0.95 101.5 -1.4
-    extend right
+    extend left
     32 33 0.48 40.9 -38.4
     # extend auto
     33 . 2.73 41.0 -38.5
@@ -536,7 +537,7 @@ survey amont-2025-2 -title "amont-2025-2"
     33 . 1.47 29.6 -11.1
     33 . 1.71 7.5 75.7
     33 . 0.36 107.8 11.0
-    extend right
+    extend left
     33 34 1.34 31.2 0.6
     # extend auto
     34 . 0.65 178.3 7.5
@@ -546,7 +547,7 @@ survey amont-2025-2 -title "amont-2025-2"
     34 . 1.87 111.9 8.8
     34 . 2.22 118.6 2.9
     34 . 0.99 134.1 1.6
-    extend right
+    extend left
     34 35 2.75 122.1 -1.6
     # extend auto
     35 . 0.50 320.6 13.7
@@ -559,7 +560,7 @@ survey amont-2025-2 -title "amont-2025-2"
     35 . 0.71 335.8 -83.0
     35 . 0.74 249.0 23.3
     35 . 1.22 289.5 8.5
-    extend right
+    extend left
     35 36 2.07 33.4 -25.3
     # extend auto
     36 . 0.76 269.4 37.9
@@ -570,7 +571,7 @@ survey amont-2025-2 -title "amont-2025-2"
     36 . 0.55 140.6 15.3
     36 . 1.29 206.0 35.5
     36 . 1.07 165.9 47.0
-    extend right
+    extend left
     36 37 1.74 354.6 -20.2
     # extend auto
     37 . 4.49 56.9 69.0
@@ -582,7 +583,7 @@ survey amont-2025-2 -title "amont-2025-2"
     37 . 0.61 317.8 32.0
     37 . 0.65 36.2 26.0
     37 . 1.47 84.0 28.8
-    extend right
+    extend left
     37 38 1.47 82.6 29.8
     # extend auto
     38 . 1.27 343.1 -12.8
@@ -598,7 +599,7 @@ survey amont-2025-2 -title "amont-2025-2"
     38 . 1.04 322.9 -85.3
     38 . 0.80 287.6 -8.0
     38 . 6.26 109.4 46.6
-    extend right
+    extend left
     38 39 6.22 110.2 44.7
     38 40 2.87 4.1 -38.6
     # extend auto
@@ -608,7 +609,7 @@ survey amont-2025-2 -title "amont-2025-2"
     40 . 1.39 73.4 -0.7
     40 . 1.22 37.6 -11.2
     40 . 0.82 274.4 26.4
-    extend right
+    extend left
     40 41 1.55 41.6 -14.6
     # extend auto
     41 . 0.56 106.2 3.8
@@ -618,7 +619,7 @@ survey amont-2025-2 -title "amont-2025-2"
     41 . 0.76 91.4 -88.5
     41 . 1.43 244.5 16.9
     41 . 1.22 204.0 21.1
-    extend right
+    extend left
     41 42 2.43 4.5 -22.3
     # extend auto
     42 . 0.66 114.4 5.5
@@ -629,7 +630,7 @@ survey amont-2025-2 -title "amont-2025-2"
     42 . 1.55 8.3 -5.4
     42 . 2.98 42.2 -16.8
     42 . 1.38 58.1 -14.7
-    extend right
+    extend left
     42 43 2.79 55.8 -14.4
     # extend auto
     43 . 0.38 354.5 -11.1
@@ -642,7 +643,7 @@ survey amont-2025-2 -title "amont-2025-2"
     43 . 2.89 125.7 23.2
     43 . 2.62 105.9 4.9
     43 . 2.78 85.1 -6.2
-    extend right
+    extend left
     43 44 2.14 137.5 14.4
     # extend auto
     44 . 1.85 344.9 -22.6
@@ -653,7 +654,7 @@ survey amont-2025-2 -title "amont-2025-2"
     44 . 3.40 39.2 64.7
     44 . 3.64 304.8 78.5
     44 . 0.61 301.3 -77.8
-    extend right
+    extend left
     44 45 4.34 22.4 -22.9
     # extend auto
     45 . 1.02 124.9 23.0
@@ -672,14 +673,14 @@ survey amont-2025-2 -title "amont-2025-2"
     45 . 7.11 30.0 -16.0
     45 . 1.38 27.3 -21.4
     45 . 6.23 28.4 -16.5
-    extend right
+    extend left
     45 46 7.11 30.1 -15.8
     # extend auto
     46 . 1.04 317.5 81.8
     46 . 2.38 231.3 53.0
     46 . 1.91 312.8 40.6
     46 . 1.32 81.2 -82.8
-    extend right
+    extend left
     46 47 2.75 357.5 -25.3
     # extend auto
     47 . 5.40 205.2 52.2
@@ -690,7 +691,7 @@ survey amont-2025-2 -title "amont-2025-2"
     47 . 2.37 114.7 -1.4
     47 . 0.40 97.7 -7.0
     47 . 2.08 46.5 -23.2
-    extend right
+    extend left
     47 48 2.91 63.0 -21.6
     # extend auto
     48 . 1.22 274.0 12.8
@@ -704,7 +705,7 @@ survey amont-2025-2 -title "amont-2025-2"
     48 . 4.53 330.4 50.2
     48 . 0.40 291.5 -84.5
     48 . 4.03 337.4 -21.5
-    extend right
+    extend left
     48 49 4.03 341.6 -23.5
     # extend auto
     49 . 0.86 276.4 12.5
@@ -719,7 +720,7 @@ survey amont-2025-2 -title "amont-2025-2"
     49 . 1.14 320.6 -21.1
     49 . 3.67 326.6 -22.0
     49 . 7.74 331.0 -23.0
-    extend right
+    extend left
     49 50 6.56 340.4 -28.8
     # extend auto
     50 . 4.28 186.4 30.3
@@ -732,7 +733,7 @@ survey amont-2025-2 -title "amont-2025-2"
     50 . 4.53 1.5 84.1
     50 . 0.73 106.8 -87.9
     50 . 2.03 319.6 -15.0
-    extend right
+    extend left
     50 51 5.83 324.0 -20.2
     # extend auto
     51 . 0.92 36.4 -3.2
@@ -743,7 +744,7 @@ survey amont-2025-2 -title "amont-2025-2"
     51 . 1.03 248.7 -88.6
     51 . 2.36 302.8 -8.6
     51 . 1.57 343.7 -14.9
-    extend right
+    extend left
     51 52 2.34 344.8 -11.6
     # extend auto
     52 . 0.80 97.3 -1.8
@@ -754,7 +755,7 @@ survey amont-2025-2 -title "amont-2025-2"
     52 . 3.81 14.4 77.8
     52 . 1.17 357.1 -75.5
     52 . 3.51 352.6 -48.2
-    extend right
+    extend left
     52 53 4.03 350.3 -32.4
     # extend auto
     53 . 0.73 75.3 0.1
@@ -764,14 +765,14 @@ survey amont-2025-2 -title "amont-2025-2"
     53 . 4.53 310.4 89.4
     53 . 0.56 273.3 -64.7
     53 . 2.22 313.2 -4.8
-    extend right
+    extend left
     53 54 3.39 330.4 -14.3
     # extend auto
     54 . 0.77 247.4 -2.4
     54 . 0.24 56.4 12.5
     54 . 5.45 340.5 84.5
     54 . 0.49 260.3 -55.5
-    extend right
+    extend left
     54 55 2.87 322.9 -22.5
     # extend auto
     55 . 1.78 106.0 -17.6
@@ -787,7 +788,7 @@ survey amont-2025-2 -title "amont-2025-2"
     55 . 8.18 71.0 -45.7
     55 . 8.18 46.3 -59.0
     55 . 11.59 12.7 -58.7
-    extend right
+    extend left
     55 56 7.89 19.6 -63.0
     # extend auto
     56 . 1.11 29.4 -6.4
@@ -803,7 +804,7 @@ survey amont-2025-2 -title "amont-2025-2"
     56 . 2.45 338.3 -84.7
     56 . 5.39 322.8 -44.8
     56 . 2.51 88.8 -49.8
-    extend right
+    extend left
     56 58 4.10 89.0 -49.1
     58 59 3.71 290.9 14.8
     # extend auto
@@ -815,7 +816,7 @@ survey amont-2025-2 -title "amont-2025-2"
     59 . 2.37 16.5 1.1
     59 . 2.74 0.2 -2.7
     59 . 1.57 339.2 0.1
-    extend right
+    extend left
     59 60 2.93 341.2 -5.1
     # extend auto
     60 . 1.15 2.4 29.9
@@ -837,7 +838,7 @@ survey amont-2025-2 -title "amont-2025-2"
     60 . 3.62 69.7 84.0
     60 . 0.94 264.9 -68.2
     60 . 1.50 260.3 -22.6
-    extend right
+    extend left
     60 61 5.76 274.5 -27.2
     # extend auto
     61 . 3.61 75.0 7.0
@@ -858,7 +859,7 @@ survey amont-2025-2 -title "amont-2025-2"
     61 . 8.02 96.5 55.2
     61 . 6.99 110.3 72.4
     61 . 10.03 308.9 13.2
-    extend right
+    extend left
     61 62 6.76 326.6 -15.6
     # extend auto
     62 . 1.51 223.5 13.1
@@ -876,7 +877,7 @@ survey amont-2025-2 -title "amont-2025-2"
     62 . 6.09 277.1 45.4
     62 . 4.98 295.7 19.8
     62 . 9.08 297.1 18.1
-    extend right
+    extend left
     62 63 6.58 315.6 -22.0
     # extend auto
     63 . 1.30 251.4 17.3
@@ -887,7 +888,7 @@ survey amont-2025-2 -title "amont-2025-2"
     63 . 2.68 82.4 -30.3
     63 . 4.54 108.5 -26.6
     63 . 10.12 161.6 46.7
-    extend right
+    extend left
     63 64 4.56 330.4 -29.6
     # extend auto
     64 . 0.98 211.6 -3.1
@@ -900,7 +901,7 @@ survey amont-2025-2 -title "amont-2025-2"
     64 . 1.91 95.1 5.3
     64 . 4.59 130.5 7.9
     64 . 9.35 137.4 13.7
-    extend right
+    extend left
     64 65 5.28 296.8 -16.1
     # extend auto
     65 . 1.12 197.3 24.0
@@ -915,7 +916,7 @@ survey amont-2025-2 -title "amont-2025-2"
     65 . 1.91 144.6 17.4
     65 . 1.12 94.6 14.1
     65 . 2.55 108.7 3.2
-    extend right
+    extend left
     65 66 6.54 293.9 -12.0
     # extend auto
     66 . 8.52 145.7 37.7
@@ -930,7 +931,7 @@ survey amont-2025-2 -title "amont-2025-2"
     66 . 4.35 336.4 -12.1
     66 . 0.86 173.8 -79.6
     66 . 0.91 11.9 76.0
-    extend right
+    extend left
     66 67 5.83 351.4 -18.8
     # extend auto
     67 . 0.70 264.8 18.4
@@ -950,7 +951,7 @@ survey amont-2025-2 -title "amont-2025-2"
     67 . 3.13 166.6 27.4
     67 . 3.44 189.4 20.3
     67 . 1.21 202.1 15.7
-    extend right
+    extend left
     67 68 9.16 346.7 -18.6
     # extend auto
     68 . 0.65 119.8 1.8
@@ -969,7 +970,7 @@ survey amont-2025-2 -title "amont-2025-2"
     68 . 2.55 35.8 -34.3
     68 . 3.17 16.2 -28.9
     68 . 3.79 4.7 -30.8
-    extend right
+    extend left
     68 69 5.84 358.1 -27.2
     # extend auto
     69 . 0.79 255.3 23.3
@@ -986,7 +987,7 @@ survey amont-2025-2 -title "amont-2025-2"
     69 . 0.80 183.0 -38.4
     69 . 1.95 178.3 -4.2
     69 . 2.67 23.4 -53.2
-    extend right
+    extend left
     69 70 9.40 14.4 -35.9
     # extend auto
     70 . 3.39 172.2 30.9
@@ -998,7 +999,7 @@ survey amont-2025-2 -title "amont-2025-2"
     70 . 2.48 302.4 0.4
     70 . 5.15 321.4 -13.6
     70 . 2.68 347.2 -22.5
-    extend right
+    extend left
     70 71 3.98 332.6 -23.7
     # extend auto
     71 . 2.01 32.3 -14.3
@@ -1011,7 +1012,7 @@ survey amont-2025-2 -title "amont-2025-2"
     71 . 1.38 273.9 16.6
     71 . 1.46 335.2 -5.1
     71 . 2.84 12.7 -25.8
-    extend right
+    extend left
     71 72 3.20 20.2 -30.1
     # extend auto
     72 . 1.30 168.5 30.6
@@ -1025,7 +1026,7 @@ survey amont-2025-2 -title "amont-2025-2"
     72 . 3.16 11.9 -33.3
     72 . 0.37 186.6 -60.4
     72 . 5.56 221.8 77.2
-    extend right
+    extend left
     72 73 6.08 345.6 -16.0
     # extend auto
     73 . 0.80 254.5 1.7
@@ -1040,7 +1041,7 @@ survey amont-2025-2 -title "amont-2025-2"
     73 . 0.67 210.2 12.5
     73 . 4.16 8.8 84.1
     73 . 1.21 246.9 -61.2
-    extend right
+    extend left
     73 74 4.17 4.3 -12.6
     # extend auto
     74 . 4.14 5.1 -11.9
@@ -1058,7 +1059,7 @@ survey amont-2025-2 -title "amont-2025-2"
     74 . 3.30 136.4 85.6
     74 . 2.59 198.5 -84.6
     74 . 2.71 2.8 -6.7
-    extend right
+    extend left
     74 75 2.72 357.0 -5.7
     # extend auto
     75 . 0.61 257.1 5.0
@@ -1070,7 +1071,7 @@ survey amont-2025-2 -title "amont-2025-2"
     75 . 3.58 182.7 -62.5
     75 . 1.15 231.6 -80.8
     75 . 0.99 351.8 -8.2
-    extend right
+    extend left
     75 76 7.38 345.4 -3.0
     # extend auto
     76 . 0.47 263.1 4.8
@@ -1085,7 +1086,7 @@ survey amont-2025-2 -title "amont-2025-2"
     76 . 2.91 159.4 2.6
     76 . 3.05 170.7 1.1
     76 . 6.27 165.9 0.6
-    extend right
+    extend left
     76 77 7.33 343.6 0.3
     # extend auto
     77 . 0.42 240.1 -1.1
@@ -1097,7 +1098,7 @@ survey amont-2025-2 -title "amont-2025-2"
     77 . 2.21 172.3 -40.0
     77 . 2.74 174.8 -22.1
     77 . 11.20 356.7 -67.7
-    extend right
+    extend left
     77 78 9.35 313.7 -70.2
   endcenterline
 

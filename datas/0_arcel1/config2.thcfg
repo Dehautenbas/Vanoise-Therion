@@ -115,7 +115,7 @@ layout coupe
 
   #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
 
-  scale 1  200                    
+  scale 1  500                    
   #base-scale 1 150                
 
 

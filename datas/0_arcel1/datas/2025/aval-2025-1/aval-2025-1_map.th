@@ -6,7 +6,7 @@ map MP_aval-2025-1 -title "aval-2025-1" -proj plan
 endmap
 
 
-map MC_aval-2025-1 -title "aval-2025-1"
+map MC_aval-2025-1 -title "aval-2025-1" -proj extended
   SC1_aval-2025-1
   break
   SC2_aval-2025-1

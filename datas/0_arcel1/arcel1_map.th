@@ -57,8 +57,9 @@ endmap
 
 ################################################################################################################
 ######################## définition des scraps à faire apparaitre sur la COUPE  ################################
-map MC_arcelin_tot  -proj extended 
-  
+
+
+  map MC_arcelin_tot  -proj extended 
   MC_amont24@amont24_tot
   break
   MC_2023@2023_tot
@@ -76,9 +77,19 @@ map MC_arcelin_tot  -proj extended
   MC_diaclase-boucle@diaclase-boucle_tot
   break
   MC_diaclase_MK-SP@diaclase_MK-SP_tot
+  break
+  MC_faille-fossile-riviere@faille-fossile-riviere_tot
+  break
+  MC_amont-2025-2@amont-2025-2_tot
+  break
+  MC_amont-2025-1@amont-2025-1_tot
+  break
+  MC_aval-2025-2@aval-2025-2_tot [5 -30] below
+  break
+  MC_aval-2025-1@aval-2025-1_tot
+  break
+  endmap   
 
-
-endmap   
 
 
 

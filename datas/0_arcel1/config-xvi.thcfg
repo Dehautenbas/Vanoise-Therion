@@ -11,5 +11,5 @@ source arcel1_tot.th
 #3) EXPORT   ## IL FAUT CREER LE DOSSIER AVANT DANS LE FINDER
 ###----EXEMPLE:----export map -o XVI/discret--term2017_P.xvi -layout-sketches on
 #export map -proj plan -o datas//-2_P.xvi -layout-sketches on
-#export map -proj extended -o datas//-22_C.xvi -layout-sketches on
-export map -proj [elevation 55] -o Arcel1_2025_PROJ.xvi -layout-sketches on
+export map -proj extended -o datas//-22_C.xvi -layout-sketches on
+#export map -proj [elevation 55] -o Arcel1_2025_PROJ.xvi -layout-sketches on

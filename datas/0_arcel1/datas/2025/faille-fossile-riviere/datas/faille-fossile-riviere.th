@@ -1,3 +1,4 @@
+encoding  utf-8
 survey faille-fossile-riviere -title "faille-fossile-riviere"
 
   centerline
@@ -9,7 +10,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     units compass clino degrees
     data normal from to length compass clino
 
-   
+    extend ignore 6 105
     6 105 7.48 61.0 -1.8
     # extend auto
     105 . 0.98 192.9 -5.5
@@ -18,7 +19,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     105 . 1.40 306.2 1.0
     105 . 0.96 268.7 -1.4
     105 . 0.54 115.5 75.7
-    extend right
+    extend left
     105 106 4.65 23.9 32.8
     # extend auto
     106 . 0.74 129.9 3.6
@@ -30,7 +31,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     106 . 1.37 70.9 22.2
     106 . 2.27 35.5 24.1
     106 . 1.05 22.6 26.7
-    extend right
+    extend left
     106 107 1.66 64.8 30.0
     # extend auto
     107 . 1.45 320.6 -23.5
@@ -38,14 +39,14 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     107 . 1.22 224.9 -75.6
     107 . 2.96 233.4 -27.2
     107 . 0.25 218.0 -14.9
-    extend right
+    extend left
     107 108 0.25 217.5 -14.8
     # extend auto
     108 . 5.06 208.4 -25.0
     108 . 3.71 27.3 21.7
     108 . 2.96 41.9 24.6
     108 . 1.31 56.9 7.1
-    extend right
+    extend left
     108 109 4.05 29.4 22.8
     # extend auto
     109 . 0.54 148.6 29.7
@@ -54,7 +55,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     109 . 0.27 314.5 19.1
     109 . 2.12 76.5 3.0
     109 . 1.09 91.4 -2.1
-    extend right
+    extend ignore 109 110
     109 110 1.66 67.8 -1.8
     # extend auto
     110 . 0.58 172.0 8.7
@@ -64,7 +65,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     110 . 1.54 89.6 -24.8
     110 . 2.72 104.0 -23.8
     110 . 5.04 113.0 -34.0
-    extend right
+    extend left
     110 111 5.34 98.9 -23.4
     # extend auto
     111 . 1.00 166.4 -77.2
@@ -72,7 +73,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     111 . 0.71 332.2 19.6
     111 . 2.23 63.8 -6.8
     111 . 4.27 75.9 -4.7
-    extend right
+    extend left
     111 112 3.84 64.2 2.0
     # extend auto
     112 . 1.73 176.7 -41.6
@@ -82,7 +83,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     112 . 2.21 51.2 -1.4
     112 . 2.30 71.0 -2.9
     112 . 2.42 75.2 -14.5
-    extend right
+    extend left
     112 113 5.60 56.0 5.5
     # extend auto
     113 . 0.78 144.0 -6.3
@@ -90,7 +91,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     113 . 0.69 130.7 66.4
     113 . 2.52 91.7 -4.4
     113 . 2.02 79.7 -5.8
-    extend right
+    extend left
     113 114 4.02 80.3 0.7
     # extend auto
     114 . 1.29 131.1 -61.5
@@ -99,7 +100,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     114 . 0.97 29.3 54.9
     114 . 1.87 48.4 16.4
     114 . 2.49 61.1 27.9
-    extend right
+    extend left
     114 115 3.51 49.4 27.0
     # extend auto
     115 . 0.54 151.2 -4.4
@@ -108,7 +109,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     115 . 0.69 75.3 -4.5
     115 . 1.39 97.3 -4.3
     115 . 2.86 104.2 -20.7
-    extend right
+    extend left
     115 116 5.43 90.8 -18.1
     # extend auto
     116 . 0.54 173.7 -44.2
@@ -117,14 +118,14 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     116 . 1.63 83.7 -19.9
     116 . 1.01 102.1 -16.5
     116 . 2.26 100.2 -60.5
-    extend right
+    extend left
     116 117 3.31 107.7 -28.5
     # extend auto
     117 . 0.61 190.9 9.9
     117 . 0.47 136.6 67.7
     117 . 0.66 192.7 -62.5
     117 . 2.29 133.1 -13.5
-    extend right
+    extend left
     117 118 3.55 124.0 -11.6
     # extend auto
     118 . 0.45 21.0 -20.1
@@ -132,7 +133,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     118 . 2.46 96.3 5.7
     118 . 3.18 109.1 2.4
     118 . 0.84 55.8 47.4
-    extend right
+    extend left
   # 119 ptr
     118 119 3.62 122.2 -24.0
     # extend auto
@@ -149,7 +150,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     119 120 13.24 283.3 -7.7
     # extend auto
     120 . 12.50 283.3 -7.8
-    extend right
+    extend left
     119 121 9.96 111.0 -7.0
     # extend auto
     121 . 0.75 151.4 82.8
@@ -158,7 +159,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     121 . 2.44 107.0 18.0
     121 . 2.22 96.8 17.5
     121 . 1.99 110.8 1.5
-    extend right
+    extend left
     121 122 5.46 100.5 14.1
     # extend auto
     122 . 1.47 31.7 -81.3
@@ -167,7 +168,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     122 . 1.18 18.5 65.8
     122 . 3.52 84.5 14.7
     122 . 5.09 86.1 27.3
-    extend right
+    extend left
     122 123 5.72 84.2 21.9
     # extend auto
     123 . 0.50 160.5 -11.3
@@ -177,7 +178,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     123 . 2.38 112.3 -7.4
     123 . 3.33 111.0 -22.5
     123 . 5.59 100.9 1.9
-    extend right
+    extend left
     123 124 7.22 105.8 -4.4
     # extend auto
     124 . 2.74 176.2 -71.4
@@ -185,7 +186,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     124 . 0.79 6.5 14.8
     124 . 5.75 104.5 -9.0
     124 . 5.91 98.3 -10.1
-    extend right
+    extend left
   # ptr bloc
     124 125 5.58 102.0 -9.0
     # extend auto
@@ -195,7 +196,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     125 . 1.80 8.6 64.8
     125 . 1.59 101.4 16.2
     125 . 2.69 74.3 22.2
-    extend right
+    extend left
     125 126 4.54 78.2 19.6
     # extend auto
     126 . 1.98 148.2 -51.3
@@ -207,7 +208,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     126 . 3.65 92.0 10.7
     126 . 3.06 107.8 -4.4
     126 . 6.43 82.9 14.2
-    extend right
+    extend left
     126 127 6.55 88.8 6.8
     # extend auto
     127 . 0.52 345.3 -37.4
@@ -217,14 +218,14 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     127 . 3.24 68.2 7.2
     127 . 2.69 79.7 4.1
     127 . 1.29 83.8 -11.1
-    extend right
+    extend left
     127 128 3.82 72.2 8.9
     # extend auto
     128 . 0.57 169.8 7.1
     128 . 2.54 174.4 -48.4
     128 . 1.39 179.9 -61.8
     128 . 0.55 135.2 65.1
-    extend right
+    extend left
     128 129 7.44 116.1 -30.8
     # extend auto
     129 . 2.05 41.7 1.2
@@ -261,7 +262,7 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     133 . 0.69 187.7 3.6
     133 . 0.93 284.6 77.9
     133 . 0.97 181.2 -34.2
-    extend right
+    extend ignore
     133 134 1.59 283.7 46.3
   # ptr 7 jaune
     134 135 1.37 335.2 32.3
@@ -304,8 +305,9 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
     139 140 3.01 179.0 21.3
     # extend auto
     140 . 0.99 126.8 17.5
-    extend right
+    extend left
     140 107 0.99 126.1 20.1
   endcenterline
 
 endsurvey
+

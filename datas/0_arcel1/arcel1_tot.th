@@ -49,24 +49,30 @@ input arcel1_map.th
   input datas/2025/amont-2025-1/amont-2025-1_tot.th #Martin
       equate 15@aval-2025-1.aval-2025-1_tot 0@amont-2025-1.amont-2025-1_tot
         join SP1_amont-2025-1@amont-2025-1_tot SP1_aval-2025-1@aval-2025-1_tot
+        join SC1_amont-2025-1@amont-2025-1_tot SC2_aval-2025-1@aval-2025-1_tot
 
   input datas/2025/faille-fossile-riviere/faille-fossile-riviere_tot.th #Martin
-    equate 6@faille-fossile-riviere.faille-fossile-riviere_tot 6@amont-2025-1.amont-2025-1_tot
+    #equate 6@faille-fossile-riviere.faille-fossile-riviere_tot 6@amont-2025-1.amont-2025-1_tot
     equate 135@faille-fossile-riviere.faille-fossile-riviere_tot 7@amont2024-3_TC-BU.amont24_tot
       join SP1_faille-fossile-riviere@faille-fossile-riviere_tot SP_amont2024-3_2@amont24_tot #Est
       join SP2_faille-fossile-riviere@faille-fossile-riviere_tot SP_amont2024-3_2@amont24_tot #Ouest
       join SP1_faille-fossile-riviere@faille-fossile-riviere_tot SP1_amont-2025-1@amont-2025-1_tot
+      join SC-amont2024-3_21@amont24_tot SC1_faille-fossile-riviere@faille-fossile-riviere_tot
+      join SC_amont2024-3_2@amont24_tot SC11_faille-fossile-riviere@faille-fossile-riviere_tot
       
   input datas/2025/aval-2025-1/aval-2025-1_tot.th #Charlotte
      equate 0@aval-2025-1.aval-2025-1_tot 0@amont2024-3_TC-BU.amont24_tot
+     join SC-amont2024-3_21@amont24_tot SC1_aval-2025-1@aval-2025-1_tot
 
   input datas/2025/aval-2025-2/aval-2025-2_tot.th #Théophile
      equate 68@aval-2025-2.aval-2025-2_tot 3@aval-2025-1.aval-2025-1_tot
      # join SP1_aval-2025-2@aval-2025-2_tot SP1_aval-2025-1@aval-2025-1_tot   ## Pas besoin
+     join SC1_aval-2025-1@aval-2025-1_tot SC1_aval-2025-2@aval-2025-2_tot
 
   input datas/2025/amont-2025-2/amont-2025-2_tot.th #Théophile
       equate 78@amont-2025-2.amont-2025-2_tot 74@amont-2025-1.amont-2025-1_tot
         join SP1_amont-2025-2@amont-2025-2_tot SP3_amont-2025-1@amont-2025-1_tot
+        join SC2_amont-2025-1@amont-2025-1_tot SC1_amont-2025-2@amont-2025-2_tot
   
 
 

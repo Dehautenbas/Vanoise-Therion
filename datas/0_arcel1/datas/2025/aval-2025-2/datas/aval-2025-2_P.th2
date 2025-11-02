@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 194.0 -30 1716.06 4675.33
-##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {255.90499999999997 1 1.0} {1987.06 0} aval-2025-2_P.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {255.65499999999997 1 1.0} {1988.56 0} aval-2025-2_P.xvi 0 {}
 
 
 
@@ -221,7 +221,7 @@ line water-flow
 endline
 
 line label -text [Le Couloir de l'Eau]
-  951.0 1543.0
+  1052.0 1133.0
   1119.0 858.0
 endline
 
@@ -589,12 +589,37 @@ line wall -reverse on
   smooth off
 endline
 
+line wall -reverse on -subtype invisible
+  1027.5 1820.5
+  1026.5 1805.5
+endline
+
+line wall -subtype invisible
+  852.5 1954.5
+  863.5 1954.5
+endline
+
+line wall -reverse on -subtype invisible
+  388.0 2075.5
+  398.5 2076.0
+endline
+
+line wall -subtype invisible
+  206.0 1973.0
+  218.5 1963.0
+endline
+
+line wall -subtype invisible
+  499.0 1823.0
+  510.5 1826.0
+endline
+
 line wall -reverse on
   1087.0 1247.5
   1081.5 1264.5 1071.5 1342.0 1070.0 1347.0
-  1068.5 1352.0 1056.5 1419.5 1051.0 1439.0
+  1068.5 1352.0 1058.25 1418.75 1052.75 1438.25
   altitude .
-  1045.5 1458.5 1044.0 1469.0 1035.0 1495.5
+  1047.25 1457.75 1044.0 1469.0 1035.0 1495.5
   1026.0 1522.0 1016.0 1564.0 1016.5 1577.5
   1017.0 1591.0 1020.0 1589.0 1014.5 1614.0
   1009.0 1639.0 1012.0 1719.5 997.5 1715.0
@@ -617,7 +642,7 @@ line wall -reverse on
   634.0 1863.0 645.0 1881.5 631.5 1876.0
   618.0 1870.5 575.0 1856.0 572.0 1854.5
   569.0 1853.0 497.5 1851.0 498.0 1844.0
-  498.5 1837.0 504.0 1836.0 509.5 1826.0
+  498.5 1837.0 505.0 1836.0 510.5 1826.0
   smooth off
 endline
 
@@ -643,8 +668,8 @@ line pit -reverse on
 endline
 
 line pit
-  1012.5 1581.0
-  1012.5 1581.0 1027.25 1572.5 1035.25 1582.25
+  1016.5 1577.5
+  1016.5 1577.5 1022.5 1568.5 1030.5 1578.25
   smooth off
 endline
 
@@ -658,7 +683,7 @@ line water-flow
   smooth off
 endline
 
-line wall
+line wall -reverse on
   1026.5 1805.5
   1010.5 1803.0 975.5 1804.5 974.0 1793.5
   972.5 1782.5 973.5 1727.0 982.5 1727.5
@@ -706,7 +731,7 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+line wall -reverse on
   398.5 2076.0
   398.0 2046.5 414.0 2042.5 429.5 2048.5
   445.0 2054.5 461.0 2071.0 473.5 2067.5
