@@ -1,0 +1,14 @@
+encoding  utf-8
+
+###Pour morphing du XVI
+
+
+#1) .TH
+source tube-de-prechauffage.th
+
+#2) .TH2   ##SEULEMNT SI MORPHING
+#source datas/XVI-P-aorte2018.th2
+
+#3) EXPORT
+export map -proj plan -o tube-de-prechauffage.th_P.xvi -layout-sketches on
+export map -proj extended -o tube-de-prechauffage.th_C.xvi -layout-sketches on

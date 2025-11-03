@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 777.6049999999999 462.645
-##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {72.719 1 1.0} {59.05500000000001 0} tube-de-prechauffage_C.xvi 0 {}
+##XTHERION## xth_me_area_adjust -116.0 -97.0 632.125 755.96
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {75.41500000000002 1 1.0} {57.05500000000001 0} tube-de-prechauffage.th_C.xvi 0 {}
 
 
 
@@ -77,6 +77,7 @@ line wall
   202.0 181.5 196.5 196.0 210.0 200.5
   223.5 205.0 238.0 213.0 241.5 219.5
   245.0 226.0 261.25 232.5 266.25 233.0
+  smooth off
 endline
 
 endscrap

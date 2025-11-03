@@ -1,4 +1,4 @@
-encoding utf-8
+encoding  utf-8
 # 2024.10.21 created by TopoDroid v 6.2.85
 
 survey tube-de-prechauffage -title "Arcel 1 j1"
@@ -42,7 +42,7 @@ survey tube-de-prechauffage -title "Arcel 1 j1"
     5 . 0.47 326.9 12.1
     5 . 0.56 317.9 67.0
     5 . 0.42 23.9 -68.3
-    extend right
+    extend left
   # 6= sortie du tube de préchauffage . liquide de refroidissement 
     5 6 3.08 51.9 27.4
   # 7=3 blocs au sol
@@ -55,3 +55,4 @@ survey tube-de-prechauffage -title "Arcel 1 j1"
 
 
 endsurvey
+

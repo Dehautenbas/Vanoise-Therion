@@ -20,8 +20,8 @@ layout general
     colour map-fg [96 96 86]   ###Couleur Galeries #Gris[80 80 80]#
     color map-bg 96            ### couleur du fond (80% blanc / 20% gris => 80)
  
-    symbol-hide point station        
-    symbol-hide line survey
+   # symbol-hide point station        
+   # symbol-hide line survey
 
 endlayout
 

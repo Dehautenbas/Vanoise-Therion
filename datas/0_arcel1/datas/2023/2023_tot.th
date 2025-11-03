@@ -9,7 +9,7 @@ input jonction/jonction.th
     equate 26@arcel1 2@jonction
 input frequence51/frequence51.th
 input amont23/amont.th
-    equate 0@amont 53@frequence51
+    equate 3@amont 7@puits-remontant
     #???? equate PTR_2@frequence_51.Frequence51 PTR_2@Frequence_51.Frequence51
 input puits_remontant/puits_remontant.th
     equate 43@frequence51 0@puits-remontant
@@ -44,6 +44,7 @@ input arcel1/arcel1_C.th2
       join arcel1_down:end pr_l1_down:end
 input puits_remontant/puits_remontant_C.th2
       join SC-amont-2025-1 SC1_puits-remontant
+    #  join arcel1_S4_C
 input amont23/amont_C.th2
       join SC-amont-2025-1 SC-amont-2
 
