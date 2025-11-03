@@ -110,6 +110,7 @@ line wall -reverse on
   644.0 612.0
   644.0 612.0 644.75 611.75 650.0 611.75
   655.25 611.75 657.75 613.25 658.25 614.75
+  smooth off
 endline
 
 line wall
@@ -120,6 +121,24 @@ line wall
   714.95 592.61 709.75 596.0 698.75 600.0
   687.75 604.0 684.0 600.0 680.0 609.0
   smooth off
+endline
+
+line wall
+endline
+
+line water-flow
+  1310.5 176.5
+  1416.75 159.25
+endline
+
+line border
+  1119.0 307.5
+  1119.0 307.5 1133.25 277.75 1136.25 274.25
+endline
+
+line border
+  1119.75 350.25
+  1119.75 350.25 1134.25 322.0 1135.25 319.5
 endline
 
 line wall

@@ -15,7 +15,7 @@ survey pieuvre_PG-FM -title "pieuvre_PG-FM"
     equate 26 18
 
     #extend ignore 21.3
-    extend ignore 21 22
+  #  extend ignore 21 22
     #extend ignore 25 18
 
     extend left
@@ -256,7 +256,7 @@ survey pieuvre_PG-FM -title "pieuvre_PG-FM"
     7.3 . 4.44 328.9 -72.2
     7.3 . 0.32 38.2 -78.7
 
-    extend left
+       extend left    
 
     21 . 2.59 239.3 -0.1
     21 . 2.36 240.1 -1.0
@@ -265,10 +265,10 @@ survey pieuvre_PG-FM -title "pieuvre_PG-FM"
     21 . 2.63 239.7 1.0
     21 . 1.15 239.3 0.9
     21 . 1.10 240.0 0.5
-    
+   
     21 21.1 2.83 239.3 2.6
     21.1 21.2 6.53 206.7 21.6
-    
+  
     21.2 21.3 2.90 340.0 -13.9
   endcenterline
 

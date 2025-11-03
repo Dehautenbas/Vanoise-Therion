@@ -44,7 +44,6 @@ input arcel1/arcel1_C.th2
       join arcel1_down:end pr_l1_down:end
 input puits_remontant/puits_remontant_C.th2
       join SC-amont-2025-1 SC1_puits-remontant
-    #  join arcel1_S4_C
 input amont23/amont_C.th2
       join SC-amont-2025-1 SC-amont-2
 
