@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 21380.0 3726.0
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {3049.04 1 1.0} {1259.8400000000001 F51} ../../frequence51/Frequence51_C.xvi 0 {}
 ##XTHERION## xth_me_image_insert {6639.34 1 1.0} {1467.0074 0} ../puits-remontant_C.xvi 0 {}
 ##XTHERION## xth_me_image_insert {8146.21 1 1.0} {1726.5751999999998 0} ../../amont/amont_C.xvi 0 {}
@@ -233,9 +233,7 @@ line border
   smooth off
 endline
 
-point 8980.0 1576.0 label -text "La Pieuvre" -scale l
-
-point 8376.0 1652.0 label -text "Faille"
+point 8752.0 1537.0 label -text "La Pieuvre" -scale l
 
 line wall -subtype clay
 endline

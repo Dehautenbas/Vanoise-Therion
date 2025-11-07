@@ -16,7 +16,7 @@ input arcel1_map.th
       equate 0@amont2024-1.amont24_tot 40@amont.2023_tot
         join diaclase-boucle_SP1@diaclase-boucle_tot SP_amont2024-1_2@amont24_tot
         join amont23_SP1@2023_tot SP_amont2024-1_1@amont24_tot
-        join SC-amont-2@2023_tot SC_amont2024-1_1@amont24_tot
+        join SC-amont-2023-2@2023_tot SC_amont2024-1_1@amont24_tot
 
   input datas/2024/diaclase_MK-SP/diaclase_MK-SP_tot.th
       equate 2@diaclase_MK-SP.diaclase_MK-SP_tot 73@amont2024-1.amont24_tot
@@ -24,8 +24,9 @@ input arcel1_map.th
 
   input datas/2024/escalier/escalier_tot.th
       equate 3c@escalier.escalier_tot 15@amont2024-1.amont24_tot
-      equate 236@escalier.escalier_tot 19@amont.2023_tot
+       equate 236@escalier.escalier_tot 19@amont.2023_tot
         join escalier_SC1@escalier_tot SC_amont2024-1_1@amont24_tot
+       join SC-amont-2023-2@2023_tot escalier_SC0@escalier_tot
 
   input datas/2024/pieuvre_PG-FM/pieuvre_PG-FM_tot.th
      # equate 21.3@pieuvre_PG-FM.pieuvre_PG-FM_tot 7@puits-remontant.2023_tot #commenter pour -proj extended
@@ -43,6 +44,7 @@ input arcel1_map.th
   input datas/2024/pts_oublie/pts_oublie_tot.th
       equate 11@pts_oublie.pts_oublie_tot 19@amont.2023_tot
         join pts_oublie_SP1@pts_oublie_tot amont23_SP1@2023_tot
+     #   join pts-oublie_SC1@pts_oublie_tot SC-amont-2023-2@2023_tot
 
 
 #### 2025

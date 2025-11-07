@@ -3,9 +3,9 @@ escalier_SP1
 endmap 
 
 map MC_escalier -proj extended 
-  escalier_SC0
-  break
   escalier_SC1
+  break
+  escalier_SC0
   break
   escalier_SC2
   break

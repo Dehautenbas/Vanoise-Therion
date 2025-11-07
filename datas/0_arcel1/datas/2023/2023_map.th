@@ -32,9 +32,9 @@ endmap
 
 map MC_2023  -proj extended 
   break
-  SC-amont-2
+  SC-amont-2023-2
   break
-  SC-amont-2025-1
+  SC-amont-2023-1
   break
   arcel1_S1_C
   break

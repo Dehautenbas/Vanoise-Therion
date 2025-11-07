@@ -13,7 +13,9 @@ survey escalier -title "escalier"
     data normal from to length compass clino
 
 
-    extend ignore 17 18
+    extend ignore 9
+   
+    
 
     extend left
     0 . 3.83 165.3 15.8
@@ -93,7 +95,10 @@ survey escalier -title "escalier"
     9 . 2.27 326.3 3.1
     9 . 1.47 168.5 6.8
     
+
     9 10 4.22 246.9 22.5
+
+    extend left
     10 11 6.25 275.5 37.4
     # extend auto
     11 . 3.33 236.0 72.3
@@ -151,8 +156,11 @@ survey escalier -title "escalier"
     
     16c 13 1.94 14.8 -28.1
     
-    extend left
+    extend left 
+   
     16 17 15.54 316.2 -18.0
+
+   #extend ignore 
     17 18 2.09 175.0 15.4
     # extend auto
     18 . 2.24 175.6 16.1
@@ -162,7 +170,20 @@ survey escalier -title "escalier"
     18 . 1.67 359.7 -4.5
     18 . 1.15 146.2 -77.4
     
+     extend left
     18 19 9.16 237.3 -18.4
+    
+    
+    19 199 4.13 244.7 -74.8
+    # extend auto
+    199 . 5.97 33.0 10.4
+    199 . 2.86 73.7 -17.8
+    199 . 5.84 149.4 -5.4
+    199 . 4.38 130.7 -13.6
+    199 . 1.52 341.1 7.8
+    199 . 2.22 8.5 21.0
+    199 . 0.56 134.0 -17.7
+    199 . 4.40 134.2 -18.0
     199 19a 1.84 32.2 -26.8
     19a 19b 2.32 326.2 35.7
     # extend auto
@@ -178,18 +199,7 @@ survey escalier -title "escalier"
     19d 19e 6.46 268.9 -13.2
     # extend auto
     19e . 4.65 245.2 -75.3
-    
-    19 199 4.13 244.7 -74.8
-    # extend auto
-    199 . 5.97 33.0 10.4
-    199 . 2.86 73.7 -17.8
-    199 . 5.84 149.4 -5.4
-    199 . 4.38 130.7 -13.6
-    199 . 1.52 341.1 7.8
-    199 . 2.22 8.5 21.0
-    199 . 0.56 134.0 -17.7
-    199 . 4.40 134.2 -18.0
-    
+
     199 20 4.30 133.7 -17.9
     20 21 4.23 314.6 -27.6
     21 22 4.05 76.3 -17.1
@@ -205,6 +215,7 @@ survey escalier -title "escalier"
     # extend auto
     23 . 0.79 344.5 -33.6
     
+    
     23 233 5.70 266.9 -0.1
     233 234 1.14 217.5 75.3
     # extend auto
@@ -215,7 +226,8 @@ survey escalier -title "escalier"
     234 235 8.17 230.0 -21.6
     # extend auto
     235 . 2.24 206.3 8.9
-    
+
+   
     235 236 3.21 99.8 13.2
 
 
