@@ -146,7 +146,7 @@ line wall
   smooth off
 endline
 
-point -726.0 -1176.0 label -scale xl -text "Entrée sup"
+point -878.0 -1640.0 label -scale xl -text "Entrée sup"
 
 line wall
   1076.0 -797.0
@@ -470,7 +470,7 @@ point 144.19 -475.17 station -name 3EL
 
 point 299.31 -560.21 station -name 2
 
-point -126.0 -262.0 label -scale xl -text "<center>Entrée <br>Fréquence 51"
+point -786.0 98.0 label -scale xl -text "<center>Entrée <br>Fréquence 51"
 
 line wall
   758.0 -122.0

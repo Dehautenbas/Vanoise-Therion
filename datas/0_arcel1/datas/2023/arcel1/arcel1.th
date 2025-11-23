@@ -15,11 +15,12 @@ survey arcel1 -title Arcel1
 
     cs UTM32
     fix 0 325572 5027449 2603
+    #cs long-lat
+    #fix 0 6.7721529	45.3788271 2603
     station 0 "Gouffre de l'Arcelin - (entrée haute)" entrance
 
 
-    #cs long-lat
-    #fix 0 6.7721529	45.3788271 2603
+
 
     
     extend left

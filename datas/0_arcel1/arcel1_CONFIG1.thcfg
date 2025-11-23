@@ -6,14 +6,15 @@ source arcel1_tot.th
 
 ### Commenter ou décommenter la ligne "bitmap" dans le fichier mnt.th pour drapper l'image sat sur le mnt
 ### Si problème d'ouverture du 3d avec Loch, commenter la ligne bitmap
+
 #source datas/mnt.th
 source ../mnt.th
 
 ##########################Selection de la map à exporter #############################
 ######################################################################################
 
-# MP_arcelin_tot@Arcel1      #uncomment ONLY one
-select MC_arcelin_tot@Arcel1     #uncomment ONLY one
+select MP_arcelin_tot@Arcel1      #uncomment ONLY one
+#select MC_arcelin_tot@Arcel1     #uncomment ONLY one
 
 #select MP_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
      #select MP_pas-encore-dessine@Arcel1  #Pour le filaire de la topo pas encore dessinée
@@ -31,17 +32,17 @@ select MC_arcelin_tot@Arcel1     #uncomment ONLY one
 
 
 ######################## PDF ########################
-#export map \
+export map \
      -projection plan \
      -layout plan \
      -output exports/arcel1_plan.pdf 
 
-#export map \
+export map \
      -projection plan \
      -layout plan-surface \
      -output exports/arcel1_plan-surface.pdf 
 
-export map \
+#export map \
      -projection extended \
      -layout coupe \
      -output exports/arcel1_coupe.pdf 
@@ -50,13 +51,13 @@ export map \
 ######################## STATIONS ########################
 # l'ordre des layouts est importants !
 
-#export map \
+export map \
      -projection plan \
      -layout plan \
      -layout centerline \
      -output exports/arcel1_plan-travail.pdf 
 
-export map \
+#export map \
      -projection extended \
      -layout coupe \
      -layout centerline \
@@ -67,13 +68,13 @@ export map \
 #export map \
      -projection plan \
      -layout plan   \
-     -layout-debug all \
+     -layout debug \
      -output exports/arcel1_DEBUG_plan.pdf
 
-export map \
+#export map \
      -projection extended \
      -layout coupe   \
-     -layout-debug all \
+     -layout debug \
      -output exports/arcel1_DEBUG_coupe.pdf
 
      
@@ -132,7 +133,7 @@ export map \
 #export model \
      -output exports/arcelin-shots.kml  ###-> pour fil de fer sans station avec splays shots
 
-#export model \
+export model \
      -fmt esri \
      -o exports/arcelin-shp
 

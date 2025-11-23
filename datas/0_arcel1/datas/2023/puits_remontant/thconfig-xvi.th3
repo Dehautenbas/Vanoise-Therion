@@ -12,7 +12,6 @@ export map -proj extended -layout xviexport -o puits_remontant_C.xvi
 export map -proj plan -layout xviexport -o puits_remontant_P.xvi 
 export model -o puits_remontant.lox
 layout xviexport
-	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
 	#scale 1 50 # pour le plan
 	scale 1 50 # pour la coupe

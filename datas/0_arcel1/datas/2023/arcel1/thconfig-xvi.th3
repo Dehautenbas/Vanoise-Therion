@@ -21,7 +21,6 @@ export map -proj plan -layout xviexport -o arcel1_P.xvi
 
 
 layout xviexport
-	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
 	#scale 1 50 # pour le plan
 	scale 1 50 # pour la coupe

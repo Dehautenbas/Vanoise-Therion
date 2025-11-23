@@ -51,8 +51,6 @@ layout plan1000
 
   scale 1  1000                    
   #base-scale 1 300                
-
-  cs UTM32
  
   map-header 1 4 sw              ### positionnement du cartouche 
   scale-bar 50 m
@@ -82,7 +80,6 @@ layout plan
   scale 1  200                    
   #base-scale 1 300                
 
-  cs UTM32
  
   map-header 1 4 sw              ### positionnement du cartouche 
   scale-bar 25 m
@@ -109,8 +106,6 @@ layout plan-surface
 
   scale 1  200                    
   #base-scale 1 300                
-
-  cs UTM32
  
   map-header 1 4 sw              ### positionnement du cartouche 
   scale-bar 25 m
@@ -142,9 +137,6 @@ layout coupe
 
   scale 1  200                    
   #base-scale 1 150                
-
-
-  cs UTM32
  
   map-header 2 68 sw             ### positionnement du cartouche  Lower-left corner of the map is 0 0, upper-right corner is 100 100
   scale-bar 25 m

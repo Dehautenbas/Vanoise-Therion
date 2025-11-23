@@ -7,7 +7,6 @@
 **.kml
 **.kmz
 **.lox
-**.log
 **.xml
 **.html
 **.xhtml
@@ -19,11 +18,11 @@
 **.db
 **.sql
 **.xvi
-**.log
-**.dat
+#.log
+.dat
 .xtherion.dat
-therion.log
-**.svg
+#therion.log
+.svg
 
 # Therion shp outputs
 **.dbf
