@@ -1008,7 +1008,7 @@ line label -id l210-4322-1492 -close on
   4293.5 1521.0
 endline
 
-point 4254.0 1461.0 label -text "marmite 4m de prof."
+point 4280.5 1452.5 label -text "marmite 4m de prof."
 
 point 4319.88 1558.1100000000001 station -name 72
 

@@ -37,8 +37,8 @@ line wall -id PR2D
 endline
 
 line wall -id PR1G
-  303.0 -386.0
-  48.0 -368.0 108.51 -384.36 -75.96 -156.85
+  300.0 -384.0
+  45.0 -366.0 108.51 -384.36 -75.96 -156.85
   -115.44 -108.16 -74.53 -49.03 -79.89 2.16
   -83.63 37.87 -103.3 70.05 -115.0 104.0
   smooth off
@@ -79,7 +79,6 @@ line slope
 endline
 
 point -92.0 -512.5 continuation -attr Code "A" -attr cavite "Arcel1" -attr Reseau "2023" -attr CA "?" -text "Une 20aine de m non topo. Enlever le baudar (Martin)"
-
 
 line slope
   -103.5 -421.0

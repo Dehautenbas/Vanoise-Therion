@@ -13,8 +13,8 @@ source ../mnt.th
 ##########################Selection de la map à exporter #############################
 ######################################################################################
 
-#select MP_arcelin_tot@Arcel1      #uncomment ONLY one
-select MC_arcelin_tot@Arcel1     #uncomment ONLY one
+select MP_arcelin_tot@Arcel1      #uncomment ONLY one
+#select MC_arcelin_tot@Arcel1     #uncomment ONLY one
 
 #select MP_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
      #select MP_pas-encore-dessine@Arcel1  #Pour le filaire de la topo pas encore dessinée
@@ -32,7 +32,7 @@ select MC_arcelin_tot@Arcel1     #uncomment ONLY one
 
 
 ######################## PDF ########################
-#export map \
+export map \
      -projection plan \
      -layout plan \
      -output exports/arcel1_plan.pdf 
@@ -42,7 +42,7 @@ select MC_arcelin_tot@Arcel1     #uncomment ONLY one
      -layout plan-surface \
      -output exports/arcel1_plan-surface.pdf 
 
-export map \
+#export map \
      -projection extended \
      -layout coupe \
      -output exports/arcel1_coupe.pdf 

@@ -379,11 +379,11 @@ area clay
   SP-amont-2025-1_clay_10
 endarea
 
-line wall -id amontG
+line wall -id amont-right
   302.0 2354.0
   424.0 2356.0 348.0 2086.0 342.0 2056.0
   336.0 2026.0 270.0 1856.0 232.0 1794.0
-  194.0 1732.0 130.0 1764.0 130.0 1764.0
+  194.0 1732.0 126.0 1770.0 126.0 1770.0
   smooth off
 endline
 
@@ -393,13 +393,14 @@ line label -text "Carrefour de la Pieuvre"
   smooth off
 endline
 
-line wall -id left -reverse on
+line wall -id amont-left -reverse on
   344.0 2466.0
   408.0 2434.0 456.0 2616.0 548.0 2574.0
   640.0 2532.0 831.38 2437.73 842.0 2428.0
   866.0 2406.0 894.0 2404.0 932.0 2442.0
   963.14 2473.14 950.0 2482.0 992.0 2512.0
   1034.0 2542.0 1140.0 2488.0 1152.0 2518.0
+  smooth off
 endline
 
 line wall -id mid -reverse on
