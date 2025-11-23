@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -7592.0 -1336.0 8412.04 3644.412
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {6960.05 1 1.0} {206.32000000000016 0} amont_C.xvi 0 {}
 
 
@@ -575,34 +575,10 @@ endline
 
 point -762.0 1866.0 blocks
 
-line border -id l113--710-1861 -close on
-  -815.0 1830.0
-  -823.0 1821.0 -840.0 1811.0 -830.0 1792.0
-  -827.37 1787.01 -787.17 1802.48 -784.0 1812.0
-  -778.0 1830.0 -807.0 1839.0 -815.0 1830.0
-endline
-
-area u:galerie
-  l113--710-1861
-endarea
-
 line border
   -984.0 2024.0
   -956.0 2030.0 -922.0 2022.0 -894.0 2016.0
   -866.0 2010.0 -708.0 1976.0 -672.0 1972.0
-  smooth off
-endline
-
-area u:galerie
-  lb
-endarea
-
-line border -id lb -close on
-  -1126.0 2125.0
-  -1148.5 2056.0 -1079.56 2077.78 -1058.0 2081.0
-  -1026.37 2085.73 -1040.57 2078.51 -1026.0 2084.0
-  -1011.48 2089.47 -1014.91 2124.04 -1030.0 2136.0
-  -1056.5 2157.0 -1126.0 2140.0 -1126.0 2125.0
   smooth off
 endline
 

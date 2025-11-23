@@ -1,11 +1,15 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 4950.825 2155.555
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {469.8299999999999 1 1.0} {551.1800000000001 0} aval-2025-2_C.xvi 0 {}
 
 
 
 scrap SC1_aval-2025-2 -projection extended -station-names "" "@aval-2025-2" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 3435.0 1558.0 label -text "conduite forcée diam 50cm"
+
+point 4291.0 1547.0 map-connection
 
 line wall
   4197.0 1514.0
@@ -522,6 +526,22 @@ line wall
   smooth off
 endline
 
+point 3148.0 1070.0 label -text "cascade"
+
+line label -text "étroiture"
+  2383.0 896.0
+  2383.0 896.0 2587.25 937.25 2634.0 935.0
+  smooth off
+endline
+
+line label -text "Le couloir de l’eau"
+  2447.0 748.75
+  2447.0 748.75 2691.0 801.0 2754.0 805.0
+  smooth off
+endline
+
+point 2200.75 595.25 label -text "perte de l’actif - méandre étr."
+
 line wall -reverse on
   1891.5 577.25
   1891.5 577.25 1869.07 580.32 1857.0 581.25
@@ -709,7 +729,13 @@ line label -id l141-563-583 -close on
   smooth off
 endline
 
-point 386.0 542.0 continuation
+point 559.5 619.5 label -text "méandre étroit"
+
+point 476.5 501.75 label -text "galerie D=1,5m"
+
+point 478.5 554.5 map-connection
+
+point 412.75 525.0 continuation
 
 line wall
   3055.5 1157.75
@@ -806,6 +832,8 @@ point 895.1199999999999 592.3 station -name 8
 point 957.0099999999998 588.62 station -name 9
 
 point 1044.1999999999998 541.6800000000001 station -name 10
+
+point 1631.0 576.5 label -text "CF remontante"
 
 point 1114.34 530.3199999999999 station -name 11
 

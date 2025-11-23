@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 2011.06 5182.509999999999 8093.82 7623.544999999999
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {2648.59 1 1.0} {6097.91 0} amont2024-1_C.xvi 0 {}
 
 
@@ -102,7 +102,7 @@ line wall -close on
   smooth off
 endline
 
-point 2829.0 5934.0 label -text "P11 borgne"
+point 2875.0 5918.0 label -text "P11 borgne"
 
 line border
   4250.5 6482.0

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 8179.164999999999 3750.04
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {7165.35 1 1.0} {2696.85 0} ../amont-2025-2_C.xvi 0 {}
 
 
@@ -434,7 +434,7 @@ line water-flow
   1173.5 910.0 1174.0 910.0 1139.0 890.0
   1104.0 870.0 1085.0 861.0 1075.5 851.0
   1066.0 841.0 1087.5 868.0 1051.5 817.5
-  1015.5 767.0 1026.0 782.0 1026.0 782.0
+  1041.84 803.95 1025.5 787.5 1025.5 787.5
   smooth off
 endline
 

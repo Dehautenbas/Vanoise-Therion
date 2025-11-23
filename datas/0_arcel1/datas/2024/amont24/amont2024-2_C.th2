@@ -99,13 +99,13 @@ line wall -outline in
   smooth off
 endline
 
-point 905.75 547.5 label -text "étroiture pour petits fémurs"
+point 905.75 547.5 label -text "ex étroiture à petits fémurs"
 
 point 867.5 584.25 blocks
 
 point 1382.75 480.5 label -text "par ici ça mouille"
 
-point 1416.0 624.25 label -text "par là ça accroche"
+point 1416.0 634.25 label -text "par là ça accroche"
 
 line border
   2075.75 594.5

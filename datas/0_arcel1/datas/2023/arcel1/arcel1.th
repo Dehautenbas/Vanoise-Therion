@@ -14,10 +14,10 @@ survey arcel1 -title Arcel1
     data normal from to length compass clino
 
     cs UTM32
-    fix 0 325572 5027449 2603
+    fix 0 325572 5027449 65 #2603 #6( depuis Fréquence 51)
     #cs long-lat
     #fix 0 6.7721529	45.3788271 2603
-    station 0 "Gouffre de l'Arcelin - (entrée haute)" entrance
+    station 0 "Gouffre de l'Arcelin - (entrée haute)" #entrance
 
 
 

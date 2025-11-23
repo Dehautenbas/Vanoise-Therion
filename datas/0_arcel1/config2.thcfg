@@ -87,6 +87,7 @@ layout plan-surface
   #base-scale 1 300                
  
   map-header 20 40 nw              ### positionnement du cartouche 
+  map-header-bg on                 ### pour enlever le carroyage ou l'image de l'arrière plan de la légende
   scale-bar 25 m
   map-header-bg on
   #copy scalebar_horiz
@@ -117,6 +118,7 @@ layout coupe
 
   scale 1  500                    
   base-scale 1 200                
+  fonts-setup 14  14  14  16  60   ### A modifier si changement d'échelle !
  
   map-header 2 68 sw             ### positionnement du cartouche  Lower-left corner of the map is 0 0, upper-right corner is 100 100
   scale-bar 25 m
@@ -128,6 +130,7 @@ layout coupe
 
   grid bottom                                ### positionnement de la grille
   grid-size 50 50 50 m                  ### dimension de la grille
+  grid-coords all
 
 
 endlayout

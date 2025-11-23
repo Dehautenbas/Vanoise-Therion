@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 202.0 93.99999999999994 3142.48 1668.895
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {1133.0500000000002 1 1.0} {1107.831 0} amont2024-3_C.xvi 0 {}
 
 
@@ -363,6 +363,8 @@ line wall -id l72-2548-1225
   2518.25 1217.75 2516.0 1215.75 2504.5 1217.75
   smooth off
 endline
+
+point 2499.0 1144.0 label -text "Terminus 2024" -scale l
 
 line wall
   2513.5 1195.0
