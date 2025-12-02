@@ -1,0 +1,20 @@
+therion 6.2.1 (2024-03-20)
+  - using Proj 9.3.1, compiled against 9.3.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: C:\Users\Utilisateur\Documents\GitHub\th-vanoise\datas\0_arcel1\datas\2024\tube-de-prechauffage\config-xvi.thcfg
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+writing tube-de-prechauffage.th_P.xvi ... done
+processing projection extended ... done
+writing tube-de-prechauffage.th_C.xvi ... done
+compilation time: 0 sec

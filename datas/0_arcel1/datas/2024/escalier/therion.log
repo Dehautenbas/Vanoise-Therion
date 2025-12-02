@@ -1,0 +1,27 @@
+therion 6.2.1 (2024-03-20)
+  - using Proj 9.3.1, compiled against 9.3.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: C:\Users\Utilisateur\Documents\GitHub\th-vanoise\datas\0_arcel1\datas\2024\escalier\config-xvi.thcfg
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 6.88%
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+writing escalier.th_P.xvi ... done
+processing projection extended ... done
+writing escalier.th_C.xvi ... done
+compilation time: 0 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  6.88%    2.9m   42.4m   7   -2.5m   -0.9m    1.2m [13@escalier - 16c - 16b - 16a - 16 - 15 - 14 - 13]
+##################### end of loop errors #######################

@@ -1,0 +1,90 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 698.865 1309.1
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {413.38800000000003 1 1.0} {1082.68 0} M2_P.xvi 0 {}
+
+
+
+scrap SP_M2-2025_1 -projection plan -station-names "" "@moulin-lac" -scale [-128.0 -128.0 698.865 -128.0 0.0 0.0 21.002371 0.0 m]
+
+line wall
+endline
+
+point 330.208 1077.3000000000002 station -name a
+
+point 413.38800000000003 1082.68 station -name 0
+
+point 467.87800000000004 1069.6 station -name 1
+
+point 428.278 1041.25 station -name 2
+
+point 447.298 1027.68 station -name 3
+
+point 414.718 1020.22 station -name 4
+
+point 407.338 984.59 station -name 5
+
+point 374.69800000000004 1005.0600000000001 station -name 6
+
+point 358.028 962.3000000000001 station -name 7
+
+point 321.06800000000004 961.9100000000001 station -name 8
+
+point 314.658 948.3000000000001 station -name 9
+
+point 308.75800000000004 908.34 station -name 10
+
+point 310.398 908.97 station -name 11
+
+point 398.668 974.0500000000001 station -name 12
+
+point 426.72800000000007 900.95 station -name 13
+
+point 364.478 868.4100000000001 station -name 14
+
+point 367.38800000000003 846.01 station -name 15
+
+point 341.088 835.6500000000001 station -name 16
+
+point 307.88800000000003 865.75 station -name 17
+
+point 302.858 846.0 station -name 18
+
+point 321.728 828.8800000000001 station -name 19
+
+point 320.548 760.97 station -name 20
+
+point 280.57800000000003 726.1 station -name 21
+
+point 329.48800000000006 696.83 station -name 22
+
+point 341.36800000000005 648.84 station -name 23
+
+point 333.36800000000005 591.9300000000001 station -name 24
+
+point 282.648 582.34 station -name 25
+
+point 234.91800000000003 535.45 station -name 26
+
+point 136.23800000000003 511.03000000000003 station -name 27
+
+point 110.53800000000004 450.20000000000005 station -name 28
+
+point 255.44800000000004 407.27000000000004 station -name 29
+
+point 259.278 368.15000000000003 station -name 30
+
+point 209.65800000000002 307.53000000000003 station -name 31
+
+point 182.43800000000005 257.59000000000003 station -name 32
+
+point 191.19800000000004 138.28000000000003 station -name 33
+
+point 180.598 143.02000000000004 station -name 34
+
+point 142.10800000000003 160.72000000000003 station -name 35
+
+point 118.24800000000002 110.68000000000006 station -name 36
+
+endscrap
+

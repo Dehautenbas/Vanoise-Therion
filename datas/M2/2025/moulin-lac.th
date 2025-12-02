@@ -1,4 +1,4 @@
-encoding utf-8
+encoding  utf-8
 # 2025.10.07 created by TopoDroid v 6.3.35
 
 survey moulin-lac -title "moulin-lac"
@@ -9,6 +9,11 @@ survey moulin-lac -title "moulin-lac"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
+    
+    cs UTM32 
+    
+    fix 35 0326614	5026804 2987
+    
     extend ignore
     0 a 4.26 266.3 -6.3
     # extend auto
@@ -27,7 +32,7 @@ survey moulin-lac -title "moulin-lac"
     4 5 1.86 191.7 -6.4
     # extend auto
     5 . 0.37 302.5 32.4
-    extend right
+    extend left
     5 6 2.30 302.1 31.7
     extend left
     6 7 3.00 201.3 39.0
@@ -38,7 +43,7 @@ survey moulin-lac -title "moulin-lac"
     extend left
     8 9 0.82 205.2 -21.2
     9 10 2.12 188.4 -14.6
-    extend right
+    extend left
     10 11 0.72 69.1 82.9
     11 12 5.58 53.6 3.2
     extend left
@@ -46,7 +51,7 @@ survey moulin-lac -title "moulin-lac"
     13 14 3.57 242.4 -1.8
     14 15 1.28 172.6 26.3
     15 16 2.09 248.5 46.6
-    extend right
+    extend left
     16 17 2.30 312.2 8.2
     extend left
     17 18 1.10 194.3 19.7
@@ -74,10 +79,11 @@ survey moulin-lac -title "moulin-lac"
     33 34 0.59 294.1 2.1
     # extend auto
     33 . 0.59 293.5 2.4
-    extend right
+    extend left
     34 35 5.17 294.7 65.4
     extend left
     35 36 2.86 205.5 10.0
   endcenterline
 
 endsurvey
+

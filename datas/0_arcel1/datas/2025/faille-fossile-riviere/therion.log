@@ -1,0 +1,27 @@
+therion 6.2.1 (2024-03-20)
+  - using Proj 9.3.1, compiled against 9.3.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: C:\Users\Utilisateur\Documents\GitHub\th-vanoise\datas\0_arcel1\datas\2025\faille-fossile-riviere\config-xvi.thcfg
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 1.19%
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+writing datas/faille-fossile-riviere_P.xvi ... done
+processing projection extended ... done
+writing datas/faille-fossile-riviere_C.xvi ... done
+compilation time: 0 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  1.19%    1.2m  101.0m  24   -0.3m    0.6m    1.0m [107@faille-fossile-riviere - 140 - 139 - 138 - 137 - 136 - 135 - 134 - 133 - 132 - 131 - 130 - 119 - 118 - 117 - 116 - 115 - 114 - 113 - 112 - 111 - 110 - 109 - 108 - 107]
+##################### end of loop errors #######################
