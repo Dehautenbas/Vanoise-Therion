@@ -30,7 +30,9 @@
                 "label": "compile-th-tot_2",
                 "type": "shell",
                 
-                    "command": "therion ${workspaceFolder}/datas/Rechasse/datas/R36/R36_CONFIG.thconfig" // \u000Dexit\u000D run and close this new terminal  -> Only for keybindings.json
+                    //"command": "therion ${workspaceFolder}/datas/Rechasse/datas/R36/R36_CONFIG.thconfig" // \u000Dexit\u000D run and close this new terminal  -> Only for keybindings.json
+                    "command": "therion ${workspaceFolder}/datas/Rechasse/datas/R20/R20_CONFIG.thconfig" // \u000Dexit\u000D run and close this new terminal  -> Only for keybindings.json
+
                     
             }
         ]

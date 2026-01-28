@@ -1,13 +1,13 @@
 encoding  utf-8
-input ../../config2.thcfg
-input ../../../layouts/config3.thcfg
-source R6_tot.th
+input config2.thcfg
+input ../../../../layouts/config3.thcfg
+source R20_tot.th
 
 ###################################################################################################
 ################################## Selection de la map à exporter #################################
 ###################################################################################################
-select MP_R6@R6-tot       #uncomment ONLY one
-#select MC_R6@R6-tot      #uncomment ONLY one
+select MP_R20@R20-tot       #uncomment ONLY one
+#select MC_R20@R20-tot      #uncomment ONLY one
 
 
 
@@ -16,12 +16,12 @@ select MP_R6@R6-tot       #uncomment ONLY one
 export map \
      -projection plan \
      -layout plan \
-     -output exports/R6_plan.pdf \
+     -output exports/R20_plan.pdf \
 
-#export map \
+export map \
      -projection extended \
      -layout coupe \
-     -output exports/R6_coupe.pdf \
+     -output exports/R20_coupe.pdf \
 
 
 ######################## STATIONS ########################
@@ -31,13 +31,13 @@ export map \
      -projection plan \
      -layout plan \
      -layout centerline \
-     -output exports/R6_plan-travail.pdf \
+     -output exports/R20_plan-travail.pdf \
 
 #export map \
      -projection extended \
      -layout coupe \
      -layout centerline \
-     -output exports/R6_coupe-travail.pdf \
+     -output exports/R20_coupe-travail.pdf \
 
 
 ######################### DEBUG ########################
@@ -45,13 +45,13 @@ export map \
      -projection plan \
      -layout plan   \
      -layout-debug all \
-     -output exports/R6_DEBUG_plan.pdf
+     -output exports/R20_DEBUG_plan.pdf
 
 #export map \
      -projection extended \
      -layout coupe   \
      -layout-debug all \
-     -output exports/R6_DEBUG_coupe.pdf
+     -output exports/R20_DEBUG_coupe.pdf
 
      
 ######################### SVG ########################
@@ -60,15 +60,15 @@ export map \
      -projection plan \
      -fmt svg   \
      -layout plan   \
-     -output exports/R6_plan.svg \
+     -output exports/R20_plan.svg \
 
 #export map \
      -projection extended \
      -layout plan   \
-     -output exports/R6_coupe.svg \
+     -output exports/R20_coupe.svg \
 
 #export model \
-     -output exports/R6_coupe.dxf \
+     -output exports/R20_coupe.dxf \
 
 
 
@@ -77,7 +77,7 @@ export map \
 #export map \
      -projection plan \
      -layout walls   \
-     -output exports/R6_walls.pdf \
+     -output exports/R20_walls.pdf \
      #-layout hide_point \
      #-layout-debug station-names \
      #-layout debug \
@@ -88,14 +88,14 @@ export map \
 #export atlas \
      -projection plan \
      -layout plan   \
-     -output exports/R6_Atlas.pdf 
+     -output exports/R20_Atlas.pdf 
 
 
 
 ######################## MODELE 3D ########################
     export model \
      -format loch \
-     -o exports/R6-3d.lox \
+     -o exports/R20-3d.lox \
      #-wall-source maps
 
 
@@ -103,15 +103,15 @@ export map \
 ######################## KML #######################
 #export map \
      -projection plan \
-     -output exports/R6.kml  ###-> Pour murs
+     -output exports/R20.kml  ###-> Pour murs
 
 #export model \
-     -output exports/R6-shots.kml  ###-> pour fil de fer sans station avec splays shots
+     -output exports/R20-shots.kml  ###-> pour fil de fer sans station avec splays shots
 
 
 ######################## LISTES ########################
 #export survey-list \
-     -o exports/R6_stats.html
+     -o exports/R20_stats.html
 
 #export continuation-list \
-     -o exports/R6_continuations.html
+     -o exports/R20_continuations.html

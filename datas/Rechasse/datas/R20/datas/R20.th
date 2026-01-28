@@ -8,15 +8,12 @@ survey R20 -title "R20"
   centerline
     date 2025.10.06 
     team "Martin Kern"
-    team "Fréderic Sancharielli"
+    team "Fréderic Sanchiarelli"
     team "Thibault Navarrette"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
     # extend auto
-    0 . 2.08 40.4 -12.4
-    0 . 1.22 87.6 -23.6
-    0 . 0.60 3.1 -21.5
     1 . 4.55 43.4 33.9
     1 . 1.90 67.1 25.7
     1 . 1.12 28.9 28.2
@@ -200,32 +197,32 @@ survey R20 -title "R20"
     29 . 0.58 127.7 -5.7
     29 . 2.16 195.0 19.1
     29 . 2.11 21.1 -13.7
-    extend vertical
+  
     29 30 2.53 278.3 -59.7
     # extend auto
     30 . 0.58 101.4 -5.6
     30 . 0.74 72.4 -87.7
     30 . 1.21 154.6 68.2
-    extend right
+    
     30 31 3.16 29.8 -1.8
     # extend auto
     31 . 0.40 122.2 -14.5
     31 . 0.83 275.6 -72.5
     31 . 2.84 70.5 71.3
     31 . 2.04 39.9 -51.2
-    extend right
+    
     31 32 1.92 45.7 -2.8
     # extend auto
     32 . 0.32 311.4 35.6
     32 . 1.15 345.7 -57.9
     32 . 3.78 54.5 64.8
-    extend right
+    
     32 33 3.95 33.6 7.1
     # extend auto
     33 . 0.41 131.9 -14.2
     33 . 2.52 106.5 -71.2
     33 . 2.97 143.6 84.9
-    extend right
+    
     33 34 2.91 62.3 -50.7
     # extend auto
     34 . 0.58 336.6 24.1
@@ -233,7 +230,7 @@ survey R20 -title "R20"
     34 . 0.56 332.7 25.5
     34 . 6.21 2.6 -37.1
     34 . 1.45 338.6 -53.3
-    extend right
+    
     34 35 2.59 24.9 -1.2
     # extend auto
     35 . 0.34 115.3 6.3
@@ -241,14 +238,14 @@ survey R20 -title "R20"
     35 . 0.58 86.3 -76.8
     35 . 2.41 120.6 71.8
     35 . 6.75 27.7 11.5
-    extend right
+    
     35 36 4.89 27.8 11.5
     # extend auto
     36 . 0.68 298.0 8.3
     36 . 2.82 281.1 -76.1
     36 . 3.09 267.7 -67.8
     36 . 4.06 63.7 64.8
-    extend right
+    
     36 37 5.42 25.3 10.1
     # extend auto
     37 . 2.23 251.0 -57.9
@@ -260,137 +257,129 @@ survey R20 -title "R20"
     # extend auto
     38 . 1.12 153.1 36.1
     38 . 0.36 25.9 48.8
-    extend right
+    
     38 39 2.99 59.3 43.5
     # extend auto
     39 . 0.44 311.5 15.6
     39 . 0.83 349.9 -55.5
     39 . 6.05 148.2 81.0
-    extend right
     39 40 4.65 29.4 43.7
     # extend auto
     40 . 0.97 72.8 -51.8
     40 . 0.44 98.9 -17.4
-    extend right
     40 41 2.91 42.5 -2.8
     # extend auto
     41 . 0.40 335.9 3.2
     41 . 1.80 12.6 7.7
-    extend right
     41 42 1.80 12.7 6.3
     # extend auto
     42 . 1.80 12.7 5.7
     42 . 0.50 322.5 -58.4
     42 . 2.61 126.3 77.2
     42 . 0.76 359.6 30.8
-    extend right
     42 43 2.66 27.3 42.7
     # extend auto
     43 . 0.52 128.9 -7.8
     43 . 0.72 125.8 -69.5
     43 . 0.80 140.6 55.0
     43 . 1.31 61.0 12.2
-    extend right
     43 44 1.30 61.5 8.6
     # extend auto
     44 . 1.22 302.4 53.3
-    extend right
     44 45 1.22 294.1 58.2
     # extend auto
     45 . 5.28 111.3 60.3
     45 . 0.61 95.8 -26.3
     45 . 1.02 323.8 -70.4
     45 . 0.73 136.5 -79.1
-    extend right
     45 46 3.30 34.1 -40.4
     extend left
     46 47 0.95 234.2 -33.5
-    extend right
     47 48 3.86 285.9 -76.1
     48 49 5.84 352.4 -79.6
-   flags surface
-    49 50 0.59 2.4 6.1
-   flags not surface
-   flags surface
-    50 51 1.41 287.1 38.4
-   flags not surface
-   flags surface
-    51 52 2.59 307.5 28.6
-   flags not surface
-   flags surface
-    52 53 1.89 331.8 31.3
-   flags not surface
-    extend vertical
-   flags surface
-    53 54 3.13 265.3 7.2
-   flags not surface
-    extend right
-   flags surface
-    54 55 6.58 288.5 13.8
-   flags not surface
-   flags surface
-    55 56 2.91 291.2 3.2
-   flags not surface
-    # extend auto
-    56 . 7.81 267.8 2.1
-    0 . 7.82 267.8 2.1
-    extend right
-   flags surface
-    56 57 8.10 267.8 2.2
-   flags not surface
-   flags surface
-    57 58 7.84 267.8 2.1
-   flags not surface
-   flags surface
-    58 59 4.07 302.5 2.8
-   flags not surface
-   flags surface
-    59 60 6.31 321.7 -1.9
-   flags not surface
-   flags surface
-  # 56 jonction charlotte
-    60 61 6.65 191.2 -7.9
-   flags not surface
-   flags surface
-    61 62 2.14 276.9 -44.3
-   flags not surface
-    extend left
-   flags surface
-    62 63 1.57 230.0 -10.5
-   flags not surface
 
-  # entrée gouffre
-    63 64 4.72 187.4 -70.4
-    # extend auto
-    64 . 2.66 23.4 11.2
-    64 . 3.32 213.8 -2.4
-    64 . 0.53 286.0 15.8
-    64 . 1.35 232.4 7.3
-    64 . 1.66 12.1 18.5
-    64 . 1.31 40.3 7.4
-    64 . 2.01 202.6 -1.9
-    64 . 0.44 13.2 -82.1
-    64 . 2.53 285.3 85.3
-    extend left
-    64 65 1.75 224.6 25.1
-    # extend auto
-    65 . 0.42 133.5 -4.4
-    65 . 0.35 307.6 -6.8
-    extend left
-    65 66 6.37 267.6 -86.9
-    # extend auto
-    66 . 0.91 326.4 -17.9
-    66 . 2.24 251.7 -2.9
-    66 . 4.42 236.4 -0.0
-    66 . 6.07 50.5 -1.0
-    66 . 2.65 216.2 80.2
-    extend left
-    66 67 4.09 244.5 -16.9
-    # extend auto
-    67 . 0.95 146.7 -7.3
-    67 . 1.77 75.4 -9.2
-    extend left
-    67 68 6.81 51.8 -35.1
+  #  flags surface
+  #   49 50 0.59 2.4 6.1
+  #  flags not surface
+  #  flags surface
+  #   50 51 1.41 287.1 38.4
+  #  flags not surface
+  #  flags surface
+  #   51 52 2.59 307.5 28.6
+  #  flags not surface
+  #  flags surface
+  #   52 53 1.89 331.8 31.3
+  #  flags not surface
+  #   extend vertical
+  #  flags surface
+  #   53 54 3.13 265.3 7.2
+  #  flags not surface
+  #   extend right
+  #  flags surface
+  #   54 55 6.58 288.5 13.8
+  #  flags not surface
+  #  flags surface
+  #   55 56 2.91 291.2 3.2
+  #  flags not surface
+  #   # extend auto
+  #   56 . 7.81 267.8 2.1
+  #   extend right
+  #  flags surface
+  #   56 57 8.10 267.8 2.2
+  #  flags not surface
+  #  flags surface
+  #   57 58 7.84 267.8 2.1
+  #  flags not surface
+  #  flags surface
+  #   58 59 4.07 302.5 2.8
+  #  flags not surface
+  #  flags surface
+  #   59 60 6.31 321.7 -1.9
+  #  flags not surface
+  #  flags surface
+  # # 56 jonction charlotte
+  #   60 61 6.65 191.2 -7.9
+  #  flags not surface
+  #  flags surface
+  #   61 62 2.14 276.9 -44.3
+  #  flags not surface
+  #   extend left
+  #  flags surface
+  #   62 63 1.57 230.0 -10.5
+  #  flags not surface
+
+  # # entrée gouffre
+  #   63 64 4.72 187.4 -70.4
+  #   # extend auto
+  #   64 . 2.66 23.4 11.2
+  #   64 . 3.32 213.8 -2.4
+  #   64 . 0.53 286.0 15.8
+  #   64 . 1.35 232.4 7.3
+  #   64 . 1.66 12.1 18.5
+  #   64 . 1.31 40.3 7.4
+  #   64 . 2.01 202.6 -1.9
+  #   64 . 0.44 13.2 -82.1
+  #   64 . 2.53 285.3 85.3
+  #   extend left
+  #   64 65 1.75 224.6 25.1
+  #   # extend auto
+  #   65 . 0.42 133.5 -4.4
+  #   65 . 0.35 307.6 -6.8
+  #   extend left
+  #   65 66 6.37 267.6 -86.9
+  #   # extend auto
+  #   66 . 0.91 326.4 -17.9
+  #   66 . 2.24 251.7 -2.9
+  #   66 . 4.42 236.4 -0.0
+  #   66 . 6.07 50.5 -1.0
+  #   66 . 2.65 216.2 80.2
+  #   extend left
+  #   66 67 4.09 244.5 -16.9
+  #   # extend auto
+  #   67 . 0.95 146.7 -7.3
+  #   67 . 1.77 75.4 -9.2
+  #   extend left
+    # 67 68 6.81 51.8 -35.1
   endcenterline
 
 

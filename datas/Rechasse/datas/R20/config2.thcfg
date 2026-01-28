@@ -1,0 +1,198 @@
+encoding  utf-8
+
+
+################################# Layout général #############################
+layout general
+    copy langue-fr          ### Change the language
+    copy drawingconfig      ### Set colors/size of symbols, define new symbols
+    copy legend
+    copy comment
+
+    doc-title "Gouffre de l'Arcelin"
+    doc-author "Continent8"
+
+    transparency on         ### vue en transparence des galeries qui se superposent...
+    opacity 80              ### ... avec une opacité de 80%
+
+    #min-symbol-scale <scale>    ### define minimal <scale>, from which points and lines are displayed on the map. 
+                                 ### Ex: for min-symbol-scale M, no points or lines scaled S and XS will be shown on the map. <scale> has the same format, as scale option for points and lines.
+        
+    colour map-fg [96 96 86]   ###Couleur Galeries #Gris[80 80 80]#
+    color map-bg 96            ### couleur du fond (80% blanc / 20% gris => 80)
+ 
+    symbol-hide point station        
+    symbol-hide line survey
+
+endlayout
+
+
+
+layout comment
+  # code tex-map
+  #     \legendwidth=30cm
+  #     \legendtextsize={\size[22]}
+  #     \legendtextheadersize={\size[40]} 
+  #     \legendtextsectionsize={\size[28]}  %Taille mot "Légende"
+  #     %\legendtextcolor={\color[0 0 110]}      %# RGB values 0--100
+  #  endcode
+
+    map-comment "<br>\
+Localisation : Plateau de la réchasse, Pralognan la Vanoise, Savoie (73) <br>\
+Coordonnées : UTM 32T x  x  xm <br>\
+<br>\
+Synthèse et dessin : Continent 8 - Martin Kern <br>\ 
+"
+
+endlayout
+
+
+
+
+layout plan
+  copy general
+
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+
+  scale 1  200                    
+  #base-scale 1 300      
+  #fonts-setup 7  8  10  14  60   ### A modifier si changement d'échelle !
+  ###The defaults are 8  10  12  16  24 for scales upto 1:100; 7  8  10  14  20 for scales upto 1:200; 6  7  8  10  14 for scales upto 1:500 and 5  6  7  8  10 for scales smaller than 1:500.
+          
+ 
+  map-header -10 -4 nw              ### positionnement du cartouche 
+  map-header-bg on                 ### pour enlever le carroyage ou l'image de l'arrière plan de la légende
+  scale-bar 25 m
+  #copy scalebar_horiz
+  #copy scalebar_vert
+  legend on     
+  legend-columns 3
+  #colour-legend off
+
+
+  #grid bottom                                ### positionnement de la grille
+  #grid-size 20 20 20 m                  ### dimension de la grille
+
+  #statistics topo-length on
+
+  #rotate 1.58               ### rotation du nord géographique (en degré)
+endlayout 
+
+
+layout plan-surface
+  copy general
+
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+
+  scale 1  200                    
+  #base-scale 1 300                
+ 
+  map-header 20 40 nw              ### positionnement du cartouche 
+  map-header-bg on                 ### pour enlever le carroyage ou l'image de l'arrière plan de la légende
+  scale-bar 25 m
+  map-header-bg on
+  #copy scalebar_horiz
+  #copy scalebar_vert
+  legend on     
+  legend-columns 3
+  colour-legend off
+
+
+  #grid bottom                                ### positionnement de la grille
+  #grid-size 20 20 20 m                  ### dimension de la grille
+
+  #statistics topo-length on
+
+    rotate 0                ### rotation du nord géographique (en degré)
+
+
+  surface bottom
+  surface-opacity 100
+  
+endlayout 
+
+
+layout coupe
+  copy general
+
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+
+  scale 1  200                    
+  base-scale 1 200                
+  fonts-setup 14  14  14  16  60   ### A modifier si changement d'échelle !
+ 
+  map-header 15 30 nw             ### positionnement du cartouche  Lower-left corner of the map is 0 0, upper-right corner is 100 100
+  scale-bar 25 m
+  #copy scalebar_horiz
+  #copy scalebar_vert
+  legend on     
+  legend-columns 3
+  #colour-legend off
+
+  #grid bottom                                ### positionnement de la grille
+  #grid-size 50 50 50 m                  ### dimension de la grille
+  #grid-coords all
+
+
+endlayout
+
+layout centerline
+    symbol-show point station        
+    #debug scrap-names
+    debug station-names
+    symbol-show line survey
+endlayout
+
+layout debug
+    debug all
+    survey-level 2 #le chiffre defini le niveau de survey, metter 1 pour alléger, all pour tout afficher
+endlayout
+
+
+layout yearperyear ##Pour l'export année par année ; A besoin du lookup ci-dessous (topo-date)
+    copy langue-fr          ### Change the language
+    copy drawingconfig      ### Set colors/size of symbols, define new symbols
+    copy legend
+    copy comment
+
+    doc-title "Gouffre de l'Arcelin - Année par année"
+
+    code tex-map
+      \cavename={"Gouffre de l'Arcelin - Année par année"}
+    endcode
+
+    color map-bg 96
+    map-header 20 40 nw                   ### positionnement du cartouche 
+    statistics topo off
+    statistics carto off
+    scale 1 500                      ### echelle
+    symbol-hide group all
+    symbol-show line wall
+    legend off
+    colour map-fg topo-date
+endlayout
+
+lookup topo-date -title "Par année d'exploration"   #Pour l'export année par année
+[2022.1.1 2022.12.31] [] "2022"
+[2023.1.1 2023.12.31] [] "2023"
+[2024.1.1 2024.12.31] [] "2024"
+[2025.1.1 2025.12.31] [] "2025"
+
+
+endlookup
+
+#layout text_scale
+
+# Définir un facteur de mise à l'échelle pour les textes du projet
+#scale-factor 1.5
+
+# Définir un style global de texte
+#text-style 
+   # size [3]  # Taille de texte par défaut
+    #style [regular]  # Style du texte, ici "normal", mais peut être modifié (italic, bold, etc.)
+
+# Application de la mise à l'échelle sur l'ensemble des textes
+#text 
+ #   size [scale-factor * 3]  # Multiplie la taille du texte par le facteur de mise à l'échelle
+  #  style [regular]
+
+#endlayout

@@ -3,9 +3,7 @@ encoding  utf-8
 survey R20_tot -title "R20"
 
 input R20_map.th
-
-
-    input datas/R20.th    
+input datas/R20.th    
 
     
 

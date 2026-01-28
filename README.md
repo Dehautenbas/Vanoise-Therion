@@ -4,7 +4,7 @@ Point "Continuation"
 
 S'utilise de la façon suivante : 
 -attr Code "" -attr cavite "Arcel1" -attr Reseau "" -attr CA "" -text ""
--attr Code "A" -attr cavite "Arcelin" -attr Reseau "Aval-2025" -attr CA "?" -text "perte de l'actif, méandre étr."
+-attr Code "A" -attr cavite "FE" -attr Reseau "Méduse inf" -attr CA "?" -text "suite de galerie en hauteur"
 
 
 Le champ "code" décrit le type de terminus. Il peut prendre les valeurs suivantes :
