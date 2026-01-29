@@ -1,24 +1,24 @@
 encoding  utf-8
-input ../../config2.thcfg
-input ../../../layouts/config3.thcfg
+input config2.thcfg
+input ../../../../layouts/config3.thcfg
 source R21_tot.th
 
 ###################################################################################################
 ################################## Selection de la map à exporter #################################
 ###################################################################################################
-select MP_R21t@R21-tot       #uncomment ONLY one
-#select MC_R21@R21-tot      #uncomment ONLY one
+#select MP_R21@R21-tot       #uncomment ONLY one
+select MC_R21@R21-tot      #uncomment ONLY one
 
 
 
 
 ######################## PDF ########################
-export map \
+#export map \
      -projection plan \
      -layout plan \
      -output exports/R21_plan.pdf \
 
-#export map \
+export map \
      -projection extended \
      -layout coupe \
      -output exports/R21_coupe.pdf \

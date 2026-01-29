@@ -26,7 +26,7 @@ S      -43 SP2_R20@R20_tot ()
 ########## end of export maps & scraps selection ###############
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/Rechasse/datas/R20/exports/R20_plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  28 JAN 2026 21:10
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  29 JAN 2026 07:49
 **data.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
@@ -55,7 +55,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  28 JAN 2026 21:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  29 JAN 2026 07:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -101,7 +101,7 @@ S     -.-- SC2_R20@R20_tot ()
 ########## end of export maps & scraps selection ###############
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/Rechasse/datas/R20/exports/R20_coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  28 JAN 2026 21:10
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  29 JAN 2026 07:49
 **data.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
@@ -116,7 +116,7 @@ Warning: patterncolor not supported in Therion [15] [16] [1]
 [9] [10] [11] [12] [13] [14] [15] [16] [17] )
  
 Here is how much of MetaPost's memory you used:
- 9526 strings using 262039 characters
+ 9526 strings using 261692 characters
  3910344 bytes of node memory
  1765 symbolic tokens
  10i,82n,16p,509b,5f stack positions out of 16i,98n,20p,608b,6f
@@ -127,7 +127,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  28 JAN 2026 21:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  29 JAN 2026 07:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -152,7 +152,7 @@ Here is how much of TeX's memory you used:
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
 local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 77661 bytes).
+Output written on data.pdf (1 page, 77050 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
@@ -171,7 +171,7 @@ S      -43 SP2_R20@R20_tot ()
 ########## end of export maps & scraps selection ###############
 writing /Users/martinkern/Documents/GitHub/Vanoise-Therion/datas/Rechasse/datas/R20/exports/R20_plan-travail.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  28 JAN 2026 21:10
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  29 JAN 2026 07:49
 **data.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
@@ -200,7 +200,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  28 JAN 2026 21:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.9.6)  29 JAN 2026 07:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.

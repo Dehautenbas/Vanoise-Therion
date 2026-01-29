@@ -1,16 +1,138 @@
 encoding  utf-8
-##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {0} {0} datas/R21_C.xvi 0 {}
+##XTHERION## xth_me_area_adjust -128.0 -128.0 502.015 521.7
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {236.216 1 1.0} {354.334 63} R21_C.xvi 0 {}
 
 
 
-scrap SC1_R21 -projection plan -station-names "" "@R21"
+scrap SC1_R21 -projection extended -station-names "" "@R21" -scale [0 0 78.7402 0 0 0 1 0 m]
+
+
+
+point 300.5 340.0 blocks
+
+line border
+  285.5 255.5
+  274.0 252.0 266.0 260.0 257.5 259.0
+  249.0 258.0 246.5 260.0 247.0 250.0
+  247.5 240.0 246.5 238.5 248.0 231.0
+  249.5 223.5 261.5 218.0 273.0 213.5
+  284.5 209.0 294.0 207.0 295.0 202.0
+endline
+
+line wall -close on
+  287.5 352.5
+  289.0 348.5 290.0 335.5 287.5 328.5
+  285.0 321.5 276.0 313.5 269.5 319.0
+  263.0 324.5 253.5 347.5 256.0 352.0
+  258.5 356.5 268.5 357.5 275.5 357.0
+  282.5 356.5 286.0 356.5 287.5 352.5
+endline
+
+line wall -clip off -outline none -subtype sand
+  174.5 350.0
+  190.0 351.5 221.0 356.0 223.5 351.0
+endline
+
+line rope
+  245.5 275.0
+  245.5 275.0 254.5 132.0 237.0 153.0
+  235.68 154.58 220.0 163.0 220.0 163.0
+  smooth off
+endline
+
+line rope
+  217.0 164.0
+  208.0 130.5
+endline
+
+line rope
+  213.0 171.5
+  213.0 171.5 215.0 156.5 226.0 171.0
+endline
+
+line rope
+  239.0 286.5
+  239.0 286.5 247.0 264.0 248.0 287.0
+endline
+
+line rope
+  249.5 367.0
+  249.5 367.0 253.0 356.5 254.5 366.0
+endline
+
+line rope
+  252.0 361.0
+  252.0 361.0 254.5 253.0 248.5 274.5
+endline
+
+point 249.5 367.0 anchor
+
+point 254.5 366.0 anchor
+
+point 248.0 287.0 anchor
+
+point 239.0 286.5 anchor
+
+point 227.5 175.0 anchor
+
+point 211.5 174.5 anchor
+
+line wall
+  223.5 351.0
+  226.0 346.0 247.0 306.5 246.0 303.0
+  245.0 299.5 228.0 295.0 221.5 285.0
+  215.0 275.0 209.0 235.5 203.0 224.0
+  197.0 212.5 176.5 184.0 155.5 177.5
+  134.5 171.0 68.5 143.5 60.0 141.0
+  51.5 138.5 -1.5 139.0 -1.5 134.5
+endline
+
+point 42.696 55.714 station -name 68
+
+point 152.37599999999998 132.804 station -name 67
+
+point 229.416 156.204 station -name 66
+
+point 236.196 281.414 station -name 65
+
+point 267.38599999999997 266.804 station -name 64
+
+point 236.216 354.334 station -name 63
+
+point 270.5 263.5 blocks
+
+point 227.0 383.0 entrance -orientation 159.4
+
+line wall -subtype debris
+  -1.5 134.5
+  -1.5 130.0 -9.5 57.5 3.0 50.5
+  altitude .
+  15.5 43.5 46.5 44.0 54.5 46.5
+endline
+
+line wall
+  54.5 46.5
+  62.5 49.0 84.5 66.5 89.0 68.0
+  93.5 69.5 103.5 66.5 112.0 70.5
+  120.5 74.5 147.5 117.0 157.0 119.5
+  166.5 122.0 241.5 112.5 246.0 141.0
+  248.26 155.31 357.0 120.0 352.0 140.0
+  347.0 160.0 309.5 262.5 309.0 268.5
+  308.5 274.5 303.0 304.0 304.5 315.5
+  306.0 327.0 315.0 354.5 318.5 354.5
+endline
+
+line wall -clip off -outline none -subtype sand
+  318.5 354.5
+  322.0 354.5 337.0 354.5 345.0 354.5
+endline
 
 endscrap
 
-scrap SC2_R21 -projection plan -station-names "" "@R21"
+
+
+scrap SC2_R21 -projection extended -station-names "" "@R21" -scale [0 0 78.7402 0 0 0 1 0 m]
 
 endscrap
-
-
 
