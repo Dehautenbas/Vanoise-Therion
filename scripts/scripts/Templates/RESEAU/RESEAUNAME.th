@@ -1,0 +1,15 @@
+encoding  utf-8
+
+survey <RESEAUNAME> -title "<RESEAUNAME>"
+   input <CAVENAME>/<CAVENAME>-tot.th
+	
+ #join line
+   #equate xxx.n@xxx.xxx yyy.n@yyy.yyy
+   
+#join Scrap
+   #join SP-xxx-n@xxx SP-yyy-n@yyy
+
+   #join SC-xxx-n@xxx SC-yyy-n@yyy
+   
+	
+endsurvey

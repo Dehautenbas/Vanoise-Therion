@@ -1,0 +1,21 @@
+encoding  utf-8
+survey amont-2026_tot -title "amont-2026"
+
+input amont-2026_M.th
+
+
+    input datas/amont-2026.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/amont-2026_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/amont-2026_C.th2
+
+
+
+endsurvey

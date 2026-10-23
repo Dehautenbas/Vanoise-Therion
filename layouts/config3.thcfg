@@ -11,4 +11,71 @@ layout drawingconfig
   copy custom_lines
   copy custom_points
   copy drawingconfig_old
+
+## Code pour mettre en transparence les texts sur les areas
+code metapost
+def process_label (expr cent, rot) =
+  begingroup;
+    interim bboxmargin:=0.8bp;
+    q:=((bbox lab) smoothed 2) rotatedaround (cent, rot);
+    draw lab rotatedaround (cent, rot);
+    write_circ_bbox(q);
+  endgroup;
+enddef;
+
+vardef p_label@#(expr txt,pos,rot,mode) =
+
+  if (mode=1) or (mode=7):
+    interim labeloffset:=(u/8);
+  fi;
+
+  lab:=thelabel@#(txt,pos);
+
+  if mode>1:
+    pickup PenD;
+  fi;
+
+  if mode=0:
+
+    % -----------------------------------------
+    % POINT TEXT / LABEL TRANSPARENT
+    % -----------------------------------------
+
+    % Dessine normalement le texte
+    draw lab rotatedaround(pos,rot);
+
+    % Therion exige un fichier .bbox.
+    % On lui donne donc une zone minuscule
+    % au lieu de la bbox complète du texte.
+    q :=
+      (pos + (-0.001bp,-0.001bp)) --
+      (pos + ( 0.001bp,-0.001bp)) --
+      (pos + ( 0.001bp, 0.001bp)) --
+      (pos + (-0.001bp, 0.001bp)) --
+      cycle;
+    write_circ_bbox(q);
+  elseif mode=1:
+    pickup pencircle scaled (u/6);
+    drawdot(pos);
+    process_label(pos,0);
+  elseif mode=2:
+    process_uplabel;
+  elseif mode=3:
+    process_downlabel;
+  elseif mode=4:
+    process_updownlabel;
+  elseif mode=5:
+    process_circledlabel;
+  elseif mode=6:
+    process_boxedlabel;
+  elseif mode=7:
+    process_label(pos,rot);
+  elseif mode=8:
+    process_filledlabel(pos,rot);
+  else:
+    process_label(pos,rot);
+  fi;
+enddef;
+endcode
+
 endlayout

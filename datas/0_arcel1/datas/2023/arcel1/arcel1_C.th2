@@ -1776,7 +1776,7 @@ point 770.02 4685.04 station -name 5@arcel1
 
 point 1051.1799999999998 4743.3099999999995 station -name 1@arcel1
 
-point 896.6500000000001 5118.11 station -name 0@arcel1
+point 896.6500000000001 5118.11 station -name 0_arcel1@arcel1
 
 area u:galerie
   l299-5748-882

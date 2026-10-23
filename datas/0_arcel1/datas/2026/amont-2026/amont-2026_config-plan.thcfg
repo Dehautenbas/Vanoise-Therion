@@ -1,0 +1,72 @@
+encoding  utf-8
+input ../../config2.thcfg
+input ../../../layouts/config3.thcfg
+source amont-2026_tot.th
+
+################################## Selection de la map à exporter #################################
+select MP_amont-2026@amont-2026-tot       #uncomment ONLY one
+
+
+
+
+### plan
+export map \
+     -projection plan \
+     -layout plan \
+     -output exports/amont-2026_plan.pdf \
+
+### stations      ## l'ordre des layouts est importants !
+export map \
+     -projection plan \
+     -layout plan \
+     -layout centerline \
+     -output exports/amont-2026_plan-travail.pdf \
+
+### debug
+#export map \
+     -projection plan \
+     -layout plan   \
+     -layout-debug all \
+     -output exports/amont-2026_DEBUG_plan.pdf
+
+### 3d
+    #export model \
+     -format loch \
+     -o exports/amont-2026-3d.lox \
+     #-wall-source maps
+     
+### Exporte uniquement les murs
+#export map \
+     -projection plan \
+     -layout walls   \
+     -output exports/amont-2026_walls.pdf \
+     #-layout hide_point \
+     #-layout-debug station-names \
+     #-layout debug \
+     #-layout centreline \
+
+
+######################### ATLAS ########################
+#export atlas \
+     -projection plan \
+     -layout plan   \
+     -output exports/amont-2026_Atlas.pdf 
+
+
+
+
+######################## KML #######################
+#export map \
+     -projection plan \
+     -output exports/amont-2026.kml  ###-> Pour murs
+
+#export model \
+     -output exports/amont-2026-shots.kml  ###-> pour fil de fer sans station avec splays shots
+
+
+######################## LISTES ########################
+#export survey-list \
+     -o exports/amont-2026_stats.html
+
+#export continuation-list \
+     -o exports/amont-2026_continuations.html

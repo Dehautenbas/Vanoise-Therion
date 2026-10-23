@@ -1,0 +1,9 @@
+encoding  utf-8
+map MP_<CAVENAME> -proj plan -title "<CAVENAME>"
+
+endmap
+
+
+map MC_<CAVENAME> -proj extended -title "<CAVENAME>"
+
+endmap

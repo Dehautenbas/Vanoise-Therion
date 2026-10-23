@@ -1,0 +1,21 @@
+encoding  utf-8
+survey <CAVENAME>_tot -title "<CAVENAME>"
+
+input <CAVENAME>_M.th
+
+
+    input datas/<CAVENAME>.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/<CAVENAME>_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/<CAVENAME>_C.th2
+
+
+
+endsurvey

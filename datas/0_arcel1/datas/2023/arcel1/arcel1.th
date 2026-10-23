@@ -13,18 +13,18 @@ survey arcel1 -title Arcel1
     units compass clino degrees
     data normal from to length compass clino
 
-    cs UTM32
-    fix 0 325572 5027449 65 #2603 #6( depuis Fréquence 51)
+    # cs UTM32
+    # fix 0_arcel1 325572 5027449 65 #2603 #65( depuis Fréquence 51)
     #cs long-lat
     #fix 0 6.7721529	45.3788271 2603
-    station 0 "Gouffre de l'Arcelin - (entrée haute)" #entrance
 
 
+    station 0_arcel1 "Gouffre de l'Arcelin - (entrée haute)" #entrance
 
 
     
     extend left
-    0 1 5.15 306.8 -67.6
+    0_arcel1 1 5.15 306.8 -67.6
     1 2 5.63 328.0 -75.4
     
     1 . 0.65 38.9 0.7
@@ -51,7 +51,7 @@ survey arcel1 -title Arcel1
     4 . 0.48 115.2 -2.0
     4 . 0.74 34.9 -5.2
     extend right
-    0 5 5.73 177.9 -73.7
+    0_arcel1 5 5.73 177.9 -73.7
     extend left
     2 6 4.81 348.4 28.0
     

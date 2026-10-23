@@ -1,0 +1,14 @@
+encoding  utf-8
+
+###Pour morphing du XVI
+
+
+#1) .TH
+source datas/AR14.th
+
+#2) .TH2   ##SEULEMNT SI MORPHING
+#source datas/XVI-P_CAVENAME.th2
+
+#3) EXPORT
+export map -proj plan -o datas/AR14_P.xvi -layout-sketches on
+export map -proj extended -o datas/AR14_C.xvi -layout-sketches on

@@ -58,10 +58,10 @@ encoding  utf-8
 
 # change les descriptions des symboles pour la légende
 
-text fr "title color-legend-topodate" "Date de topographie"
+
 
 text en "point anchor" "hanger/bolt/spit/belay, fixed, natural"
-text fr "point anchor" "broche, spit/goujon, AF"
+text fr "point anchor" "broche, spit/pulse, AF"
 
 text fr "point u:anchor_artificial" "ancrage artificiel"
 
@@ -92,7 +92,7 @@ text en "area u:bats" "lot of bats"
 text fr "area u:bats" "beaucoup de chauve-souris"
 
 text fr "line u:galerie" ""
-text fr "area u:galerie" "départ de galerie"
+text fr "area u:galerie" "jonction de galeries"
 text en "area u:galerie" "tunnel departure"
 
 text en "point u:guacharos" "guacharos"
@@ -193,6 +193,7 @@ layout drawingconfig_old
         
 
 ### Choix des couleurs de symbols
+  symbol-color line map-connection [40 40 40]  # gris clair 69 69 69
   symbol-color point water-flow [17 46 100]
   symbol-color point water-flow:intermittent [17 46 100]
   symbol-color point water-flow:paleo [17 46 100]
@@ -805,7 +806,7 @@ layout drawingconfig_old
     enddef;
 
 
-    symbol-color line map-connection [69 69 69]  # gris acier (175, 175, 175)
+    
     
 
     # Aire pour matérialiser le départ d'une galerie

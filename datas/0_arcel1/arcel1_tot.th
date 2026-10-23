@@ -76,10 +76,30 @@ input arcel1_map.th
         join SP1_amont-2025-2@amont-2025-2_tot SP3_amont-2025-1@amont-2025-1_tot
         join SC2_amont-2025-1@amont-2025-1_tot SC1_amont-2025-2@amont-2025-2_tot
   
+#### 2026
+  input datas/2026/AR14/AR14_tot.th #Martin
+  input datas/2026/amont-2026/amont-2026_tot.th #Martin
+    equate 100@amont-2026.amont-2026_tot 0@amont-2025-2.amont-2025-2_tot
+      join amont-2026_SP1@amont-2026_tot SP2_amont-2025-2@amont-2025-2_tot
+
+centerline
+data normal from to length compass clino ignoreall
+  cs UTM32
+    
+    # # AR14
+     0_AR14 0.0_AR14 0.01 0.01 0.01
+     fix 0.0_AR14 326046.2 5027107.7 2849 #mnt #2844 au gps
+
+    # # Frequence 51
+    #  F51 F51-0 0.01 0.01 0.01
+    #  fix F51-0 325515.037 5027518.664 2538
+
+    # Arcel 1
+     0_arcel1 0.0_arcel1 0.01 0.01 0.01
+     fix 0.0_arcel1 325572 5027449 2603 #65 (depuis Fréquence 51)
 
 
-
-
+endcenterline
 
 endsurvey
 

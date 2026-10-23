@@ -1,0 +1,72 @@
+encoding  utf-8
+input ../../config2.thcfg
+input ../../../layouts/config3.thcfg
+source <CAVENAME>_tot.th
+
+################################## Selection de la map à exporter #################################
+select MP_<CAVENAME>@<CAVENAME>-tot       #uncomment ONLY one
+
+
+
+
+### plan
+export map \
+     -projection plan \
+     -layout plan \
+     -output exports/<CAVENAME>_plan.pdf \
+
+### stations      ## l'ordre des layouts est importants !
+export map \
+     -projection plan \
+     -layout plan \
+     -layout centerline \
+     -output exports/<CAVENAME>_plan-travail.pdf \
+
+### debug
+#export map \
+     -projection plan \
+     -layout plan   \
+     -layout-debug all \
+     -output exports/<CAVENAME>_DEBUG_plan.pdf
+
+### 3d
+    #export model \
+     -format loch \
+     -o exports/<CAVENAME>-3d.lox \
+     #-wall-source maps
+     
+### Exporte uniquement les murs
+#export map \
+     -projection plan \
+     -layout walls   \
+     -output exports/<CAVENAME>_walls.pdf \
+     #-layout hide_point \
+     #-layout-debug station-names \
+     #-layout debug \
+     #-layout centreline \
+
+
+######################### ATLAS ########################
+#export atlas \
+     -projection plan \
+     -layout plan   \
+     -output exports/<CAVENAME>_Atlas.pdf 
+
+
+
+
+######################## KML #######################
+#export map \
+     -projection plan \
+     -output exports/<CAVENAME>.kml  ###-> Pour murs
+
+#export model \
+     -output exports/<CAVENAME>-shots.kml  ###-> pour fil de fer sans station avec splays shots
+
+
+######################## LISTES ########################
+#export survey-list \
+     -o exports/<CAVENAME>_stats.html
+
+#export continuation-list \
+     -o exports/<CAVENAME>_continuations.html

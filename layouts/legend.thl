@@ -92,7 +92,9 @@ code tex-map
 
       
       %print northarrow
-      \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss} %vbox for vertical skip
+      \ifnortharrow\vbox to 30pt{\line{\hfil\northarrow}\vss}
+       \vskip-40mm %Distance with title 
+
       
 
       \fi
@@ -103,7 +105,7 @@ code tex-map
       \fi
       %print scalebar
       \ifscalebar\scalebar
-      \vskip9mm
+      \vskip7mm
       \fi
       %print cavelength and depth
       \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
@@ -113,10 +115,14 @@ code tex-map
         {\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par}
       %\vskip4mm
       \fi
-       %print comment
+      %print comment
       \edef\tmp{\the\comment} \ifx\tmp\empty \else
         {\the\legendtextsize\the\comment}
-        \vskip4mm
+      %print explo date
+      %\edef\tmp{\the\explodate} \ifx\tmp\empty \else
+        %{\the\legendtextsize\si\the\explodate: \ss\the\explodate\par}
+
+      \vskip4mm
       \fi
                         %%altitude
                         %\edef\tmp{\the\cavemaxz} \ifx\tmp\empty \else
@@ -166,6 +172,7 @@ code tex-map
       % \edef\tmp{\the\currentdate} \ifx\tmp\empty \else
         {\the\legendtextsize\si\the\datetitle \ss\the\currentdate\par}
       \fi
+
       # % end bruces addition
       %print copyrights
       \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
@@ -196,6 +203,7 @@ layout langue-fr
     \newtoks\thversiontitleB \thversiontitleB={Therion}
 
     \newtoks\thversiontitleA \thversiontitleA={Logiciel }
+%\newtoks\explodate \explodate={Exploration }
     \newtoks\datetitle \datetitle={le }
     \newtoks\thproj \thproj={Projection }
     \newtoks\thclub \thclub={Club(s) }

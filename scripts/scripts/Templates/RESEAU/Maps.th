@@ -1,0 +1,16 @@
+encoding  utf-8
+
+map MP-<RESEAUNAME>-tot -title "<RESEAUNAME>"
+	
+    MP-<CAVENAME>-tot@<CAVENAME>
+    break    
+
+endmap
+
+map MC-<RESEAUNAME>-tot -title "<RESEAUNAME>"
+	
+    MC-<CAVENAME>-tot@<CAVENAME>
+    break
+    
+
+endmap

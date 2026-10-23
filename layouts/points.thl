@@ -3,10 +3,105 @@ layout custom_points
 
     ### redefinitions of existing points
 
-         # initialise the symbols here
+def p_ice (expr pos,theta,sc,al)=
+    U:=(.4u,.35u);
+    T:=identity aligned al rotated theta scaled sc shifted pos;
+    pickup PenC;
 
-         # redefine the symbols here
+    % Traits verticaux
+    p := (0,.05u)--(0,.35u);
 
+    thdraw p
+        withcolor (102/255,224/255,245/255);
+
+    thdraw p shifted (-.25u,-.3u)
+        withcolor (102/255,224/255,245/255);
+
+    thdraw p shifted (.25u,-.3u)
+        withcolor (102/255,224/255,245/255);
+
+    % Traits horizontaux
+    p := (-.15u,.2u)--(.15u,.2u);
+
+    thdraw p
+        withcolor (102/255,224/255,245/255);
+
+    thdraw p shifted (-.25u,-.3u)
+        withcolor (102/255,224/255,245/255);
+
+    thdraw p shifted (.25u,-.3u)
+        withcolor (102/255,224/255,245/255);
+
+enddef;
+
+def p_airdraught (expr pos,theta,sc,al)=
+  U:=(.2u,.5u);
+  T:=identity aligned al rotated theta scaled 1 shifted pos;
+  pickup PenC;
+
+  % Axe principal : 50 % de la longueur originale
+  thdraw (0,.5u)--(0,-.4u);
+
+  % Pointe de flèche
+  p:=(-.2u,.255u){dir 20}..{dir 90}(0,.5u);
+  thdraw p;
+  thdraw p reflectedabout (origin,(0,.5u));
+
+  % Barrettes
+  for i:=1 upto round(3+2*mlog(sc)/mlog 2):
+    thdraw
+      (0,-(0.5-0.10i)*u)
+      --
+      (.2u,-(0.5-0.10(i-1))*u);
+  endfor;
+
+enddef;
+
+def p_airdraught_summer (expr pos,theta,sc,al)=
+  U:=(.2u,.5u);
+  T:=identity aligned al rotated theta scaled 1 shifted pos;
+  pickup PenC;
+
+  % Axe principal : 50 % de la longueur originale
+  thdraw (0,.5u)--(0,-.4u);
+
+  % Pointe de flèche
+  p:=(-.2u,.255u){dir 20}..{dir 90}(0,.5u);
+  thdraw p;
+  thdraw p reflectedabout (origin,(0,.5u));
+
+  % Barrettes
+  for i:=1 upto round(3+2*mlog(sc)/mlog 2):
+    thdraw
+      (0,-(0.5-0.10i)*u)
+      --
+      (.2u,-(0.5-0.10(i-1))*u);
+  endfor;
+
+enddef;
+
+def p_airdraught_winter (expr pos,theta,sc,al)=
+  U:=(.2u,.5u);
+  T:=identity aligned al rotated theta scaled 1 shifted pos;
+  pickup PenC;
+
+  % Axe principal : 50 % de la longueur originale
+  thdraw (0,.5u)--(0,-.4u);
+
+  % Pointe de flèche
+  p:=(-.2u,.255u){dir 20}..{dir 90}(0,.5u);
+  thdraw p;
+  thdraw p reflectedabout (origin,(0,.5u));
+
+  % Barrettes
+  for i:=1 upto round(3+2*mlog(sc)/mlog 2):
+    thdraw
+      (0,-(0.5-0.10i)*u)
+      --
+      (.2u,-(0.5-0.10(i-1))*u);
+  endfor;
+
+enddef;
 
 
     ### new definitions
@@ -19,9 +114,4 @@ layout custom_points
      
 
     endcode
-
-    
-
-
-
 endlayout

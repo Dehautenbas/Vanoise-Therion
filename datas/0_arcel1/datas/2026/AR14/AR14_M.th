@@ -1,0 +1,11 @@
+encoding  utf-8
+map MP_AR14 -proj plan -title "AR14"
+    SP1_AR14
+    break
+    SP2_AR14
+endmap
+
+
+map MC_AR14 -proj extended -title "AR14"
+SC1_AR14
+endmap

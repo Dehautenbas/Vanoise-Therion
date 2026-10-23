@@ -1,0 +1,21 @@
+encoding  utf-8
+survey AR14_tot -title "AR14"
+
+input AR14_M.th
+
+
+    input datas/AR14.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/AR14_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/AR14_C.th2
+
+
+
+endsurvey

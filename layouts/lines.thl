@@ -1,11 +1,24 @@
 layout custom_lines
     code metapost
 
-    ### redefinitions of existing points
+# Modifier la ligne floorstep (escarpement) par la ligne pit mais avec le trait plus clair
 
-         # initialise the symbols here
-
-         # redefine the symbols here
+          def l_floorstep (expr P) =
+            T:=identity;
+            drawoptions(withcolor (0.5, 0.5, 0.5));  % modif pour couleur
+            cas := 0;
+            dlzka := arclength P;
+            mojkrok:=adjust_step(dlzka, 0.25u);
+            pickup PenD;
+            forever:
+              t := arctime cas of P;
+              mark_ (P,t,0.2u);
+              cas := cas + mojkrok;
+              exitif cas > dlzka + (mojkrok / 3); % for rounding errors
+            endfor;
+            pickup PenC;
+            thdraw P;
+          enddef;
 
                # Modifier la ligne wall_pit par la ligne pit mais avec le trait ext épais comme celui des walls
                def l_wall_pit (expr P) =
