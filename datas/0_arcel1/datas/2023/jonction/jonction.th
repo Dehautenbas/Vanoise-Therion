@@ -4,9 +4,9 @@ survey jonction -title "jonction"
 
   centerline
     date 2023.10.07 
-    team "Benoît Urruty"
-    team "Martin Kern"
-    team "Johanna Fléchaire"
+    explo-team "Benoît Urruty"
+    explo-team "Martin Kern"
+    explo-team "Johanna Fléchaire"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

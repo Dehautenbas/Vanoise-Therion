@@ -483,7 +483,7 @@ line label -text Faille
   554.0 1912.0
 endline
 
-line contour
+line floor-step
   336.0 1766.0
   307.1 1808.72
   308.33 1827.07
@@ -501,7 +501,7 @@ line border
   smooth off
 endline
 
-line contour
+line floor-step
   333.8 1890.58
   395.03 1950.18
   446.52 2054.66
@@ -522,7 +522,7 @@ line chimney -close on
   1199.25 2417.71 1121.35 2455.99 1102.0 2456.0
 endline
 
-line contour
+line floor-step
   1059.81 2141.5
   1055.48 2167.59
   1054.62 2190.0
@@ -535,7 +535,7 @@ line contour
   1135.12 2341.46
 endline
 
-line contour
+line floor-step
   1290.06 2040.23
   1281.41 2067.01
   1278.79 2106.77
@@ -549,7 +549,7 @@ line contour
   1390.22 2286.67
 endline
 
-line contour
+line floor-step
   1281.63 1406.25
   1317.99 1421.99
   1354.05 1438.1
@@ -570,7 +570,7 @@ line contour
   1894.07 1418.28
 endline
 
-line contour
+line floor-step
   1533.1 975.5
   1554.69 1006.71
   1580.17 1026.44
@@ -587,7 +587,7 @@ line contour
   1961.45 1123.49
 endline
 
-line contour
+line floor-step
   2015.4411 1490.2545
   1998.31 1560.17
   1998.31 1608.55
@@ -605,7 +605,7 @@ line contour
   2170.02 1956.93
 endline
 
-line contour
+line floor-step
   1779.08 875.95
   1787.07 898.29
   1806.36 913.61
@@ -626,7 +626,7 @@ endline
 
 point 2018.44 873.01 popcorn
 
-line contour
+line floor-step
   2120.24 869.95
   2141.21 880.31
   2157.57 893.63
@@ -639,7 +639,7 @@ line contour
   2189.95 1012.12
 endline
 
-line contour
+line floor-step
   2588.02 657.72
   2606.11 665.24
   2627.68 676.52
@@ -656,7 +656,7 @@ point 2765.02 588.23 popcorn
 
 point 2865.19 721.84 blocks
 
-line contour
+line floor-step
   3406.07 383.17
   3445.47 368.92
   3489.13 355.9
@@ -761,7 +761,7 @@ point 5008.18 485.68 stalactite
 
 point 4761.55 340.83 stalactite
 
-line contour
+line floor-step
   4198.06 593.96
   4247.51 575.0
   4289.55 554.14
@@ -774,7 +774,7 @@ line contour
   4408.62 325.83
 endline
 
-line contour
+line floor-step
   4635.63 521.58
   4668.44 495.35
   4692.09 461.1
@@ -785,7 +785,7 @@ line contour
   4684.98 227.13
 endline
 
-line contour
+line floor-step
   4800.13 589.03
   4848.96 602.19
   4889.2 607.12
@@ -844,14 +844,14 @@ line wall
   smooth off
 endline
 
-line contour
+line floor-step
   5515.0 812.0
   5534.19 854.36
   5554.54 861.08
   5604.0 863.0
 endline
 
-line contour
+line floor-step
   5601.0 723.0
   5632.59 766.12
   5680.0 776.0
@@ -876,7 +876,7 @@ line pit
   smooth off
 endline
 
-line contour
+line floor-step
   5198.0 1268.5
   5185.5 1276.5
   5156.5 1282.5
@@ -922,7 +922,7 @@ area water
   SP-amont-2025-1_water_4
 endarea
 
-line contour
+line floor-step
   5773.53 1521.79
   5798.43 1503.74
   5818.9 1484.04
@@ -935,7 +935,7 @@ line contour
   5873.3 1276.91
 endline
 
-line contour
+line floor-step
   6073.85 1583.89
   6054.03 1556.72
   6043.45 1499.37
@@ -945,7 +945,7 @@ line contour
   6144.53 1287.77
 endline
 
-line contour
+line floor-step
   6227.58 1331.42
   6246.78 1362.03
   6267.37 1407.01
@@ -969,7 +969,7 @@ point 7745.25 809.53 blocks
 
 point 7936.71 879.84 blocks
 
-line contour
+line floor-step
   7837.0 1039.0
   7933.0 1041.0
   7973.92 1037.46
@@ -1071,7 +1071,7 @@ line wall
   smooth off
 endline
 
-line contour
+line floor-step
   8464.91 1092.23
   8487.5 1104.0
   8504.0 1118.0
@@ -1222,7 +1222,7 @@ line pit
   smooth off
 endline
 
-line contour
+line floor-step
   7837.0 2577.0
   7830.0 2532.5
   7842.0 2489.0

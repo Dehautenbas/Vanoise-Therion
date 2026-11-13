@@ -3,9 +3,9 @@ survey faille-fossile-riviere -title "faille-fossile-riviere"
 
   centerline
     date 2025.10.08 
-    team "Martin Kern"
-    team "Benoît Urruty"
-    team "Thibault Navarrette"
+    explo-team "Martin Kern"
+    explo-team "Benoît Urruty"
+    explo-team "Thibault Navarette"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

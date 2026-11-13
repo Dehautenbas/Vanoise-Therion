@@ -4,7 +4,7 @@ survey AR6 -title "AR6" -entrance 9
 
   centerline
     date 2023.10.05 
-    team "Benoît Urruty"
+    explo-team "Benoît Urruty"
 
     # cs lat-long
     # fix 9 45.3740133 6.7766383 2866

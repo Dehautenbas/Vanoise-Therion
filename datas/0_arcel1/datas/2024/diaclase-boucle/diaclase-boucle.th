@@ -5,8 +5,8 @@ survey diaclase-boucle -title "diaclase-boucle"
 
   centerline
     date 2024.10.23 
-    team "Martin Kern"
-    team "Yaël Chemineau"
+    explo-team "Martin Kern"
+    explo-team "Yaël Chemineau"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

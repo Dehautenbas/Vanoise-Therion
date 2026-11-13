@@ -4,16 +4,16 @@ survey frequence51 -title "Frequence 51"
 
   centerline
     date 2023.10.06 
-    team "Benoît Urruty"  
-    team "Martin Kern"
-    team "Pauline Georges" 
-    team "Florent Maurin"
+    explo-team "Benoît Urruty"  
+    explo-team "Martin Kern"
+    explo-team "Pauline Georges" 
+    explo-team "Florent Maurin"
 
 
     #  cs UTM32
     #  fix F51 325515.037 5027518.664 2538
 
-    station F51 "Gouffre de l'Arcelin, entrée basse" entrance
+    station F51 "Gouffre de l'Arcelin, entrée 'Fréquence51'" entrance
 
 
 

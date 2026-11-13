@@ -5,8 +5,8 @@ survey pts_oublie -title "pts_oublie"
 
   centerline
     date 2024.10.22 
-    team "Martin Kern"
-    team "Yaël Chemineau"
+    explo-team "Martin Kern"
+    explo-team "Yaël Chemineau"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

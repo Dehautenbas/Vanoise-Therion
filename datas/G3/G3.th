@@ -5,8 +5,8 @@ survey G3 -title "G3 Croquis"
 
   centerline
     date 2022.10.24 
-    team "Charlotte Honiat"
-    team "Martin Kern"
+    explo-team "Charlotte Honiat"
+    explo-team "Martin Kern"
 
     units length meters
     units compass clino degrees

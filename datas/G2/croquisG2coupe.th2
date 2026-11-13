@@ -14,7 +14,7 @@ area snow
   l28-434-192
 endarea
 
-line contour -id l28-434-192 -close on
+line floor-step -id l28-434-192 -close on
   127.0 59.0
   127.0 59.0 109.0 79.5 118.0 95.5
   127.0 111.5 146.5 119.5 155.5 130.0
@@ -39,7 +39,7 @@ point 534.5 103.0 blocks -orientation 70.0
 
 point 77.5 94.0 blocks
 
-line contour -id l26--68-1308 -close on
+line floor-step -id l26--68-1308 -close on
   -42.5 1313.5
   -38.0 1269.0
   -38.0 1269.0 -59.0 1277.5 -25.0 1276.5

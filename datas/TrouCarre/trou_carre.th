@@ -5,7 +5,7 @@ survey trou_carre -title "trou carre"
 
   centerline
     date 2024.10.21 
-    team "Pierre-Olivier Chabod"
+    explo-team "Pierre-Olivier Chabod"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

@@ -6,8 +6,8 @@ survey lagon-bleu-bas -title "lagon-bleu-bas"
     cs long-lat
     fix 12 6.777899 45.375842 2812 # 1.8 20.0
     date 2023.10.02 
-    team Benoît\Urruty 
-    team Alexande\Honiat
+    explo-team Benoît\Urruty 
+    explo-team Alexande\Honiat
     units length meters
     units compass clino degrees
     data normal from to length compass clino

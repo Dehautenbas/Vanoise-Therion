@@ -5,8 +5,8 @@ survey diaclase_MK-SP -title "diaclase_MK-SP"
 
   centerline
     date 2024.10.22 
-    team "Martin Kern"
-    team "Simond Pettelat"
+    explo-team "Martin Kern"
+    explo-team "Simond Pettelat"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

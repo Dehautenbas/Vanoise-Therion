@@ -5,9 +5,9 @@ survey tube-de-prechauffage -title "Arcel 1 j1"
 
   centerline
     date 2024.10.21 
-    team "Martin Kern"
-    team "Yaël Chemineau"
-    team "Thibault Navarrette"
+    explo-team "Martin Kern"
+    explo-team "Yaël Chemineau"
+    explo-team "Thibault Navarette"
 
     units length meters
     units compass clino degrees

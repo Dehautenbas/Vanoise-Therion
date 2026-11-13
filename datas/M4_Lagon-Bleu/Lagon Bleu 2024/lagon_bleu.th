@@ -5,7 +5,7 @@ survey lagon_bleu -title "lagon bleu"
 
   centerline
     date 2024.10.21 
-    # team poc 
+    # explo-team poc 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

@@ -29,16 +29,22 @@ endlayout
 
 layout comment
   code tex-map
-      \legendwidth=30cm
-      \legendtextsize={\size[22]}
-      \legendtextheadersize={\size[40]} 
-      \legendtextsectionsize={\size[28]}  %Taille mot "Légende"
+      \legendwidth=50cm
+      \legendtextsize={\size[30]}
+      \legendtextheadersize={\size[48]} 
+      \legendtextsectionsize={\size[36]}  %Taille mot "Légende"
       %\legendtextcolor={\color[0 0 110]}      %# RGB values 0--100
    endcode
 
     map-comment "<br>\
-Localisation : Dalles de l'Arcelin, Pralognan la Vanoise, Savoie (73) <br>\
-Coordonnées : UTM 32T 0325573  5027449  2603 m <br>\
+Carroyage 25 m <br>\ 
+<br>\ 
+Localisation : Dalles de l'Arcelin, Pralognan la Vanoise, Savoie (73), France <br>\
+<br>\ 
+Coordonnées (UTM 32T) : <br>\
+Arcel1 :          325573  5027449  2603 m <br>\
+Fréquence 51 :    325515  5027518  2538 m <br>\
+Super Novanoise : 325904  5026965  2852 m <br>\
 <br>\
 Synthèse et dessin : Continent 8 - Martin Kern, Théophile Cailhol <br>\ 
 "
@@ -68,9 +74,10 @@ layout plan
   legend-columns 3
   #colour-legend off
 
+  overlap 10 cm
 
   grid bottom                                ### positionnement de la grille
-  grid-size 20 20 20 m                  ### dimension de la grille
+  grid-size 25 25 25 m                  ### dimension de la grille
 
   #statistics topo-length on
 
@@ -95,7 +102,8 @@ layout plan-surface
   legend on     
   legend-columns 3
   colour-legend off
-
+ 
+  overlap 100 cm
 
   #grid bottom                                ### positionnement de la grille
   #grid-size 20 20 20 m                  ### dimension de la grille

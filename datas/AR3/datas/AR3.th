@@ -5,10 +5,10 @@ survey AR3 -title "AR3"
 
   centerline
     date 2023.10.02 
-    team "Florent Maurin"
-    team "Martin Kern"
-    team "Pauline Georges"
-    team "Olivier Gente"
+    explo-team "Florent Maurin"
+    explo-team "Martin Kern"
+    explo-team "Pauline Georges"
+    explo-team "Olivier Gente"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

@@ -14,7 +14,7 @@ area snow
   l28-434-192
 endarea
 
-line contour -id l28-434-192 -close on
+line floor-step -id l28-434-192 -close on
   127.0 59.0
   127.0 59.0 109.0 79.5 118.0 95.5
   127.0 111.5 146.5 119.5 155.5 130.0
@@ -35,7 +35,7 @@ area ice
   l26--68-1308
 endarea
 
-line contour -id l26--68-1308 -close on
+line floor-step -id l26--68-1308 -close on
   -73.5 1303.5
   -42.0 1296.5
   -42.0 1296.5 -59.0 1288.0 -25.0 1287.0

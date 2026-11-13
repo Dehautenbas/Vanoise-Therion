@@ -4,9 +4,9 @@ survey amont -title amont
 
   centerline
     date 2023.10.07 
-    team "Jean Halliez" 
-    team "Pauline Georges" 
-    team "Alexandre Honiat" 
+    explo-team "Jean Halliez" 
+    explo-team "Pauline Georges" 
+    explo-team "Alexandre Honiat" 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

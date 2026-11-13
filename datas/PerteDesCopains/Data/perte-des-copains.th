@@ -5,8 +5,8 @@ survey perte_des_copains -title "perte des copains" -entrance 21
 
   centerline
     date 2023.10.06 
-    team "Jean Halliez"
-    team "Clément"
+    explo-team "Jean Halliez"
+    explo-team "Clément"
 
     cs UTM32
     fix 21 326055 5027677 2668

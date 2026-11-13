@@ -5,8 +5,8 @@ survey pts-actif-1 -title "pts-actif-1"
 
   centerline
     date 2024.10.22 
-    team "Charlie Guichebaron"
-    team "Théophile Cailhol" 
+    explo-team "Charlie Guichebaron"
+    explo-team "Théophile Cailhol" 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

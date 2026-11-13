@@ -5,12 +5,12 @@ survey marbrimba -title "Marbrimba"
 
   centerline
     date 2022.10.05 
-    team "Charlotte Honiat"
-    team "Théophile Cailhol"
-    team "Simon Pettelat"
-    team "Martin Kern"
-    team "Florent Maurin"
-    team "Alexandre Honiat"
+    explo-team "Charlotte Honiat"
+    explo-team "Théophile Cailhol"
+    explo-team "Simon Pettelat"
+    explo-team "Martin Kern"
+    explo-team "Florent Maurin"
+    explo-team "Alexandre Honiat"
 
     units length meters
     units compass clino degrees

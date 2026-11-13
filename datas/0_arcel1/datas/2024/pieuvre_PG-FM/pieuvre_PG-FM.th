@@ -4,9 +4,9 @@ survey pieuvre_PG-FM -title "pieuvre_PG-FM"
 
   centerline
     date 2024.10.21 
-    team "Camille Berenger"
-    team "Pauline Georges"
-    team "Florent Maurin"
+    explo-team "Camille Berenger"
+    explo-team "Pauline Georges"
+    explo-team "Florent Maurin"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

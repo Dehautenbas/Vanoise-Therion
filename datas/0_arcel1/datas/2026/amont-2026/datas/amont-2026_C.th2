@@ -75,6 +75,6 @@ scrap amont-2026_SC1 -projection extended -station-names "" "@amont-2026" -scale
   point -1152.72 -321.36 station -name 61
   point 1517.12 506.69 station -name 200
   point 1559.04 554.24 station -name 201
-  point 1588.17 598.93 station -name 202
+  point 1588.17 598.93 station -name supernovanoise
 endscrap
 

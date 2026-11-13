@@ -519,31 +519,31 @@ line arrow
   2266.5 1217.5
 endline
 
-line contour
+line floor-step
   2240.25 1142.0
   2232.75 1142.0 2211.0 1138.25 2204.0 1140.75
   smooth off
 endline
 
-line contour
+line floor-step
   2237.25 1165.0
   2227.698 1157.2321 2206.5587 1162.3281 2199.75 1168.75
   smooth off
 endline
 
-line contour
+line floor-step
   2338.75 1222.5
   2326.75 1233.75 2314.5 1248.5 2315.75 1257.5
   smooth off
 endline
 
-line contour
+line floor-step
   2300.75 1200.5
   2280.75 1214.0 2262.25 1236.75 2262.25 1242.25
   smooth off
 endline
 
-line contour
+line floor-step
   2244.75 1181.5
   2229.5 1197.5 2210.0 1216.75 2209.25 1224.25
   smooth off

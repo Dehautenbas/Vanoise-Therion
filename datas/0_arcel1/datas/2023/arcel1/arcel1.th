@@ -5,10 +5,10 @@ survey arcel1 -title Arcel1
 
   centerline
     date 2022.10.07 
-    team "Théophile Cailhol"
-    team "Charlotte Honiat"
-    team "Alexandre Honiat"
-    team "Florent Maurin"
+    explo-team "Théophile Cailhol"
+    explo-team "Charlotte Honiat"
+    explo-team "Alexandre Honiat"
+    explo-team "Florent Maurin"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

@@ -16,7 +16,7 @@ line pit
   smooth off
 endline
 
-line contour
+line floor-step
   105.5 339.0
   105.5 339.0 106.0 311.5 106.75 308.5
   107.5 305.5 109.5 286.0 112.5 282.5

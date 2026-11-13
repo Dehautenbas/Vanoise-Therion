@@ -4,7 +4,7 @@ survey M1b -title "M1b"
 
   centerline
     date 2023.10.04 
-    team Alexandre/Honiat 
+    explo-team Alexandre/Honiat 
     cs UTM32
     fix 0 326903.675 5026481.521 3005
     units length meters

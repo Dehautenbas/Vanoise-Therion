@@ -7,8 +7,8 @@ survey R21 -title "R21"
 
   centerline
     date 2025.10.06 
-    team "Martin Kern"
-    team "Thibault Navarrette"
+    explo-team "Martin Kern"
+    explo-team "Thibault Navarette"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

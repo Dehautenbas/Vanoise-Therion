@@ -7,10 +7,10 @@ equate 40 100
 
   centerline
     date 2024.10.21 
-    team "Emmanuel Tessane"
-    team "Océane Haure"
-    team "Théophile Cailhol"
-    team "Simond Pettelat"
+    explo-team "Emmanuel Tessanne"
+    explo-team "Océane Haure"
+    explo-team "Théophile Cailhol"
+    explo-team "Simond Pettelat"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
@@ -144,10 +144,10 @@ equate 40 100
 
   centerline
     date 2024.10.22 
-    team "Pierre-Olivier Chabod"
-    team "Benoît Urruty"
-    team "Charlie Guichebaron"
-    team "Théophile Cailhol" 
+    explo-team "Pierre-Olivier Chabod"
+    explo-team "Benoît Urruty"
+    explo-team "Charlie Guichebaron"
+    explo-team "Théophile Cailhol" 
     units length meters
     units compass clino degrees
     data normal from to length compass clino
@@ -428,10 +428,10 @@ equate 40 100
 
   centerline
     date 2024.10.22 
-    team "Martin Kern"
-    team "Fréderic Sanchiarelli"
-    team "Florent Maurin"
-    team "Simond Pettelat"
+    explo-team "Martin Kern"
+    explo-team "Fréderic Sanchiarelli"
+    explo-team "Florent Maurin"
+    explo-team "Simond Pettelat"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

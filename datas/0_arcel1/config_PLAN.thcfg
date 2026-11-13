@@ -7,76 +7,50 @@ source arcel1_tot.th
 ### Commenter ou décommenter la ligne "bitmap" dans le fichier mnt.th pour drapper l'image sat sur le mnt
 ### Si problème d'ouverture du 3d avec Loch, commenter la ligne bitmap
 
-#source datas/mnt.th
-#source ../mnt.th
+source ../surface/mnt-2.th
 
-##########################Selection de la map à exporter #############################
-######################################################################################
+
 
 select MP_arcelin_tot@Arcel1      #uncomment ONLY one
-#select MC_arcelin_tot@Arcel1     #uncomment ONLY one
 
 #select MP_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
      #select MP_pas-encore-dessine@Arcel1  #Pour le filaire de la topo pas encore dessinée
      #select MP_juste-une-survey@Arcel1  #Pour le filaire d'une seul séance
 
-#select MC_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
-     #select MC_pas-encore-dessine@Arcel1  #Pour le filaire de la topo pas encore dessinée
-     #select MC_juste-une-survey@Arcel1  #Pour le filaire d'une seul séance
 
 
-
-###################################################################################################
-################################## LES exports ####################################################
-###################################################################################################
-
-
-######################## PDF ########################
+### Plan 
 export map \
      -projection plan \
      -layout plan \
      -output exports/arcel1_plan.pdf 
 
-#export map \
-     -projection plan \
-     -layout plan-surface \
-     -output exports/arcel1_plan-surface.pdf 
-
-#export map \
-     -projection extended \
-     -layout coupe \
-     -output exports/arcel1_coupe.pdf 
-
-
-######################## STATIONS ########################
-# l'ordre des layouts est importants !
-
-#export map \
+### Stations
+export map \
      -projection plan \
      -layout plan \
      -layout centerline \
      -output exports/arcel1_plan-travail.pdf 
 
-#export map \
-     -projection extended \
-     -layout coupe \
-     -layout centerline \
-     -output exports/arcel1_coupe-travail.pdf 
+### 3d
+export model \
+     -format loch \
+     -o exports/arcelin.lox \
+     #-wall-source maps
+     
 
+### Surface
+export map \
+     -projection plan \
+     -layout plan-surface \
+     -output exports/arcel1_plan-surface.pdf
 
-######################### DEBUG ########################
+### DEBUG
 #export map \
      -projection plan \
      -layout plan   \
      -layout debug \
      -output exports/arcel1_DEBUG_plan.pdf
-
-#export map \
-     -projection extended \
-     -layout coupe   \
-     -layout debug \
-     -output exports/arcel1_DEBUG_coupe.pdf
-
      
 ######################### SVG ########################
 #export map \
@@ -116,11 +90,7 @@ export map \
 
 
 ######################## MODELE 3D ########################
-#export model \
-     -format loch \
-     -o exports/arcelin.lox \
-     #-wall-source maps
-     
+
 #export model \
     -o exports/arcelin-model.shp
 

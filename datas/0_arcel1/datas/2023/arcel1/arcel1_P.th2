@@ -7,11 +7,11 @@ encoding  utf-8
 
 scrap arcel1_S1_P -projection plan -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
 
-point 3930.0 208.0 label -text [Arcel1] -scale xl
+point 3930.0 208.0 label -text [<it>Arcel1] -scale xl
 
 point 3674.0 473.5 label -text [P12]
 
-point 3767.0 608.0 entrance -orientation 270.0
+point 3813.0 562.0 entrance -orientation 270.0 -scale xl
 
 line rock-border
   3628.5 698.5

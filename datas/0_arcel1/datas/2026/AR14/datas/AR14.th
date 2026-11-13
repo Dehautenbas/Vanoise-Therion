@@ -5,15 +5,15 @@ survey AR14 -title "AR14"
 
   centerline
     date 2026.10.18 
-    team "Martin Kern"
-    team "Thibault Navarette"
+    explo-team "Martin Kern"
+    explo-team "Thibault Navarette"
     units length meter
     units compass clino degree
     data normal from to length compass clino
 
 
-    cs UTM32
-    fix 0_AR14 326046.2 5027107.7 2849 #2844 au gps
+    # cs UTM32
+    # fix 0_AR14 326046.2 5027107.7 2849 #2844 au gps
 
     station 0_AR14 "AR14" entrance
 

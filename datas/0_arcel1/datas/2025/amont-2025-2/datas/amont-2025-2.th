@@ -5,10 +5,10 @@ survey amont-2025-2 -title "amont-2025-2"
 
   centerline
     date 2025.10.10 
-    team "Fréderic Sanchiarelli"
-    team "Théophile Cailhol"
-    team "Alexandre Honiat"
-    team "Florent Maurin"
+    explo-team "Fréderic Sanchiarelli"
+    explo-team "Théophile Cailhol"
+    explo-team "Alexandre Honiat"
+    explo-team "Florent Maurin"
     
     units length meters
     units compass clino degrees

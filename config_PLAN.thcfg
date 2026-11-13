@@ -6,7 +6,7 @@ source vanoise_tot.th
 
 ### Commenter ou décommenter la ligne "bitmap" dans le fichier mnt.th pour drapper l'image sat sur le mnt
 ### Si problème d'ouverture du 3d avec Loch, commenter la ligne bitmap
-source datas/mnt.th
+source datas/surface/mnt-2.th
 
 
 #export map \

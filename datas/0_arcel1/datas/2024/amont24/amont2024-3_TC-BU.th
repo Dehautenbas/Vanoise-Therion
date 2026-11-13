@@ -5,9 +5,9 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
 
   centerline
     date 2024.10.24 
-    team "Benoît Urruty"
-    team "Théophile Cailhol"
-    team "Louis Journault"
+    explo-team "Benoît Urruty"
+    explo-team "Théophile Cailhol"
+    explo-team "Louis Journault"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

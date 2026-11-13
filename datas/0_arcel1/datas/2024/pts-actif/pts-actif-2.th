@@ -5,9 +5,9 @@ survey pts-actif-2 -title "pts-actif-2"
 
   centerline
     date 2024.10.23 
-    team "Florent Maurin"
-    team "Pauline Georges"
-    team "Thibault Navarrette"
+    explo-team "Florent Maurin"
+    explo-team "Pauline Georges"
+    explo-team "Thibault Navarette"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

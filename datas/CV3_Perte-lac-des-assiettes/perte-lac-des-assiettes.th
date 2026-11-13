@@ -5,8 +5,8 @@ survey perte-lac-des-assiettes -title "Perte du lac des assiettes - CV3"
 
   centerline
     date 2022.10.09 
-    team "Théophile Cailhol" 
-    team "Fabien Hobléa"
+    explo-team "Théophile Cailhol" 
+    explo-team "Fabien Hobléa"
     
     units length meters
     units compass clino degrees

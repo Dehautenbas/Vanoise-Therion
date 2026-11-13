@@ -279,6 +279,7 @@ line wall
   724.0 426.0 722.0 414.0 721.0 407.0
   720.0 400.0 723.5 402.0 720.5 393.0
   717.5 384.0 708.5 348.0 706.5 342.0
+  altitude .
   704.5 336.0 712.0 319.5 717.5 332.0
   723.0 344.5 728.0 376.0 731.5 388.0
   735.0 400.0 740.0 424.5 741.0 443.0
@@ -334,7 +335,7 @@ endline
 
 point -138.0 -783.0 label -text "E2"
 
-point -987.5 -1155.0 entrance -orientation 34.9
+point -1002.5 -1169.0 entrance -orientation 34.9 -scale xl
 
 line floor-step
   -767.5 -948.0
@@ -693,27 +694,34 @@ endline
 
 point 760.0 503.0 label -text E10
 
-line contour
+line floor-step
   -357.0 -772.0
   -357.0 -772.0 -309.5 -856.0 -269.5 -849.0
 endline
 
-line contour
+line floor-step
   -389.5 -678.5
   -389.5 -678.5 -252.5 -791.0 -143.0 -754.5
 endline
 
-line contour
+line floor-step
   -378.0 -608.0
   -378.0 -608.0 -252.0 -720.5 -146.0 -693.5
 endline
 
-line contour
+line floor-step
   -354.5 -562.0
   -354.5 -562.0 -224.5 -630.5 -171.5 -604.0
 endline
 
-line contour
+point -1049.5 -1240.0 label -text "<it>Super Novanoise" -scale xl
+
+line floor-step
+  -74.0 -403.5
+  -74.0 -403.5 -121.5 -485.0 -92.5 -513.5
+endline
+
+line floor-step
   -257.5 -518.0
   -257.5 -518.0 -196.5 -552.0 -175.0 -547.5
 endline
@@ -853,7 +861,7 @@ point -976.42 -1064.92 station -name 200
 
 point -954.02 -1100.35 station -name 201
 
-point -974.37 -1121.2 station -name 202
+point -974.37 -1121.2 station -name supernovanoise
 
 endscrap
 

@@ -5,9 +5,9 @@ input LagonBleu.th2
 
 centreline
   explo-date 2022.10.07 
-  # team Alex Rémy Jean Simon Charlotte Martin
-  #team "Martin KERN" notes
-  #team "Alex Honiat" notes
+  # explo-team Alex Rémy Jean Simon Charlotte Martin
+  #explo-team "Martin KERN" notes
+  #explo-team "Alex Honiat" notes
   
   cs lat-long
   fix 0 45.37593412 6.77794140 0

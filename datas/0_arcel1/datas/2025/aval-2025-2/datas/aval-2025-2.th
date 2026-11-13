@@ -5,9 +5,9 @@ survey aval-2025-2 -title "arcel1 081025"
 
   centerline
     date 2025.10.08 
-    team "Alexandre Honiat"
-    team "Théophile Cailhol"
-    team "Jean Halliez" 
+    explo-team "Alexandre Honiat"
+    explo-team "Théophile Cailhol"
+    explo-team "Jean Halliez" 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

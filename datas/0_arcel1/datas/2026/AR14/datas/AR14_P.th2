@@ -24,11 +24,13 @@ line chimney -close off
   98.0 138.5 102.32 141.42 103.0 142.5
   104.25 144.5 108.25 161.0 104.75 161.0
   101.25 161.0 102.25 163.25 98.75 160.5
+  smooth off
 endline
 
 line floor-step -reverse on
   87.0 126.25
   87.0 126.25 103.0 145.25 110.5 138.5
+  smooth off
 endline
 
 line pit -id l36-189-120 -close on
@@ -50,40 +52,46 @@ endline
 
 point 49.0 209.5 label -text "P15 borgne" -scale s
 
-point 21.5 263.0 entrance -orientation 114.5
+point 18.25 265.0 entrance -orientation 114.5 -scale xl
 
 point 132.75 177.75 label -text "2nd entrée" -scale xs
 
-line contour
+line floor-step
   111.75 187.0
   111.75 187.0 145.5 187.25 158.0 195.25
+  smooth off
 endline
 
-line contour
+line floor-step
   115.5 195.0
   115.5 195.0 151.5 199.25 156.5 205.75
+  smooth off
 endline
 
-point 2.75 302.25 label -text "<it>AR51" -scale l
+point -16.5 316.75 label -text "<it>AR51" -scale xl
 
-line contour
+line floor-step
   89.25 257.0
   67.25 251.0 71.0 241.75 75.0 234.0
+  smooth off
 endline
 
-line contour -reverse on
+line floor-step -reverse on
   53.75 246.25
   53.75 246.25 55.5 262.25 60.5 263.75
+  smooth off
 endline
 
 line floor-step -reverse on
   68.25 241.5
   68.25 241.5 63.5 257.5 69.75 261.25
+  smooth off
 endline
 
 line floor-step
   119.75 206.75
   119.75 206.75 144.75 207.5 149.5 213.25
+  smooth off
 endline
 
 line pit -close on -reverse on
@@ -101,7 +109,7 @@ area debris
   l51-163-282
 endarea
 
-line contour -id l51-163-282 -close on -reverse on
+line floor-step -id l51-163-282 -close on -reverse on
   77.0 262.5
   80.0 259.25 78.75 254.25 88.0 256.75
   97.25 259.25 102.0 264.0 112.5 263.0
@@ -117,7 +125,7 @@ area debris
   l49-215-248
 endarea
 
-line contour -id l49-215-248 -close on -reverse on
+line floor-step -id l49-215-248 -close on -reverse on
   178.5 245.5
   181.5 241.5 178.75 238.25 186.75 235.0
   194.75 231.75 194.5 232.25 206.25 229.25
@@ -133,7 +141,7 @@ point 291.75 132.5 label -text P24
 
 line arrow
   275.5 131.0
-  196.75 124.0
+  227.0 126.5
 endline
 
 line wall -reverse on
@@ -148,6 +156,7 @@ line wall -reverse on
   260.0 141.0 284.5 121.0 271.5 120.0
   258.5 119.0 254.0 133.5 239.5 125.5
   225.0 117.5 217.75 101.0 211.75 97.5
+  smooth off
 endline
 
 line wall -reverse on -subtype pit
@@ -155,6 +164,7 @@ line wall -reverse on -subtype pit
   205.75 94.0 191.75 76.75 179.75 78.75
   167.75 80.75 139.0 83.5 129.0 82.0
   119.0 80.5 108.5 73.5 106.5 81.5
+  smooth off
 endline
 
 line wall -reverse on
@@ -164,6 +174,7 @@ line wall -reverse on
   98.5 167.0 108.5 171.0 108.5 163.5
   108.5 156.0 105.5 146.5 107.0 139.5
   108.5 132.5 113.5 113.25 116.5 108.75
+  smooth off
 endline
 
 line pit -reverse on
@@ -172,11 +183,13 @@ line pit -reverse on
   249.25 139.0 258.25 135.75 256.75 134.25
   255.25 132.75 254.75 134.75 251.25 132.5
   247.75 130.25 243.75 125.5 248.25 123.75
+  smooth off
 endline
 
 line pit -reverse on
   217.5 164.25
   217.5 164.25 250.25 168.75 257.0 166.0
+  smooth off
 endline
 
 line arrow
@@ -196,6 +209,7 @@ line wall -reverse on -subtype pit
   131.0 105.0 159.25 107.75 163.75 107.75
   168.25 107.75 173.25 109.0 181.25 112.0
   189.25 115.0 203.75 114.25 208.25 121.75
+  smooth off
 endline
 
 line wall -reverse on
@@ -253,8 +267,8 @@ line label -id l21-260-104 -close on
   96.5 142.5 78.0 155.0 80.5 128.5
   83.0 102.0 96.0 52.0 108.0 46.5
   120.0 41.0 145.5 63.5 180.0 66.5
-  214.5 69.5 297.0 66.0 306.0 67.5
-  315.0 69.0 311.0 97.0 311.0 97.0
+  214.5 69.5 213.5 69.75 222.5 71.25
+  231.5 72.75 239.75 101.0 239.75 101.0
   smooth off
   230.0 109.5
   205.0 150.0
@@ -265,8 +279,8 @@ endline
 point 134.0 96.5 blocks
 
 line wall -reverse on
-  301.0 75.0
-  294.5 75.5 255.5 85.0 247.0 83.5
+  299.0 70.75
+  292.5 71.25 255.5 85.0 247.0 83.5
   238.5 82.0 207.5 85.5 200.5 82.0
   193.5 78.5 149.6 65.1 134.5 60.5
   111.5 53.5 114.5 67.0 105.5 83.5
@@ -274,36 +288,55 @@ line wall -reverse on
   smooth off
 endline
 
-line contour -reverse on
+line floor-step
+  288.0 89.0
+  288.0 89.0 279.25 78.0 286.5 72.5
+endline
+
+line floor-step -reverse on
+  260.0 80.0
+  260.0 80.0 248.75 86.5 255.25 94.25
+endline
+
+line floor-step -reverse on
   243.5 76.0
   243.5 76.0 233.5 92.0 244.0 96.5
   smooth off
 endline
 
-line contour
+line floor-step
   235.5 98.5
   235.5 98.5 223.0 88.5 230.5 78.5
   smooth off
 endline
 
-line contour
+line floor-step
   221.0 102.5
   221.0 102.5 206.5 93.0 211.5 81.0
   smooth off
 endline
 
-line contour
+line floor-step
   130.75 145.25
   131.0 141.0 126.75 138.75 133.75 137.25
   140.75 135.75 180.25 132.0 185.0 131.5
   189.75 131.0 203.0 137.0 205.0 137.75
+  smooth off
 endline
 
 area debris
   l21-260-104
 endarea
 
-point 306.25 62.25 dig
+point 330.75 77.75 dig
+
+line wall -reverse on
+  295.5 88.25
+  298.85 87.69 302.5 90.25 305.25 90.75
+  308.0 91.25 312.25 90.25 312.5 86.75
+  312.75 83.25 315.25 70.25 309.75 68.75
+  304.25 67.25 301.25 70.75 299.0 70.75
+endline
 
 line wall -reverse on
   91.5 121.0
@@ -311,7 +344,7 @@ line wall -reverse on
   144.5 141.5 190.0 149.0 201.0 139.5
   212.0 130.0 209.0 109.5 216.0 103.0
   223.0 96.5 237.5 93.0 249.0 91.5
-  260.5 90.0 293.0 86.5 303.5 85.0
+  260.5 90.0 285.0 89.75 295.5 88.25
   smooth off
   altitude .
 endline

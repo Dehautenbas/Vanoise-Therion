@@ -9,10 +9,10 @@ input AR1_C.th2
 
   centerline
     date 2023.10.01 
-     team "Florent Maurin"
-     team "Martin Kern"
+     explo-team "Florent Maurin"
+     explo-team "Martin Kern"
      explo-date 1990    #Vérifier la date
-     #explo-team "Bruno Ducluzaux"
+     #explo-explo-team "Bruno Ducluzaux"
 
     station AR1 "AR1" entrance
 

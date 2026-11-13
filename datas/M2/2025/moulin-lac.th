@@ -5,7 +5,7 @@ survey moulin-lac -title "moulin-lac"
 
   centerline
     date 2025.10.07 
-    # team Benoît Urruty 
+    # explo-team Benoît Urruty 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

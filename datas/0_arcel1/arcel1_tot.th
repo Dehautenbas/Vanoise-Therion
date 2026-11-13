@@ -87,19 +87,23 @@ data normal from to length compass clino ignoreall
   cs UTM32
     
     # AR14
-    0_AR14 0.0_AR14 0.01 0.01 0.01
-    fix 0.0_AR14 326046.2 5027107.7 2849 #mnt #2844 au gps
+    0_AR14@AR14.AR14_tot 0.0_AR14 0.01 0.01 0.01
+    fix 0.0_AR14 326046.2 5027107.7 2849 #mnt # 2844 au gps
 
     # # Frequence 51
-    #  F51 F51-0 0.01 0.01 0.01
-    #  fix F51-0 325515.037 5027518.664 2538
+    F51 F51-0 0.01 0.01 0.01
+    fix F51-0 325515.037 5027518.664 2538
 
     # Arcel 1
-     0_arcel1 0.0_arcel1 0.01 0.01 0.01
-     fix 0.0_arcel1 325572 5027449 2603 # 65 m de diff d'alti au disto x depuis Fréquence 51
+    0_arcel1@arcel1.2023_tot 0.0_arcel1 0.01 0.01 0.01
+    fix 0.0_arcel1 325572 5027449 2603 # 65 m de diff d'alti au disto x depuis Fréquence 51
+
+    # Super Novanoise
+    supernovanoise 0.0_supernovanoise 0.01 0.01 0.01
+    fix 0.0_supernovanoise 325904.17 5026965.86 2852 # 2852 = alti gps tel // mnt carto = 2880
 
 
-endcenterline
 
+  endcenterline
 endsurvey
 

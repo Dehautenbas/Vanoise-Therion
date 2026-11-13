@@ -5,9 +5,9 @@ survey aval-2025-1 -title "Arcel1 071025"
 
   centerline
     date 2025.10.07 
-    team "Charlotte Honiat"
-    team "Florent Maurin"
-    team "Fréderic Sanchiarelli"
+    explo-team "Charlotte Honiat"
+    explo-team "Florent Maurin"
+    explo-team "Fréderic Sanchiarelli"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

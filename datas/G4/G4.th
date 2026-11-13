@@ -11,8 +11,8 @@ survey G4 -title "G4"
     cs UTM32
     fix 12 326119 5027348 2791
 
-    team "Charlotte Honiat"
-    team "Martin Kern"
+    explo-team "Charlotte Honiat"
+    explo-team "Martin Kern"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

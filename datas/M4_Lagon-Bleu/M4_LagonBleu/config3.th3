@@ -1673,20 +1673,20 @@ layout header-modif1
 			#	{\the\legendtextsize\ss\the\caveminz m \par} %above mean sea level
 			#\fi
 			%print explorers names
-			\edef\tmp{\the\exploteam} \ifx\tmp\empty \else
-				{\the\legendtextsize\si\the\explotitle: \ss\the\exploteam\quad\si\the\explodate\par}
+			\edef\tmp{\the\exploexplo-team} \ifx\tmp\empty \else
+				{\the\legendtextsize\si\the\explotitle: \ss\the\exploexplo-team\quad\si\the\explodate\par}
 			\fi
 			%print surveyors names
-			\edef\tmp{\the\topoteam} \ifx\tmp\empty \else
-				{\the\legendtextsize\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+			\edef\tmp{\the\topoexplo-team} \ifx\tmp\empty \else
+				{\the\legendtextsize\si\the\topotitle: \ss\the\topoexplo-team\quad\si\the\topodate\par}
 			\fi
 			%%print the guides
 			\edef\tmp{\the\guide} \ifx\tmp\empty \else
 				{\the\legendtextsize\si\the\thguide: \ss\the\guide\par}
 			\fi
 			%print cartographers names
-			\edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
-				{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoteam\quad\si\the\cartodate\par}
+			\edef\tmp{\the\cartoexplo-team} \ifx\tmp\empty \else
+				{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoexplo-team\quad\si\the\cartodate\par}
 			\fi
 			%print synthesys name !!!  !!! with newtoks\synth \synth={Synth Name} in the thconfig
 			\edef\tmp{\the\synth} \ifx\tmp\empty \else
@@ -1845,20 +1845,20 @@ layout header_coupe_vert-to-place
 		# % end bruces addition
 
 		%print explorers names
-		\edef\tmp{\the\exploteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\explotitle: \ss\the\exploteam\quad\si\the\explodate\par}
+		\edef\tmp{\the\exploexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\explotitle: \ss\the\exploexplo-team\quad\si\the\explodate\par}
 		\fi
 		%print surveyors names
-		\edef\tmp{\the\topoteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+		\edef\tmp{\the\topoexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\topotitle: \ss\the\topoexplo-team\quad\si\the\topodate\par}
 		\fi
 		 %%print the guides
 		\edef\tmp{\the\guide} \ifx\tmp\empty \else
 			{\the\legendtextsize\si\the\thguide: \ss\the\guide\par}
 		\fi
 		%print cartographers names
-		\edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoteam\quad\si\the\cartodate\par}
+		\edef\tmp{\the\cartoexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoexplo-team\quad\si\the\cartodate\par}
 		\fi
 		%print synthesys name !!!  !!! with newtoks\synth \synth={Synth Name} in the thconfig
 		\edef\tmp{\the\synth} \ifx\tmp\empty \else
@@ -1956,20 +1956,20 @@ layout header_coupe_vert-auto
 		# % end bruces addition
 
 		%print explorers names
-		\edef\tmp{\the\exploteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\explotitle: \ss\the\exploteam\quad\si\the\explodate\par}
+		\edef\tmp{\the\exploexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\explotitle: \ss\the\exploexplo-team\quad\si\the\explodate\par}
 		\fi
 		%print surveyors names
-		\edef\tmp{\the\topoteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+		\edef\tmp{\the\topoexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\topotitle: \ss\the\topoexplo-team\quad\si\the\topodate\par}
 		\fi
 		 %%print the guides
 		\edef\tmp{\the\guide} \ifx\tmp\empty \else
 			{\the\legendtextsize\si\the\thguide: \ss\the\guide\par}
 		\fi
 		%print cartographers names
-		\edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoteam\quad\si\the\cartodate\par}
+		\edef\tmp{\the\cartoexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoexplo-team\quad\si\the\cartodate\par}
 		\fi
 		%print synthesys name !!!  !!! with newtoks\synth \synth={Synth Name} in the thconfig
 		\edef\tmp{\the\synth} \ifx\tmp\empty \else
@@ -2061,20 +2061,20 @@ layout header_coupe
 		# % end bruces addition
 
 		%print explorers names
-		\edef\tmp{\the\exploteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\explotitle: \ss\the\exploteam\quad\si\the\explodate\par}
+		\edef\tmp{\the\exploexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\explotitle: \ss\the\exploexplo-team\quad\si\the\explodate\par}
 		\fi
 		%print surveyors names
-		\edef\tmp{\the\topoteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+		\edef\tmp{\the\topoexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\topotitle: \ss\the\topoexplo-team\quad\si\the\topodate\par}
 		\fi
 		 %%print the guides
 		\edef\tmp{\the\guide} \ifx\tmp\empty \else
 			{\the\legendtextsize\si\the\thguide: \ss\the\guide\par}
 		\fi
 		%print cartographers names
-		\edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoteam\quad\si\the\cartodate\par}
+		\edef\tmp{\the\cartoexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoexplo-team\quad\si\the\cartodate\par}
 		\fi
 		%print synthesys name !!!  !!! with newtoks\synth \synth={Synth Name} in the thconfig
 		\edef\tmp{\the\synth} \ifx\tmp\empty \else
@@ -2193,20 +2193,20 @@ layout headeratlas
 		# % end bruces addition
 
 		%print explorers names
-		\edef\tmp{\the\exploteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\explotitle: \ss\the\exploteam\quad\si\the\explodate\par}
+		\edef\tmp{\the\exploexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\explotitle: \ss\the\exploexplo-team\quad\si\the\explodate\par}
 		\fi
 		%print surveyors names
-		\edef\tmp{\the\topoteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+		\edef\tmp{\the\topoexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\topotitle: \ss\the\topoexplo-team\quad\si\the\topodate\par}
 		\fi
 		 %%print the guides
 		\edef\tmp{\the\guide} \ifx\tmp\empty \else
 			{\the\legendtextsize\si\the\thguide: \ss\the\guide\par}
 		\fi
 		%print cartographers names
-		\edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoteam\quad\si\the\cartodate\par}
+		\edef\tmp{\the\cartoexplo-team} \ifx\tmp\empty \else
+			{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoexplo-team\quad\si\the\cartodate\par}
 		\fi
 		%print synthesys name !!!  !!! with newtoks\synth \synth={Synth Name} in the thconfig
 		\edef\tmp{\the\synth} \ifx\tmp\empty \else

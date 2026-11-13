@@ -5,7 +5,7 @@ survey croquis -title "G2 Croquis"
 
   centerline
     date 2022.10.24 
-    team "Théophile Cailhol"
+    explo-team "Théophile Cailhol"
 
     units length meters
     units compass clino degrees

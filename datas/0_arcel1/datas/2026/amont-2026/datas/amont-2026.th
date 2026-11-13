@@ -11,6 +11,13 @@ survey amont-2026 -title "amont-2026"
     units length meter
     units compass clino degree
     data normal from to length compass clino
+
+    # cs UTM32
+    # fix supernovanoise 325904.17 5026965.86 2852 #2852 = alti gps tel // mnt carto = 2880
+
+    station supernovanoise  "Super Novanoise" entrance
+
+
     extend left
     0 00 3.00 193.9 20.0
     # extend auto
@@ -637,17 +644,9 @@ survey amont-2026 -title "amont-2026"
     201 . 2.68 220.8 55.3
     201 . 1.46 251.7 45.4
     extend right
-    201 202 2.71 224.3 56.9
+    201 supernovanoise 2.71 224.3 56.9
   endcenterline
 
-  # input "amont-2026-1p.th2"
-  # input "amont-2026-1s.th2"
 
-  # map m1p -projection plan
-  #   amont-2026-1p
-  # endmap
-  # map m1s -projection extended
-  #   amont-2026-1s
-  # endmap
 
 endsurvey

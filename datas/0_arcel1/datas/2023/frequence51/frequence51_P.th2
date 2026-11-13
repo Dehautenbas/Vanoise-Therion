@@ -1,14 +1,14 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -864.0 -1822.0 3760.0 144.0
+##XTHERION## xth_me_area_adjust -1011.0 -1818.0 3755.0 231.0
 ##XTHERION## xth_me_area_zoom_to 100
 
 
 
 scrap SP1_Frequence51 -projection plan -station-names "" @frequence51 -scale [0 0 78.7402 0 0 0 1 0 m]
 
-point 23.0 -414.0 entrance -orientation 120.8
+point 23.0 -414.0 entrance -orientation 120.8 -scale xl
 
-point 48.78 -115.08 entrance -orientation 120.8
+point 48.78 -115.08 entrance -orientation 120.8 -scale xl
 
 line wall -close on -outline in
   476.5 -768.25
@@ -59,7 +59,7 @@ line wall
   smooth off
 endline
 
-line contour
+line floor-step
   120.0 -1487.0
   104.0 -1466.0 75.0 -1419.0 49.0 -1413.0
   smooth off
@@ -74,25 +74,25 @@ endline
 
 point 1438.0 -290.0 continuation -attr Code "D1" -attr cavite "Arcel1" -attr Reseau "2023" -attr CA "?" -text "Un tir à faire dans une diaclase. (Benoît)"
 
-line contour
+line floor-step
   142.0 -1354.0
   142.0 -1354.0 120.0 -1312.0 66.0 -1326.0
   smooth off
 endline
 
-line contour
+line floor-step
   243.0 -1146.0
   243.0 -1146.0 267.0 -1207.0 323.0 -1213.0
   smooth off
 endline
 
-line contour
+line floor-step
   361.0 -1081.0
   412.0 -1107.0 446.0 -1134.0 516.0 -1138.0
   smooth off
 endline
 
-line contour
+line floor-step
   -464.0 -1311.0
   -515.0 -1361.0 -491.0 -1402.0 -498.0 -1402.0
   smooth off
@@ -146,8 +146,6 @@ line wall
   smooth off
 endline
 
-point -878.0 -1640.0 label -scale xl -text "Entrée sup"
-
 line wall
   1076.0 -797.0
   1052.0 -797.0 1005.0 -775.0 918.0 -813.0
@@ -163,7 +161,7 @@ line wall
   smooth off
 endline
 
-line contour
+line floor-step
   986.0 -964.0
   992.39 -927.82 1008.04 -868.72 1042.2174 -845.6066
   1080.89 -819.45 1087.7147 -823.009 1134.9446 -822.4981
@@ -470,7 +468,7 @@ point 144.19 -475.17 station -name 3EL
 
 point 299.31 -560.21 station -name 2
 
-point -786.0 98.0 label -scale xl -text "<center>Entrée <br>Fréquence 51"
+point -786.0 98.0 label -scale xl -text "<it>Fréquence 51"
 
 line wall
   758.0 -122.0
@@ -520,7 +518,7 @@ point 256.79 -615.33 station -name 4
 
 point 512.7 -763.87 station -name 5
 
-point -659.0 -1302.0 entrance -orientation 110.7
+point -732.0 -1284.0 entrance -orientation 110.7 -scale xl
 
 line wall
   447.0 -966.0
@@ -659,13 +657,13 @@ line wall
   2828.41 -1052.15
 endline
 
-line contour
+line floor-step
   2630.0 -1422.0
   2630.0 -1422.0 2718.0 -1280.0 2882.0 -1284.0
   smooth off
 endline
 
-line contour
+line floor-step
   3120.0 -1674.0
   3120.0 -1674.0 3060.0 -1552.0 3182.0 -1416.0
   smooth off
