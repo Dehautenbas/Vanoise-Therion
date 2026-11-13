@@ -10,8 +10,8 @@ survey frequence51 -title "Frequence 51"
     team "Florent Maurin"
 
 
-     cs UTM32
-     fix F51 325515.037 5027518.664 2538
+    #  cs UTM32
+    #  fix F51 325515.037 5027518.664 2538
 
     station F51 "Gouffre de l'Arcelin, entrée basse" entrance
 
@@ -23,7 +23,7 @@ survey frequence51 -title "Frequence 51"
 
 
 
-    extend ignore P 26
+    #extend ignore P 26
 
     extend right
       F51 . 0.34 71.3 62.0

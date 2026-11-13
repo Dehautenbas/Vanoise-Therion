@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1776.42 -1944.88 1790.65 1948.33
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {725.1500000000001 1 1.0} {392.8575000000001 0} amont-2026_P.xvi 0 {}
 
 
@@ -692,6 +692,31 @@ line floor-step
 endline
 
 point 760.0 503.0 label -text E10
+
+line contour
+  -357.0 -772.0
+  -357.0 -772.0 -309.5 -856.0 -269.5 -849.0
+endline
+
+line contour
+  -389.5 -678.5
+  -389.5 -678.5 -252.5 -791.0 -143.0 -754.5
+endline
+
+line contour
+  -378.0 -608.0
+  -378.0 -608.0 -252.0 -720.5 -146.0 -693.5
+endline
+
+line contour
+  -354.5 -562.0
+  -354.5 -562.0 -224.5 -630.5 -171.5 -604.0
+endline
+
+line contour
+  -257.5 -518.0
+  -257.5 -518.0 -196.5 -552.0 -175.0 -547.5
+endline
 
 line pit
   726.5 470.25

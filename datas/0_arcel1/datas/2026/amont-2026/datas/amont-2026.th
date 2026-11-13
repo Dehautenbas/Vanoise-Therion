@@ -5,7 +5,9 @@ survey amont-2026 -title "amont-2026"
 
   centerline
     date 2026.10.22 
-    team "mk"
+    explo-team "Martin Kern"
+    explo-team "Alexandre Honiat"
+    explo-team "Fréderic Sanchiarelli"
     units length meter
     units compass clino degree
     data normal from to length compass clino

@@ -86,9 +86,9 @@ centerline
 data normal from to length compass clino ignoreall
   cs UTM32
     
-    # # AR14
-     0_AR14 0.0_AR14 0.01 0.01 0.01
-     fix 0.0_AR14 326046.2 5027107.7 2849 #mnt #2844 au gps
+    # AR14
+    0_AR14 0.0_AR14 0.01 0.01 0.01
+    fix 0.0_AR14 326046.2 5027107.7 2849 #mnt #2844 au gps
 
     # # Frequence 51
     #  F51 F51-0 0.01 0.01 0.01
@@ -96,7 +96,7 @@ data normal from to length compass clino ignoreall
 
     # Arcel 1
      0_arcel1 0.0_arcel1 0.01 0.01 0.01
-     fix 0.0_arcel1 325572 5027449 2603 #65 (depuis Fréquence 51)
+     fix 0.0_arcel1 325572 5027449 2603 # 65 m de diff d'alti au disto x depuis Fréquence 51
 
 
 endcenterline
